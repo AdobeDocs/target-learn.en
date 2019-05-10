@@ -28,7 +28,7 @@ doc-type: use
 
 ## Additional Resources
 
-* [Implementing at.js 2.0 in a Single Page Application](../using/atjs2-single-page-application-technical-video-implement.md)
+* [Implementing at.js 2.0 in a Single Page Application](../implementation/atjs2-single-page-application-technical-video-implement.md)
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)  
-  ](../using/atjs20-diagram-technical-video-understand.md)
-* [Single Page App (SPA) Visual Experience Composer Documentation](//docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.md)
+  ](../implementation/atjs20-diagram-technical-video-understand.md)
+* [Single Page App (SPA) Visual Experience Composer Documentation](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.md)
