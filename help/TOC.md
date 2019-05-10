@@ -13,12 +13,14 @@ user-guide: null
 
 # Table of Contents
 
-+ Configuring Launch{#implementation}
-  + [Implement Target with Launch, by Adobe](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)
++ Implementation{#implementation}
+  + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
+  + [Implement in iOS Swift Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+  + [Implement in iOS Objective-C Apps with Launch](hhttps://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
   + [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/atjs2-single-page-application-technical-video-implement.md)
   + [Understanding How Adobe Target's at.js 2.0 Works](implementation/atjs20-diagram-technical-video-understand.md)
-  + [Implement Mbox Parameters for Target using DTM](implementation/mbox-parameters-in-dtm-technical-video-implement.md)
   + [Using Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
+  + [Implement Mbox Parameters for Target using DTM](implementation/mbox-parameters-in-dtm-technical-video-implement.md)
 + Activities{#activities}
   + [Understand the Types of Activities](activities/activity-types-feature-video-understand.md)
   + [Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization](activities/artificial-intelligence-automation-personalization-value-video-use.md)
@@ -33,9 +35,9 @@ user-guide: null
   + [Create Profile Scripts](audiences/profile-scripts-feature-video-use.md)
   + [Use Profile Comparison to build Audiences](audiences/profile-comparison-feature-video-use.md)
 + Experiences{#experiences}
-  + [Use the Visual Experience Composer](audiences/visual-experience-composer-feature-video-use.md)
-  + [Using the Visual Experience Composer for Single Page Applications (SPA VEC)](audiences/visual-experience-composer-for-single-page-applications-feature-video-use.md)
-  + [Use the Form-Based Experience Composer](audiences/form-based-composer-feature-video-use.md)
+  + [Use the Visual Experience Composer](experiences/visual-experience-composer-feature-video-use.md)
+  + [Using the Visual Experience Composer for Single Page Applications (SPA VEC)](experiences/visual-experience-composer-for-single-page-applications-feature-video-use.md)
+  + [Use the Form-Based Experience Composer](experiences/form-based-composer-feature-video-use.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Reports{#reports}
   + [Use the Personalization Insights Reports](reports/personalization-insights-report-feature-video-use.md)
