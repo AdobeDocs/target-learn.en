@@ -11,7 +11,7 @@ archtype: end-user
 user-guide: null
 ---
 
-# Table of Contents
+# Adobe Target Videos & Tutorials {#adobe-target-videos-and-tutorials}
 
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
