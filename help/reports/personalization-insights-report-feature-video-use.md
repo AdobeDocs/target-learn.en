@@ -6,9 +6,6 @@ seo-description: Automated Personalization and Auto-Target activities use advanc
 uuid: 4becb29c-2d7d-4e1f-a3d5-00538a8e9b3d
 contentOwner: dwright
 discoiquuid: 688fb3b3-122d-4314-b0fa-6f8535d9553c
-index: y
-internal: n
-snippet: y
 badge: premium
 doc-type: use
 ---

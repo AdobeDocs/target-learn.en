@@ -5,9 +5,6 @@ description: at.js 2.0 enhances Adobe Target's support for single page applicati
 seo-description: at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.
 uuid: 4b2adb62-0b03-48e3-8b3f-944690bd8c76
 discoiquuid: 8dc1e879-fc82-4286-8491-40836af5c7dc
-index: y
-internal: n
-snippet: y
 doc-type: understand
 ---
 

@@ -6,9 +6,6 @@ seo-description: Response Tokens and at.js Custom Events allow you to share prof
 uuid: fd42ff3f-ba2d-4c26-b8d1-47e09369633d
 contentOwner: dwright
 discoiquuid: 3316f9f6-1bf7-48d2-8789-b5ae202d5f13
-index: y
-internal: n
-snippet: y
 doc-type: use
 ---
 

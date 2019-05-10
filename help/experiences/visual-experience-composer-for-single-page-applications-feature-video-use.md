@@ -6,9 +6,6 @@ seo-description: The SPA VEC enables marketers to create tests and personalize c
 uuid: 1a4fb5f5-accf-4669-9511-255591f02940
 contentOwner: dwright
 discoiquuid: 7356b302-61a9-4396-bfc6-a95cd18f3796
-index: y
-internal: n
-snippet: y
 doc-type: use
 ---
 

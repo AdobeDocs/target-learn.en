@@ -5,9 +5,6 @@ description: This video covers the importance of personalization, the challenges
 seo-description: This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
 uuid: e81655a8-ee4c-420b-8ba5-d29e5d6c96fd
 discoiquuid: 23eac66a-a5b4-4575-a41d-da8fafdbdb3a
-index: y
-internal: n
-snippet: y
 badge: premium
 doc-type: use
 ---

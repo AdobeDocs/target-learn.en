@@ -6,9 +6,6 @@ seo-description: null
 uuid: 1579d4c6-aeef-41ad-ad2f-2ee462c28800
 contentOwner: dwright
 discoiquuid: be885b2b-3d0c-4a86-9a7f-24a9abf5d2fe
-index: y
-internal: n
-snippet: y
 badge: premium
 doc-type: understand
 ---

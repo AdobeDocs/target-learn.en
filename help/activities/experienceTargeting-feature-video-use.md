@@ -23,5 +23,5 @@ Experience Targeting is a first step into the world of personalization and often
 ## Other features used in this video
 
 * [Audiences for Reporting Documentation](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Creating Audiences Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Building Experiences with the Visual Experience Composer Documentation](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Building Audiences Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Building Experiences with the Visual Experience Composer Documentation](https://docs.adobe.com/content/help/en/target/using/experiences/vec/visual-experience-composer.html)

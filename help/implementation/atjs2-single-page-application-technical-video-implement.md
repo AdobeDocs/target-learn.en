@@ -5,9 +5,6 @@ description: The newest version of at.js provides rich feature sets that equip y
 seo-description: The newest version of at.js provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
 uuid: b6937a6f-8d0d-49e9-893e-3d147320ab38
 discoiquuid: 63982943-78af-4639-8477-76ecdd5e4967
-index: y
-internal: n
-snippet: y
 doc-type: implement
 ---
 

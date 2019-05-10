@@ -6,9 +6,6 @@ seo-description: The Profile Comparison feature in Adobe Target allows you to co
 uuid: cd166f8b-b1cc-40e8-ae82-5650851e8efd
 contentOwner: dwright
 discoiquuid: f7c7d607-8188-46f9-b485-aabc97544e19
-index: y
-internal: n
-snippet: y
 doc-type: use
 ---
 

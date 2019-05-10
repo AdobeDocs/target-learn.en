@@ -6,9 +6,6 @@ seo-description: null
 uuid: bdf506b2-b66d-4fd0-b43e-c36f02e9c133
 contentOwner: dwright
 discoiquuid: 4e8507a7-1b85-43c7-bb15-0916d8f070bb
-index: y
-internal: n
-snippet: y
 doc-type: use
 ---
 

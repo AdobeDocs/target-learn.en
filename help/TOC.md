@@ -1,12 +1,13 @@
 ---
 cloud: experience-cloud
 product: target
-solution-title: Adobe Target
-solution-hub-url: https://helpx.adobe.com/support/target.html
-tutorials-title: Tutorials & Videos
-tutorials-url: https://helpx-internal.corp.adobe.com/content/help/en/target/kt/index/target-videos.html
-user-guide-title: Adobe Target Help
-user-guide-url: https://docs.adobe.com/content/help/en/target/using/target-home.html
+user-guide-title: Adobe Target Videos and Tutorials
+solution-title: Documentation
+solution-hub-url: https://docs.adobe.com/content/help/en/target/using/target-home.html
+getting-started-title: Experience League
+getting-started-url: https://experienceleague.adobe.com/#recommended/solutions/target
+tutorials-title: Videos and Tutorials
+tutorials-url: index.md
 archtype: end-user
 user-guide: null
 ---
