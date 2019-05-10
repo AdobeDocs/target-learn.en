@@ -16,7 +16,7 @@ user-guide: null
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
   + [Implement in iOS Swift Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-  + [Implement in iOS Objective-C Apps with Launch](hhttps://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+  + [Implement in iOS Objective-C Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
   + [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/atjs2-single-page-application-technical-video-implement.md)
   + [Understanding How Adobe Target's at.js 2.0 Works](implementation/atjs20-diagram-technical-video-understand.md)
   + [Using Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
