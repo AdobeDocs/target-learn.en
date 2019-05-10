@@ -12,9 +12,8 @@ snippet: y
 doc-type: use
 ---
 
-# Use the Visual Experience Composer in Adobe Target{#use-the-visual-experience-composer-in-adobe-target}
+# Use the Visual Experience Composer in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
-
+>
 >[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
-

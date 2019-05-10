@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Create Multivariate Tests in Adobe Target{#create-multivariate-tests-in-adobe-target}
+# Create Multivariate Tests in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395/?quality=12)
-

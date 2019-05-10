@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Use Audiences in Adobe Target{#use-audiences-in-adobe-target}
+# Use Audiences in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)
-

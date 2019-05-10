@@ -12,7 +12,6 @@ snippet: y
 doc-type: develop
 ---
 
-# Create Profile Scripts in Adobe Target{#create-profile-scripts-in-adobe-target}
+# Create Profile Scripts in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
-

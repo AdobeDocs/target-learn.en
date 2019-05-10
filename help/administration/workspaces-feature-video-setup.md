@@ -12,6 +12,6 @@ snippet: y
 doc-type: setup
 ---
 
-# Set up Workspaces in Adobe Target{#set-up-workspaces-in-adobe-target}
+# Set up Workspaces in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)

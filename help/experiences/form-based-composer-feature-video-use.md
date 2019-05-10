@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Use the Form-Based Experience Composer in Adobe Target{#use-the-form-based-experience-composer-in-adobe-target}
+# Use the Form-Based Experience Composer in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
-

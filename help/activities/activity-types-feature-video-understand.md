@@ -12,7 +12,6 @@ snippet: y
 doc-type: understand
 ---
 
-# Understand the Types of Activities in Adobe Target{#understand-the-types-of-activities-in-adobe-target}
+# Understand the Types of Activities in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)
-

@@ -27,9 +27,9 @@ Response Tokens and at.js Custom Events allow you to share profile information f
 1. Deploy your event listener JavaScript using a custom code action in Launch after the “Load Target” action or add it to the Library Footer section of at.js on the Setup-&gt;Implementation screen and save a new at.js file
 1. QA and publish your integration
 
-## Additional Resources {#additional-resources}
+## Additional Resources
 
 * [Using the Experience Cloud Debugger with Adobe Target](../troubleshooting/experience-cloud-debugger-target-feature-video-use.md)
 * [Response Token Documentation](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [At.js Custom Event Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
-* [Using dataProviders in Adobe Target](dataProviders-atjs-feature-video-use.md)
+* [Using Data Providers in Adobe Target](data-providers-atjs-feature-video-use.md)

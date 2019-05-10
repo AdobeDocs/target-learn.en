@@ -13,7 +13,6 @@ badge: premium
 doc-type: understand
 ---
 
-# Understand Enterprise User Permissions in Adobe Target{#understand-enterprise-user-permissions-in-adobe-target}
+# Understand Enterprise User Permissions in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)
-

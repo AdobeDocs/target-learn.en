@@ -11,7 +11,7 @@ archtype: end-user
 user-guide: null
 ---
 
-# Table of Contents {#table-of-contents}
+# Table of Contents
 
 + Configuring Launch{#implementation}
   + [Implement Target with Launch, by Adobe](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)
@@ -23,7 +23,7 @@ user-guide: null
   + [Understand the Types of Activities](using/activity-types-feature-video-understand.md)
   + [Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization](using/artificial-intelligence-automation-personalization-value-video-use.md)
   + [Create A/B Tests](using/ab-tests-feature-video-setup.md)
-  + [Create Experience Targeting Activities](using/experienceTargeting-feature-video-use.md)
+  + [Create Experience Targeting Activities](using/experience-targeting-feature-video-use.md)
   + [Create Multivariate Tests](using/multivariate-tests-feature-video-setup.md)
   + [Use Activity Targeting](using/activity-targeting-feature-video-use.md)
   + [Use Activity Settings](using/activity-settings-feature-video-use.md)
@@ -41,8 +41,8 @@ user-guide: null
   + [Use the Personalization Insights Reports](using/personalization-insights-report-feature-video-use.md)
 + Integrations{#integrations}
   + [Use Analytics as a Data Source for Target (A4T)](using/a4t-analytics-as-a-datasource-for-target-feature-video-use.md)
-  + [Data In: Use dataProviders to integrate third-party data](using/dataProviders-atjs-feature-video-use.md)
-  + [Data In: Implement dataProviders to integrate third-party data](using/dataProviders-atjs-technical-video-implement.md)
+  + [Data In: Use Data Providers to integrate third-party data](using/data-providers-atjs-feature-video-use.md)
+  + [Data In: Implement Data Providers to integrate third-party data](using/data-providers-atjs-technical-video-implement.md)
   + [Data Out: Use Response Tokens and at.js Custom Events](using/response-tokens-atjs-custom-events-technical-video-use.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}

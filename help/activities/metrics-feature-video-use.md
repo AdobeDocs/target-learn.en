@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Use Metrics in Adobe Target Activities{#use-metrics-in-adobe-target-activities}
+# Use Metrics in Adobe Target Activities
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380/?quality=12)
-

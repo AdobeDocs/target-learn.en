@@ -12,7 +12,6 @@ badge: premium
 doc-type: use
 ---
 
-# Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization {#use-the-artificial-intelligence-and-automation-capabilities-of-adobe-target-to-meet-the-challenges-of-personalization}
+# Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
-

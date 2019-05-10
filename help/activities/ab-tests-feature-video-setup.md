@@ -12,6 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Create A/B Tests with Adobe Target{#create-a-b-tests-with-adobe-target}
+# Create A/B Tests with Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)

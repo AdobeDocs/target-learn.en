@@ -12,7 +12,6 @@ snippet: y
 doc-type: setup
 ---
 
-# Set up Account Preferences in Adobe Target{#set-up-account-preferences-in-adobe-target}
+# Set up Account Preferences in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
-

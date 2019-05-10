@@ -13,7 +13,6 @@ badge: premium
 doc-type: setup
 ---
 
-# Set up Properties in Adobe Target{#set-up-properties-in-adobe-target}
+# Set up Properties in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
-

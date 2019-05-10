@@ -12,11 +12,11 @@ snippet: y
 doc-type: use
 ---
 
-# Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target{#using-the-visual-experience-composer-for-single-page-applications-spa-vec-in-adobe-target}
+# Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
-## Overview {#overview}
+## Overview
 
 * The SPA VEC can be used to create A/B and Auto-Allocate tests and Experience Targeting (XT) activities
 * The SPA VEC does not support Auto Target, Automated Personalization, or Recommendations activities
@@ -26,10 +26,9 @@ doc-type: use
 * Different modifications can be added to different views without having to use the "Additional Pages" option  
 * at.js 2.0+ and the adobe.target.triggerView() function must be implemented in the app before you can use the SPA VEC
 
-## Additional Resources {#additional-resources}
+## Additional Resources
 
 * [Implementing at.js 2.0 in a Single Page Application](../using/atjs2-single-page-application-technical-video-implement.md)
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)  
   ](../using/atjs20-diagram-technical-video-understand.md)
 * [Single Page App (SPA) Visual Experience Composer Documentation](//docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.md)
-

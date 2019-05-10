@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Use Activity Targeting in Adobe Target{#use-activity-targeting-in-adobe-target}
+# Use Activity Targeting in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385/?quality=12)
-

@@ -12,7 +12,6 @@ snippet: y
 doc-type: use
 ---
 
-# Use Activity Settings in Adobe Target{#use-activity-settings-in-adobe-target}
+# Use Activity Settings in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381/?quality=12)
-

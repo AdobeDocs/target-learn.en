@@ -12,15 +12,13 @@ snippet: y
 doc-type: use
 ---
 
-# Use Profile Comparison to build Audiences in Adobe Target{#use-profile-comparison-to-build-audiences-in-adobe-target}
+# Use Profile Comparison to build Audiences in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
-## Additional Resources {#additional-resources}
+## Additional Resources
 
-* [Creating a Profile Attribute Comparison Audience  
-  ](https://marketing.adobe.com/resources/help/en_US/target/target/c_creating-a-profile-attribute-comparison-audience.html)
-* [Methods to get Data into Target](https://marketing.adobe.com/resources/help/en_US/target/ov2/c_methods-to-get-data-into-target.html)
-* [Creating an Audience](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html)
-* [Create Experience Targeting Activities](https://helpx.adobe.com/target/kt/using/experienceTargeting-feature-video-use.html)
-
+* [Creating a Profile Attribute Comparison Audience Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
+* [Methods to get Data into Target Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
+* [Building Audiences documentation Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Create Experience Targeting Activities Video](../activities/experience-targeting-feature-video-use.md)
