@@ -9,9 +9,9 @@ discoiquuid: b5383f40-d15f-4ec9-87d4-5b261e4255e6
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Create A/B Tests with Adobe Target{#create-a-b-tests-with-adobe-target}
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
-

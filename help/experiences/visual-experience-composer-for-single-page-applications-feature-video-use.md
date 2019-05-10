@@ -9,6 +9,7 @@ discoiquuid: 7356b302-61a9-4396-bfc6-a95cd18f3796
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target{#using-the-visual-experience-composer-for-single-page-applications-spa-vec-in-adobe-target}

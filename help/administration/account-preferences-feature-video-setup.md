@@ -9,6 +9,7 @@ discoiquuid: f46497bd-adb2-472c-a2a5-02a75ce4a0fb
 index: y
 internal: n
 snippet: y
+doc-type: setup
 ---
 
 # Set up Account Preferences in Adobe Target{#set-up-account-preferences-in-adobe-target}

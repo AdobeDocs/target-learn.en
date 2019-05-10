@@ -9,6 +9,7 @@ discoiquuid: 20be78c1-9ced-4ee3-9be7-9aa2056b849c
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Use Metrics in Adobe Target Activities{#use-metrics-in-adobe-target-activities}

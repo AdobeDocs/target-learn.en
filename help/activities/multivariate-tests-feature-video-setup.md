@@ -9,6 +9,7 @@ discoiquuid: 4fbca061-acf2-4eec-aa26-bf3a6ea4ca60
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Create Multivariate Tests in Adobe Target{#create-multivariate-tests-in-adobe-target}

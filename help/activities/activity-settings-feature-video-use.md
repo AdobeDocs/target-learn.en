@@ -9,6 +9,7 @@ discoiquuid: be9f7202-5f87-4767-b47e-b67cf8d46fb9
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Use Activity Settings in Adobe Target{#use-activity-settings-in-adobe-target}

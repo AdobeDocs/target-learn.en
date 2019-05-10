@@ -9,6 +9,8 @@ discoiquuid: be885b2b-3d0c-4a86-9a7f-24a9abf5d2fe
 index: y
 internal: n
 snippet: y
+badge: premium
+doc-type: understand
 ---
 
 # Understand Enterprise User Permissions in Adobe Target{#understand-enterprise-user-permissions-in-adobe-target}

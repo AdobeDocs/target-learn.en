@@ -9,9 +9,9 @@ discoiquuid: f873b883-1db6-4396-ac79-c115d72b4b8a
 index: y
 internal: n
 snippet: y
+doc-type: implement
 ---
 
-# Implement Mbox Parameters for Target using DTM{#implement-mbox-parameters-for-target-using-dtm}
+# Implement Mbox Parameters for Target using DTM
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
-

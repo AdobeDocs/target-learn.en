@@ -9,6 +9,7 @@ discoiquuid: 7bc24c58-1951-409e-93a0-22802a279726
 index: y
 internal: n
 snippet: y
+doc-type: develop
 ---
 
 # Create Profile Scripts in Adobe Target{#create-profile-scripts-in-adobe-target}

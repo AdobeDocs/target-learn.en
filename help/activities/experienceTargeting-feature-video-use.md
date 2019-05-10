@@ -10,6 +10,7 @@ discoiquuid: abafbaf0-1fbd-4900-b223-ef748e863f20
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Create Experience Targeting Activities in Adobe Target{#create-experience-targeting-activities-in-adobe-target}

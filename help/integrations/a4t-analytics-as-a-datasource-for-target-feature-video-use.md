@@ -9,9 +9,9 @@ discoiquuid: a319e65b-ffea-4659-a9d6-ee9b8ed85b99
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
-# Use Analytics as a Data Source for Target (A4T){#use-analytics-as-a-data-source-for-target-a-t}
+# Use Analytics as a Data Source for Target (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
-

@@ -8,6 +8,8 @@ discoiquuid: 23eac66a-a5b4-4575-a41d-da8fafdbdb3a
 index: y
 internal: n
 snippet: y
+badge: premium
+doc-type: use
 ---
 
 # Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization {#use-the-artificial-intelligence-and-automation-capabilities-of-adobe-target-to-meet-the-challenges-of-personalization}

@@ -9,6 +9,7 @@ discoiquuid: 480b3b78-8886-4d06-a957-41a8f46050f5
 index: y
 internal: n
 snippet: y
+doc-type: understand
 ---
 
 # Understand the Types of Activities in Adobe Target{#understand-the-types-of-activities-in-adobe-target}

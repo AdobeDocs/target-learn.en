@@ -9,6 +9,7 @@ discoiquuid: 46675fc2-9971-45c4-97d7-6efa507d5a25
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Use the Form-Based Experience Composer in Adobe Target{#use-the-form-based-experience-composer-in-adobe-target}

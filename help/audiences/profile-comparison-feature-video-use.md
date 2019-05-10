@@ -9,6 +9,7 @@ discoiquuid: f7c7d607-8188-46f9-b485-aabc97544e19
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Use Profile Comparison to build Audiences in Adobe Target{#use-profile-comparison-to-build-audiences-in-adobe-target}

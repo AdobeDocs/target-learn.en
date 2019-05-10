@@ -9,6 +9,8 @@ discoiquuid: ad3529d8-8b25-4195-a98a-760bbdd337e0
 index: y
 internal: n
 snippet: y
+badge: premium
+doc-type: setup
 ---
 
 # Set up Properties in Adobe Target{#set-up-properties-in-adobe-target}

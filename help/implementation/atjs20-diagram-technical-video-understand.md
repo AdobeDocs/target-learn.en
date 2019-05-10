@@ -8,13 +8,16 @@ discoiquuid: 8dc1e879-fc82-4286-8491-40836af5c7dc
 index: y
 internal: n
 snippet: y
+doc-type: understand
 ---
 
-# Understanding How Adobe Target's at.js 2.0 Works{#understanding-how-adobe-target-s-at-js-works}
+# Understanding How Adobe Target's at.js 2.0 Works
+
+at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
-## Architecture Diagrams {#architecture-diagrams}
+## Architecture Diagrams
 
 ![at.js 2.0 behavior on page load](assets/pageload.png)
 
@@ -48,9 +51,8 @@ snippet: y
 
 1. Target data is sent from the Target backend to the Data Collection Servers. Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.
 
-## Additional Resources {#additional-resources}
+## Additional Resources
 
-* [Implementing at.js 2.0 in a Single Page Application](../using/atjs2-single-page-application-technical-video-implement.md)
-* [Using Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../using/visual-experience-composer-for-single-page-applications-feature-video-use.md)
-* [How at.js Works Documentation](//docs.adobe.comhttps://helpx.adobe.com/target/using/implement-target/client-side/at-js/how-atjs-works.md)
-
+* [Implementing at.js 2.0 in a Single Page Application](atjs2-single-page-application-technical-video-implement.md)
+* [Using Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/visual-experience-composer-for-single-page-applications-feature-video-use.md)
+* [How at.js Works Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html)

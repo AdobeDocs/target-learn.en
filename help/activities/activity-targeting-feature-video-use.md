@@ -9,6 +9,7 @@ discoiquuid: 02ee7d41-1638-41b8-a4c1-fdbac7d6baee
 index: y
 internal: n
 snippet: y
+doc-type: use
 ---
 
 # Use Activity Targeting in Adobe Target{#use-activity-targeting-in-adobe-target}

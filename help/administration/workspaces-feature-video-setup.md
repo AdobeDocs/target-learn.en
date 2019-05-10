@@ -9,9 +9,9 @@ discoiquuid: 17558f6d-4794-4873-840a-2641284b56fa
 index: y
 internal: n
 snippet: y
+doc-type: setup
 ---
 
 # Set up Workspaces in Adobe Target{#set-up-workspaces-in-adobe-target}
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)
-
