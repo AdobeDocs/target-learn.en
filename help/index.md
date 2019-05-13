@@ -50,7 +50,7 @@ description: null
 <table>
 <tr>
   <td><a href="experiences/visual-experience-composer-feature-video-use.md"><img alt="Use the Visual Experience Composer" src="assets/using_the_visualexperiencecomposerinadobetarget.png">Use the Visual Experience Composer</a></td>
-  <td><a href="experiences/ab-tests-feature-video-setup.md"><img alt="Use the Form-Based Experience Composer" src="assets/using_the_form_basedexperiencecomposerinadobetarget.png">Use the Form-Based Experience Composer</a></td>
+  <td><a href="experiences/form-based-composer-feature-video-use.md"><img alt="Use the Form-Based Experience Composer" src="assets/using_the_form_basedexperiencecomposerinadobetarget.png">Use the Form-Based Experience Composer</a></td>
   <td><a href="experiences/visual-experience-composer-for-single-page-applications-feature-video-use.md"><img alt="Use the Visual Experience Composer for Single Page Apps" src="assets/using_the_visualexperiencecomposerforsinglepageapplicationsspave.png">Use the Visual Experience Composer for Single Page Apps</a></td>
   <td><a href="https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html"><img alt="Use AEM Experience Fragments in Adobe Target" src="assets/using_aem_experiencefragmentofferswithinadobetarget.png">Use AEM Experience Fragments in Adobe Target</a></td>
 </tr>
