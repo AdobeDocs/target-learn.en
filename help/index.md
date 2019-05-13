@@ -4,7 +4,7 @@ seo-title: Adobe Target Videos and Tutorials
 description: null
 ---
 
-# Adobe Target Videos and Tutorials
+# Adobe Target Tutorials
 
 ## Implementation
 
@@ -33,8 +33,8 @@ description: null
   <td><a href="activities/multivariate-tests-feature-video-setup.md"><img alt="Create Multivariate Tests" src="assets/set_up_multivariatetestsinadobetarget.png"></a><br/><a href="activities/multivariate-tests-feature-video-setup.md">Create Multivariate Tests</a> (09:25)</td>
 </tr>
 <tr>
-  <td><a href="activities/activity-targeting-feature-video-use.md"><img alt="Use Activity Targeting" src="assets/use_activity_targetinginadobetarget.png"></a><br/><a href="activities/activity-targeting-feature-video-use.md"><a href="activities/activity-targeting-feature-video-use.md">Use Activity Targeting</a>  (02:13)</td>
-  <td><a href="activities/activity-settings-feature-video-use.md"><img alt="Use Activity Settings in Adobe" src="assets/use_activity_settingsinadobetarget.png"></a><br/><a href="activities/activity-settings-feature-video-use.md"><a href="activities/activity-settings-feature-video-use.md">Use Activity Settings in Adobe Target</a> (3:01)</td>
+  <td><a href="activities/activity-targeting-feature-video-use.md"><img alt="Use Activity Targeting" src="assets/use_activity_targetinginadobetarget.png"></a><br/><a href="activities/activity-targeting-feature-video-use.md">Use Activity Targeting</a>  (02:13)</td>
+  <td><a href="activities/activity-settings-feature-video-use.md"><img alt="Use Activity Settings in Adobe" src="assets/use_activity_settingsinadobetarget.png"></a><br/><a href="activities/activity-settings-feature-video-use.md">Use Activity Settings in Adobe Target</a> (3:01)</td>
   <td><a href="activities/metrics-feature-video-use.md"><img alt="Use Metrics in Activities" src="assets/use_metrics_in_adobetargetactivities.png"></a><br/><a href="activities/metrics-feature-video-use.md">Use Metrics in Activities</a> (07:43)</td>
   <td><br/></td>
 </tr>
@@ -51,7 +51,7 @@ description: null
 </tr>
 </table>
 
-## Experiences and Offers
+## Experiences
 
 <table>
 <tr>
