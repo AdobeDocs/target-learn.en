@@ -10,8 +10,8 @@ description: null
 
 <table>
 <tr>
-  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html"><img alt="Implement Target with Launch, by Adobe" src="assets/launch_referencearchitectureguides.png">Implement Target with Launch, by Adobe</a></td>
-  <td><a href="implementation/atjs2-single-page-application-technical-video-implement.md"><img alt="Implement at.js 2.0 in a Single Page Application (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png">Implement at.js 2.0 in a Single Page Application (SPA)</a></td>
+  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html"><img alt="Implement Target with Launch, by Adobe" src="assets/launch_referencearchitectureguides.png"></a><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">Implement Target with Launch, by Adobe</a></td>
+  <td><a href="implementation/atjs2-single-page-application-technical-video-implement.md"><img alt="Implement at.js 2.0 in a Single Page Application (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png"></a><br/><a href="implementation/atjs2-single-page-application-technical-video-implement.md">Implement at.js 2.0 in a Single Page Application (SPA)</a> (03:12)</td>
   <td><a href="implementation/atjs20-diagram-technical-video-understand.md"><img alt="How at.js 2.0 Works" src="assets/understanding_howadobetargetsatjs20worksinadobetarget.png">How at.js 2.0 Works</a></td>
   <td><a href="implementation/mbox-parameters-in-dtm-technical-video-implement.md"><img alt="Using Opt-in to Control Experience Cloud Solutions Based on User Consent" src="assets/using_opt-in_to_controlexperiencecloudactivitiesbasedonuserconse.png">Using Opt-in to Control Experience Cloud Solutions Based on User Consent</a></td>
 </tr>
@@ -27,7 +27,7 @@ description: null
   <td><a href="activities/multivariate-tests-feature-video-setup.md"><img alt="Create Multivariate Tests" src="assets/set_up_multivariatetestsinadobetarget.png">Create Multivariate Tests</a></td>
 </tr>
 <tr>
-  <td><a href="activities/activity-targeting-feature-video-use.md"><img alt="Use Activity Targeting" src="assets/use_activity_targetinginadobetarget.png"></a><a href="activities/activity-targeting-feature-video-use.md">Use Activity Targeting</a> (02:13)</td>
+  <td><a href="activities/activity-targeting-feature-video-use.md"><img alt="Use Activity Targeting" src="assets/use_activity_targetinginadobetarget.png"></a><br /><a href="activities/activity-targeting-feature-video-use.md">Use Activity Targeting</a>  (02:13)</td>
   <td><a href="activities/activity-settings-feature-video-use.md"><img alt="Use Activity Settings in Adobe" src="assets/use_activity_settingsinadobetarget.png"></a><br /><a href="activities/activity-settings-feature-video-use.md">Use Activity Settings in Adobe Target</a> (3:01)</td>
   <td><a href="activities/metrics-feature-video-use.md"><img alt="Use Metrics in Activities" src="assets/use_metrics_in_adobetargetactivities.png">Use Metrics in Activities</a></td>
   <td><br /></td>
@@ -88,7 +88,7 @@ description: null
 
 <table>
 <tr>
-  <td><a href="administration/account-preferences-feature-video-setup.md"><img alt="Set up Account Preferences" src="assets/understanding_thetypesofactivitiesadobetarget.png">Set up Account Preferences</a></td>
+  <td><a href="administration/account-preferences-feature-video-setup.md"><img alt="Set up Account Preferences" src="assets/set_up_account_preferencesinadobetarget.png">Set up Account Preferences</a></td>
   <td><a href="administration/enterprise-user-permissions-feature-video-understand.md"><img alt="Understand Enterprise User Permissions" src="assets/understanding_enterpriseuserpermissionsinadobetarget.png">Understand Enterprise User Permissions</a></td>
   <td><a href="administration/workspaces-feature-video-setup.md"><img alt="Set up Workspaces" src="assets/set_up_workspacesinadobetarget.png">Set up Workspaces</a></td>
   <td><a href="administration/properties-feature-video-setup.md"><img alt="Set up Properties" src="assets/set_up_propertiesinadobetarget.png">Set up Properties</a></td>
