@@ -2,12 +2,12 @@
 title: Set up Properties in Adobe Target
 seo-title: Set up Properties in Adobe Target
 description: null
-seo-description: null
-uuid: e7d95d65-2153-48b1-9305-73fcc963c30c
-contentOwner: dwright
-discoiquuid: ad3529d8-8b25-4195-a98a-760bbdd337e0
-badge: premium
+audience: administrator
+difficulty: 1
+author: Daniel Wright
 doc-type: setup
+activity-type: feature-video
+badge: premium
 ---
 
 # Set up Properties in Adobe Target

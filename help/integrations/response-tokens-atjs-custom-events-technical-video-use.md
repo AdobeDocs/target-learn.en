@@ -2,11 +2,11 @@
 title: Use Response Tokens and at.js Custom Events with Adobe Target
 seo-title: Use Response Tokens and at.js Custom Events with Adobe Target
 description: Response Tokens and at.js Custom Events allow you to share profile information from Target to third-party systems. Any object in the Target visitor profile, including custom profile attributes, geographic information, activity details, and built-in profiles can be added to the Target response where you can use custom JavaScript to integrate with a third-party.
-seo-description: Response Tokens and at.js Custom Events allow you to share profile information from Target to third-party systems. Any object in the Target visitor profile, including custom profile attributes, geographic information, activity details, and built-in profiles can be added to the Target response where you can use custom JavaScript to integrate with a third-party.
-uuid: fd42ff3f-ba2d-4c26-b8d1-47e09369633d
-contentOwner: dwright
-discoiquuid: 3316f9f6-1bf7-48d2-8789-b5ae202d5f13
-doc-type: use
+audience: developer
+difficulty: 5
+author: Daniel Wright
+doc-type: implement
+activity-type: technical-video
 ---
 
 # Use Response Tokens and at.js Custom Events with Adobe Target

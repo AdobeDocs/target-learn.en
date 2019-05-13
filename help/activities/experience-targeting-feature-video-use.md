@@ -3,11 +3,11 @@ title: Create Experience Targeting Activities in Adobe Target
 seo-title: Create Experience Targeting Activities in Adobe Target
 description: Experience Targeting activities allow marketers to target specific content to a specific audience.
 seo-description: Experience Targeting activities allow marketers to target specific content to a specific audience.
-uuid: 470028a4-692a-4456-8d74-4ff7fc8167de
-contentOwner: dwright
-topic-tags: targeting-activities
-discoiquuid: abafbaf0-1fbd-4900-b223-ef748e863f20
+audience: marketer
+difficulty: 1
+author: Daniel Wright
 doc-type: use
+activity-type: feature-video
 ---
 
 # Create Experience Targeting Activities in Adobe Target

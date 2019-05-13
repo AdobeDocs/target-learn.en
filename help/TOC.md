@@ -1,18 +1,17 @@
 ---
 cloud: experience-cloud
 product: target
-user-guide-title: Adobe Target Videos and Tutorials
-solution-title: Documentation
-solution-hub-url: https://docs.adobe.com/content/help/en/target/using/target-home.html
-getting-started-title: Experience League
-getting-started-url: https://experienceleague.adobe.com/#recommended/solutions/target
-tutorials-title: Videos and Tutorials
-tutorials-url: index.md
-archtype: end-user
-user-guide: null
+user-guide-title: Adobe Target Tutorials
+solution-title: Target
+solution-hub-url: https://helpx.adobe.com/support/target.html
+getting-started-title: Getting Started
+getting-started-url: https://helpx.adobe.com/target/get-started.html
+tutorials-title: Tutorials
+tutorials-url: /content/help/en/target-learn/index.md
+audience: end-user
 ---
 
-# Adobe Target Videos and Tutorials {#adobe-target-videos-and-tutorials}
+# Adobe Target Tutorials {#tutorials}
 
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)

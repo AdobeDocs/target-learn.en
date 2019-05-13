@@ -2,11 +2,11 @@
 title: Use the Visual Experience Composer in Adobe Target
 seo-title: Use the Visual Experience Composer in Adobe Target
 description: null
-seo-description: null
-uuid: bdf506b2-b66d-4fd0-b43e-c36f02e9c133
-contentOwner: dwright
-discoiquuid: 4e8507a7-1b85-43c7-bb15-0916d8f070bb
+audience: marketer
+difficulty: 1
+author: Daniel Wright
 doc-type: use
+activity-type: feature-video
 ---
 
 # Use the Visual Experience Composer in Adobe Target

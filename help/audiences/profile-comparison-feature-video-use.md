@@ -2,11 +2,11 @@
 title: Use Profile Comparison to build Audiences in Adobe Target
 seo-title: Use Profile Comparison to build Audiences in Adobe Target
 description: The Profile Comparison feature in Adobe Target allows you to compare two numeric profile values against each other when building an audience. This is extremely helpful if you are passing custom-built propensity scores into Target and want to personalize content based on the product with the highest propensity score.
-seo-description: The Profile Comparison feature in Adobe Target allows you to compare two numeric profile values against each other when building an audience. This is extremely helpful if you are passing custom-built propensity scores into Target and want to personalize content based on the product with the highest propensity score.
-uuid: cd166f8b-b1cc-40e8-ae82-5650851e8efd
-contentOwner: dwright
-discoiquuid: f7c7d607-8188-46f9-b485-aabc97544e19
+audience: marketer
+difficulty: 3
+author: Daniel Wright
 doc-type: use
+activity-type: feature-video
 ---
 
 # Use Profile Comparison to build Audiences in Adobe Target

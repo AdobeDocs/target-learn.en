@@ -2,11 +2,11 @@
 title: Create Profile Scripts in Adobe Target
 seo-title: Create Profile Scripts in Adobe Target
 description: null
-seo-description: null
-uuid: 056bba04-8a3f-436c-b244-caa3637c152d
-contentOwner: dwright
-discoiquuid: 7bc24c58-1951-409e-93a0-22802a279726
+audience: marketer
+difficulty: 5
+author: Daniel Wright
 doc-type: develop
+activity-type: feature-video
 ---
 
 # Create Profile Scripts in Adobe Target

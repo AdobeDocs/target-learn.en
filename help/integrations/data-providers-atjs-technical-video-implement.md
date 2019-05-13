@@ -2,11 +2,11 @@
 title: Implement Data Providers to integrate third-party data into Adobe Target
 seo-title: Implement Data Providers to integrate third-party data into Adobe Target
 description: Implementation details and examples of how to use Adobe Target's Data Providers feature to retrieve data from third-party data providers and pass it in the Target request.
-seo-description: Data Providers is a capability that allows you to easily pass data from 3rd parties to Target.  A third party could be a weather API, a DMP, or even your own web service.
-uuid: 786070a6-2a72-4168-a0bd-996854c26507
-products: SG_TARGET
-discoiquuid: 98bbecf3-9ba4-45d0-a8fe-286c34a317fa
+audience: developer
+difficulty: 3
+author: Daniel Wright
 doc-type: implement
+activity-type: technical-video
 ---
 
 # Implement Data Providers to integrate third-party data into Adobe Target
