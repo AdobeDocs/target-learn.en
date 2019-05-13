@@ -7,12 +7,13 @@ solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/target/get-started.html
 tutorials-title: Tutorials
-tutorials-url: /content/help/en/target-learn/index.md
+tutorials-url: /content/help/en/target-learn/tutorials/index.html
 audience: end-user
 ---
 
 # Adobe Target Tutorials {#tutorials}
 
++ [Overview](index.md)
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
   + [Implement in iOS Swift Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
