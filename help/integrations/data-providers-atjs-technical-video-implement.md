@@ -3,7 +3,7 @@ title: Implement Data Providers to integrate third-party data into Adobe Target
 seo-title: Implement Data Providers to integrate third-party data into Adobe Target
 description: Implementation details and examples of how to use Adobe Target's Data Providers feature to retrieve data from third-party data providers and pass it in the Target request.
 audience: developer
-difficulty: 3
+difficulty: 5
 author: Daniel Wright
 doc-type: implement
 activity-type: technical-video

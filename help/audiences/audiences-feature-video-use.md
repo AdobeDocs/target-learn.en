@@ -2,7 +2,7 @@
 title: Use Audiences in Adobe Target
 seo-title: Use Audiences in Adobe Target
 description: null
-audience: administrator
+audience: marketer
 difficulty: 1
 author: Daniel Wright
 doc-type: use
