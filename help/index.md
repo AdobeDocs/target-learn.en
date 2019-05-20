@@ -18,7 +18,7 @@ description: null
 <tr>
   <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html"><img alt="Implement Target in iOS Swift Apps" src="assets/launch_referencearchitectureguides.png"></a><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html">Implement Target in iOS Swift Apps</a></td>
   <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"><img alt="Implement Target in iOS Objective-C Apps" src="assets/launch_referencearchitectureguides.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html">Implement Target in iOS Objective-C Apps</a></td>
-  <td><br/></td>
+  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html"><img alt="Implement Target in Android Apps" src="assets/launch_referencearchitectureguides.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html">Implement Target in Android Apps</a></td>
   <td><br/></td>
 </tr>
 </table>
