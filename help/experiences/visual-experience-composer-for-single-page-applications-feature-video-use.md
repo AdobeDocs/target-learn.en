@@ -11,6 +11,8 @@ activity-type: feature-video
 
 # Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target
 
+The SPA VEC enables marketers to create tests and personalize content in SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Tests and Experience Targeting (XT) activities in apps built with popular frameworks, such as React and Angular.
+
 >[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 ## Overview
