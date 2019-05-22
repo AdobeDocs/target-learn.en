@@ -47,7 +47,7 @@ audience: end-user
   + [Data In: Use Data Providers to integrate third-party data](integrations/use-data-providers-to-integrate-third-party-data.md)
   + [Data In: Implement Data Providers to integrate third-party data](integrations/implement-data-providers-to-integrate-third-party-data.md)
   + [Data Out: Use Response Tokens and at.js Custom Events](integrations/use-response-tokens-and-at.js-custom-events.md)
-  + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/audiences/experience-fragment-target-offer-feature-video-use.html)
+  + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}
   + [Set up Account Preferences](administration/set-up-account-preferences.md)
   + [Understand Enterprise User Permissions](administration/understanding-enterprise-user-permissions.md)
