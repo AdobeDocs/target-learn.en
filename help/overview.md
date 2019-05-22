@@ -16,9 +16,9 @@ description: null
   <td><a href="https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html"><img alt="Using Opt-in to Control Experience Cloud Solutions Based on User Consent" src="assets/using_opt-in_to_controlexperiencecloudactivitiesbasedonuserconse.png"></a><br/><a href="https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html">Using Opt-in to Control Experience Cloud Solutions Based on User Consent</a></td>
 </tr>
 <tr>
-  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html"><img alt="Implement Target in iOS Swift Apps" src="assets/launch_referencearchitectureguides.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html">Implement Target in iOS Swift Apps</a></td>
+  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html"><img alt="Implement Target in iOS Swift Apps" src="assets/thumb_Swift_logo_horz_lockup_color_rgb.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html">Implement Target in iOS Swift&trade; Apps</a></td>
   <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"><img alt="Implement Target in iOS Objective-C Apps" src="assets/launch_referencearchitectureguides.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html">Implement Target in iOS Objective-C Apps</a></td>
-  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html"><img alt="Implement Target in Android Apps" src="assets/launch_referencearchitectureguides.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html">Implement Target in Android Apps</a></td>
+  <td><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html"><img alt="Implement Target in Android Apps" src="assets/thumb_Android_Robot.png"></a><br/><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html">Implement Target in Android&trade; Apps</a></td>
   <td><br/></td>
 </tr>
 </table>
@@ -111,3 +111,6 @@ description: null
   <td><br/></td>
 </tr>
 </table>
+
+_Apple, the Apple logo, iPad, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries. Swift and the Swift logo are trademarks of Apple Inc. 
+Android is a trademark of Google LLC._
