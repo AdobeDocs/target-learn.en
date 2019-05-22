@@ -13,7 +13,7 @@ audience: end-user
 
 # Adobe Target Tutorials {#tutorials}
 
-+ [Overview](index.md)
++ [Overview](overview.md)
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
   + [Implement in iOS Swift Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
