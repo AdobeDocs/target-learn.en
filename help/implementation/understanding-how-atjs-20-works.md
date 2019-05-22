@@ -51,6 +51,6 @@ at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and
 
 ## Additional Resources
 
-* [Implementing at.js 2.0 in a Single Page Application](atjs2-single-page-application-technical-video-implement.md)
-* [Using Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/visual-experience-composer-for-single-page-applications-feature-video-use.md)
+* [Implement at.js 2.0 in a Single Page Application](implement-atjs-20-in-a-single-page-application.md)
+* [Use Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
 * [How at.js Works Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html)

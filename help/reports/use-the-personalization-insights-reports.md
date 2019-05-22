@@ -10,7 +10,7 @@ activity-type: feature-video
 badge: premium
 ---
 
-# Using the Personalization Insights Reports in Adobe Target
+# Use the Personalization Insights Reports in Adobe Target
 
 Automated Personalization and Auto-Target activities use advanced machine learning to serve the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. The Personalization Insights reports provide information on how these models make their decisions.
 

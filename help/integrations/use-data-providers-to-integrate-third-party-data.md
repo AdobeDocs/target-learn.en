@@ -28,5 +28,5 @@ Data Providers is a capability that allows you to easily pass data from third pa
 
 ## Supporting Materials
 
-* [Implement Data Providers in at.js and Adobe Target](Data Providers-atjs-technical-video-implement.md)
+* [Implement Data Providers in at.js and Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
 * [Data Providers Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)

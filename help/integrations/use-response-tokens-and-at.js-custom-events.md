@@ -26,7 +26,7 @@ Response Tokens and at.js Custom Events allow you to share profile information f
 
 ## Additional Resources
 
-* [Using the Experience Cloud Debugger with Adobe Target](../troubleshooting/experience-cloud-debugger-target-feature-video-use.md)
+* [Use the Experience Cloud Debugger with Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [Response Token Documentation](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [At.js Custom Event Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
-* [Using Data Providers in Adobe Target](data-providers-atjs-feature-video-use.md)
+* [Using Data Providers in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

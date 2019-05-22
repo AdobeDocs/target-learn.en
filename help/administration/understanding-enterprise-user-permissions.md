@@ -10,6 +10,6 @@ activity-type: feature-video
 badge: premium
 ---
 
-# Understand Enterprise User Permissions in Adobe Target
+# Understanding Enterprise User Permissions in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)

@@ -9,6 +9,6 @@ doc-type: understand
 activity-type: feature-video
 ---
 
-# Understand the Types of Activities in Adobe Target
+# Understanding the Types of Activities in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)

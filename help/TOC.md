@@ -7,7 +7,7 @@ solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/target/get-started.html
 tutorials-title: Tutorials
-tutorials-url: /content/help/en/target-learn/tutorials/index.html
+tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 ---
 
@@ -16,42 +16,42 @@ audience: end-user
 + [Overview](index.md)
 + Implementation{#implementation}
   + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-  + [Implement in iOS Swift Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-  + [Implement in iOS Objective-C Apps with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-  + [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/atjs2-single-page-application-technical-video-implement.md)
-  + [Understanding How Adobe Target's at.js 2.0 Works](implementation/atjs20-diagram-technical-video-understand.md)
+  + [Implement in iOS Swift Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+  + [Implement in iOS Objective-C Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+  + [Implement in Android Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+  + [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md)
+  + [Understanding How Adobe Target's at.js 2.0 Works](implementation/understanding-how-atjs-20-works.md)
   + [Using Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
-  + [Implement Mbox Parameters for Target using DTM](implementation/mbox-parameters-in-dtm-technical-video-implement.md)
 + Activities{#activities}
-  + [Understand the Types of Activities](activities/activity-types-feature-video-understand.md)
-  + [Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization](activities/artificial-intelligence-automation-personalization-value-video-use.md)
-  + [Create A/B Tests](activities/ab-tests-feature-video-setup.md)
-  + [Create Experience Targeting Activities](activities/experience-targeting-feature-video-use.md)
-  + [Create Multivariate Tests](activities/multivariate-tests-feature-video-setup.md)
-  + [Use Activity Targeting](activities/activity-targeting-feature-video-use.md)
-  + [Use Activity Settings](activities/activity-settings-feature-video-use.md)
-  + [Use Metrics in Activities](activities/metrics-feature-video-use.md)
+  + [Understand the Types of Activities](activities/understanding-the-types-of-activities.md)
+  + [Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization](activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+  + [Create A/B Tests](activities/create-ab-tests.md)
+  + [Create Experience Targeting Activities](activities/create-experience-targeting-activities.md)
+  + [Create Multivariate Tests](activities/create-multivariate-tests.md)
+  + [Use Activity Targeting](activities/use-activity-targeting.md)
+  + [Use Activity Settings](activities/use-activity-settings.md)
+  + [Use Metrics in Activities](activities/use-metrics-in-activities.md)
 + Audiences{#audiences}
-  + [Use Audiences](audiences/audiences-feature-video-use.md)
-  + [Create Profile Scripts](audiences/profile-scripts-feature-video-use.md)
-  + [Use Profile Comparison to build Audiences](audiences/profile-comparison-feature-video-use.md)
+  + [Use Audiences](audiences/use-audiences.md)
+  + [Create Profile Scripts](audiences/create-profile-scripts.md)
+  + [Use Profile Comparison to build Audiences](audiences/use-profile-comparison-to-build-audiences.md)
 + Experiences{#experiences}
-  + [Use the Visual Experience Composer](experiences/visual-experience-composer-feature-video-use.md)
-  + [Using the Visual Experience Composer for Single Page Applications (SPA VEC)](experiences/visual-experience-composer-for-single-page-applications-feature-video-use.md)
-  + [Use the Form-Based Experience Composer](experiences/form-based-composer-feature-video-use.md)
+  + [Use the Visual Experience Composer](experiences/use-the-visual-experience-composer.md)
+  + [Using the Visual Experience Composer for Single Page Applications (SPA VEC)](experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+  + [Use the Form-Based Experience Composer](experiences/use-the-form-based-experience-composer.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Reports{#reports}
-  + [Use the Personalization Insights Reports](reports/personalization-insights-report-feature-video-use.md)
+  + [Use the Personalization Insights Reports](reports/use-the-personalization-insights-reports.md)
 + Integrations{#integrations}
-  + [Use Analytics as a Data Source for Target (A4T)](integrations/a4t-analytics-as-a-datasource-for-target-feature-video-use.md)
-  + [Data In: Use Data Providers to integrate third-party data](integrations/data-providers-atjs-feature-video-use.md)
-  + [Data In: Implement Data Providers to integrate third-party data](integrations/data-providers-atjs-technical-video-implement.md)
-  + [Data Out: Use Response Tokens and at.js Custom Events](integrations/response-tokens-atjs-custom-events-technical-video-use.md)
+  + [Use Analytics as a Data Source for Target (A4T)](integrations/use-analytics-as-a-data-source-a4t.md)
+  + [Data In: Use Data Providers to integrate third-party data](integrations/use-data-providers-to-integrate-third-party-data.md)
+  + [Data In: Implement Data Providers to integrate third-party data](integrations/implement-data-providers-to-integrate-third-party-data.md)
+  + [Data Out: Use Response Tokens and at.js Custom Events](integrations/use-response-tokens-and-at.js-custom-events.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/audiences/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}
-  + [Set up Account Preferences](administration/account-preferences-feature-video-setup.md)
-  + [Understand Enterprise User Permissions](administration/enterprise-user-permissions-feature-video-understand.md)
-  + [Set up Workspaces](administration/workspaces-feature-video-setup.md)
-  + [Set up Properties](administration/properties-feature-video-setup.md)
+  + [Set up Account Preferences](administration/set-up-account-preferences.md)
+  + [Understand Enterprise User Permissions](administration/understanding-enterprise-user-permissions.md)
+  + [Set up Workspaces](administration/set-up-workspaces.md)
+  + [Set up Properties](administration/set-up-properties.md)
 + Troubleshooting{#troubleshooting}
-  + [Troubleshoot Adobe Target with the Experience Cloud Debugger](troubleshooting/experience-cloud-debugger-target-feature-video-use.md)
+  + [Troubleshoot Adobe Target with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)

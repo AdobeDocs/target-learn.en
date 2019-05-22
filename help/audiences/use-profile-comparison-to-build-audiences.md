@@ -20,4 +20,4 @@ The Profile Comparison feature in Adobe Target allows you to compare two numeric
 * [Creating a Profile Attribute Comparison Audience Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
 * [Methods to get Data into Target Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
 * [Building Audiences documentation Documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Create Experience Targeting Activities Video](../activities/experience-targeting-feature-video-use.md)
+* [Create Experience Targeting Activities Video](../activities/create-experience-targeting-activities.md)
