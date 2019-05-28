@@ -1,10 +1,10 @@
 ---
-title: Adobe Target Tutorials
-seo-title: Adobe Target Tutorials
-description: null
+title: Adobe Target Tutorials Overview
+seo-title: Adobe Target Tutorials Overview
+description: Tutorials and Videos to help you learn Adobe Target
 ---
 
-# Adobe Target Tutorials
+# Adobe Target Tutorials Overview
 
 ## Implementation
 

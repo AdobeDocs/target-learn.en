@@ -19,12 +19,12 @@ audience: end-user
   + [Implement in iOS Swift Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
   + [Implement in iOS Objective-C Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
   + [Implement in Android Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
-  + [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md)
-  + [Understanding How Adobe Target's at.js 2.0 Works](implementation/understanding-how-atjs-20-works.md)
-  + [Using Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
+  + [Implement at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md)
+  + [Understanding How at.js 2.0 Works](implementation/understanding-how-atjs-20-works.md)
+  + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
 + Activities{#activities}
   + [Understand the Types of Activities](activities/understanding-the-types-of-activities.md)
-  + [Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization](activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+  + [Use the Artificial Intelligence and Automation Capabilities to Meet the Challenges of Personalization](activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
   + [Create A/B Tests](activities/create-ab-tests.md)
   + [Create Experience Targeting Activities](activities/create-experience-targeting-activities.md)
   + [Create Multivariate Tests](activities/create-multivariate-tests.md)
@@ -54,4 +54,4 @@ audience: end-user
   + [Set up Workspaces](administration/set-up-workspaces.md)
   + [Set up Properties](administration/set-up-properties.md)
 + Troubleshooting{#troubleshooting}
-  + [Troubleshoot Adobe Target with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+  + [Troubleshoot with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
