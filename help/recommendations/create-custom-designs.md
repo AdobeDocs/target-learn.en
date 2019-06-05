@@ -14,9 +14,9 @@ activity-type: feature-video
 
 ## Additional Resources
 
-* [Create Collections and Exclusions](recommendations/create-collections-and-exclusions.md)
-* [Create a Recommendations Activity](recommendations/create-a-recommendations-activity.md)
-* [Understanding Feeds](recommendations/undestanding-feeds.md)
-* [Create a Feed](recommendations/create-a-feed.md)
-* [Create Criteria](recommendations/create-criteria.md)
+* [Create Collections and Exclusions](create-collections-and-exclusions.md)
+* [Create a Recommendations Activity](create-a-recommendations-activity.md)
+* [Understanding Feeds](understanding-feeds.md)
+* [Create a Feed](create-a-feed.md)
+* [Create Criteria](create-criteria.md)
 * [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

@@ -55,7 +55,7 @@ audience: end-user
   + [Set up Properties](administration/set-up-properties.md)
 + Recommendations{#recommendations}
   + [Create a Recommendations Activity](recommendations/create-a-recommendations-activity.md)
-  + [Understanding Feeds](recommendations/undestanding-feeds.md)
+  + [Understanding Feeds](recommendations/understanding-feeds.md)
   + [Create a Feed](recommendations/create-a-feed.md)
   + [Create Criteria](recommendations/create-criteria.md)
   + [Create Custom Designs](recommendations/create-custom-designs.md)
