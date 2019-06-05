@@ -48,5 +48,3 @@ In these lessons, you will implement Adobe Target Recommendations into a fake re
 >[!NOTE] You might find it easier to complete this tutorial with the We.Retail site open in Chrome, while you read this tutorial and complete the Launch interface steps in a different browser.
 
 Let's get started!
-
-[Next "Planning your Recommendations Implementation" >](implementation/overview-and-planning.md)
