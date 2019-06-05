@@ -1,6 +1,5 @@
 ---
 title: Set up Properties in Adobe Target
-seo-title: Set up Properties in Adobe Target
 description: null
 audience: administrator
 difficulty: 1
@@ -10,6 +9,6 @@ activity-type: feature-video
 badge: premium
 ---
 
-# Set up Properties in Adobe Target
+# Set up Properties
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)

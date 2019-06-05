@@ -1,6 +1,5 @@
 ---
 title: Understand Enterprise User Permissions in Adobe Target
-seo-title: Understand Enterprise User Permissions in Adobe Target
 description: null
 audience: administrator
 difficulty: 1
@@ -10,6 +9,6 @@ activity-type: feature-video
 badge: premium
 ---
 
-# Understanding Enterprise User Permissions in Adobe Target
+# Understanding Enterprise User Permissions
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)

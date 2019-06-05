@@ -1,13 +1,6 @@
 ---
-cloud: experience-cloud
-product: target
+
 user-guide-title: Adobe Target Tutorials
-solution-title: Target
-solution-hub-url: https://helpx.adobe.com/support/target.html
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/target/get-started.html
-tutorials-title: Tutorials
-tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 ---
 

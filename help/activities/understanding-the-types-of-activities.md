@@ -1,6 +1,5 @@
 ---
 title: Understand the Types of Activities in Adobe Target
-seo-title: Understand the Types of Activities in Adobe Target
 description: null
 audience: marketer
 difficulty: 1
@@ -9,6 +8,6 @@ doc-type: understand
 activity-type: feature-video
 ---
 
-# Understanding the Types of Activities in Adobe Target
+# Understanding the Types of Activities
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)
