@@ -1,5 +1,6 @@
 ---
 user-guide-title: Implementing and Using Recommendations in a Website
+user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 ---
 
 # Implementing and Using Recommendations in a Website{#recommendations-in-a-website}
