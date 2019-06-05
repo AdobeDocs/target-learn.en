@@ -7,7 +7,7 @@ user-guide-url: /content/help/en/target-learn/recommendations-in-a-website/overv
 
 + [Overview](overview.md)
 + [Introduction to Recommendations](introduction.md)
-+ Getting Ready(#get-ready)
++ Getting Ready{#get-ready}
   + [Planning](get-ready/planning.md)
   + [Importing Your Catalog](get-ready/catalog.md)
   + [Concepts](get-ready/concepts.md)
