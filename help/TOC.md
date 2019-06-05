@@ -53,5 +53,12 @@ audience: end-user
   + [Understand Enterprise User Permissions](administration/understanding-enterprise-user-permissions.md)
   + [Set up Workspaces](administration/set-up-workspaces.md)
   + [Set up Properties](administration/set-up-properties.md)
++ Recommendations{#recommendations}
+  + [Create a Recommendations Activity](recommendations/create-a-recommendations-activity.md)
+  + [Understanding Feeds](recommendations/undestanding-feeds.md)
+  + [Create a Feed](recommendations/create-a-feed.md)
+  + [Create Criteria](recommendations/create-criteria.md)
+  + [Create Custom Designs](recommendations/create-custom-designs.md)
+  + [Create Collections and Exclusions](recommendations/create-collections-and-exclusions.md)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
