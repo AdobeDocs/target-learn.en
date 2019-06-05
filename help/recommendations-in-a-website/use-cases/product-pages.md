@@ -424,9 +424,9 @@ Items 3 & 4 are true because we did not enable backup recommendations and becaus
 
 We will create a sequence for our product detail page that displays in order of descending preference:
 
-- People Who Viewed This, Viewed That (in the same category)
-- People Who Viewed This, Viewed That (no category restriction)
-- Backup items from Most Viewed across the site
+* People Who Viewed This, Viewed That (in the same category)
+* People Who Viewed This, Viewed That (no category restriction)
+* Backup items from Most Viewed across the site
 
 1. Return to the **Recommendations > Criteria** library screen.
 
@@ -495,9 +495,9 @@ The following parameters are available:
 
 ### mboxTrace with the Experience Cloud Debugger
 
-- Ensure you are still logged into Experience Cloud
-- Navigate to the Target server call, then select “Target Trace”
-- Toggle the switch for “Enable Target Traces”
+* Ensure you are still logged into Experience Cloud
+* Navigate to the Target server call, then select “Target Trace”
+* Toggle the switch for “Enable Target Traces”
 
 ![95](../images/image95.png)
 
