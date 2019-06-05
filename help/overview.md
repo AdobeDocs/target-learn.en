@@ -101,6 +101,23 @@ description: Tutorials and Videos to help you learn Adobe Target
 </tr>
 </table>
 
+## Recommendations
+
+<table>
+<tr>
+  <td><a href="recommendations/create-a-recommendations-activity.md"><img alt="Create a Recommendations Activity" src="assets/thumb_recsCreateAnActivity.png"></a><br/><a href="recommendations/create-a-recommendations-activity.md">Create a Recommendations Activity</a></td>
+  <td><a href="recommendations/understanding-feeds.md"><img alt="Understanding Feeds" src="assets/thumb_recsUnderstandingFeeds.png"></a><br/><a href="recommendations/understanding-feeds.md">Understanding Feeds</a></td>
+  <td><a href="recommendations/create-a-feed.md"><img alt="Create a Feed" src="assets/thumb_recsCreateAFeed.png"></a><br/><a href="recommendations/create-a-feed.md">Create a Feed</a></td>
+  <td><a href="recommendations/create-criteria.md"><img alt="Create Criteria" src="assets/thumb_recsCreateCriteria.png"></a><br/><a href="recommendations/create-criteria.md">Create Criteria</a></td>
+</tr>
+<tr>
+  <td><a href="recommendations/create-custom-designs.md"><img alt="Create Custom Designs" src="assets/thumb_recsCreateCustomDesigns.png"></a><br/><a href="recommendations/create-custom-designs.md">Create Custom Designs</a></td>
+  <td><a href="recommendations/create-collections-and-exclusions.md"><img alt="Create Collections and Exclusions" src="assets/thumb_recsCreateCollectionsAndExclusions.png"></a><br/><a href="recommendations/create-collections-and-exclusions.md">Create Collections and Exclusions</a></td>
+  <td><br/></td>
+  <td><br/></td>
+</tr>
+</table>
+
 ## Troubleshooting
 
 <table>
