@@ -4,7 +4,7 @@ seo-title: Adobe Target Tutorials Overview
 description: Tutorials and Videos to help you learn Adobe Target
 ---
 
-# Adobe Target Tutorials Overview
+# Overview
 
 ## Implementation
 
