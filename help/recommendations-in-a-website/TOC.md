@@ -4,7 +4,7 @@ user-guide-title: Implementing and Using Recommendations in a Website
 
 # Implementing and Using Recommendations in a Website{#recommendations-in-a-website}
 
-+ [Overview](index.md)
++ [Overview](overview.md)
 + [Introduction to Recommendations](introduction.md)
 + Implementing Recommendations{#implementation}
   + [Overview and Planning](implementation/overview-and-planning.md)

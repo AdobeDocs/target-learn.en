@@ -29,13 +29,13 @@ In these lessons, it is assumed that you have an Adobe Id and the required permi
 * For Launch, you must have permission to Develop, Approve, and Publish. For more information on Launch permissions, see [the documentation](https://docs.adobelaunch.com/administration/user-permissions).
 * For Target, you must be an Approver in order to setup and Launch activities.
   
-This tutorial uses Launch as the deployment mechanism for Adobe Target and assumes you have already completed the Configuring Launch and Add Adobe Target sections of the [Implementing the Experience Cloud in Websites with Launch](/help/website-implementation/index.md) tutorial.
+This tutorial uses Launch as the deployment mechanism for Adobe Target and assumes you have already completed the Configuring Launch and Add Adobe Target sections of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial.
 
 Also, for the Implementation portion, it is assumed that you are familiar with front-end development languages like HTML and JavaScript. You do not need to be a master of these languages to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
 
 ## About the Lessons
 
-In these lessons, you will implement Adobe Target Recommendations into a fake retail website called We.Retail. The [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) has a rich data layer and functionality that will allow you to build a realistic Recommendations implementation that you will use to build activities. You should have already completed the Configuring Launch and Add Adobe Target sections of the [Implementing the Experience Cloud in Websites with Launch](/help/website-implementation/index.md) tutorial before you begin. You will be able to map the We.Retail site to your own Launch property and use your own Target account using the Experience Cloud Debugger.
+In these lessons, you will implement Adobe Target Recommendations into a fake retail website called We.Retail. The [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) has a rich data layer and functionality that will allow you to build a realistic Recommendations implementation that you will use to build activities. You should have already completed the Configuring Launch and Add Adobe Target sections of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial before you begin. You will be able to map the We.Retail site to your own Launch property and use your own Target account using the Experience Cloud Debugger.
 
 [![We.Retail](images/overview-weRetail.png)](https://aem.enablementadobe.com/content/we-retail/us/en.html)
 
