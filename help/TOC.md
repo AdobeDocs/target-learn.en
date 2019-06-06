@@ -39,7 +39,7 @@ audience: end-user
   + [Use Analytics as a Data Source for Target (A4T)](integrations/use-analytics-as-a-data-source-a4t.md)
   + [Data In: Use Data Providers to integrate third-party data](integrations/use-data-providers-to-integrate-third-party-data.md)
   + [Data In: Implement Data Providers to integrate third-party data](integrations/implement-data-providers-to-integrate-third-party-data.md)
-  + [Data Out: Use Response Tokens and at.js Custom Events](integrations/use-response-tokens-and-at.js-custom-events.md)
+  + [Data Out: Use Response Tokens and at.js Custom Events](integrations/use-response-tokens-and-atjs-custom-events.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}
   + [Set up Account Preferences](administration/set-up-account-preferences.md)
