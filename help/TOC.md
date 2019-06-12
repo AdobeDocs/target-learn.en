@@ -1,5 +1,4 @@
 ---
-
 user-guide-title: Adobe Target Tutorials
 audience: end-user
 ---
@@ -55,3 +54,4 @@ audience: end-user
   + [Create Collections and Exclusions](recommendations/create-collections-and-exclusions.md)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+  + [Troubleshoot with Target Traces](troubleshooting/troubleshoot-with-target-traces.md)

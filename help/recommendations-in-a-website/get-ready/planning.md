@@ -1,9 +1,7 @@
 ---
 title: Overview of Recommendations Implementation and How to Plan for using Recommendations
 description: Learn how to design a Recommendations Implementation
-seo-description:
 seo-title: Overview of Adobe Target Recommendations Implementation and How to Plan for using Recommendations
-solution: Adobe Target
 ---
 
 # Overview of Recommendations Implementation and How to Plan for using Recommendations

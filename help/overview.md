@@ -1,10 +1,12 @@
 ---
 title: Adobe Target Tutorials Overview
 seo-title: Adobe Target Tutorials Overview
-description: Tutorials and Videos to help you learn Adobe Target
+description: A collection of how-to videos and tutorials to make you a power-user of Adobe Target
 ---
 
 # Overview
+
+A collection of how-to videos and tutorials to make you a power-user of Adobe Target
 
 ## Implementation
 

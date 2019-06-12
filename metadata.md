@@ -1,5 +1,6 @@
 ---
 cloud: marketing-cloud
+product: target
 solution-title: Target
 solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Getting Started
