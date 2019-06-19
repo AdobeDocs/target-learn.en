@@ -21,7 +21,7 @@ The newest version of at.js provides rich feature sets that equip your business 
 * Implement the adobe.target.triggerView() function whenever view changes in your SPA. Various techniques can be employed to do this, such as listening for URL hash changes, listening for custom events fired by your SPA, or embedding the triggerView() code directly into your application. You should choose the option that works best for your specific single page application.
 * The view name is the first parameter of the triggerView() function. Use simple, clear, and unique names to make them easy to select in Target's visual experience composer.
 * You can trigger views in small view changes, as well as in non-SPA contexts such as half-way down an infinite scrolling page.
-* at.js 2.0 and triggerView() can be implemented via a tag management solution, such as Launch, by Adobe
+* at.js 2.0 and triggerView() can be implemented via a tag management solution, such as Adobe Experience Platform Launch
 
 ## at.js 2.0 Limitations
 
