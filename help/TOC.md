@@ -13,7 +13,7 @@ audience: end-user
   + [Implement in Android Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
   + [Implement at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md)
   + [Understanding How at.js 2.0 Works](implementation/understanding-how-atjs-20-works.md)
-  + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://helpx.adobe.com/marketing-cloud-core/kt/using/ecid-opt-in-technical-video-implement.html)
+  + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
 + Activities{#activities}
   + [Understand the Types of Activities](activities/understanding-the-types-of-activities.md)
   + [Use the Artificial Intelligence and Automation Capabilities to Meet the Challenges of Personalization](activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)

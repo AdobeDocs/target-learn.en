@@ -20,4 +20,4 @@ The Adobe Experience Cloud Debugger makes it fast and easy to understand your Ta
 * [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [Add the Debugger Extension video](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/add-the-extension.html)
 * [Troubleshooting Target Help Documentation](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [How to use the Experience Cloud Debugger video](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
+* [How to use the Experience Cloud Debugger video](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
