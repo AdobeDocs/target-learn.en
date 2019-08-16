@@ -18,7 +18,7 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
     <br>
     *Recommend products to your customers at scale with this Premium feature.*
 
-* **[Use the Personalization Insights Reports (Video)](segments/use-the-personalization-insights-reports.md)**
+* **[Use the Personalization Insights Reports (Video)](reports/use-the-personalization-insights-reports.md)**
     <br>
     *Derive audience insights in the Premium reporting feature of Automated Personalization and Auto Target.*
 
