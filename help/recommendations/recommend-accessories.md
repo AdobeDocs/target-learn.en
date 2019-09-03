@@ -5,6 +5,7 @@ Recommending accessories is an easy and scalable way to increase the Average Ord
 In this guide, we will review the implementation and activity configuration steps so you can recommend accessories effectively in your website. We will demonstrate accessory recommendations, using our demo brand [We.Retail](https://aem.enablementadobe.com/content/we-retail/us/en.html), a fake outdoor sports retailer.
 
 <!--show a screenshot of the final result-->
+
 ## Examples
 
 Before we dive in further, you might want to take a moment to consider what types of accessory recommendations might be appropriate for your business.
@@ -36,6 +37,7 @@ This feature gives you the ability to filter criteria results based on compatibl
 -->
 
 <!--need to fix bike image. need to report up multiple categories-->
+
 ## Implementation
 
 ### Specify the Product to Accessory Relationship
@@ -80,12 +82,13 @@ Steps are applicable to all use cases. Any variation based on use case will be d
    1. Click 'Create Criteria'
     ![](assets/recommend-accessories/image010.png)
    1. Set Name, Title, Description, Industry and Page Type as desired
-   1. Set Recommendations Key and Logic: (See matrix to determine settings for your use case). For example, on a Product or Add to Cart Modal page you would key off of the "Current Item" and use "View this/View that" logic. For Order Confirmation and Home Page use cases you would key off of the Last Purchased Item and use "View this/Bought that" logic.
-   <!-- i don't understand the logic selections-->
-    ![](assets/recommend-accessories/image011.png)
-	 
+   1. Set Recommendations Key and Logic: (See matrix to determine settings for your use case). For example, on a Product or Add to Cart Modal page you would key off of the "Current Item" and use "View this/View that" logic. For Order Confirmation and Home Page use cases you would key off of the Last Purchased Item and use "View this/Bought that" logic.<!-- i don't understand the logic selections-->
+
+        ![](assets/recommend-accessories/image011.png)
+
     1. Set an Entity Attribute Matching inclusion rule to filter any product IDs that do not have matching values within the 'entity.compatible' attribute.
-     ![](assets/recommend-accessories/image012.jpg)
+
+         ![](assets/recommend-accessories/image012.jpg)
 
 1. Include this newly created Criteria within your new or existing Recommendations activity.
      ![](assets/recommend-accessories/image013.png)
