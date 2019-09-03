@@ -53,6 +53,7 @@ audience: end-user
   + [Create Criteria](recommendations/create-criteria.md)
   + [Create Custom Designs](recommendations/create-custom-designs.md)
   + [Create Collections and Exclusions](recommendations/create-collections-and-exclusions.md)
+  + [Recommend Accessories](recommendations/recommend-accessories.md)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
   + [Troubleshoot with Target Traces](troubleshooting/troubleshoot-with-target-traces.md)
