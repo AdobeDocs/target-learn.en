@@ -86,6 +86,8 @@ Steps are applicable to all use cases. Any variation based on use case will be d
 
         ![](assets/recommend-accessories/image011.png)
 
+
+
     1. Set an Entity Attribute Matching inclusion rule to filter any product IDs that do not have matching values within the 'entity.compatible' attribute.
 
          ![](assets/recommend-accessories/image012.jpg)
@@ -100,5 +102,4 @@ Steps are applicable to all use cases. Any variation based on use case will be d
 
 * Works well within a Criteria Sequence. Setup the first criteria with specific filters to limit the results  to your preference. Create the second criteria with less filters in order to broaden the results to additional products. Repeat this process at each criteria level, making the results more broad as the sequence progresses.
 <!--could use an example here and link to the documentation-->
-* Custom Criteria may be needed to display accessories for new products or products with limited accessories.
-<!--could use an example here and link to the documentation-->
+* Custom Criteria may be needed to display accessories for new products or products with limited accessories.<!--could use an example here and link to the documentation-->
