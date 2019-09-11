@@ -16,6 +16,7 @@ Experience Targeting is a first step into the world of personalization and often
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Additional Resources
+
 * [Download the Playbook for Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
 * [Experience Targeting documentation](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
 
