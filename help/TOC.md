@@ -48,12 +48,12 @@ audience: end-user
   + [Set up Properties](administration/set-up-properties.md)
 + Recommendations{#recommendations}
   + [Create a Recommendations Activity](recommendations/create-a-recommendations-activity.md)
+  + [Use Recommendations Offers](recommendations/use-recommendations-offers.md)
   + [Understanding Feeds](recommendations/understanding-feeds.md)
   + [Create a Feed](recommendations/create-a-feed.md)
   + [Create Criteria](recommendations/create-criteria.md)
   + [Create Custom Designs](recommendations/create-custom-designs.md)
   + [Create Collections and Exclusions](recommendations/create-collections-and-exclusions.md)
-  + [Recommend Accessories](recommendations/recommend-accessories.md)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
   + [Troubleshoot with Target Traces](troubleshooting/troubleshoot-with-target-traces.md)
