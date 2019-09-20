@@ -14,6 +14,7 @@ activity-type: feature-video
 
 ## Additional Resources
 
+* [Use Recommendations Offers in A/B Test and Experience Targeting Activities](use-recommendations-offers.md)
 * [Understanding Feeds](understanding-feeds.md)
 * [Create a Feed](create-a-feed.md)
 * [Create Criteria](create-criteria.md)
