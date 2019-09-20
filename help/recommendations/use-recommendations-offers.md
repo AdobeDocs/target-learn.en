@@ -1,11 +1,12 @@
 ---
 title: Use Recommendations Offers in AB Test and Experience Targeting Activities
 seo-title: Use Recommendations Offers in AB Test and Experience Targeting Activities in Adobe Target
+description: Recommendations offers can be used with A/B Test and Experience Targeting Activities.
+feature: recommendations
+kt: kt-3451
 audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+doc-type: feature-video
+activity-type: use
 ---
 
 # Use Recommendations Offers in AB Test and Experience Targeting Activities
