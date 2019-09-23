@@ -10,6 +10,10 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 ## What's New
 
+* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
+    <br>
+    *Use product recommendations in A/B Test and Experience Targeting Activities.*
+
 * **[Implement Target's Visual Experience Composer in Android™ Apps (Tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**
     <br>
     *Implement Target's marketer-friendly Visual Experience Composer (VEC) in native Android Apps.*
@@ -17,10 +21,6 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.*
-
-* **[Use the Personalization Insights Reports (Video)](reports/use-the-personalization-insights-reports.md)**
-    <br>
-    *Derive audience insights in the Premium reporting feature of Automated Personalization and Auto Target.*
 
 ## Staff Picks
 
