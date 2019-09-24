@@ -66,7 +66,7 @@ Android Studio's Android Emulator & Logcat feature can be used to validate reque
 * On the Logcat filter bar, select "Verbose" and set the filter keyword to "adbmobile" (note: if the filter menu doesn't show, try setting the console to a floating window: Window > Active Tool Window > Floating Mode)
 * Run the Android Emulator and look for the Target request and response. "Response received" indicates that the server connection and response was successful:
 
-![](assets/logcat_example.jpg)
+    ![Finding the request in Logcat](assets/logcat_example.jpg)
 
 * Remove the "adbmobile" filter and note any connection errors. Most errors are likely caused from incorrect request syntax or configuration. Proxy settings in the Emulator settings can also cause connection errors.  
 
@@ -83,7 +83,7 @@ If an Activity is not yet created, create a new one:
 * Select the Workspace & Property
 * The location drop-down on a selected Experience shows the locations that are registered:
 
-![](assets/target_location_dropdown2.jpg)
+    ![Locations will show in interface dropdowns in the Form Composer](assets/target_location_dropdown2.jpg)
 
 #### Response Details Example
 
@@ -131,11 +131,11 @@ The main key/value pairs to validate and check for accuracy are listed below:
 
 For JSON Offers:  If the request appears to be sending properly, but continues to return default content, check all the parameters in the Target.loadRequest call. If the "mboxParameters" value is empty for a JSON offer request, default content will be returned:
 
-![](assets/error1.jpg)
+![Default content returned in the response](assets/error1.jpg)
 
 To correct this, make sure the at_property is defined and set in the loadRequest. This ensures the offer is being served from the correct Target property.
 
-![](assets/mboxparam1.jpg)
+![Make sure the at_property parameter is defined if using workspaces](assets/mboxparam1.jpg)
 
 The correct Target property is found in the target property is found in the Target interface under Setup > Properties > select the property of the offer.
 

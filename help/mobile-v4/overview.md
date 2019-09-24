@@ -19,8 +19,8 @@ The Adobe Mobile Services SDK version 4 provides Adobe Target methods & function
 This article discusses multiple scenarios using a sample travel app. The app has a search feature that finds available bus routes. The app will be used for demonstration purposes.
 
 * Target locations are prefetched on the home screen, so no Target content appears, but locations are cached in the device behind the scene
-* The search results screen loads a Target location and displays banners based off a JSON offer loaded from the Target server. 
-![](assets/travel_app2.jpg)
+* The search results screen loads a Target location and displays banners based off a JSON offer loaded from the Target server.
+![We.Travel app with Target serving a banner](assets/travel_app2.jpg)
 
 ## Use a Prefetch "Blocking" Request
 
@@ -84,7 +84,7 @@ On the bus results screen, if we wanted to display an offer related to the bus d
 
 This demo uses JSON offers to determine which banners to display. In the Target interface, create JSON offers for each experience:
 
-![](assets/json_offers.jpg)
+![JSON Offers in the Target interface](assets/json_offers.jpg)
 
 #### Code Example
 
@@ -215,7 +215,7 @@ setUpSearch();
 
 2 Target locations are displayed on the screen:
 
-![](assets/2mboxes.jpg)
+![Two locations in the app serving content](assets/2mboxes.jpg)
 
 ## Combining Prefetch & Live Location Requests
 
