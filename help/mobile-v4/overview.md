@@ -20,7 +20,7 @@ This article discusses multiple scenarios using a sample travel app. The app has
 
 * Target locations are prefetched on the home screen, so no Target content appears, but locations are cached in the device behind the scene
 * The search results screen loads a Target location and displays banners based off a JSON offer loaded from the Target server. 
-![](images/travel_app2.jpg)
+![](assets/travel_app2.jpg)
 
 ## Use a Prefetch "Blocking" Request
 
@@ -84,7 +84,7 @@ On the bus results screen, if we wanted to display an offer related to the bus d
 
 This demo uses JSON offers to determine which banners to display. In the Target interface, create JSON offers for each experience:
 
-![](images/json_offers.jpg)
+![](assets/json_offers.jpg)
 
 #### Code Example
 
@@ -215,7 +215,7 @@ setUpSearch();
 
 2 Target locations are displayed on the screen:
 
-![](images/2mboxes.jpg)
+![](assets/2mboxes.jpg)
 
 ## Combining Prefetch & Live Location Requests
 
