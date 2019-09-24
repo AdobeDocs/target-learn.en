@@ -6,7 +6,7 @@ description: The Adobe Target SDK can be validated on your mobile app by debuggi
 
 # Adobe Target Mobile Implementation
 
-This lesson will cover a comprehensive mobile Target implementation, showcasing different Target scenarios and customizations within a Demo app.  Download the We.Travel App [Here](https://github.com/Adobe-Marketing-Cloud/busbooking-mobileapps) 
+This lesson will cover a comprehensive mobile Target implementation, showcasing different Target scenarios and customizations within a Demo app.  Download the We.Travel App [Here](https://github.com/Adobe-Marketing-Cloud/busbooking-mobileapps)
 
 The foundational step of the Adobe Target implementation, the mobile SDK, has been preinstalled within this demo app.  But before proceeding in setting up the Global mbox, let's verify the SDK implementation steps.
 
@@ -19,7 +19,7 @@ The foundational step of the Adobe Target implementation, the mobile SDK, has be
 
 ## Implement Global mbox (PreFetch)
 
-A prefetchContent mbox uses the Android Mobile SDKs to fetch offer content as few times as possible by caching the server responses. Creating a prefetch request with an array of mbox locations can be configured to call the Target server and retrieve content for many mbox locations at once.  All content will be retrieved and cached, and will then be retrievable from the cache by all future calls that contain cached content for the specified mbox names.  Additional mbox names can be added to this array, as appropriate, to support the increased scope and sophistication of the install. 
+A prefetchContent mbox uses the Android Mobile SDKs to fetch offer content as few times as possible by caching the server responses. Creating a prefetch request with an array of mbox locations can be configured to call the Target server and retrieve content for many mbox locations at once.  All content will be retrieved and cached, and will then be retrievable from the cache by all future calls that contain cached content for the specified mbox names.  Additional mbox names can be added to this array, as appropriate, to support the increased scope and sophistication of the install.
 Additional details - [Prefetch offer content in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)
 
 ### prefetchContent() Code Example
@@ -66,7 +66,7 @@ Android Studio's Android Emulator & Logcat feature can be used to validate reque
 * On the Logcat filter bar, select "Verbose" and set the filter keyword to "adbmobile" (note: if the filter menu doesn't show, try setting the console to a floating window: Window > Active Tool Window > Floating Mode)
 * Run the Android Emulator and look for the Target request and response. "Response received" indicates that the server connection and response was successful:
 
-![](images/logcat_example.jpg)  
+![](images/logcat_example.jpg)
 
 * Remove the "adbmobile" filter and note any connection errors. Most errors are likely caused from incorrect request syntax or configuration. Proxy settings in the Emulator settings can also cause connection errors.  
 
@@ -83,11 +83,11 @@ If an Activity is not yet created, create a new one:
 * Select the Workspace & Property
 * The location drop-down on a selected Experience shows the locations that are registered:
 
-![](images/target_location_dropdown2.jpg) 
+![](images/target_location_dropdown2.jpg)
 
 #### Response Details Example
 
-Here are the details of the response from the Logcat console (expanded JSON view for readability): 
+Here are the details of the response from the Logcat console (expanded JSON view for readability):
 
 ```json
 {
@@ -103,7 +103,7 @@ Here are the details of the response from the Logcat console (expanded JSON view
 "prefetchResponses":
 	[{
 	"mbox":"mboxTest3",
-	"parameters":	
+	"parameters":
 		{
 		"a.ltv.amount":"0",
 		"MboxParam18Sep":"1",
@@ -123,7 +123,7 @@ The main key/value pairs to validate and check for accuracy are listed below:
 | client | your Adobe Target clientCode value - unique to your environment  |
 | tntId | primary identifier in Target for an individual user |
 | prefetchResponses | for prefetch requests: this object list locations (mboxes) that are prefetched and cached into device memory and any profile parameters included in the request |
-| at_property | the Target property from which mboxes (locations) are served. This value is found in the Target interface under Setup > Properties > (select the property of the offer) > (code box)
+| at_property | the Target property from which mboxes (locations) are served. This value is found in the Target interface under Setup > Properties > (select the property of the offer) > (code box) |
 | mbox | the location identifier used in Activities in Adobe Target  |
 | content | for prefetch requests:  content delivered to the specified mbox |
 
