@@ -40,9 +40,8 @@ A prefetch blocking request can be set up in an Android Activity by moving the a
 // onCreate() into a new setUp() function:
 
 private void setUp() {
-	setContentView(R.layout.activity_home);
-	
-	// add other logic for app setup
+    setContentView(R.layout.activity_home);
+    // add other logic for app setup
 }
 ```
 

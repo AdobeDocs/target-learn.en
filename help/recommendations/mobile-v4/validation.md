@@ -26,7 +26,7 @@ Additional details - [Prefetch offer content in Android](https://docs.adobe.com/
 
 The Target.prefetchContent() Java method was used to prefetch & cache an mbox. Here is the syntax of the request:
 
-```
+```java
 public void targetPrefetchContent() {
     List<TargetPrefetchObject> prefetchList = new ArrayList<>();
     Map<String, Object> profileParameters;
@@ -94,25 +94,25 @@ Here are the details of the response from the Logcat console (expanded JSON view
 "requestId":"4988228c-8430-4e33-b3ca-37ce82e3a90c",
 "client":"ecserverside",
 "id":
-	{
-	"tntId":"111568817282645-907045.28_29",
-	"marketingCloudVisitorId":"34552764763276759957814173181896264559"
-	},
+    {
+    "tntId":"111568817282645-907045.28_29",
+    "marketingCloudVisitorId":"34552764763276759957814173181896264559"
+    },
 "edgeHost":"mboxedge28.tt.omtrdc.net",
 "contentAsJson":false,
 "prefetchResponses":
-	[{
-	"mbox":"mboxTest3",
-	"parameters":
-		{
-		"a.ltv.amount":"0",
-		"MboxParam18Sep":"1",
-		"at_property":"7962ac68-17db-1579-408f-9556feccb477"
-		},
-	"content":"{\"id\":\"1\",\"bannersToDisplay\":\"blue_green\"}",
-	"eventTokens":["iuniIAuYUHON1jhC+7UzfmqipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q=="],
-	"clientSideAnalyticsLoggingPayload":{"pe":"tnt","tnta":"308228:0:0|2"}
-	}]
+    [{
+    "mbox":"mboxTest3",
+    "parameters":
+        {
+        "a.ltv.amount":"0",
+        "MboxParam18Sep":"1",
+        "at_property":"7962ac68-17db-1579-408f-9556feccb477"
+        },
+    "content":"{\"id\":\"1\",\"bannersToDisplay\":\"blue_green\"}",
+    "eventTokens":["iuniIAuYUHON1jhC+7UzfmqipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q=="],
+    "clientSideAnalyticsLoggingPayload":{"pe":"tnt","tnta":"308228:0:0|2"}
+    }]
 }
 ```
 
