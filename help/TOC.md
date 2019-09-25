@@ -12,7 +12,6 @@ audience: end-user
   + [Implement in iOS Swift Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
   + [Implement in iOS Objective-C Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
   + [Implement in Android Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
-  + [Implement in Android Apps Part 2](mobile-v4/overview.md)
   + [Implement at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md)
   + [Understanding How at.js 2.0 Works](implementation/understanding-how-atjs-20-works.md)
   + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
