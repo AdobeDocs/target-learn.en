@@ -19,5 +19,3 @@ user-guide-url: /content/help/en/target-learn/recommendations-in-a-website/overv
   + [Add to Cart Modals](use-cases/add-to-cart-modals.md)
   + [Cart Page](use-cases/cart-page.md)
   + [Order Confirmation Page](use-cases/order-confirmation-page.md)
-+ Features
-  + Profile attribute matching
