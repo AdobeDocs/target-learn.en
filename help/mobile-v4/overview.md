@@ -2,13 +2,19 @@
 title: Adobe Target location request scenarios
 seo-title: Adobe Target location request scenarios
 description: Adobe Target mobile SDK methods can be used to display Target locations in several scenarios.
+seo-description:
+feature: mobile
+kt: kt-3040
+audience: developer
+doc-type: tutorial
+activity-type: implement
 ---
 
 # Adobe Target Location Request Scenarios
 
-The Adobe Mobile Services SDK version 4 provides Adobe Target methods & functionality that enable you customize your mobile app implementation and tailor it for different experiences.
+The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you customize your mobile app implementation and tailor it for different experiences.
 
-* **Request using a Prefetch "Blocking"**
+* **Use a Prefetch "Blocking" Location Call**
 * **Request using a Live Location**
 * **Request Multiple Target Locations in one Call**
 * **Requests combining Prefetch & Live Locations**
@@ -22,7 +28,7 @@ This article discusses multiple scenarios using a sample travel app. The app has
 * The search results screen loads a Target location and displays banners based off a JSON offer loaded from the Target server.
 ![We.Travel app with Target serving a banner](assets/travel_app2.jpg)
 
-## Use a Prefetch "Blocking" Request
+## Use a Prefetch "Blocking" Location Call
 
 Configuring Target methods as prefetch "blocking" requests provides two main benefits:
 
@@ -40,12 +46,13 @@ A prefetch blocking request can be set up in an Android Activity by moving the a
 // onCreate() into a new setUp() function:
 
 private void setUp() {
-    setContentView(R.layout.activity_home);
-    // add other logic for app setup
+  setContentView(R.layout.activity_home);
+  
+  // add other logic for app setup
 }
 ```
 
-#### Code Example:  Call setUp() AFTER Target callback  
+### Code Example:  Call setUp() AFTER Target callback  
 
 ```java
 // Add a call to setUp() at the end of the Target location or prefetch call.
@@ -56,10 +63,10 @@ public void targetPrefetchContent() {
     Map<String, Object> profileParameters;
     profileParameters = new HashMap<String, Object>();
     profileParameters.put("ProfileParam18Sep", "1");
-    Map<String, Object> mboxParameters1 = new HashMap<String, Object>();
-    mboxParameters1.put("MboxParam18Sep", "1");
-    mboxParameters1.put("at_property", "7962ac68-17db-1579-408f-9556feccb477");
-    prefetchList.add(Target.createTargetPrefetchObject("mboxTest3", mboxParameters1));
+    Map<String, Object> travelParameters1 = new HashMap<String, Object>();
+    travelParameters1.put("travelParam18Sep", "1");
+    travelParameters1.put("at_property", "7962ac68-17db-1579-408f-9556feccb477");
+    prefetchList.add(Target.createTargetPrefetchObject("travelTest3", travelParameters1));
     Target.TargetCallback<Boolean> prefetchStatusCallback = new Target.TargetCallback<Boolean>() {
         @Override
         public void call(final Boolean status) {
@@ -74,11 +81,12 @@ public void targetPrefetchContent() {
         }};
     Target.prefetchContent(prefetchList, profileParameters, prefetchStatusCallback);
 }
+
 ```
 
 ## Use a Live Location Request
 
-On the bus results screen, if we wanted to display an offer related to the bus destination, a live location request should be called for that offer instead of a prefetched location. This is because the offer needs to be changed depending on where the user wants to travel to. Prefetched locations could be used with other elements on the screen not related to the destination (like general discounts or promotions). 
+On the bus results screen, if we wanted to display an offer related to the bus destination, a live location request should be called for that offer instead of a prefetched location. This is because the offer needs to be changed depending on where the user wants to travel to. Prefetched locations could be used with other elements on the screen not related to the destination (like general discounts or promotions).
 
 ### JSON Offers
 
@@ -86,17 +94,17 @@ This demo uses JSON offers to determine which banners to display. In the Target 
 
 ![JSON Offers in the Target interface](assets/json_offers.jpg)
 
-#### Code Example
+### Code Example: Live Location Request
 
 A live location request is called with the **Target.loadRequest()** method. This request below calls the JSON offer, retrieves an ID element from the JSON object, and uses that ID to determine the right assets to display.
 
 ```java
-// SINGLE MBOX SCENARIO - JSON OFFER
+// SINGLE Location SCENARIO - JSON OFFER
 public void targetLoadRequest() {
     Map<String, Object> mboxParam;
     mboxParam = new HashMap<String, Object>();
     mboxParam.put("at_property", "7962ac68-17db-1579-408f-9556feccb477");
-    Target.loadRequest("mboxTest3", "----default_mbox----", null, null, mboxParam, new Target.TargetCallback<String>() {
+    Target.loadRequest("travelTest3", "----default_mbox----", null, null, mboxParam, new Target.TargetCallback<String>() {
         @Override
         public void call(final String s) {
             SearchBusActivity.this.runOnUiThread(new Runnable() {
@@ -141,7 +149,7 @@ Multiple mboxes are built & displayed as follows:
 * Add each TargetRequestObject to an Array
 * Add the Array to the **Target.loadRequests()** method and call the locations
 
-### Code Example
+### Code Example: Multiple Locations
 
 Here is an example from the Bus Results activity. The code is called from the activity's onResume() method. Note that the parameters for the createTargetRequestObject() method are in a different order than the targetLoadRequest() method.
 
@@ -209,18 +217,11 @@ Target.loadRequests(locationRequests, null);
 setUpSearch();
 
 }
+
 ```
 
-#### Result
+### Result
 
 2 Target locations are displayed on the screen:
 
 ![Two locations in the app serving content](assets/2mboxes.jpg)
-
-## Combining Prefetch & Live Location Requests
-
-The scenario above (Request Multiple Target Locations in one Call) also demonstrates how to request a prefetched location ("mboxTest3<!---->" was prefetched on the home screen) and a live location request from the server, both in a single call. This can be done with the **Target.loadRequests()** method.
-
-## Clearing Prefetched Locations from Cache
-
-Suppose a special add-on offer was prefetched and cached on the booking > seating screen. A user may revisit that screen later. However, if the user decides to change the bus line during the app session, the prefetched offer should be cleared so a new offer for the new bus line can display. All prefetched locations are cleared with the **Target.clearPrefetchCache()** method.
