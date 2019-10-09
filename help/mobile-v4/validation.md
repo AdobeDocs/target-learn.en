@@ -14,59 +14,44 @@ activity-type: implement
 
 ## Overview
 
-Implementing Target Mobile on your Android™ application needn't be a complicated or lengthy effort. This walkthrough will demonstrate the steps and thought processes behind this powerful implementation.
+## Learning Objectives
 
-The walkthrough covers a comprehensive mobile Target implementation, showcasing different Target scenarios and customizations. The step-by-step exercise and foundational information will help you implement Target Mobile and understand its value.  A demo Android app is provided for you to complete the walkthrough, so you can learn the underlying techniques in a safe environment- Download the [We.Travel App here](https://github.com/Adobe-Marketing-Cloud/busbooking-mobileapps).  After successful completion, you should be ready to work through your own use cases and start implementing within your Android app!
+At the end of this lesson, you will be able to:
 
-After completing this walkthrough you will be able to:
+* Download and Open the We.Travel sample app in Android Studio
+* Update the Target Client Code to use your own Target account
+* Add a request to the sample app
+* Validate the request using Logcat
 
-* Validate the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) setup
-* Setup Target calls in the following Scenarios:
-  * Global Pre-Fetch of all Targeted content
-  * Blocking call (Runs before App display)
-  * Non-Blocking call (Runs in the background)
-  * Real-Time (non-caching)
-  * Cache Busting Re-Fetch
-* Work with Run-Time & Mobile specific Parameters
-* Feature Flagging (Using Target to roll out new features)
-* Personalizing Layouts & Offers
-  * Including Geolocation
-* Target Recommendations
+## Download the We.Travel App
 
-## Prerequisites
-
-With this walkthrough, it is assumed that you have an Adobe Id and the required Target permissions to complete the exercises. If not, you may need to reach out to your Experience Cloud Administrator to request access.
-
-* For Target, you must have approver-level access to the Adobe Target interface
-* Know your Adobe Client ID to direct Target calls to your own account
-
-### Tools
-
-* Download and Install [Android Studio](https://developer.android.com/studio/install)
-* Download the [We.Travel App](https://github.com/Adobe-Marketing-Cloud/busbooking-mobileapps)
-
-It is also assumed that you are familiar with Android development in Java.  You will get more out of this walkthrough if you can comfortably read and understand code.
-
-The foundational step of the Adobe Target implementation, the mobile SDK, has been preinstalled within this demo app.  But before proceeding in setting up the Global mbox, let's verify the SDK implementation steps.
+* Download the [We.Travel App](https://github.com/adobe-target/sample-app-android/tree/SDKv4)
 
 ## Verify the SDK Implementation
 
-The foundational step of the Adobe Target implementation, the Adobe Mobile Services SDK, has been preinstalled within the We.Travel app.  But before proceeding with setting up our initial Target call, let's verify the SDK implementation steps.
+The Adobe Mobile Services SDK, has been preinstalled within the We.Travel app [according to the documentation](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html).  Before proceeding with setting up our initial Target call, let's verify the SDK implementation steps.
 
-* Download and add the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) to your project
-* Add the ADBMobileConfig.json file to the assets folder in your project
-* Verify that that ADBMobileConfig.json file has the target.clientCode value set to the correct value for your implementation
-* Verify that the correct [Target Classes & Methods](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html) are implemented with the correct Target location names (previously known as mboxes)
+* Open Android Studio
+* Select "Open an existing Android Studio Project"
+  ![](assets/mobile-launch-install-openProject.png)
+* Open the build.gradle file at the root of the We.Travel Android folder <!--where to validate the SDK Install. Is it pre-installed at https://github.com/adobe-target/sample-app-android/tree/SDKv4?-->
+* Open the ADBMobileConfig.json file to the assets folder in your project
+* Update the ADBMobileConfig.json file to you use your own the target.clientCode value set to the correct value for your implementation
+  ![](assets/insert_screenshot.png)
+* Verify that the correct [Target Classes & Methods](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html) are implemented with the correct Target location names (previously known as mboxes)<!--how do they do this if no requests have been added yet?-->
 
 ## Implement a Global Pre-Fetch Location
 
+<!--Why is this here and not in the lesson to add requests?-->
+<!--Where does one add this to the sample app? Any general recommendations about where to put this-->
 A prefetchContent location uses the Android Mobile SDKs to fetch offer content as few times as possible by caching the server responses. Creating a prefetch request with an array of locations can be configured to call the Target server and retrieve content for many locations at once.  All content will be retrieved and cached, and will then be retrievable from the cache by all future calls for this content for the specified location names.  Additional location names can be added to this array, as appropriate, to support the increased scope and sophistication of the install.
 
 Additional details - [Prefetch offer content in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)
 
 ### prefetchContent() Code
 
-Here is the syntax of the Target.prefetchContent() Java request to be installed:
+Here is the syntax of the Target.prefetchContent() Java request to be installed: <!--where should this be added to the sample app? need a screenshot showing the code in context-->
+<!--shouldn't this start really simple without any querystring parameters? why is the at_property parameter included? because it is needed for the account Nimit gave them access to? Pare this down-->
 
 ```java
 public void targetPrefetchContent() {
