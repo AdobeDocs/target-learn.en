@@ -12,9 +12,9 @@ activity-type: implement
 
 # Overview
 
-_Implement and Use Adobe Target in Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for mobile app developers who are already using Adobe Mobile Services SDK v4 and want to add Adobe Target to their Android apps.
+_Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 
-A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques in a safe environment. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
+A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
 
 After completing this tutorial you will be able to:
 
@@ -37,15 +37,16 @@ In these lessons, it is assumed that you:
 * Have an Adobe Id and approver-level access to the Adobe Target interface
 * Know your Adobe Target Client Code to direct Target calls to your own account. The Client Code is shown in the Adobe Target interface on the   Setup > Implementation > Edit at.js settings screen
 * Know your Adobe Experience Cloud Org Id
+* Have access to and are familiar with the [Mobile Services user interface](https://mobilemarketing.adobe.com)
 * Know your Analytics tracking server and have a report suite id you can use for this tutorial
 * POI references?
 * Have an IDE for Android mobile app development. This tutorial features [Android Studio](https://developer.android.com/studio/install) in various steps and screenshots
 
-If you do not have the required need to reach out to your Experience Cloud Administrator to request access.
+If you do not have the required access to the Experience Cloud Solutions, reach out to your Experience Cloud Administrator.
 
 <!-- Assume access to the Mobile Services UI? -->
 
-Also, it is assumed that you are familiar with the Mobile Services UI Android development in Java. You do not need to be a master of Java to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
+Also, it is assumed that you are familiar with Android development in Java. You do not need to be a master of Java to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
 
 ## About the Lessons
 
@@ -55,4 +56,4 @@ In these lessons, you will implement the Adobe Target into a demo app called "We
 
 Let's get started!
 
-[Next "Download and Validate the Sample App" >](validation.md)
+[Next "Download, Validate, and Update the Sample App" >](download-validate-and-update-the-sample-app.md)

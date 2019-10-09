@@ -7,8 +7,8 @@ audience: end-user
 # Adobe Target Mobile v4 Tutorial {#mobile-sdk-v4}
 
 + [Overview](overview.md)
-+ [Validation](validation.md)
-+ [Requests](requests.md)
++ [Validation](download-validate-and-update-the-sample-app.md)
++ [Requests](add-requests.md)
 
 <!--
 4. Feature Flagging
