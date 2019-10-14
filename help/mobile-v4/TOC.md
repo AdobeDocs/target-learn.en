@@ -7,8 +7,13 @@ audience: end-user
 # Adobe Target Mobile v4 Tutorial {#mobile-sdk-v4}
 
 + [Overview](overview.md)
-+ [Validation](download-validate-and-update-the-sample-app.md)
-+ [Requests](add-requests.md)
++ [Download and Validate the Sample App](download-validate-and-update-the-sample-app.md)
++ [Add Requests](add-requests.md)
++ [Add Parameters](add-parameters.md)
++ [Personalize Layouts](personalize-layouts.md)
++ [Personalize with Geolocation](personalize-with-geolocation.md)
++ [Feature Flagging](feature-flagging.md)
++ [Recommendations](recommendations.md)
 
 <!--
 4. Feature Flagging

@@ -33,11 +33,11 @@ The Adobe Mobile Services SDK, has been preinstalled within the We.Travel app [a
 
 * Open Android Studio
 * Select "Open an existing Android Studio Project"
-  ![](assets/mobile-launch-install-openProject.png)
+  ![NEEDS ALT TEXT](assets/mobile-launch-install-openProject.png)
 * Open the build.gradle file at the root of the We.Travel Android folder <!--where to validate the SDK Install. Is it pre-installed at https://github.com/adobe-target/sample-app-android/tree/SDKv4?-->
 * Open the ADBMobileConfig.json file in the assets folder of the project
 * Update the ADBMobileConfig.json file to you use your own the target.clientCode and otehr account values set to the correct value for your implementation
-  ![](assets/insert_screenshot.png)
+  ![NEEDS ALT TEXT](assets/insert_screenshot.png)
 * Verify that the correct [Target Classes & Methods](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html) are implemented with the correct Target location names (previously known as mboxes)<!--how do they do this if no requests have been added yet?-->
 
 [Next "Add Target Requests" >](add-requests.md)
