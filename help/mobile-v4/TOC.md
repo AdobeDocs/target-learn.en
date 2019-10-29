@@ -7,7 +7,7 @@ audience: end-user
 # Adobe Target Mobile v4 Tutorial {#mobile-sdk-v4}
 
 + [Overview](overview.md)
-+ [Download and Validate the Sample App](download-validate-and-update-the-sample-app.md)
++ [Download and Update the Sample App](download-and-update-the-sample-app.md)
 + [Add Requests](add-requests.md)
 + [Add Parameters](add-parameters.md)
 + [Personalize Layouts](personalize-layouts.md)
