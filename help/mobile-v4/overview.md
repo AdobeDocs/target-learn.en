@@ -1,8 +1,6 @@
 ---
 title: Adobe Target location request scenarios
-seo-title: Adobe Target location request scenarios
 description: Adobe Target mobile SDK methods can be used to display Target locations in several scenarios.
-seo-description:
 feature: mobile
 kt: kt-3040
 audience: developer
