@@ -41,7 +41,7 @@ o How do I use Target to roll out of new features
 7. Sample Application Booking
 * Home Screen:
     * Control an optional feature via Feature Flagging
-    * Show dynamic list of cards via Target Recs
+    * Show dynamic list of cards via Target Recommendations
 
 8. Recommendations
 * Offers Page
