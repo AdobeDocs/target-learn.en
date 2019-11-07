@@ -64,4 +64,4 @@ After walking through implementation within the We.Travel app you will use a sim
 
 Let's get started!
 
-[Next "Download and Update the Sample App" >](download-and-update-the-sample-app.md)
+[NEXT :  "Download and Update the Sample App" >](download-and-update-the-sample-app.md)

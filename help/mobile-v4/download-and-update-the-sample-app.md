@@ -52,4 +52,4 @@ The remaining lessons will use Adobe Target Java classes and functions for perso
 
 We will validate the configuration by validating Target requests in the next module.
 
-### [NEXT : "Add Target Requests" >](add-requests.md)
+[NEXT : "Add Target Requests" >](add-requests.md)

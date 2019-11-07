@@ -183,4 +183,4 @@ For this example, we'll just clear prefetched Locations for the session when a b
 
 Congratulations! Your app now has the framework for personalization. In the next lesson, you'll be adding parameters to these Locations. This will enhance the Locations and provide more data-driven insights to optimize the app.
 
-### [NEXT : "Add Parameters" >](add-parameters.md)
+[NEXT : "Add Parameters" >](add-parameters.md)
