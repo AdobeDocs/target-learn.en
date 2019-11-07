@@ -12,13 +12,13 @@ activity-type: implement
 
 # Download and Update the We.Travel Sample App
 
-The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v4. You just need to update it so it points to your own Experience Cloud Org and solution accounts.
+The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v4. You just need to update it so it references to your own Experience Cloud Org and Adobe applications.
 
 ## Learning Objectives
 
 At the end of this lesson, you will be able to:
 
-* Download and Open the We.Travel sample app in Android Studio
+* Download and open the We.Travel sample app in Android Studio
 * Verify & Update the Mobile Services SDK Settings for Target
 
 ## Download the We.Travel App

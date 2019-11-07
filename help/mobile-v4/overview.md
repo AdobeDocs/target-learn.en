@@ -14,7 +14,7 @@ activity-type: implement
 
 _Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 
-A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
+A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques. After completing this tutorial, you should be ready to implement Target in your own Android app!
 
 After completing this tutorial you will be able to:
 
@@ -56,4 +56,4 @@ In these lessons, you will implement the Adobe Target into a demo app called "We
 
 Let's get started!
 
-[Next "Download, Validate, and Update the Sample App" >](download-validate-and-update-the-sample-app.md)
+[Next "Download and Update the Sample App" >](download-and-update-the-sample-app.md)

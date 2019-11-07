@@ -249,7 +249,7 @@ For this example, we'll just clear prefetched offers for the session when a book
 
 Congratulations! Your app now has the framework for personalization. In the next lesson, you'll be adding parameters to these offers. This will enhance the offers and provide more data-driven insights.
 
-###[NEXT "Add Parameters" >](add-parameters.md)
+[NEXT "Add Parameters" >](add-parameters.md)
 
 
 
