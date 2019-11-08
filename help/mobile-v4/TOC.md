@@ -4,7 +4,7 @@ user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.htm
 audience: end-user
 ---
 
-# Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android {#mobile-sdk-v4}
+# Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android {#mobile-sdk-v4-android}
 
 + [Overview](overview.md)
 + [Download and Update the Sample App](download-and-update-the-sample-app.md)
