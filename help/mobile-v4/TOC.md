@@ -1,10 +1,10 @@
 ---
-user-guide-title: Adobe Target Mobile v4 Tutorial
-user-guide-url: /content/help/en/target-learn/mobile-sdk-v4/overview.html
+user-guide-title: Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android
+user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.html
 audience: end-user
 ---
 
-# Adobe Target Mobile v4 Tutorial {#mobile-sdk-v4}
+# Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android {#mobile-sdk-v4}
 
 + [Overview](overview.md)
 + [Download and Update the Sample App](download-and-update-the-sample-app.md)
