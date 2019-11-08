@@ -52,9 +52,9 @@ In these lessons, you will implement the Adobe Target into a demo app called "We
 
 ![We.Travel app](assets/travel_app.jpg)
 
-After walking through implementation within the We.Travel app you will use a simple 5 Step process to guide your own app implementation requirement process.
+After walking through implementation within the We.Travel app you will use a simple five-step process to guide your own app implementation requirement process.
 
-![Prepare your App & Configure the SDK settings, Implement Locations within your app, Validate Implemented Locations, Configure a Mobile Activity in Adobe Target, Validate the new Activity Experience within the App](assets/5Steps.jpg)
+![Prepare your App & Configure the SDK settings, Implement Requests within your app, Validate Implemented Requests, Configure a Mobile Activity in Adobe Target, Validate the new Activity Experience within the App](assets/5Steps.jpg)
 
 Let's get started!
 
