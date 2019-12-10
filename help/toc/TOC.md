@@ -2,6 +2,7 @@
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
+solution: Adobe Target Tutorials
 ---
 
 # Adobe Target Tutorials {#tutorials}
