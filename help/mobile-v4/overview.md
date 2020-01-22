@@ -42,15 +42,13 @@ In these lessons, it is assumed that you:
 
 If you do not have the required access to the Experience Cloud Solutions, reach out to your Experience Cloud Administrator.
 
-<!-- Assume access to the Mobile Services UI? -->
-
 Also, it is assumed that you are familiar with Android development in Java. You do not need to be a master of Java to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
 
 ## About the Lessons
 
-In these lessons, you will implement the Adobe Target into a demo app called "We.Travel" using your own Adobe Target account. The App has capabilities that will allow you to implement a variety of Adobe Target scenarios before you do so in your own app.
+In these lessons, you will implement Adobe Target into a demo app called "We.Travel" using your own Adobe Target account. The end result will display "engage" offers to new users that guide through the booking process. There is also a "contextual" offer on the final confirmation screen that recommends events or places based on the destination selected. The final personalization experiences  will look like this:
 
-![We.Travel app](assets/travel_app.jpg)
+![We.Travel app final](assets/overview_final_result.jpg)
 
 After walking through implementation within the We.Travel app you will use a simple five-step process to guide your own app implementation requirement process.
 
@@ -58,4 +56,4 @@ After walking through implementation within the We.Travel app you will use a sim
 
 Let's get started!
 
-[NEXT :  "Download and Update the Sample App" >](download-and-update-the-sample-app.md)
+**[NEXT : "Download and Update the Sample App" >](download-and-update-the-sample-app.md)**

@@ -1,6 +1,8 @@
 ---
-title: Adobe Target location request scenarios
-description: Adobe Target mobile SDK methods can be used to display Target locations in several scenarios.
+title: Add Adobe Target Requests
+seo-title: Add Adobe Target Requests
+description: The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you to personalize your app with different experiences for different users.   
+seo-description: The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you to personalize your app with different experiences for different users.
 feature: mobile
 kt: kt-3040
 audience: developer
@@ -23,12 +25,12 @@ Be sure to [download and update the We.Travel app](download-and-update-the-sampl
 At the end of this lesson, you will be able to:
 
 * **Cache Multiple Target Locations Using a Batch Prefetch Request**
-* **Load and Display Prefetched Target Locations**
-* **Load and Display Target Locations in Real-Time (non-prefetched)**
+* **Load Prefetched Target Locations**
+* **Load a Target Location in Real-Time (non-prefetched)**
 * **Clear Prefetched Locations from Cache**
-* **Validate Prefetched Locations & Live Locations in Android Studio**
+* **Validate Prefetched Locations & a Live Location in Android Studio**
 
-### Terminology
+## Terminology
 
 Below is some of key Target terminology that we will be using in this tutorial.
 
@@ -108,8 +110,6 @@ If you are not seeing a successful response, verify settings in the ADBMobileCon
 
 Two locations are now cached to the device. The location names are also created on the Target server which will make them visible in the Target interface.
 
-Now we'll load the two locations to act as placeholders for our future offers. The first location will load on the home screen and the second will load on the Search Results screen. No offer will be visible at this stage since we haven't created offer content yet (we'll create offer content in a later lesson).
-
 ## Add a Real-time Request
 
 Our next scenario is to load a live location placeholder on the Thank You screen. The request that we add here will serve an offer that depends on the user's trip destination, so this will need to be a real-time location. Target needs to determine the right offer at the time of the booking. A prefetched cached offer won't work here, since we wouldn't know the user's destination before they had selected it.
@@ -162,7 +162,7 @@ On the final Thank You screen, watch Logcat for the response. The response shoul
 
 ![Add a Real-Time location on the Thank You Screen](assets/thankyou_validation.jpg)
 
-## Clear Prefetched Locations from Cache
+## Clearing Prefetched Locations from Cache
 
 There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen & search results screen to guide their booking. It would make more sense to clear the locations from cache and prefetch new locations for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen & search results screen to prefetch new locations if a booking has taken place during the session.
 
@@ -172,4 +172,4 @@ For this example, we'll just clear prefetched locations for the session when a b
 
 Congratulations! Your app now has the framework for personalization. In the next lesson, you'll be adding parameters to these locations. This will enhance the locations and provide more data-driven insights to optimize the app.
 
-[NEXT : "Add Parameters" >](add-parameters.md)
+**[NEXT : "Add Parameters" >](add-parameters.md)**
