@@ -1,10 +1,8 @@
 ---
 title: Add Adobe Target Requests
-seo-title: Add Adobe Target Requests
 description: The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you to personalize your app with different experiences for different users.   
-seo-description: The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you to personalize your app with different experiences for different users.
 feature: mobile
-kt: kt-3040
+kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement
@@ -14,7 +12,7 @@ activity-type: implement
 
 The Adobe Mobile Services SDK (v4) provides Adobe Target methods & functionality that enable you to personalize your app with different experiences for different users.
 
-In this lesson, you will prepare the We.Travel app for personalization by implementing multiple Target requests.
+In this lesson, you will prepare the We.Travel app for personalization by implementing Target requests.
 
 ## Prerequisites
 
@@ -26,13 +24,13 @@ At the end of this lesson, you will be able to:
 
 * **Cache Multiple Target Locations Using a Batch Prefetch Request**
 * **Load Prefetched Target Locations**
-* **Load a Target Location in Real-Time (non-prefetched)**
+* **Load a Target Location in Real-time (non-prefetched)**
 * **Clear Prefetched Locations from Cache**
-* **Validate Prefetched Locations & a Live Location in Android Studio**
+* **Validate Prefetched and Live requests**
 
 ## Terminology
 
-Below is some of key Target terminology that we will be using in this tutorial.
+Below is some of key Target terminology that we will be using in the remainder of this tutorial.
 
 * **Request:**  a network request to the Adobe Target servers
 * **Location:**  a placeholder for Target offers
@@ -49,7 +47,9 @@ Our first scenario on We.Travel is a batch prefetch request with two Target loca
 
 A prefetch request fetches Target locations as minimally as possible by caching Adobe Target server responses. A batch prefetch request retrieves and caches multiple locations. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers for later use as the user navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
 
-We'll start with the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller. We'll add the two code blocks shown in red:
+We'll start with the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller. 
+
+We'll add the two code blocks shown in red:
 
 ![HomeActivity Prefetch Code](assets/homeactivity.jpg)
 
@@ -84,31 +84,36 @@ public void targetPrefetchContent() {
 }
 ```
 
+Be sure to import the Target classes at the top of the HomeActivity controller  as shown in red below:
+
+![Import the Target Classes](assets/import.jpg)
+
+
 ### Batch Prefetch Request Code Explanation
 
 | Code | Description |
 |--- |--- |
 | Config.collectLifecycleData(this) | Enables collection of [mobile lifecycle metrics](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). We will use lifecycle metrics in the next lesson. |
-| targetPrefetchContent() | Retrieves and caches two Target locations. The first time a request is sent, the Target Server will create a location name which we will use later in the Target interface. |
-| Constant.wetravel\_engage\_home | Prefetched Target location which will later be loaded & display its offer content on the Home Screen |
-| Constant.wetravel\_engage\_search | Prefetched Target location which will later be loaded & display its offer content on the Search Results Screen. Since this is a second location in the prefetch, this prefetch request is called a "prefetch batch request". |
+| targetPrefetchContent() | Retrieves and caches two Target locations. |
+| Constant.wetravel_engage_home | Prefetched Target location which will later be loaded & display its offer content on the Home Screen |
+| Constant.wetravel_engage_search | Prefetched Target location which will later be loaded & display its offer content on the Search Results Screen. Since this is a second location in the prefetch, this prefetch request is called a "prefetch batch request". |
 | setUp() | Renders the app's home screen after the Target offers are prefetched |
 
 ### About Asynchronous vs. Synchronous
 
-In this scenario, the prefetch request runs synchronously as a blocking call, just before the app's home screen renders. Note how setUp() is called after the prefetch request. This can be beneficial in many scenarios because it ensures that Target offers are available before the app's screen renders. To allow the requests load asynchronously (in the background), just call setUp() within the onCreate() function instead.
+With the code we have just implemented, the prefetch request is made as a synchronous, blocking call, just before the home screen renders. (Note how setUp() is called after the prefetch request). This can be beneficial in scenarios where you want to personalize content when the app first opens because it ensures that personalized content from the Target servers has returned (or timed out) before the first screen renders. To allow the requests load asynchronously (in the background), just call setUp() within the onCreate() function instead.
 
 ### Validate the Batch Prefetch Request
 
 Open the Android Emulator in Android Studio. The following examples use the Pixel 2 on Android Q (version 9+, API level 29). The prefetch response should read "prefetch response received":
 
-When the Home screen renders, the prefetch request should be loaded. With Logcat, filter for "Target" to see the request & response:
+When the Home screen renders, the prefetch request should be loaded. With Logcat, filter for "Target" to see the request and response:
 
 ![Validate the requests on the Home Screen](assets/prefetch_validation.jpg)
 
 If you are not seeing a successful response, verify settings in the ADBMobileConfig.json file and code syntax in the HomeActivity file.
 
-Two locations are now cached to the device. The location names are also created on the Target server which will make them visible in the Target interface.
+Two locations are now cached to the device. The location names will shortly lazy-load into the Target interface, where they can be selected in various drop-down menus.
 
 ## Add a Real-time Request
 
@@ -151,20 +156,20 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 | Code | Description |
 |--- |--- |
-| targetLoadRequest() | This function fires Target.loadRequest() which loads & displays the wetravel\_context\_dest location |
-| Constant.wetravel\_context\_dest | This is the location that will display offers to the user (we'll configure the offer content in a later lesson) |
+| targetLoadRequest() | This function fires Target.loadRequest() which loads and displays the wetravel_context_dest location |
+| Constant.wetravel_context_dest | This is the location that will display offers to the user (we'll configure the offer content in a later lesson) |
 
 ### Validate the Real-time Request
 
 Open the Android Emulator and go through all the steps to book a trip: Home > Bus Search Results > Seat Selection, Payment Options (any payment option with blank data will work).
 
-On the final Thank You screen, watch Logcat for the response. The response should read "Default content was returned for "wetravel\_context\_dest":
+On the final Thank You screen, watch Logcat for the response. The response should read "Default content was returned for "wetravel_context_dest":
 
-![Add a Real-Time location on the Thank You Screen](assets/thankyou_validation.jpg)
+![Add a Real-time location on the Thank You Screen](assets/thankyou_validation.jpg)
 
 ## Clearing Prefetched Locations from Cache
 
-There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen & search results screen to guide their booking. It would make more sense to clear the locations from cache and prefetch new locations for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen & search results screen to prefetch new locations if a booking has taken place during the session.
+There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen and search results screen to guide their booking. It would make more sense to clear the locations from cache and prefetch new locations for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen and search results screen to prefetch new locations if a booking has taken place during the session.
 
 For this example, we'll just clear prefetched locations for the session when a booking takes place. This is done by calling the Target.clearPrefetchCache() function. Set the function inside the targetLoadRequest() function as shown below:
 

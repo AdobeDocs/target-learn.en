@@ -4,7 +4,7 @@ seo-title: Feature Flagging
 description: Adobe Target can be used to experiment with UX features like color, copy, buttons, text & images and provide those features to specific audiences.
 seo-description: Adobe Target can be used to experiment with UX features like color, copy, buttons, text & images and provide those features to specific audiences.
 feature: mobile
-kt: kt-3040
+kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement

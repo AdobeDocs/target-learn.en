@@ -1,10 +1,9 @@
 ---
 title: Add Parameters to the Requests
-seo-title: Add Parameters to the Requests
-description: In this lesson we will validate Adobe lifecycle metrics and add custom parameters to the prefetch request. The lifecycle metrics and custom parameters will be used for creating audiences that determine new and returning users. We will also enhance the third location request (found on the thank you screen) with parameters that will be used to determine the user's trip origin & destination so we can later serve an offer based on those parameters.
-seo-description: In this lesson we will validate Adobe lifecycle metrics and add custom parameters to the prefetch request. The lifecycle metrics and custom parameters will be used for creating audiences that determine new and returning users. We will also enhance the third location request (found on the thank you screen) with parameters that will be used to determine the user's trip origin & destination so we can later serve an offer based on those parameters.
+description: In this lesson we will validate Adobe lifecycle metrics and add custom parameters to the prefetch request. The lifecycle metrics and custom parameters will be used for creating audiences that determine new and returning users. We will also enhance the third location request (found on the thank you screen) with parameters that will be used to determine the user's trip origin & x`destination so we can later serve an offer based on those parameters.
+
 feature: mobile
-kt: kt-3040
+kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement
@@ -12,7 +11,7 @@ activity-type: implement
 
 # Add Parameters to the Requests
 
-In this lesson we will validate Adobe lifecycle metrics and add custom parameters to the prefetch request. The lifecycle metrics and custom parameters will be used for creating audiences that determine new and returning users. We will also enhance the third location request (found on the thank you screen) with parameters that will be used to determine the user's trip origin & destination so we can later serve an offer based on those parameters.
+In this lesson we will add and validate Adobe lifecycle metrics and custom parameters the Target requests added in the previous lesson. The lifecycle metrics and custom parameters will be used for creating audiences that determine new and returning users.
 
 ## Learning Objectives
 
@@ -25,9 +24,9 @@ At the end of this lesson, you will be able to:
 
 ## Add the Lifecycle Parameters
 
-The Config.collectLifecycleData request found in the onResume() function enables the [Adobe mobile lifecycle metrics](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). This request adds parameters to location requests, including the prefetch request. We'll build our audience segments in the next lesson using data that the lifecycle request provides.
+The Config.collectLifecycleData function found in the onResume() function enables the [Adobe mobile lifecycle metrics](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). This request adds parameters to location requests, including the prefetch request. We'll build audiences in the next lesson using data that the lifecycle request provides.
 
-To enable lifecycle metrics & parameters, make sure the Config.collectLifecycleData is added to the onResume() function in your HomeActivity:
+To enable lifecycle metrics, add the Config.collectLifecycleData to the onResume() function in your HomeActivity:
 ![Lifecycle Request](assets/lifecycle_code.jpg)
 
 ### Validate the Lifecycle Parameters for the Prefetch Request
@@ -37,9 +36,11 @@ Run the Emulator and use Logcat to validate the lifecycle parameters. Filter for
 
 ## Add the at_property Parameter to the Prefetch Request
 
-Adobe Target Properties are defined in the Target interface and are used to establish boundaries for personalizing apps and websites. The at_property parameter identifies the specific property where your offers & activities are accessed & maintained. We'll add this property to the prefetch and live location requests.
+Adobe Target Properties are defined in the Target interface and are used to establish boundaries for personalizing apps and websites. The at_property parameter identifies the specific property where your offers and activities are accessed and maintained. We'll add a property to the prefetch and live location requests.
 
-You can retrieve your at_property value in the Target interface under Setup > Properties. Hover over the property, select the code snippet icon and copy the at_property value:
+>!NOTE You may or may not see the Properties options in the Target interface, depending on your license. If you don't have these options, just skip ahead to the next section of this lesson.
+
+You can retrieve your at_property value in the Target interface under Setup > Properties.  Hover over the property, select the code snippet icon and copy the at_property value:
 ![Copy at_property](assets/at_property_interface.jpg)
 
 Add it as a parameter for each location in the prefetch request like this:
@@ -97,7 +98,7 @@ prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 
 ## Validate the at_property Parameter in the Prefetch Request
 
-Now run the emulator and use Logcat to verify that the at_property is showing on the prefetch request & response for both locations:
+Now run the emulator and use Logcat to verify that the at_property is showing on the prefetch request and response for both locations:
 ![Validate the at_property parameter](assets/parameters_at_property_validation.jpg)
 
 ## Add Custom Parameters to the Live Location Request
@@ -145,18 +146,18 @@ Although not used in this demo project, order details will need to be tracked in
 
 ```java
 Map<String, Object> profileParams = new HashMap<String, Object>();
-profileParams.put(“profile-parameter-key”, “profile-parameter-value”);
+profileParams.put("profile-parameter-key", "profile-parameter-value");
 
 Map<String, Object> orderParams = new HashMap<String, Object>();
-orderParams.put(“order-parameter-key”, “order-parameter-value”);
+orderParams.put("order-parameter-key", "order-parameter-value");
 
 Map<String, Object> locationParams = new HashMap<String, Object>();
-locationParams.put(“mbox-parameter-key”, “mbox-parameter-value”);
+locationParams.put("mbox-parameter-key", "mbox-parameter-value");
 
-Target.loadRequest(“locationName”, “defaultContent”, profileParams, orderParams, locationParams, new TargetCallback<String>() {
+Target.loadRequest("locationName", "defaultContent", profileParams, orderParams, locationParams, new TargetCallback<String>() {
     @Override
     public void call (String item) {
-       Log.d(“Target Content”, item);
+       Log.d("Target Content", item);
     }
 });
 ```
@@ -170,5 +171,5 @@ Adobe Analytics can be configured as the reporting source for Target. This allow
 Nice work! Now that parameters are in place, we're ready to use those parameters to create audiences and offers in Adobe Target.
 
 <!--Add this style for CTA on all pages-->
-**[NEXT : "Create Audiences and Offers" >](create-segments-and-offers.md)**
+**[NEXT : "Create Audiences and Offers" >](create-audiences-and-offers.md)**
 <!--Rename segments to audiences in file & titles-->

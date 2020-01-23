@@ -1,8 +1,8 @@
 ---
-title: Adobe Target location request scenarios
-description: Adobe Target mobile SDK methods can be used to display Target locations in several scenarios.
+title: Adobe Target with Adobe Mobile Services SDK v4 for Android
+description: Adobe Target with Adobe Mobile Services SDK v4 for Android is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 feature: mobile
-kt: kt-3040
+kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement
@@ -10,7 +10,7 @@ activity-type: implement
 
 # Overview
 
-_Implement and Use Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
+_Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 
 A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
 
@@ -18,39 +18,47 @@ After completing this tutorial you will be able to:
 
 * Validate the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) setup
 * Implement the following types of Target requests:
-  * Global Pre-Fetch of all Target content
+  * Prefetch of Target content
   * Blocking request (runs before App display)
   * Non-Blocking request (runs in the background)
-  * Real-Time (non-caching)
-  * Cache Busting Re-Fetch
+  * Real-time (non-caching)
+  * Cache Busting Refetch
 * Add parameters to requests for enhanced personalization, including geo-location
-* Build Feature Flagging Activities (Using Target to roll out new features)
-* Personalize Layouts & Offers
-* Use Adobe Target Recommendations
+* Create audiences and Offers
+* Personalize Layouts
+* Roll out new features with Feature Flagging
 
 ## Prerequisites
 
 In these lessons, it is assumed that you:
 
-* Have an Adobe Id and approver-level access to the Adobe Target interface
-* Know your Adobe Target Client Code to direct Target calls to your own account. The Client Code is shown in the Adobe Target interface on the   Setup > Implementation > Edit at.js settings screen
-* Know your Adobe Experience Cloud Org Id
+* Have an Adobe Id and approver-level access to the Adobe Target interface (see verification steps below)
+* Know your Adobe Target Client Code so you can make requests to your own account. The Client Code is shown in the Adobe Target interface on the   Setup > Implementation > Edit at.js settings screen
 * Have access to and are familiar with the [Mobile Services user interface](https://mobilemarketing.adobe.com)
-* Know your Analytics tracking server and have a report suite id you can use for this tutorial
-* POI references?
 * Have an IDE for Android mobile app development. This tutorial features [Android Studio](https://developer.android.com/studio/install) in various steps and screenshots
 
 If you do not have the required access to the Experience Cloud Solutions, reach out to your Experience Cloud Administrator.
 
 Also, it is assumed that you are familiar with Android development in Java. You do not need to be a master of Java to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
 
+### Verify Access to Adobe Target
+
+This lesson requires access to Adobe Target. Before moving on through the next steps, ensure you have access to Adobe Target by doing the following:
+
+1. Log into the [Adobe Experience Cloud](https://experience.adobe.com/)
+1. From the Experience Cloud home screen, click Target:
+    ![Experience Cloud Home Screen](assets/aec_homeScreen_clickTarget.png)
+1. You should get to the Activities list in Adobe Target, as pictured below and you should see that your user has Approver-level access. If you unable to access Target, please contact one of your company's Experience Cloud Administrators, request Approver level access to Target and resume this tutorial once you have been granted access:
+
+    ![Adobe UI](assets/targetUI_approver.png)
+
 ## About the Lessons
 
-In these lessons, you will implement Adobe Target into a demo app called "We.Travel" using your own Adobe Target account. The end result will display "engage" offers to new users that guide through the booking process. There is also a "contextual" offer on the final confirmation screen that recommends events or places based on the destination selected. The final personalization experiences  will look like this:
+In these lessons, you will implement Adobe Target into a demo travel app called "We.Travel" using your own Adobe Target account. By the end of the tutorial, you will be delivering personalized messages to the user based on their usage of the app! The final personalization experiences  will look like this:
 
 ![We.Travel app final](assets/overview_final_result.jpg)
 
-After walking through implementation within the We.Travel app you will use a simple five-step process to guide your own app implementation requirement process.
+After walking through implementation within the We.Travel app you will use a simple, five-step process to guide your own app implementation requirement process.
 
 ![Prepare your App & Configure the SDK settings, Implement Requests within your app, Validate Implemented Requests, Configure a Mobile Activity in Adobe Target, Validate the new Activity Experience within the App](assets/5Steps.jpg)
 

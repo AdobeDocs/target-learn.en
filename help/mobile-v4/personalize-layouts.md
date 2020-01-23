@@ -4,7 +4,7 @@ seo-title: Personalize Layouts
 description: In this final lesson, we'll build two personalization activities in Target for our Audiences. We'll load and display the activities in the app and validate that content is displaying at the right time in the right locations.  
 seo-description: In this final lesson, we'll build two personalization activities in Target for our Audiences. We'll load and display the activities in the app and validate that content is displaying at the right time in the right locations.
 feature: mobile
-kt: kt-3040
+kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement
@@ -12,7 +12,7 @@ activity-type: implement
 
 # Personalize Layouts
 
-In this final lesson, we'll build two personalization activities in Target for our Audiences. We'll load and display the activities in the app and validate that content is displaying at the right time in the right locations.
+Now it's time to bring everything together and create the personalized experiences. A Target "Activity" is the Target mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, Target will respond with the personalized content. We'll build two personalization activities in Target and validate that personalized content is displaying in the app to the right user at the right time and in the right location.
 
 ## Learning Objectives
 
