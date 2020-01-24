@@ -12,21 +12,22 @@ activity-type: implement
 
 _Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 
-A demo Android app is provided for you to complete the tutorial, so you can learn the underlying techniques. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
+A demo Android app is provided for you to complete the lessons. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
 
 After completing this tutorial you will be able to:
 
 * Validate the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) setup
 * Implement the following types of Target requests:
   * Prefetch of Target content
-  * Blocking request (runs before App display)
-  * Non-Blocking request (runs in the background)
+  * Batch multiple Target locations (mboxes) in a single requests
+  * Blocking requests (runs before app display)
+  * Non-Blocking requests (runs in the background)
   * Real-time (non-caching)
   * Cache Busting Refetch
-* Add parameters to requests for enhanced personalization, including geo-location
-* Create audiences and Offers
-* Personalize Layouts
-* Roll out new features with Feature Flagging
+* Add parameters to requests for enhanced personalization
+* Create audiences and offers
+* Personalize layouts
+* Roll out new features with feature flagging
 
 ## Prerequisites
 
@@ -48,7 +49,7 @@ This lesson requires access to Adobe Target. Before moving on through the next s
 1. Log into the [Adobe Experience Cloud](https://experience.adobe.com/)
 1. From the Experience Cloud home screen, click Target:
     ![Experience Cloud Home Screen](assets/aec_homeScreen_clickTarget.png)
-1. You should get to the Activities list in Adobe Target, as pictured below and you should see that your user has Approver-level access. If you unable to access Target, please contact one of your company's Experience Cloud Administrators, request Approver level access to Target and resume this tutorial once you have been granted access:
+1. You should get to the Activities list in Adobe Target, as pictured below and you should see that your user has Approver-level access. If you unable to access Target or cannot verify the Approver-level access, please contact one of your company's Experience Cloud Administrators, request this access and resume this tutorial once it's been granted:
 
     ![Adobe UI](assets/targetUI_approver.png)
 

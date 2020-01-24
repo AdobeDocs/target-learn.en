@@ -18,8 +18,8 @@ Now it's time to bring everything together and create the personalized experienc
 
 At the end of this lesson, you will be able to:
 
-* **Build Activities in Adobe Target for Our Audiences**
-* **Validate the Activities in the Demo App**
+* Build Activities in Adobe Target for Our Audiences
+* Validate the Activities in the Demo App
 
 ## Create Activities in Adobe Target
 
@@ -34,15 +34,17 @@ Here is a summary of the activity we'll build:
 
 In the Target interface select the following:
 
-* Activities > Create Activity > Experience Targeting Activity
+* Activities > Create Activity > Experience Targeting
 * Select Mobile App
-* Select your Workspace and Property Name
+* Select the Form composer
+* Select your Workspace and Property
+* Click Next
 
 ![Create Activity](assets/activity_create.jpg)
 
 On the next screen, we'll add our first "Engage Users" experience:
 
-* Change the title to "Engage Users"
+* Change the activity title to "Engage Users"
 * Select the ellipsis > Change Audience
 
 ![Experience A](assets/activity_engage_users_a.jpg)
@@ -170,6 +172,6 @@ Now select "Done" and try another booking with Los Angeles as the destination. T
 
 Congratulations! This concludes the Adobe Target SDK 4.x for Android Tutorial. You now have the skills to implement personalization in Android apps! You can refer to this documentation and demo app as a reference for your future projects.
 
->Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
+**Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
 
-**[NEXT :  "Feature Flagging" >](download-and-update-the-sample-app.md)**
+**[NEXT : "Feature Flagging" >](feature-flagging.md)**
