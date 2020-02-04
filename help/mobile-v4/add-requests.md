@@ -22,19 +22,19 @@ Be sure to [download and update the We.Travel app](download-and-update-the-sampl
 
 At the end of this lesson, you will be able to:
 
-* Cache Multiple Target Locations Using a Batch Prefetch Request
-* Load Prefetched Target Locations
-* Load a Target Location in Real-time (non-prefetched)
-* Clear Prefetched Locations from Cache
-* Validate Prefetched and Live requests
+* Cache multiple Target offers using a batch prefetch request
+* Load prefetched Target locations
+* Load a Target location in real-time (non-prefetched)
+* Clear prefetched locations from cache
+* Validate prefetched and live requests
 
 ## Terminology
 
 Below is some of key Target terminology that we will be using in the remainder of this tutorial.
 
 * **Request:**  a network request to the Adobe Target servers
-* **Location:**  a placeholder for Target offers
 * **Offer:**  a snippet of code, defined in the Target user interface (or with API), which is delivered in the response. Usually JSON when Target is used in native mobile apps.
+* **Location:**  a user-defined name given to a request, used in the Target interface to associate offers with specific requests
 * **Batch Request:**  a single request that includes multiple locations
 * **Prefetch Request:**  a single request that retrieves offers and caches them into memory for future use in the app
 * **Batch Prefetch Request:**  a single request that prefetches offers for multiple locations
@@ -43,9 +43,9 @@ Below is some of key Target terminology that we will be using in the remainder o
 
 ## Add a Batch Prefetch Request
 
-The first request we will implement in We.Travel is a batch prefetch request with two Target locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process. For now, we'll use the locations as placeholders for the offers.
+The first request we will implement in We.Travel is a batch prefetch request with two Target locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process. 
 
-A prefetch request fetches Target locations as minimally as possible by caching Adobe Target server responses. A batch prefetch request retrieves and caches multiple locations. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
+A prefetch request fetches Target locations as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
 
 We'll start with the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller. 
 
@@ -201,7 +201,7 @@ On the final Thank You screen, watch Logcat for the response. The response shoul
 
 ## Clearing Prefetched Locations from Cache
 
-There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen and search results screen to guide their booking. It would make more sense to clear the locations from cache and prefetch new locations for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen and search results screen to prefetch new locations if a booking has taken place during the session.
+There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen and search results screen to guide their booking. It would make more sense to clear the locations from the cache and prefetch new offers for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen and search results screen to prefetch new locations if a booking has taken place during the session.
 
 For this example, we'll just clear prefetched locations for the session when a booking takes place. This is done by calling the Target.clearPrefetchCache() function. Set the function inside the targetLoadRequest() function as shown below:
 

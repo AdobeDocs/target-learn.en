@@ -32,45 +32,41 @@ Here is a summary of the activity we'll build:
 | New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home_Engage_New_Users, Search_Engage_New_Users |
 | Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home_Returning Users, default_content |
 
-In the Target interface select the following:
+In the Target interface do the following:
 
-* Activities > Create Activity > Experience Targeting
-* Select Mobile App
-* Select the Form composer
-* Select your Workspace and Property
-* Click Next
+1. Select Activities > Create Activity > Experience Targeting
+1. Select Mobile App
+1. Select the Form composer
+1. Select your Workspace and Property
+1. Click Next
 
 ![Create Activity](assets/activity_create.jpg)
 
 On the next screen, we'll add our first "Engage Users" experience:
 
-* Change the activity title to "Engage Users"
-* Select the ellipsis > Change Audience
+1. Change the activity title to "Engage Users"
+1. Select the ellipsis > Change Audience
+    ![Experience A](assets/activity_engage_users_a.jpg)
+1. Set the audience to "New Mobile App Users"
+    ![Experience A Audience](assets/activity_engage_users_a_audience.jpg)
+1. Now set the first offer for the first location
+1. Select the wetravel_engage_home location
+1. Change the HTML Offer
 
-![Experience A](assets/activity_engage_users_a.jpg)
+    ![Experience A Offer](assets/activity_engage_users_a_offer.jpg)
 
-* Set the audience to "New Mobile App Users"
+1. Select the "Home_Engage_New_Users" offer
 
-![Experience A Audience](assets/activity_engage_users_a_audience.jpg)
-
-* Now set the first offer for the first location
-* Select the wetravel_engage_home location
-* Change the HTML Offer
-
-![Experience A Offer](assets/activity_engage_users_a_offer.jpg)
-
-* Select the "Home_Engage_New_Users" offer
-
-![Experience A HTML Offer](assets/activity_engage_users_a_html_offer.jpg)
+    ![Experience A HTML Offer](assets/activity_engage_users_a_html_offer.jpg)
 
 Now add the second offer for this same activity:
 
-* Select the "wetravel_engage_search" location
-* Change the HTML offer
+1. Select the "wetravel_engage_search" location
+1. Change the HTML offer
 
-![Experience A Offer 2](assets/activity_engage_users_a_offer2.jpg)
+    ![Experience A Offer 2](assets/activity_engage_users_a_offer2.jpg)
 
-* Select the "Search : Engage_New_Users" HTML offer:
+1. Select the "Search : Engage_New_Users" HTML offer:
 
 ![Experience A HTML Offer 2](assets/activity_engage_users_a_html_offer2.jpg)
 
@@ -80,11 +76,11 @@ The configuration for the "New Mobile App Users" experience (Experience A) shoul
 
 ![Experience A Final](assets/activity_engage_users_a_final.jpg)
 
-Now create an experience for "Returning Mobile App Users" (Experience B).
+Now create an experience for "Returning Mobile App Users" (Experience B):
 
-* Select "Add Experience Targeting" on the left
-* Select the Audience "Returning Mobile App Users (after 30+ days)"
-* Use the same process for Experience A to configure Experience B
+1. Select "Add Experience Targeting" on the left
+1. Select the Audience "Returning Mobile App Users (after 30+ days)"
+1. Use the same process for Experience A to configure Experience B
 
 The configuration for the "Returning Mobile App Users" experience (Experience B) should now look like this:
 
@@ -92,20 +88,22 @@ The configuration for the "Returning Mobile App Users" experience (Experience B)
 
 ![Experience B Final](assets/activity_engage_users_b_final.jpg)
 
-* Select "Next"
-* Use the default settings for Targeting
+Now let's complete the activity setup:
 
-![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
+1. Select "Next"
+1. Use the default settings for Targeting
 
-* Select "Next" to advance to "Goals & Settings"
-* Set the Primary Goal to "Conversion"
-* Set the action to "Viewed an mbox" > "any mbox"
+    ![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
 
-![Engage Users Activity - Goals](assets/activity_engage_users_goals.jpg)
+1. Select "Next" to advance to "Goals & Settings"
+1. Set the Primary Goal to "Conversion"
+1. Set the action to "Viewed an mbox" > "any mbox"
 
-* Keep all other settings on the screen to the defaults
-* Save & Close the Activity
-* Activate the Activity on the next screen
+    ![Engage Users Activity - Goals](assets/activity_engage_users_goals.jpg)
+
+1. Keep all other settings on the screen to the defaults
+1. Save & Close the Activity
+1. Activate the Activity on the next screen
 
 Our first activity is now live and ready to test!
 
