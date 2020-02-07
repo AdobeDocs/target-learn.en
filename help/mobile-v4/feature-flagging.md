@@ -30,9 +30,15 @@ In the demo app from our previous lessons, we'll add a new location called "wetr
 
 >[!NOTE] One of the benefits of using a prefetch request is that adding a new request does not add any additional network overhead or cause additional load work since the request is packaged within the prefetch request
 
-First, add a new constant for the location the Constant.java file:
+First, verify that the wetravel_feature_flag_recs constant is added in the Constant.java file:
 
 ![Add feature flag constant](assets/feature_flag_constant.jpg)
+
+Here is the code:
+
+```java
+public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
+```
 
 Now add the location to the prefetch request and load a new function called processFeatureFlags():
 
@@ -101,7 +107,7 @@ We'll now create a simple JSON offer that will act as a flag or trigger for a sp
 
 ![Create Feature Flag JSON Offer](assets/feature_flag_json_offer.jpg)
 
-Let's name it "feature_flag_v1" with the value {"enable":1}
+Let's name it "Feature Flag v1" with the value {"enable":1}
 
 ![feature_flag_v1 JSON Offer](assets/feature_flag_json_name.jpg)
 
@@ -109,15 +115,43 @@ Let's name it "feature_flag_v1" with the value {"enable":1}
 
 Now let's create an A/B activity with that offer. For detailed steps on creating an activity see the previous lesson. The activity will only need one audience for this example. In a live scenario, you may want to build out specific custom audiences for specific feature roll-outs, then set the activity to use those audiences. In this example, we'll just allocate to a percentage of all users. Here is the configuration for the activity:
 
+(1) Name the Activity to "Feature Flag"
+(2) Select the "wetravel_feature_flag_recs" location
+(3) Change the content to the "Feature Flag v1" JSON offer
+(4) Select "Next" to advance to Targeting
+
 ![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
+
+Create a second experience that uses the default content
+
+(5) Select "Add Experience" to add experience B
+(6) Select the "wetravel_feature_flag_recs" location
+(7) Leave "Default Content" for the content
+(8) Select "Next" to advance to Targeting
+
+![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
+
+On the Targeting screen, verify that the Traffic Allocation method is set to "Auto-allocate to best experience" setting.
+
+(9) Select "Next" to advance to "Goals & Settings"
+
+![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
 
 Select "Next" to advance to the Targeting screen. Suppose we'd like to roll out new features to 50% of users. On the Targeting screen, set the audience to 50% and use the manual allocation method (which is default):
 
 ![Feature Flag Activity Targeting](assets/feature_flag_activity_targeting.jpg)
 
-Select "Next" to advance to the Goals & Settings screen. Set the Primary Goal to "Conversion" and the Action to "Viewed an mbox" and select the we_travel_feature_flag_recs mbox.
+Select "Next" to advance to the Goals & Settings screen. 
 
-![Feature Flag Activity Goals](assets/feature_flag_activity_goals.jpg)
+(10) Set the Primary Goal to Conversion
+(11) Set the action to "Viewed an Mbox". We'll use the "wetravel_context_dest" location.
+(12) Select "Save & Close"
+
+On the Goals & Settings screen, set the Primary Goal under Reporting Settings:
+
+Set the Primary Goal to "Conversion" and the Action to "Viewed an mbox" and select the we_travel_feature_flag_recs mbox.
+
+![Feature Flag Activity Config](assets/feature_flag_activity_4.jpg)
 
 Save and Close the activity, then activate it.
 
@@ -127,7 +161,7 @@ Now use the emulator to watch for the request. Since we set the targeting to 50%
 
 ![Feature Flag Validation](assets/feature_flag_validation.jpg)
 
-If you don't see the "{enable:1}" value, that means you weren't targeted for the experience. To force the offer to show, edit the activity and change the traffic allocation to 100%, then save and validate again with the emulator. The offer should now return the "{enable:1}" value.
+If you don't see the "{enable:1}" value, that means you weren't targeted for the experience. For a temporary test, to force the offer to show, you could deactivate the activity, then edit the activity and change the traffic allocation to 100%, then save and validate again with the emulator. The offer should now return the "{enable:1}" value.
 
 In a live scenario, the "{enable:1}" response can be used to enable more custom logic in your app to display the specific feature set you want to show your target audience.
 

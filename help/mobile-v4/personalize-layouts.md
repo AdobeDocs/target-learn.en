@@ -35,62 +35,72 @@ Here is a summary of the activity we'll build:
 In the Target interface do the following:
 
 1. Select Activities > Create Activity > Experience Targeting
+
+![Create Activity](assets/activity_create_1.jpg)
+
 1. Select Mobile App
 1. Select the Form composer
-1. Select your Workspace and Property
+1. Select your workspace (the same workspace you used in previous lessons)
+1. Select your Property
 1. Click Next
 
-![Create Activity](assets/activity_create.jpg)
+![Create Activity](assets/activity_create_2.jpg)
 
 On the next screen, we'll add our first "Engage Users" experience:
 
 1. Change the activity title to "Engage Users"
 1. Select the ellipsis > Change Audience
-    ![Experience A](assets/activity_engage_users_a.jpg)
+    ![Experience A Change Audience](assets/activity_create_3.jpg)
 1. Set the audience to "New Mobile App Users"
-    ![Experience A Audience](assets/activity_engage_users_a_audience.jpg)
-1. Now set the first offer for the first location
-1. Select the wetravel_engage_home location
-1. Change the HTML Offer
+1. Select "Done"
+    ![Experience A Audience](assets/activity_create_4.jpg)
 
-    ![Experience A Offer](assets/activity_engage_users_a_offer.jpg)
+Now set the first offer for the first location
+1. Change the location to "wetravel_engage_home"
+1. Select the dropdown arrow next to Default Content and select "Change HTML Offer"
+
+    ![Experience A Audience](assets/activity_create_5.jpg)
 
 1. Select the "Home_Engage_New_Users" offer
+1. Select "Done"
 
-    ![Experience A HTML Offer](assets/activity_engage_users_a_html_offer.jpg)
+    ![Experience A Audience](assets/activity_create_6.jpg)
 
 Now add the second offer for this same activity:
+
+1. Select "Add Location"
+    ![Experience B Audience](assets/activity_create_7.jpg)
 
 1. Select the "wetravel_engage_search" location
 1. Change the HTML offer
 
-    ![Experience A Offer 2](assets/activity_engage_users_a_offer2.jpg)
+    ![Experience B Audience](assets/activity_create_8.jpg)
 
-1. Select the "Search : Engage_New_Users" HTML offer:
+1. Select the "Search : Engage New Users" offer
+1. Select "Done"
 
-![Experience A HTML Offer 2](assets/activity_engage_users_a_html_offer2.jpg)
+![Experience B Audience](assets/activity_create_9.jpg)
 
 The configuration for the "New Mobile App Users" experience (Experience A) should now look like this:
 
-#### Experience A Configuration
-
 ![Experience A Final](assets/activity_engage_users_a_final.jpg)
+
+#### Experience B Configuration
 
 Now create an experience for "Returning Mobile App Users" (Experience B):
 
 1. Select "Add Experience Targeting" on the left
 1. Select the Audience "Returning Mobile App Users (after 30+ days)"
-1. Use the same process for Experience A to configure Experience B
+1. Select "Done"
+   ![Experience B Audience](assets/activity_create_11.jpg)
 
-The configuration for the "Returning Mobile App Users" experience (Experience B) should now look like this:
-
-#### Experience B Configuration
+Now use the same process for Experience A to configure Experience B. The configuration for the "Returning Mobile App Users" experience (Experience B) should now look like this:
 
 ![Experience B Final](assets/activity_engage_users_b_final.jpg)
 
 Now let's complete the activity setup:
 
-1. Select "Next"
+1. Select "Next" to advance to "Targeting"
 1. Use the default settings for Targeting
 
     ![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
@@ -99,11 +109,13 @@ Now let's complete the activity setup:
 1. Set the Primary Goal to "Conversion"
 1. Set the action to "Viewed an mbox" > "any mbox"
 
-    ![Engage Users Activity - Goals](assets/activity_engage_users_goals.jpg)
+    ![Engage Users Activity - Goals](assets/activity_create_12.jpg)
 
 1. Keep all other settings on the screen to the defaults
 1. Save & Close the Activity
 1. Activate the Activity on the next screen
+
+![Experience B Audience](assets/activity_create_13.jpg)
 
 Our first activity is now live and ready to test!
 
@@ -126,7 +138,15 @@ Repeat the same process as above for the next Activity - "Contextual Offers". Th
 
 ![Contextual Offers - Experience B](assets/activity_contextual_b_final.jpg)
 
-Use the same configurations we used in the first activity for the Targeting and Goals & Settings steps. Activate the activity.
+On the Goals & Settings step, we'll change the Primary Goal to the location on booking confirmation screen:
+
+(1) Under the Reporting Settings, set the Primary Goal to "Conversion"
+(2) Set the action to "Viewed an mbox" > "any mbox"
+(3) Select "Save & Close"
+
+![Contextual Offers - Experience](assets/activity_create_14.jpg)
+
+Activate the Activity on the next screen.
 
 Now our second activity is live and ready to test!
 

@@ -43,11 +43,32 @@ Below is some of key Target terminology that we will be using in the remainder o
 
 ## Add a Batch Prefetch Request
 
-The first request we will implement in We.Travel is a batch prefetch request with two Target locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process. 
+The first request we will implement in We.Travel is a batch prefetch request with two Target locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process.
 
 A prefetch request fetches Target locations as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
 
-We'll start with the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller. 
+### Add Constants
+
+First, we'll add constants that will be used for this project. Open the Constant.java file found under app > src > main > java > com.wetravel > Utils. Add these four constants:
+
+![Add Constants](assets/constants.jpg)
+
+Here is the code:
+
+```java
+public static final String wetravel_engage_home = "wetravel_engage_home";
+public static final String wetravel_engage_search = "wetravel_engage_search";
+public static final String wetravel_context_dest = "wetravel_context_dest";
+public static final String destination = "destination";
+public static final String departure = "departure";
+public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
+```
+
+### Add Prefetch Request
+
+Next we'll update the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller. We'll add the two code blocks shown in red:
+
+We'll start with the HomeActivity controller (the Home Screen's source code), which is located under app > main > java > com.wetravel > Controller.
 
 We'll add the two code blocks shown in red:
 
@@ -125,6 +146,86 @@ When the Home screen renders, the prefetch request should be loaded. With Logcat
 If you are not seeing a successful response, verify settings in the ADBMobileConfig.json file and code syntax in the HomeActivity file.
 
 Two locations are now cached to the device. The location names will shortly lazy-load into the Target interface, where they can be selected in various drop-down menus when you use them in an activity.
+
+### Add Load Requests for Each Cached Location
+
+Now that the locations are prefetched and cached to the device, let's add load requests so these locations can be displayed on the screen later. We'll add a new custom method called engageMessage() that will run with the prefetch request. engageMessage() will call Target.loadRequest() which is the load request. engageMessage() runs before setUp() to ensure that the load request is called before the screen is set up.
+
+First, add the engageMessage() call & method for the wetravel_engage_home location in the HomeActivity:
+
+![Add first load request](assets/wetravel_engage_home_loadRequest.jpg)
+
+Here is the updated code:
+
+```java
+    public void targetPrefetchContent() {
+        List<TargetPrefetchObject> prefetchList = new ArrayList<>();
+        Map<String, Object> params1;
+        params1 = new HashMap<String, Object>();
+        params1.put("at_property", "your at_property value goes here");
+        prefetchList.add(Target.createTargetPrefetchObject(Constant.wetravel_engage_home, params1));
+        prefetchList.add(Target.createTargetPrefetchObject(Constant.wetravel_engage_search, params1));
+        Target.TargetCallback<Boolean> prefetchStatusCallback = new Target.TargetCallback<Boolean>() {
+            @Override
+            public void call(final Boolean status) {
+                HomeActivity.this.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        String cachingStatus = status ? "YES" : "NO";
+                        System.out.println("Received Response from prefetch : " + cachingStatus);
+                        engageMessage();
+                        setUp();
+                    }
+                });
+            }};
+        Target.prefetchContent(prefetchList, null, prefetchStatusCallback);
+    }
+    public void engageMessage() {
+        Target.loadRequest(Constant.wetravel_engage_home, "", null, null, null,
+            new Target.TargetCallback<String>(){
+                @Override
+                public void call(final String s) {
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            System.out.println("Engage Message : " + s);
+                            if(s != null && !s.isEmpty()) Utility.showToast(getApplicationContext(), s);
+                        }
+                    });
+                }
+            });
+    }
+```
+
+Now add the engageMessage() call & method for the wetravel_engage_search location in the SearchBusActivity. Notice that the engageMessage() call is set in the onResume() method before the call to setUpSearch() so it runs before the screen is set up:
+
+![Add second load request](assets/wetravel_engage_search_loadRequest.jpg)
+
+Here is the updated code:
+
+```java
+    @Override
+    public void onResume() {
+        super.onResume();
+        engageMessage();
+        setUpSearch();
+    }
+    public void engageMessage() {
+        Target.loadRequest(Constant.wetravel_engage_search, "", null, null, null,
+                new Target.TargetCallback<String>(){
+                    @Override
+                    public void call(final String s) {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                System.out.println("Engage Message : " + s);
+                                if(s != null && !s.isEmpty()) Utility.showToast(getApplicationContext(), s);
+                            }
+                        });
+                    }
+                });
+    }
+```
 
 ## Add a Real-time Request
 

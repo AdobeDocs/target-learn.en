@@ -12,7 +12,7 @@ activity-type: implement
 
 # Create Audiences and Offers in Adobe Target
 
-In this lesson, we'll go into the Target interface and build audiences and offers for the three locations we implemented in the previous lessons. 
+In this lesson, we'll go into the Target interface and build audiences and offers for the three locations we implemented in the previous lessons.
 
 ## Learning Objectives
 
@@ -34,15 +34,42 @@ More specifically, in this lesson we will create audiences and offers needed to 
 
 ## Create Audiences
 
- In Adobe Target, select Audiences > Create Audience and add a rule for new users:
+ In Adobe Target, first make sure that the correct Workspace is selected. A workspace is used to separate Target projects into groups so that projects can be categorized or separated for different users. Select the Workspace that you used in the previous lesson to copy the at_property value:
+
+![Workspace Example](assets/workspace.jpg)
+
+ Now select Audiences > Create Audience and add a rule for new users:
 
 ### Create an Audience for New Users
+
+Adobe Target Audiences are used to identify specific groups of visitors. Offers can then be targeted to those specific groups. For the first two locations, we'll use a "New Users" audience:
+
+1. Select Audiences
+1. Select Create Audience
+    ![Create a New User Audience](assets/audience_new_mobile_app_users_1.jpg)
+
+1. Enter "New Mobile App Users" as the audience name
+1. Select "Add Rule"
+1. Select a "Custom" rule
+    ![Create a New User Audience](assets/audience_new_mobile_app_users_2.jpg)
+
+1. Select a.DaysSinceFirstUse
+1. Select "is less than"
+1. Enter "2"
+1. Save the new audience
+
+Now create an audience for users who return after 30+ days:	
+![Create a New User Audience](assets/audience_new_mobile_app_users_3.jpg)
 
 ![Create a New User Audience](assets/audience_new_mobile_app_users.jpg)
 
 ### Create an Audience for Returning Users
 
-Now create an audience for users who return after 30+ days:
+Follow the same steps listed above to create an audience for users who return after 30+ days.
+
+1. Name the audience "Returning Mobile App Users (after 30+ days)
+1. Use "a.DaysSinceLastUse is greater than 30" as the custom rule
+1. Save the new audience
 
 ![Create a Returning User Audience](assets/audience_returning_mobile_app_users.jpg)
 
@@ -52,9 +79,17 @@ Next we will create a few audiences for some of the destinations offered by the 
 
 ### Create an Audience for Users Booking a Trip to San Diego
 
+(1) Name the audience "Destination : San Diego"
+(2) Use a custom rule with this definition: "locationDest contains San Diego"
+(3) Save the new audience
+
 ![Create "San Diego" Audience](assets/audience_locationDest_san_diego.jpg)
 
 ### Create an Audience for Users Booking a Trip to Los Angeles
+
+(1) Name the audience "Destination : Los Angeles"
+(2) Use a custom rule with this definition: "locationDest contains Los Angeles"
+(3) Save the new audience
 
 ![Create "Los Angeles" Audience](assets/audience_locationDest_los_angeles.jpg)
 
@@ -70,13 +105,31 @@ Now add each offer:
 
 ### Create the Offer for New Users
 
-![Create "new users" offer for home screen](assets/offer_home.jpg)
+(1) Select Offers
+(2) Select Create
+(3) Select "HTML Offer"
+
+![Create Home Offer](assets/offer_home_1.jpg)
+
+(4) Name the offer "Home : Engage New Users"
+(5) Enter "Select Source and Destination to search for available buses" as the HTML code
+(6) Save the new offer
+
+![Create Home HTML Offer](assets/offer_home_2.jpg)
 
 ### Create the Offer for Returning Users
 
 ![Create "new users" offer for search screen](assets/offer_search.jpg)
 
 Now let's create the one offer for returning users (the second offer will be default content, which will display as nothing):
+
+(1) Name the offer "Home : Returning Users"
+(2) Enter "Welcome back! Use promo code BACK30 during checkout to get a 10% discount." as the HTML code
+(3) Save the new offer
+
+![Create Home HTML Offer](assets/offer_home_returning_users.jpg)
+
+The Search Screen offer for Returning Users will return default content (which is set to nothing), so there is no need to create an offer for Returning Users for the Search Screen.
 
 ![Create "returning users" offer for home screen](assets/offer_returning_users.jpg)
 
@@ -85,11 +138,19 @@ When the "Universal" value is returned to the app, a banner for Universal Studio
 
 Now we'll create HTML offers for these messages. In the Target UI, create two offers:
 
-### Create Offer for Users going to San Diego
+### Create the San Diego Offer
+
+(1) Name the offer "Promotion for San Diego"
+(2) Enter "DJ" as the HTML code
+(3) Save the new offer
 
 ![Create "San Diego" Offer](assets/offer_san_diego.jpg)
 
 ### Create Offer for Users going to Los Angeles
+
+(1) Name the offer "Promotion for Los Angeles"
+(2) Enter "Universal" as the HTML code
+(3) Save the new offer
 
 ![Create "Los Angeles" Offer](assets/offer_los_angeles.jpg)
 
