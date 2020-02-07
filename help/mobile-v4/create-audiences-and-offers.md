@@ -58,7 +58,8 @@ Adobe Target Audiences are used to identify specific groups of visitors. Offers 
 1. Enter "2"
 1. Save the new audience
 
-Now create an audience for users who return after 30+ days:	
+Now create an audience for users who return after 30+ days:
+
 ![Create a New User Audience](assets/audience_new_mobile_app_users_3.jpg)
 
 ![Create a New User Audience](assets/audience_new_mobile_app_users.jpg)
