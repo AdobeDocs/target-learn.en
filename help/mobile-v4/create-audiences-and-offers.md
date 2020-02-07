@@ -80,17 +80,17 @@ Next we will create a few audiences for some of the destinations offered by the 
 
 ### Create an Audience for Users Booking a Trip to San Diego
 
-(1) Name the audience "Destination : San Diego"
-(2) Use a custom rule with this definition: "locationDest contains San Diego"
-(3) Save the new audience
+1. Name the audience "Destination : San Diego"
+1. Use a custom rule with this definition: "locationDest contains San Diego"
+1. Save the new audience
 
 ![Create "San Diego" Audience](assets/audience_locationDest_san_diego.jpg)
 
 ### Create an Audience for Users Booking a Trip to Los Angeles
 
-(1) Name the audience "Destination : Los Angeles"
-(2) Use a custom rule with this definition: "locationDest contains Los Angeles"
-(3) Save the new audience
+1. Name the audience "Destination : Los Angeles"
+1. Use a custom rule with this definition: "locationDest contains Los Angeles"
+1. Save the new audience
 
 ![Create "Los Angeles" Audience](assets/audience_locationDest_los_angeles.jpg)
 
@@ -106,15 +106,15 @@ Now add each offer:
 
 ### Create the Offer for New Users
 
-(1) Select Offers
-(2) Select Create
-(3) Select "HTML Offer"
+1. Select Offers
+1. Select Create
+1. Select "HTML Offer"
 
 ![Create Home Offer](assets/offer_home_1.jpg)
 
-(4) Name the offer "Home : Engage New Users"
-(5) Enter "Select Source and Destination to search for available buses" as the HTML code
-(6) Save the new offer
+1. Name the offer "Home : Engage New Users"
+1. Enter "Select Source and Destination to search for available buses" as the HTML code
+1. Save the new offer
 
 ![Create Home HTML Offer](assets/offer_home_2.jpg)
 
@@ -124,9 +124,9 @@ Now add each offer:
 
 Now let's create the one offer for returning users (the second offer will be default content, which will display as nothing):
 
-(1) Name the offer "Home : Returning Users"
-(2) Enter "Welcome back! Use promo code BACK30 during checkout to get a 10% discount." as the HTML code
-(3) Save the new offer
+1. Name the offer "Home : Returning Users"
+1. Enter "Welcome back! Use promo code BACK30 during checkout to get a 10% discount." as the HTML code
+1. Save the new offer
 
 ![Create Home HTML Offer](assets/offer_home_returning_users.jpg)
 
@@ -141,17 +141,17 @@ Now we'll create HTML offers for these messages. In the Target UI, create two of
 
 ### Create the San Diego Offer
 
-(1) Name the offer "Promotion for San Diego"
-(2) Enter "DJ" as the HTML code
-(3) Save the new offer
+1. Name the offer "Promotion for San Diego"
+1. Enter "DJ" as the HTML code
+1. Save the new offer
 
 ![Create "San Diego" Offer](assets/offer_san_diego.jpg)
 
 ### Create Offer for Users going to Los Angeles
 
-(1) Name the offer "Promotion for Los Angeles"
-(2) Enter "Universal" as the HTML code
-(3) Save the new offer
+1. Name the offer "Promotion for Los Angeles"
+1. Enter "Universal" as the HTML code
+1. Save the new offer
 
 ![Create "Los Angeles" Offer](assets/offer_los_angeles.jpg)
 

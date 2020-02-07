@@ -140,9 +140,9 @@ Repeat the same process as above for the next Activity - "Contextual Offers". Th
 
 On the Goals & Settings step, we'll change the Primary Goal to the location on booking confirmation screen:
 
-(1) Under the Reporting Settings, set the Primary Goal to "Conversion"
-(2) Set the action to "Viewed an mbox" > "any mbox"
-(3) Select "Save & Close"
+1. Under the Reporting Settings, set the Primary Goal to "Conversion"
+1. Set the action to "Viewed an mbox" > "any mbox"
+1. Select "Save & Close"
 
 ![Contextual Offers - Experience](assets/activity_create_14.jpg)
 
