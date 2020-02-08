@@ -23,7 +23,7 @@ After completing this tutorial you will be able to:
   * Blocking requests (runs before app display)
   * Non-Blocking requests (runs in the background)
   * Real-time (non-caching)
-  * Cache Busting Refetch
+  * Cache-busting Refetch
 * Add parameters to requests for enhanced personalization
 * Create audiences and offers
 * Personalize layouts

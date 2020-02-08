@@ -12,14 +12,14 @@ activity-type: implement
 
 # Personalize Layouts
 
-Now it's time to bring everything together and create the personalized experiences. A Target "Activity" is the Target mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, Target will respond with the personalized content. We'll build two personalization activities in Target and validate that personalized content is displaying in the app to the right user at the right time and in the right location.
+Now it's time to bring everything together and create the personalized experiences. An "Activity" is the Target mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, Target responds with the personalized content. We'll build two personalization activities in Target and validate that personalized content is displays to the right user at the right time and in the right location.
 
 ## Learning Objectives
 
 At the end of this lesson, you will be able to:
 
-* Build Activities in Adobe Target for Our Audiences
-* Validate the Activities in the Demo App
+* Build Activities in Adobe Target
+* Validate the Activities in the sample App
 
 ## Create Activities in Adobe Target
 
@@ -29,90 +29,85 @@ Here is a summary of the activity we'll build:
 
 | Audience | Locations | Offers |
 |---|---|---|
-| New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home_Engage_New_Users, Search_Engage_New_Users |
-| Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home_Returning Users, default_content |
+| New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home: Engage New Users, Search: Engage New Users |
+| Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home: Returning Users, default_content |
 
 In the Target interface do the following:
 
 1. Select Activities > Create Activity > Experience Targeting
 
-![Create Activity](assets/activity_create_1.jpg)
+    ![Create Activity](assets/activity_create_1.jpg)
 
-1. Select Mobile App
-1. Select the Form composer
+1. Click "Mobile App"
+1. Select the "Form composer"
 1. Select your workspace (the same workspace you used in previous lessons)
-1. Select your Property
-1. Click Next
+1. Select your Property  (the same property you used in previous lessons)
+1. Click "Next"
 
-![Create Activity](assets/activity_create_2.jpg)
-
-On the next screen, we'll add our first "Engage Users" experience:
+    ![Create Activity](assets/activity_create_2.jpg)
 
 1. Change the activity title to "Engage Users"
 1. Select the ellipsis > Change Audience
-    ![Experience A Change Audience](assets/activity_create_3.jpg)
+    ![New Mobile App Users Change Audience](assets/activity_create_3.jpg)
 1. Set the audience to "New Mobile App Users"
-1. Select "Done"
-    ![Experience A Audience](assets/activity_create_4.jpg)
+1. Click "Done"
+    ![New Mobile App Users Audience](assets/activity_create_4.jpg)
 
-Now set the first offer for the first location
 1. Change the location to "wetravel_engage_home"
 1. Select the dropdown arrow next to Default Content and select "Change HTML Offer"
 
-    ![Experience A Audience](assets/activity_create_5.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_5.jpg)
 
-1. Select the "Home_Engage_New_Users" offer
+1. Select the "Home: Engage New Users" offer
 1. Select "Done"
 
-    ![Experience A Audience](assets/activity_create_6.jpg)
-
-Now add the second offer for this same activity:
+    ![New Mobile App Users Audience](assets/activity_create_6.jpg)
 
 1. Select "Add Location"
-    ![Experience B Audience](assets/activity_create_7.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_7.jpg)
 
 1. Select the "wetravel_engage_search" location
 1. Change the HTML offer
 
-    ![Experience B Audience](assets/activity_create_8.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_8.jpg)
 
-1. Select the "Search : Engage New Users" offer
-1. Select "Done"
+1. Select the "Search: Engage New Users" offer
+1. Click "Done"
 
-![Experience B Audience](assets/activity_create_9.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_9.jpg)
 
-The configuration for the "New Mobile App Users" experience (Experience A) should now look like this:
+You've just connected an audience to locations and offers, creating the personalized experience for the New Mobile App Users! The experience  should now look like this:
 
 ![Experience A Final](assets/activity_engage_users_a_final.jpg)
 
-#### Experience B Configuration
-
-Now create an experience for "Returning Mobile App Users" (Experience B):
+Now create an experience for "Returning Mobile App Users":
 
 1. Select "Add Experience Targeting" on the left
 1. Select the Audience "Returning Mobile App Users (after 30+ days)"
 1. Select "Done"
-   ![Experience B Audience](assets/activity_create_11.jpg)
+   ![Returning Mobile App Users Audience](assets/activity_create_11.jpg)
 
-Now use the same process for Experience A to configure Experience B. The configuration for the "Returning Mobile App Users" experience (Experience B) should now look like this:
+Now use the same process we used earlier to configure the new experience. The configuration for the "Returning Mobile App Users" experience  should look like this:
 
-![Experience B Final](assets/activity_engage_users_b_final.jpg)
+![Returning Mobile App Users Final](assets/activity_engage_users_b_final.jpg)
 
-Now let's complete the activity setup:
+Let's continue to the next screen in the setu
 
-1. Select "Next" to advance to "Targeting"
-1. Use the default settings for Targeting
+1. Click "Next" to advance to the "Targeting" screen
+1. Use the default settings for Targeting. If you had experiences for audiences that overlapped (e.g. "New York Users" and "First Time Users") you could arrange the priority order on this screen.
+1. Click "Next" to advance to "Goals & Settings"
 
     ![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
 
-1. Select "Next" to advance to "Goals & Settings"
+Now let's complete the activity setup:
+
 1. Set the Primary Goal to "Conversion"
-1. Set the action to "Viewed an mbox" > "any mbox"
+1. Set the action to "Viewed an mbox" > "wetravel_context_dest" (Since this location is on the confirmation screen, we can use it to measure conversions)
 
     ![Engage Users Activity - Goals](assets/activity_create_12.jpg)
 
 1. Keep all other settings on the screen to the defaults
-1. Save & Close the Activity
+1. Click "Save & Close" to save the Activity
 1. Activate the Activity on the next screen
 
 ![Experience B Audience](assets/activity_create_13.jpg)
@@ -130,19 +125,19 @@ Here is a summary of the second activity we'll build:
 
 Repeat the same process as above for the next Activity - "Contextual Offers". The Final configuration for both experiences are shown below:
 
-### Experience A
+#### San Diego
 
 ![Contextual Offers - Experience A](assets/activity_contextual_a_final.jpg)
 
-### Experience B
+#### Los Angeles
 
 ![Contextual Offers - Experience B](assets/activity_contextual_b_final.jpg)
 
 On the Goals & Settings step, we'll change the Primary Goal to the location on booking confirmation screen:
 
 1. Under the Reporting Settings, set the Primary Goal to "Conversion"
-1. Set the action to "Viewed an mbox" > "any mbox"
-1. Select "Save & Close"
+1. Set the action to "Viewed an mbox" > "wetravel_context_dest" (in this activity, this metric is basically meaningless since this is also the same location which delivers the experience)
+1. Click "Save & Close"
 
 ![Contextual Offers - Experience](assets/activity_create_14.jpg)
 
@@ -166,7 +161,7 @@ You can also validate the response in Logcat by filtering for "wetravel_engage_h
 
 ## Validate the Search Offer
 
-Select San Diego as your destination and search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user after 30 days of inactivity, no message will appear here since default content is set for this location (which is blank):
+Select "San Jose" as your "Departure" and "San Dieg" as your "Destination" and click the "Find Bus" button to search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user after 30 days of inactivity, no message will appear here since default content is set for this location (which is blank):
 
 ![Validate Search Offer](assets/layout_search_validate.jpg)
 
@@ -188,8 +183,8 @@ Now select "Done" and try another booking with Los Angeles as the destination. T
 
 ## Conclusion
 
-Congratulations! This concludes the Adobe Target SDK 4.x for Android Tutorial. You now have the skills to implement personalization in Android apps! You can refer to this documentation and demo app as a reference for your future projects.
+Congratulations! This concludes the main portion of the Adobe Target SDK 4.x for Android Tutorial. You now have the skills to implement personalization in Android apps! You can refer to this documentation and demo app as a reference for your future projects.
 
-**Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
+Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
 
 **[NEXT : "Feature Flagging" >](feature-flagging.md)**

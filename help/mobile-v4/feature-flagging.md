@@ -113,47 +113,33 @@ Let's name it "Feature Flag v1" with the value {"enable":1}
 
 ## Create an Activity
 
-Now let's create an A/B activity with that offer. For detailed steps on creating an activity see the previous lesson. The activity will only need one audience for this example. In a live scenario, you may want to build out specific custom audiences for specific feature roll-outs, then set the activity to use those audiences. In this example, we'll just allocate to a percentage of all users. Here is the configuration for the activity:
+Now let's create an A/B Test activity with that offer. For detailed steps on creating an activity see the previous lesson. The activity will only need one audience for this example. In a live scenario, you may want to build out specific custom audiences for specific feature roll-outs, then set the activity to use those audiences. In this example, we'll just allocate to a percentage of all users. Here is the configuration for the activity:
 
-1. Name the Activity to "Feature Flag"
+1. Name the Activity "Feature Flag"
 1. Select the "wetravel_feature_flag_recs" location
 1. Change the content to the "Feature Flag v1" JSON offer
-1. Select "Next" to advance to Targeting
 
-![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
-
-Create a second experience that uses the default content
+    ![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
 
 1. Select "Add Experience" to add experience B
-1. Select the "wetravel_feature_flag_recs" location
 1. Leave "Default Content" for the content
-1. Select "Next" to advance to Targeting
+1. Select "Next" to advance to the "Targeting" screen
 
-![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
+    ![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
 
-On the Targeting screen, verify that the Traffic Allocation method is set to "Auto-allocate to best experience" setting.
+1. On the Targeting screen, verify that the Traffic Allocation method is set to "Auto-allocate to best experience" setting.
 
 1. Select "Next" to advance to "Goals & Settings"
 
-![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
-
-Select "Next" to advance to the Targeting screen. Suppose we'd like to roll out new features to 50% of users. On the Targeting screen, set the audience to 50% and use the manual allocation method (which is default):
-
-![Feature Flag Activity Targeting](assets/feature_flag_activity_targeting.jpg)
-
-Select "Next" to advance to the Goals & Settings screen. 
+    ![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
 
 1. Set the Primary Goal to Conversion
-1. Set the action to "Viewed an Mbox". We'll use the "wetravel_context_dest" location.
+1. Set the action to "Viewed an Mbox". We'll use the "wetravel_context_dest" location (since this location is on the Confirmation screen, we can use it to see if the new feature leads to more conversions)
 1. Select "Save & Close"
 
-On the Goals & Settings screen, set the Primary Goal under Reporting Settings:
+    ![Feature Flag Activity Config](assets/feature_flag_activity_4.jpg)
 
-Set the Primary Goal to "Conversion" and the Action to "Viewed an mbox" and select the we_travel_feature_flag_recs mbox.
-
-![Feature Flag Activity Config](assets/feature_flag_activity_4.jpg)
-
-Save and Close the activity, then activate it.
+Activate the activity
 
 ## Validate the Feature Flag Request
 
