@@ -12,14 +12,14 @@ activity-type: implement
 
 # Personalize Layouts
 
-Now it's time to bring everything together and create the personalized experiences. A Target "Activity" is the Target mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, Target will respond with the personalized content. We'll build two personalization activities in Target and validate that personalized content is displaying in the app to the right user at the right time and in the right location.
+Now it's time to bring everything together and create the personalized experiences. An "Activity" is the Target mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, Target responds with the personalized content. We'll build two personalization activities in Target and validate that personalized content is displays to the right user at the right time and in the right location.
 
 ## Learning Objectives
 
 At the end of this lesson, you will be able to:
 
-* Build Activities in Adobe Target for Our Audiences
-* Validate the Activities in the Demo App
+* Build Activities in Adobe Target
+* Validate the Activities in the sample App
 
 ## Create Activities in Adobe Target
 
@@ -29,83 +29,88 @@ Here is a summary of the activity we'll build:
 
 | Audience | Locations | Offers |
 |---|---|---|
-| New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home_Engage_New_Users, Search_Engage_New_Users |
-| Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home_Returning Users, default_content |
+| New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home: Engage New Users, Search: Engage New Users |
+| Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home: Returning Users, default_content |
 
-In the Target interface select the following:
+In the Target interface do the following:
 
-* Activities > Create Activity > Experience Targeting
-* Select Mobile App
-* Select the Form composer
-* Select your Workspace and Property
-* Click Next
+1. Select Activities > Create Activity > Experience Targeting
 
-![Create Activity](assets/activity_create.jpg)
+    ![Create Activity](assets/activity_create_1.jpg)
 
-On the next screen, we'll add our first "Engage Users" experience:
+1. Click "Mobile App"
+1. Select the "Form composer"
+1. Select your workspace (the same workspace you used in previous lessons)
+1. Select your Property  (the same property you used in previous lessons)
+1. Click "Next"
 
-* Change the activity title to "Engage Users"
-* Select the ellipsis > Change Audience
+    ![Create Activity](assets/activity_create_2.jpg)
 
-![Experience A](assets/activity_engage_users_a.jpg)
+1. Change the activity title to "Engage Users"
+1. Select the ellipsis > Change Audience
+    ![New Mobile App Users Change Audience](assets/activity_create_3.jpg)
+1. Set the audience to "New Mobile App Users"
+1. Click "Done"
+    ![New Mobile App Users Audience](assets/activity_create_4.jpg)
 
-* Set the audience to "New Mobile App Users"
+1. Change the location to "wetravel_engage_home"
+1. Select the dropdown arrow next to Default Content and select "Change HTML Offer"
 
-![Experience A Audience](assets/activity_engage_users_a_audience.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_5.jpg)
 
-* Now set the first offer for the first location
-* Select the wetravel_engage_home location
-* Change the HTML Offer
+1. Select the "Home: Engage New Users" offer
+1. Select "Done"
 
-![Experience A Offer](assets/activity_engage_users_a_offer.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_6.jpg)
 
-* Select the "Home_Engage_New_Users" offer
+1. Select "Add Location"
+    ![New Mobile App Users Audience](assets/activity_create_7.jpg)
 
-![Experience A HTML Offer](assets/activity_engage_users_a_html_offer.jpg)
+1. Select the "wetravel_engage_search" location
+1. Change the HTML offer
 
-Now add the second offer for this same activity:
+    ![New Mobile App Users Audience](assets/activity_create_8.jpg)
 
-* Select the "wetravel_engage_search" location
-* Change the HTML offer
+1. Select the "Search: Engage New Users" offer
+1. Click "Done"
 
-![Experience A Offer 2](assets/activity_engage_users_a_offer2.jpg)
+    ![New Mobile App Users Audience](assets/activity_create_9.jpg)
 
-* Select the "Search : Engage_New_Users" HTML offer:
-
-![Experience A HTML Offer 2](assets/activity_engage_users_a_html_offer2.jpg)
-
-The configuration for the "New Mobile App Users" experience (Experience A) should now look like this:
-
-#### Experience A Configuration
+You've just connected an audience to locations and offers, creating the personalized experience for the New Mobile App Users! The experience  should now look like this:
 
 ![Experience A Final](assets/activity_engage_users_a_final.jpg)
 
-Now create an experience for "Returning Mobile App Users" (Experience B).
+Now create an experience for "Returning Mobile App Users":
 
-* Select "Add Experience Targeting" on the left
-* Select the Audience "Returning Mobile App Users (after 30+ days)"
-* Use the same process for Experience A to configure Experience B
+1. Select "Add Experience Targeting" on the left
+1. Select the Audience "Returning Mobile App Users (after 30+ days)"
+1. Select "Done"
+   ![Returning Mobile App Users Audience](assets/activity_create_11.jpg)
 
-The configuration for the "Returning Mobile App Users" experience (Experience B) should now look like this:
+Now use the same process we used earlier to configure the new experience. The configuration for the "Returning Mobile App Users" experience  should look like this:
 
-#### Experience B Configuration
+![Returning Mobile App Users Final](assets/activity_engage_users_b_final.jpg)
 
-![Experience B Final](assets/activity_engage_users_b_final.jpg)
+Let's continue to the next screen in the setu
 
-* Select "Next"
-* Use the default settings for Targeting
+1. Click "Next" to advance to the "Targeting" screen
+1. Use the default settings for Targeting. If you had experiences for audiences that overlapped (e.g. "New York Users" and "First Time Users") you could arrange the priority order on this screen.
+1. Click "Next" to advance to "Goals & Settings"
 
-![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
+    ![Engage Users Activity - Targeting Default](assets/activity_engage_users_targeting.jpg)
 
-* Select "Next" to advance to "Goals & Settings"
-* Set the Primary Goal to "Conversion"
-* Set the action to "Viewed an mbox" > "any mbox"
+Now let's complete the activity setup:
 
-![Engage Users Activity - Goals](assets/activity_engage_users_goals.jpg)
+1. Set the Primary Goal to "Conversion"
+1. Set the action to "Viewed an mbox" > "wetravel_context_dest" (Since this location is on the confirmation screen, we can use it to measure conversions)
 
-* Keep all other settings on the screen to the defaults
-* Save & Close the Activity
-* Activate the Activity on the next screen
+    ![Engage Users Activity - Goals](assets/activity_create_12.jpg)
+
+1. Keep all other settings on the screen to the defaults
+1. Click "Save & Close" to save the Activity
+1. Activate the Activity on the next screen
+
+![Experience B Audience](assets/activity_create_13.jpg)
 
 Our first activity is now live and ready to test!
 
@@ -120,15 +125,23 @@ Here is a summary of the second activity we'll build:
 
 Repeat the same process as above for the next Activity - "Contextual Offers". The Final configuration for both experiences are shown below:
 
-### Experience A
+#### San Diego
 
 ![Contextual Offers - Experience A](assets/activity_contextual_a_final.jpg)
 
-### Experience B
+#### Los Angeles
 
 ![Contextual Offers - Experience B](assets/activity_contextual_b_final.jpg)
 
-Use the same configurations we used in the first activity for the Targeting and Goals & Settings steps. Activate the activity.
+On the Goals & Settings step, we'll change the Primary Goal to the location on booking confirmation screen:
+
+1. Under the Reporting Settings, set the Primary Goal to "Conversion"
+1. Set the action to "Viewed an mbox" > "wetravel_context_dest" (in this activity, this metric is basically meaningless since this is also the same location which delivers the experience)
+1. Click "Save & Close"
+
+![Contextual Offers - Experience](assets/activity_create_14.jpg)
+
+Activate the Activity on the next screen.
 
 Now our second activity is live and ready to test!
 
@@ -148,7 +161,7 @@ You can also validate the response in Logcat by filtering for "wetravel_engage_h
 
 ## Validate the Search Offer
 
-Select San Diego as your destination and search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user after 30 days of inactivity, no message will appear here since default content is set for this location (which is blank):
+Select "San Jose" as your "Departure" and "San Dieg" as your "Destination" and click the "Find Bus" button to search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user after 30 days of inactivity, no message will appear here since default content is set for this location (which is blank):
 
 ![Validate Search Offer](assets/layout_search_validate.jpg)
 
@@ -170,8 +183,8 @@ Now select "Done" and try another booking with Los Angeles as the destination. T
 
 ## Conclusion
 
-Congratulations! This concludes the Adobe Target SDK 4.x for Android Tutorial. You now have the skills to implement personalization in Android apps! You can refer to this documentation and demo app as a reference for your future projects.
+Congratulations! This concludes the main portion of the Adobe Target SDK 4.x for Android Tutorial. You now have the skills to implement personalization in Android apps! You can refer to this documentation and demo app as a reference for your future projects.
 
-**Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
+Next: Feature Flagging is another feature that can be implemented with Adobe Target in Android. To learn about feature flagging, check out the next lesson.
 
 **[NEXT : "Feature Flagging" >](feature-flagging.md)**
