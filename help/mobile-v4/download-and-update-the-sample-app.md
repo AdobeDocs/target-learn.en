@@ -23,7 +23,7 @@ At the end of this lesson, you will be able to:
 
 ## Download the We.Travel App
 
-* Download the [sample-app-android-SDKv4-Base-Version.zip](https://github.com/adobe-target/sample-app-android/archive/SDKv4-Base-Version.zip)
+* Download the [sample-app-android-SDKv4-Base-Version.zip](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Decompress the zip file
 * Open the app in Android Studio as an existing project (ignore any errors about "Invalid VCS root mapping")
 * Run the app in an emulator to confirm that the app builds and you can see the home screen
