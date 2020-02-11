@@ -30,7 +30,7 @@ Here is a summary of the activity we'll build:
 | Audience | Locations | Offers |
 |---|---|---|
 | New Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home: Engage New Users, Search: Engage New Users |
-| Returning Users (after 30+ days) | wetravel_engage_home, wetravel_engage_search | Home: Returning Users, default_content |
+| Returning Mobile App Users | wetravel_engage_home, wetravel_engage_search | Home: Returning Users, default_content |
 
 In the Target interface do the following:
 
@@ -83,7 +83,7 @@ You've just connected an audience to locations and offers, creating the personal
 Now create an experience for "Returning Mobile App Users":
 
 1. Select "Add Experience Targeting" on the left
-1. Select the Audience "Returning Mobile App Users (after 30+ days)"
+1. Select the Audience "Returning Mobile App Users"
 1. Select "Done"
    ![Returning Mobile App Users Audience](assets/activity_create_11.jpg)
 
@@ -120,8 +120,8 @@ Here is a summary of the second activity we'll build:
 
 | Audience | Location | Offers |
 | --- | --- | --- |
-| Destination: San Diego | wetravel_context_dest | Recommendation_for_San_Diego |
-| Destination: Los Angeles | wetravel_context_dest | Recommendation_for_Los_Angeles |
+| Destination: San Diego | wetravel_context_dest | Promotion for San Diego |
+| Destination: Los Angeles | wetravel_context_dest | Promotion for Los Angeles |
 
 Repeat the same process as above for the next Activity - "Contextual Offers". The Final configuration for both experiences are shown below:
 
@@ -147,11 +147,11 @@ Now our second activity is live and ready to test!
 
 ## Validate the Home Offer
 
-Run the Emulator and watch for the first offer to display at the bottom of the home screen. If you're a returning user after 30 days of inactivity, you would see the "welcome back" offer displayed. Since you're likely a new user (less than 2 days of use), you should see the "new user" message:
+Run the Emulator and watch for the first offer to display at the bottom of the home screen. If you're a returning user with 5 or more app launches, you would see the "welcome back" offer displayed. If you're a new user (less than 5 app launches), you should see the "new user" message:
 
 ![Validate Home Offer](assets/layout_home_validate.jpg)
 
-If the message doesn't display, try wiping the data for your emulator. This is done under Tools > AVD Manager:
+If the new user offer doesn't display, try wiping the data for your emulator. That will reset the app launches to 1 the next time you launch. This is done under Tools > AVD Manager. You might need to restart Android Studio, too, if Logcat does not work properly:
 
 ![Wipe Emulator](assets/layout_home_validate_avd_wipe.jpg)
 
@@ -161,7 +161,7 @@ You can also validate the response in Logcat by filtering for "wetravel_engage_h
 
 ## Validate the Search Offer
 
-Select "San Jose" as your "Departure" and "San Dieg" as your "Destination" and click the "Find Bus" button to search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user after 30 days of inactivity, no message will appear here since default content is set for this location (which is blank):
+Select "San Jose" as your "Departure" and "San Diego" as your "Destination" and click the "Find Bus" button to search for available buses. On the results screen, you should see the "use filters" message. If you're a returning user with 5 or more app launches, no message will appear here since default content is set for this location (which is blank):
 
 ![Validate Search Offer](assets/layout_search_validate.jpg)
 

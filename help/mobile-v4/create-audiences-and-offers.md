@@ -25,10 +25,10 @@ More specifically, in this lesson we will create audiences and offers needed to 
 
 | Location | Audience | Offer |
 | --- | --- | --- |
-| wetravel_engage_home | New Users  | "Select your Origin & Destination to search for available bus routes" |
-| wetravel_engage_search | New Users | "Use filters to narrow down your search results" |
-| wetravel_engage_home | Returning Users (after 30+ days) | "Welcome back! Use promo code BACK30 during checkout to get a 10% discount." |
-| wetravel_engage_search | Returning Users (after 30+ days) | default content |
+| wetravel_engage_home | New Mobile App Users  | "Select your Origin & Destination to search for available bus routes" |
+| wetravel_engage_search | New Mobile App Users | "Use filters to narrow down your search results" |
+| wetravel_engage_home | Returning Mobile App Users | "Welcome back! Use promo code BACK30 during checkout to get a 10% discount." |
+| wetravel_engage_search | Returning Mobile App Users | default content |
 | wetravel_context_dest | Destination: San Diego | "DJ" |
 | wetravel_context_dest | Destination: Los Angeles | "Universal" |
 
@@ -55,23 +55,23 @@ Adobe Target Audiences are used to identify specific groups of visitors. Offers 
 1. Select a "Custom" rule
     ![Create a New User Audience](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Select a.DaysSinceFirstUse
+1. Select a.Launches
 1. Select "is less than"
-1. Enter "2"
+1. Enter "5"
 1. Save the new audience
     ![Create a New User Audience](assets/audience_new_mobile_app_users_3.jpg)
 
 ### Create an Audience for Returning Users
 
-Follow the same steps listed above to create an audience for users who return after 30+ days.
+Follow the same steps listed above to create an audience for returning users.
 
-1. Name the audience "Returning Mobile App Users (after 30+ days)"
-1. Use "a.DaysSinceLastUse is greater than 30" as the custom rule
+1. Name the audience "Returning Mobile App Users"
+1. Use "a.Launches is greater than or equal to 5" as the custom rule
 1. Save the new audience
 
     ![Create a Returning User Audience](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] All Lifecycle metrics and dimensions collected in the Target mobile SDK are prepended with "a" (a.DaysSinceFirstUse, a.DaySinceLastUse, etc.) and are available in the "Custom" option of the drop-down menu and can be used to build audiences.
+>[!NOTE] All Lifecycle metrics and dimensions collected in the Target mobile SDK are prepended with "a" (e.g., a.Launches) and are available in the "Custom" option of the drop-down menu and can be used to build audiences.
 
 ### Create an Audience for Users Booking a Trip to San Diego
 
@@ -83,7 +83,7 @@ Next we will create a few audiences for some of the destinations offered by the 
 1. Use a custom rule with this definition: "locationDest contains San Diego"
 1. Save the new audience
 
-![Create "San Diego" Audience](assets/audience_locationDest_san_diego.jpg)
+    ![Create "San Diego" Audience](assets/audience_locationDest_san_diego.jpg)
 
 ### Create an Audience for Users Booking a Trip to Los Angeles
 
