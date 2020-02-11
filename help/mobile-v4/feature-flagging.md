@@ -113,7 +113,7 @@ Let's name it "Feature Flag v1" with the value {"enable":1}
 
 ## Create an Activity
 
-Now let's create an A/B Test activity with that offer. For detailed steps on creating an activity see the previous lesson. The activity will only need one audience for this example. In a live scenario, you may want to build out specific custom audiences for specific feature roll-outs, then set the activity to use those audiences. In this example, we'll just allocate to a percentage of all users. Here is the configuration for the activity:
+Now let's create an A/B Test activity with that offer. For detailed steps on creating an activity see the previous lesson. The activity will only need one audience for this example. In a live scenario, you may want to build out specific custom audiences for specific feature roll-outs, then set the activity to use those audiences. In this example, we'll just allocate traffic 50/50 (50% to visitors who would see the feature updates, and 50% to visitors who would see a standard experience). Here is the configuration for the activity:
 
 1. Name the Activity "Feature Flag"
 1. Select the "wetravel_feature_flag_recs" location
@@ -121,15 +121,14 @@ Now let's create an A/B Test activity with that offer. For detailed steps on cre
 
     ![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
 
-1. Select "Add Experience" to add experience B
+1. Click "Add Experience" to add experience B
+1. Leave the "wetravel_feature_flag_recs" location
 1. Leave "Default Content" for the content
-1. Select "Next" to advance to the "Targeting" screen
+1. Click "Next" to advance to the "Targeting" screen
 
     ![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
 
-1. On the Targeting screen, verify that the Traffic Allocation method is set to "Auto-allocate to best experience" setting.
-
-1. Select "Next" to advance to "Goals & Settings"
+1. On the Targeting screen, verify that the Traffic Allocation method is set to the default setting (Manual) and that each experience has the default 50% allocation. Select "Next" to advance to "Goals & Settings"
 
     ![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
 
@@ -141,13 +140,19 @@ Now let's create an A/B Test activity with that offer. For detailed steps on cre
 
 Activate the activity
 
-## Validate the Feature Flag Request
+## Validate the Feature Flag Activity
 
 Now use the emulator to watch for the request. Since we set the targeting to 50% of users, there's a 50% you'll see the feature flag response contain the "{enable:1}" value.
 
 ![Feature Flag Validation](assets/feature_flag_validation.jpg)
 
-If you don't see the "{enable:1}" value, that means you weren't targeted for the experience. For a temporary test, to force the offer to show, you could deactivate the activity, then edit the activity and change the traffic allocation to 100%, then save and validate again with the emulator. The offer should now return the "{enable:1}" value.
+If you don't see the "{enable:1}" value, that means you weren't targeted for the experience. As a temporary test, to force the offer to show, you could:
+
+1. Deactivate the activity
+1. Change the traffic allocation to 100% on the new feature experience
+1. Save and reactivate
+1. Wipe the data on your emulator and then restart the app
+1. The offer should now return the "{enable:1}" value.
 
 In a live scenario, the "{enable:1}" response can be used to enable more custom logic in your app to display the specific feature set you want to show your target audience.
 

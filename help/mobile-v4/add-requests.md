@@ -103,7 +103,7 @@ public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![Add the location names to the Contant.java file](assets/constants.jpg)
+![Add the location names to the Constant.java file](assets/constants.jpg)
 
 ### Batch Prefetch Request Code Explanation
 
@@ -222,11 +222,10 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 The next request we will add to the app will be a real-time request on the Thank You screen. By "real-time" we mean that both the request will be made and the response will be applied immediately (not cached for later). In a later lesson, we will be build an experience using this request, that is personalized to the user's trip destination.  
 
-So let's add a real-time request on the Thank You screen. In the ThankYouActivity file, we'll add the code shown in red:
-
+So let's add a real-time request on the Thank You screen. In the ThankYouActivity file, we'll make the changes shown in red:
 ![Add a Real-time location on the Thank You Screen](assets/thankyou.jpg)
 
-Scroll to the end of the ThankYouActivity file. Comment out these three lines in the getRecommandations() function:
+Scroll to the end of the ThankYouActivity file. Comment out the three lines in the getRecommandations() function and add the invocation of the targetLoadRequest() function:
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -239,6 +238,9 @@ Add this line of code to the getRecommandations() function:
 ```java
 targetLoadRequest(recommandation.recommandations);
 ```
+
+Now, we need to define the targetLoadRequest() function:
+![Add a Real-time location on the Thank You Screen](assets/thankyou2.jpg)
 
 Add this code block after the filterRecommendationBasedOnOffer() function:
 
