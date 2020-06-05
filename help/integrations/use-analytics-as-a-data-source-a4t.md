@@ -9,6 +9,6 @@ doc-type: use
 activity-type: feature-video
 ---
 
-# Use Analytics as a Data Source for Target (A4T)
+# Use Adobe Analytics as a Data Source for Adobe Target (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)

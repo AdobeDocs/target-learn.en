@@ -9,7 +9,7 @@ doc-type: use
 activity-type: feature-video
 ---
 
-# Use the Visual Experience Composer in Adobe Target
+# Use the [!UICONTROL Visual Experience Composer] in Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 >
