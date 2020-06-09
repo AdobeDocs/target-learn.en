@@ -16,7 +16,7 @@ author: Judy Kim
 
 At this point, you have learned how to generate an access token, using the JWT authentication flow, to use the Adobe Target Admin APIs with Adobe I/O.
   
-You can use the [[!DNL Recommendations] APIs](https://developers.adobetarget.com/api/recommendations/) to add, update, or delete items in your recommendations catalog. As with the rest of the Adobe Target Admin APIs, the [!DNL Recommendations] APIs require authentication.
+You can use the [Recommendations APIs](https://developers.adobetarget.com/api/recommendations/) to add, update, or delete items in your recommendations catalog. As with the rest of the Adobe Target Admin APIs, the [!DNL Recommendations] APIs require authentication.
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ You can use the [[!DNL Recommendations] APIs](https://developers.adobetarget.com
 
 >[!NOTE]
 >
->Before proceeding, get the [[!DNL Recommendations] Postman collection](https://developers.adobetarget.com/api/recommendations/#section/Postman).
+>Before proceeding, get the [Recommendations Postman collection](https://developers.adobetarget.com/api/recommendations/#section/Postman).
 
 ## Creating and updating items with the Save Entities API
 

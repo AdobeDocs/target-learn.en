@@ -18,10 +18,10 @@ Adobe Target APIs may be grouped according to type.
 
 |API Type|What it enables you to do|Download link|
 | --- | --- | --- |
-|Admin|Create, modify, and delete activities, audiences, offers, and other objects (including [!DNL Recommendations] entities, criteria, designs, and so on. The [!DNL Recommendations] APIs are a type of admin API.)|<UL><li>[[!DNL Target] Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[[!DNL Recommendations] API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul>|
-|Delivery|Retrieve optimized and personalized content from [!DNL Target] for delivery to an end user.|[[!DNL Target] Delivery API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)|
-|Reporting|Export activity results and other reporting results.|Reporting APIs are included within the [[!DNL Target] Admin API Postman collection](https://developers.adobetarget.com/api/#admin-postman-collection).|
-|Profile|Retrieve and modify user profiles stored in Adobe Target.|[[!DNL Target] Profile API Postman Collection](https://developers.adobetarget.com/api/#profiles)|
+|Admin|Create, modify, and delete activities, audiences, offers, and other objects (including [!DNL Recommendations] entities, criteria, designs, and so on. The [!DNL Recommendations] APIs are a type of admin API.)|<UL><li>[Target Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul>|
+|Delivery|Retrieve optimized and personalized content from [!DNL Target] for delivery to an end user.|[Target Delivery API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)|
+|Reporting|Export activity results and other reporting results.|Reporting APIs are included within the [Target Admin API Postman collection](https://developers.adobetarget.com/api/#admin-postman-collection).|
+|Profile|Retrieve and modify user profiles stored in Adobe Target.|[Target Profile API Postman Collection](https://developers.adobetarget.com/api/#profiles)|
 
 Note the distinction between **admin APIs** (including the [!DNL Recommendations] APIs), which let you configure various aspects of Adobe Target, versus **delivery APIs**, which let you retrieve content. Admin APIs require authentication, whereas delivery APIs do not.
 
@@ -40,6 +40,6 @@ Note the following resources, which are necessary to understand this tutorial an
 |Resource|Details|
 | --- | --- |
 |Postman|Get the [Postman app](https://www.postman.com/downloads/) for your operating system. Postman basic is free with account creation. While not required, Postman makes API workflows easier, and Adobe Target provides several Postman collections to help execute its APIs and learn how they operate. The rest of this tutorial assumes usage of Postman.  |
-|References|Familiarity with the following resources is assumed throughout the rest of this tutorial:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[[!DNL Target] Adobe I/O documentation](https://developers.adobetarget.com/api/#introduction)</li><li>[[!DNL Recommendations] API documentation](https://developers.adobetarget.com/api/recommendations/)</li><li>[Postman documentation](https://learning.getpostman.com/)</li></ul>|
+|References|Familiarity with the following resources is assumed throughout the rest of this tutorial:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Target Adobe I/O documentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API documentation](https://developers.adobetarget.com/api/recommendations/)</li><li>[Postman documentation](https://learning.getpostman.com/)</li></ul>|
 
 [Next "Configure Adobe.IO Authentication" >](2configure-io-target-integration.md)

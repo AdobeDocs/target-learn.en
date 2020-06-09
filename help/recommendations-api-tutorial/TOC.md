@@ -11,8 +11,9 @@ solution: Target
 + [Manage Your Catalog with APIs](3manage-catalog.md)
 + [Manage Custom Criteria](4manage-custom-criteria.md)
 + [Use the Delivery API with Recommendations](5fetch-recs-server-side-delivery-api.md)
-+ [Debug API calls](6debug.md)
-+ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)
+
+<!--+ [Debug API calls](6debug.md)
++ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->
 
 <!--
 + Managing your Catalog with APIs{#manage-catalog}

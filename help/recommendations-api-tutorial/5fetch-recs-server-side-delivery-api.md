@@ -120,6 +120,10 @@ We learned in an [earlier section](3manage-catalog.md) how to manage Adobe Targe
 * [Adobe Target Delivery API](https://developers.adobetarget.com/api/delivery-api/)
 * [Integrate [!DNL Recommendations] with email](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
-Read on for guidelines on debugging!
+## Summary and Review
 
-[Next "Debugging" >](6debug.md)
+Congratulations! By finishing this tutorial, you have learned how to:
+* [Configure an Adobe.IO Target integration](2configure-io-target-integration.md)
+* [Manage your catalog](3manage-catalog.md)
+* [Manage custom criteria](4manage-custom-criteria.md)
+* [Use the Delivery API with recommendations](5fetch-recs-server-side-delivery-api.md)
