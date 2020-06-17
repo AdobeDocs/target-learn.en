@@ -19,7 +19,7 @@ The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v
 At the end of this lesson, you will be able to:
 
 * Download and Open the We.Travel sample app in Android Studio
-* Verify & Update the Mobile Services SDK Settings for Target
+* Verify & Update the Mobile Services SDK Settings for [!DNL Target]
 
 ## Download the We.Travel App
 
@@ -31,30 +31,30 @@ At the end of this lesson, you will be able to:
 
     ![Open the app](assets/wetravel_homeScreen.png)![Confirmation screen](assets/wetravel_confirmationScreen.png)
 
-## Verify & Update the Mobile Services SDK Settings for Target
+## Verify & Update the Mobile Services SDK Settings for [!DNL Target]
 
-The Adobe Mobile Services SDK has been preinstalled within the We.Travel app [according to the documentation](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Now you will update the installation to point to your own Target account.
+The Adobe Mobile Services SDK has been preinstalled within the We.Travel app [according to the documentation](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Now you will update the installation to point to your own [!DNL Target] account.
 
 First, create a new App in the Mobile Services user interface:
 
-1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com)
-1. Go to the Manage Apps and click "Add" to add a new app to use with this tutorial (Manage Apps > Add)
-1. Choose an an Analytics report suite with non-production data, give the app a name, select the "Standard" type and click "Save"
-1. Once the app has been added, add your Target Client Code on the next screen in the "SDK Target Options" section (you can find your client code in the Target interface under Setup > Implementation > Edit Settings, next to the Download at.js button)
-1. The "Request Timeout" setting determines how long the app will wait for the response from the Target server before executing timeout instructions. Just leave the default setting.
-1. Enable the "Visitor ID Service" and make sure your Organization is selected in the drop-down
-1. Save your changes by clicking the Save button on the top right side of the window (not the one in the "Universal Links and App Links Options" or "Push Services" section)
+1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com).
+1. Go to the [!UICONTROL Manage Apps], then click **[!UICONTROL Add]** to add a new app to use with this tutorial (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
+1. Choose an an Analytics report suite with non-production data, give the app a name, select the **[!UICONTROL Standard]** type and click **[!UICONTROL Save]**.
+1. Once the app has been added, add your [!DNL Target] Client Code on the next screen in the [!UICONTROL SDK Target Options] section (you can find your client code in the [!DNL Target] interface under **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, next to the Download `at.js` button).
+1. The [!UICONTROL Request Timeout] setting determines how long the app waits for the response from the [!DNL Target] server before executing timeout instructions. Just leave the default setting.
+1. Enable the [!UICONTROL Visitor ID Service] and make sure your [!UICONTROL Organization] is selected in the drop-down.
+1. Save your changes by clicking **[!UICONTROL Save]** on the top right side of the window (not the one in the [!UICONTROL Universal Links], [!UICONTROL App Links] options, or [!UICONTROL Push Services] section).
 1. Scroll to the App SDK Downloads section at the bottom of the page and download the Config File:
 
     ![Download the Config File](assets/config_file.jpg)
 
-1. Replace the ADBMobileConfig.json file in your Android Studio project assets folder (app > src > main > assets).
+1. Replace the `ADBMobileConfig.json` file in your Android Studio project assets folder (app > src > main > assets).
 
-1. Now open the ADBMobileConfig.json file and make sure it contains the expected changes such as your Target Client Code and your Analytics details:
+1. Now open the `ADBMobileConfig.json` file and make sure it contains the expected changes such as your [!DNL Target] Client Code and your Analytics details:
     ![Download the Config File](assets/client_code.jpg)
 
-If you don't see your settings, please confirm that you clicked the right "Save" button in the Mobile Services interface and copied the file to the correct location.
+If you don't see your settings, confirm that you clicked the right **[!UICONTROL Save]** button in the [!UICONTROL Mobile Services] interface and copied the file to the correct location.
 
-Congratulations! You've updated the SDK with your Target account details! We will do additional validation of the configuration after we add Target requests in the next lesson.
+Congratulations! You've updated the SDK with your [!DNL Target] account details! We will do additional validation of the configuration after we add [!DNL Target] requests in the next lesson.
 
 **[NEXT : "Add Target Requests" >](add-requests.md)**

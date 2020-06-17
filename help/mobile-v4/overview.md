@@ -12,14 +12,14 @@ activity-type: implement
 
 _Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.
 
-A demo Android app is provided for you to complete the lessons. After completing this tutorial, you should be ready to start implementing Target in your own Android app!
+A demo Android app is provided for you to complete the lessons. After completing this tutorial, you should be ready to start implementing [!DNL Target] in your own Android app!
 
 After completing this tutorial you will be able to:
 
 * Validate the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) setup
-* Implement the following types of Target requests:
-  * Prefetch of Target content
-  * Batch multiple Target locations (mboxes) in a single requests
+* Implement the following types of [!DNL Target] requests:
+  * Prefetch of [!DNL Target] content
+  * Batch multiple [!DNL Target] locations (mboxes) in a single requests
   * Blocking requests (runs before app display)
   * Non-Blocking requests (runs in the background)
   * Real-time (non-caching)
@@ -40,16 +40,16 @@ In these lessons, it is assumed that you:
 
 If you do not have the required access to the Experience Cloud Solutions, reach out to your Experience Cloud Administrator.
 
-Also, it is assumed that you are familiar with Android development in Java. You do not need to be a master of Java to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
+Also, it is assumed that you are familiar with Android development in Java. You do not need to be a Java expert to complete the lessons, but you will get more out of them if you can comfortably read and understand code.
 
 ### Verify Access to Adobe Target
 
 This lesson requires access to Adobe Target. Before moving on through the next steps, ensure you have access to Adobe Target by doing the following:
 
 1. Log into the [Adobe Experience Cloud](https://experience.adobe.com/)
-1. From the Experience Cloud home screen, click Target:
+1. From the Experience Cloud home screen, click [!DNL Target]:
     ![Experience Cloud Home Screen](assets/aec_homeScreen_clickTarget.png)
-1. You should get to the Activities list in Adobe Target, as pictured below and you should see that your user has Approver-level access. If you unable to access Target or cannot verify the Approver-level access, please contact one of your company's Experience Cloud Administrators, request this access and resume this tutorial once it's been granted:
+1. You should get to the Activities list in Adobe Target, as pictured below and you should see that your user has Approver-level access. If you unable to access [!DNL Target] or cannot verify the Approver-level access, please contact one of your company's Experience Cloud Administrators, request this access and resume this tutorial once it's been granted:
 
     ![Adobe UI](assets/targetUI_approver.png)
 
@@ -59,7 +59,7 @@ In these lessons, you will implement Adobe Target into a demo travel app called 
 
 ![We.Travel app final](assets/overview_final_result.jpg)
 
-After walking through implementation within the We.Travel app you will be able to start using Target in your own mobile app.
+After walking through implementation within the We.Travel app you will be able to start using [!DNL Target] in your own mobile app.
 
 Let's get started!
 
