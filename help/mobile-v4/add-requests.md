@@ -12,7 +12,7 @@ activity-type: implement
 
 The Adobe Mobile Services SDK (v4) provides Adobe Target methods and functionality that enable you to personalize your app with different experiences for different users. Typically, one or more requests are made from the app to the Adobe Target to retrieve the personalized content and measure the impact of that content.
 
-In this lesson, you will prepare the We.Travel app for personalization by implementing Target requests.
+In this lesson, you will prepare the We.Travel app for personalization by implementing [!DNL Target] requests.
 
 ## Prerequisites
 
@@ -22,9 +22,9 @@ Be sure to [download and update the sample app](download-and-update-the-sample-a
 
 At the end of this lesson, you will be able to:
 
-* Cache multiple Target offers (i.e. personalized content) using a batch prefetch request
-* Load prefetched Target locations
-* Load a Target location in real-time (non-prefetched)
+* Cache multiple [!DNL Target] offers (i.e. personalized content) using a batch prefetch request
+* Load prefetched [!DNL Target] locations
+* Load a [!DNL Target] location in real-time (non-prefetched)
 * Clear prefetched locations from cache
 * Validate prefetched and real-time requests
 
@@ -33,19 +33,19 @@ At the end of this lesson, you will be able to:
 Below is some of key Target terminology that we will use in the remainder of this tutorial.
 
 * **Request:**  a network request to the Adobe Target servers
-* **Offer:**  a snippet of code or other text-based content, defined in the Target user interface (or with API), which is delivered in the response. Usually JSON when Target is used in native mobile apps.
-* **Location:**  a user-defined name given to a request, used in the Target interface to associate offers with specific requests
+* **Offer:**  a snippet of code or other text-based content, defined in the [!DNL Target] user interface (or with API), which is delivered in the response. Usually JSON when [!DNL Target] is used in native mobile apps.
+* **Location:**  a user-defined name given to a request, used in the [!DNL Target] interface to associate offers with specific requests
 * **Batch Request:**  a single request that includes multiple locations
 * **Prefetch Request:**  a single request that retrieves offers and caches them into memory for future use in the app
 * **Batch Prefetch Request:**  a single request that prefetches offers for multiple locations
-* **Audience:**  a group of visitors defined in the Target interface or shared to Target from other Adobe applications (e.g. “iPhone X visitors”, “visitors in the California”, “First App Open”)
-* **Activity:**  a Target construct, defined in the Target user interface (or with API) which links locations, offers and Audiences to create a personalized experience
+* **Audience:**  a group of visitors defined in the [!DNL Target] interface or shared to [!DNL Target] from other Adobe applications (e.g. “iPhone X visitors”, “visitors in the California”, “First App Open”)
+* **Activity:**  a [!DNL Target] construct, defined in the [!DNL Target] user interface (or with API) which links locations, offers and Audiences to create a personalized experience
 
 ## Add a Batch Prefetch Request
 
-The first request we will implement in We.Travel is a batch prefetch request with two Target locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process.
+The first request we will implement in We.Travel is a batch prefetch request with two [!DNL Target] locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process.
 
-A prefetch request fetches Target content as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
+A prefetch request fetches [!DNL Target] content as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
 
 ### Add the Batch Prefetch Request
 
@@ -57,7 +57,7 @@ We'll add the two code blocks shown in red:
 
 ![HomeActivity Prefetch Code](assets/homeactivity.jpg)
 
-Scroll down to the end of the HomeActivity's code and add the code provided below after the setHeader() function and *replacing* the current onResume() function:
+Scroll down to the end of the HomeActivity's code and add the code provided below after the `setHeader()` function and *replacing* the current `onResume()` function:
 
 ```java
 @Override
@@ -87,7 +87,7 @@ public void targetPrefetchContent() {
 }
 ```
 
-Your IDE will probably warn you that you do not have the Target classes imported in the file. Be sure to import the Target classes at the top of the HomeActivity controller as shown in red below:
+Your IDE will probably warn you that you do not have the [!DNL Target] classes imported in the file. Be sure to import the [!DNL Target] classes at the top of the HomeActivity controller as shown in red below:
 
 ```java
 import com.adobe.mobile.Target;
@@ -96,7 +96,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 ![Import the Target Classes](assets/import.jpg)
 
-You will probably also see errors for "cannot find symbol variable wetravel_engage_home" and "cannot find symbol variable wetravel_engage_search". Add these to the Constant.java file (in app > src > main > java > com > wetravel > Utils):
+You will probably also see errors for "cannot find symbol variable wetravel_engage_home" and "cannot find symbol variable wetravel_engage_search". Add these to the `Constant.java` file (in app > src > main > java > com > wetravel > Utils):
 
 ```java
 public static final String wetravel_engage_home = "wetravel_engage_home";
@@ -109,33 +109,33 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | Code | Description |
 |--- |--- |
-| targetPrefetchContent() | A user-defined function (not part of the SDK)  which uses Target methods to retrieve and cache two Target locations. |
-| prefetchContent() | The Target SDK method that sends the prefetch request |
-| Constant.wetravel_engage_home | Prefetched Target location name which will display its offer content on the Home Screen |
-| Constant.wetravel_engage_search | Prefetched Target location name which will display its offer content on the Search Results Screen. Since this is a second location in the prefetch, this prefetch request is called a "prefetch batch request". |
-| setUp() | A user-defined function which renders the app's home screen after the Target offers are prefetched |
+| `targetPrefetchContent()` | A user-defined function (not part of the SDK)  which uses [!DNL Target] methods to retrieve and cache two [!DNL Target] locations. |
+| `prefetchContent()` | The [!DNL Target] SDK method that sends the prefetch request |
+| `Constant.wetravel_engage_home` | Prefetched [!DNL Target] location name which will display its offer content on the Home Screen |
+| `Constant.wetravel_engage_search` | Prefetched [!DNL Target] location name which will display its offer content on the Search Results Screen. Since this is a second location in the prefetch, this prefetch request is called a "prefetch batch request". |
+| setUp() | A user-defined function which renders the app's home screen after the [!DNL Target] offers are prefetched |
 
 ### About Asynchronous vs. Synchronous
 
-With the code we have just implemented, the prefetch request is made as a synchronous, blocking call, just before the home screen renders. When we pasted the new code into the HomeActivity controller, we moved the setUp() function execution from the onResume() function until after the Target request. This can be beneficial in scenarios where you want to personalize content when the app first opens because it ensures that personalized content from the Target servers has returned (or timed out) before the first screen renders. To allow the requests to load asynchronously (in the background), just call setUp() within the onCreate() function instead.
+With the code we have just implemented, the prefetch request is made as a synchronous, blocking call, just before the home screen renders. When we pasted the new code into the HomeActivity controller, we moved the `setUp()` function execution from the `onResume()` function until after the Target request. This can be beneficial in scenarios where you want to personalize content when the app first opens because it ensures that personalized content from the Target servers has returned (or timed out) before the first screen renders. To allow the requests to load asynchronously (in the background), just call `setUp()` within the `onCreate()` function instead.
 
 ### Validate the Batch Prefetch Request
 
 Re-build the app and open the Android Emulator. (The following screenshots use the Pixel 2 on Android Q version 9+, API level 29). The prefetch response should read "prefetch response received":
 
-When the Home screen renders, the prefetch request should be loaded. With Logcat, filter for "Target" to see the request and response:
+When the Home screen renders, the prefetch request should be loaded. With Logcat, filter for [!DNL "Target"] to see the request and response:
 
 ![Validate the requests on the Home Screen](assets/prefetch_validation.jpg)
 
-If you are not seeing a successful response, verify settings in the ADBMobileConfig.json file and code syntax in the HomeActivity file.
+If you are not seeing a successful response, verify settings in the `ADBMobileConfig.json` file and code syntax in the HomeActivity file.
 
-Two locations are now cached to the device. The location names will shortly lazy-load into the Target interface, where they can be selected in various drop-down menus when you use them in an activity.
+Two locations are now cached to the device. The location names will shortly lazy-load into the [!DNL Target] interface, where they can be selected in various drop-down menus when you use them in an activity.
 
 ### Add Load Requests for Each Cached Location
 
-Now that the locations are prefetched and their responses cached to the device, let's add the Target.loadRequest() method which retrieves the offer content from the cache so you can use it to update your application. We'll add a new custom method called engageMessage() that will run with the prefetch request. engageMessage() will call Target.loadRequest(). engageMessage() runs before setUp() to ensure that the load request is called before the screen is set up.
+Now that the locations are prefetched and their responses cached to the device, let's add the `Target.loadRequest()` method which retrieves the offer content from the cache so you can use it to update your application. We'll add a new custom method called `engageMessage()` that will run with the prefetch request. `engageMessage()` will call `Target.loadRequest()`. `engageMessage()` runs before `setUp()` to ensure that the load request is called before the screen is set up.
 
-First, add the engageMessage() call & method for the wetravel_engage_home location in the HomeActivity:
+First, add the `engageMessage()` call & method for the wetravel_engage_home location in the HomeActivity:
 
 ![Add first load request](assets/wetravel_engage_home_loadRequest.jpg)
 
@@ -181,7 +181,7 @@ Here is the updated code:
     }
 ```
 
-Now add the engageMessage() call & method for the wetravel_engage_search location in the SearchBusActivity. Notice that the engageMessage() call is set in the onResume() method before the call to setUpSearch() so it runs before the screen is set up:
+Now add the `engageMessage()` call & method for the wetravel_engage_search location in the SearchBusActivity. Notice that the `engageMessage()` call is set in the `onResume()` method before the call to `setUpSearch()` so it runs before the screen is set up:
 
 ![Add second load request](assets/wetravel_engage_search_loadRequest.jpg)
 
@@ -211,7 +211,7 @@ Here is the updated code:
     }
 ```
 
-Since you have just added Target methods to the SearchBusActivity, be sure to import the Target classes:
+Since you have just added Target methods to the SearchBusActivity, be sure to import the [!DNL Target] classes:
 
 ```java
 import com.adobe.mobile.Target;
@@ -225,7 +225,7 @@ The next request we will add to the app will be a real-time request on the Thank
 So let's add a real-time request on the Thank You screen. In the ThankYouActivity file, we'll make the changes shown in red:
 ![Add a Real-time location on the Thank You Screen](assets/thankyou.jpg)
 
-Scroll to the end of the ThankYouActivity file. Comment out the three lines in the getRecommandations() function and add the invocation of the targetLoadRequest() function:
+Scroll to the end of the ThankYouActivity file. Comment out the three lines in the `getRecommandations()` function and add the invocation of the `targetLoadRequest()` function:
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -233,16 +233,16 @@ Scroll to the end of the ThankYouActivity file. Comment out the three lines in t
 // recommandationbAdapter.notifyDataSetChanged();
 ```
 
-Add this line of code to the getRecommandations() function:
+Add this line of code to the `getRecommandations()` function:
 
 ```java
 targetLoadRequest(recommandation.recommandations);
 ```
 
-Now, we need to define the targetLoadRequest() function:
+Now, we need to define the `targetLoadRequest()` function:
 ![Add a Real-time location on the Thank You Screen](assets/thankyou2.jpg)
 
-Add this code block after the filterRecommendationBasedOnOffer() function:
+Add this code block after the `filterRecommendationBasedOnOffer()` function:
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -277,20 +277,20 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Code | Description |
 |--- |--- |
-| targetLoadRequest() | A user-defined function (not part of the SDK) which fires Target.loadRequest() which loads and displays the wetravel_context_dest location |
-| Target.loadRequest() | The SDK method which makes the request to the Target server |
-| Constant.wetravel_context_dest | The location name assigned to the request that we will use later on when we build the activity in the Target interface |
-| filterRecommendationBasedOnOffer() | A user-defined function in the app that takes the location's offer from the Target response and decides how the app should change based on the content of the offer |
-| recommandations.addAll() | A user-defined function in the app that used to execute by default when the ThankYou screen loaded, but now executes after the Target response has been received and parsed by filterRecommendationBasedOnOffer() |
+| `targetLoadRequest()` | A user-defined function (not part of the SDK) which fires `Target.loadRequest()` which loads and displays the wetravel_context_dest location |
+| `Target.loadRequest()` | The SDK method which makes the request to the Target server |
+| Constant.wetravel_context_dest | The location name assigned to the request that we will use later on when we build the activity in the [!DNL Target] interface |
+| `filterRecommendationBasedOnOffer()` | A user-defined function in the app that takes the location's offer from the Target response and decides how the app should change based on the content of the offer |
+| `recommandations.addAll()` | A user-defined function in the app that used to execute by default when the ThankYou screen loaded, but now executes after the Target response has been received and parsed by `filterRecommendationBasedOnOffer()` |
 
 This was a more sophisticated update that we made to the app then with the request we added to the home screen, so let's just take a moment to review what we did:
 
 1. We interrupted the app's previous behavior of showing three default promotions, by commenting out the lines of code
 1. We told the app instead to execute a new function, which we arbitrarily named targetLoadRequest
-1. We defined the targetLoadRequest function to make a request to Target using the Target.loadRequest method and immediately execute the filterRecommendationBasedOnOffer() function when the Target offer response is received
-1. The filterRecommendationBasedOnOffer() function interprets the response and decides which promotions should be applied to the screen
+1. We defined the `targetLoadRequest` function to make a request to Target using the Target.loadRequest method and immediately execute the `filterRecommendationBasedOnOffer()` function when the [!DNL Target] offer response is received
+1. The `filterRecommendationBasedOnOffer()` function interprets the response and decides which promotions should be applied to the screen
 
-This is a very common usage pattern when using Target in mobile apps.  It is both very powerful, in that you can personalize almost any aspect of your mobile app. It also requires coordination between the app code and the offers which we will define later in the Target interface. Because of this coordination, some personalization use cases may require you to update your app in the app store in order to launch the activity.
+This is a very common usage pattern when using [!DNL Target] in mobile apps.  It is both very powerful, in that you can personalize almost any aspect of your mobile app. It also requires coordination between the app code and the offers which we will define later in the [!DNL Target] interface. Because of this coordination, some personalization use cases may require you to update your app in the app store in order to launch the activity.
 
 ### Validate the Real-time Request
 
@@ -304,7 +304,7 @@ On the final Thank You screen, watch Logcat for the response. The response shoul
 
 There may be situations where prefetched locations need to be cleared during a session. For example, when a booking occurs, it makes sense to clear the cached locations since the user is now "engaged" and understands the booking process. If they book another trip during their session, they won't need the original locations on the home screen and search results screen to guide their booking. It would make more sense to clear the locations from the cache and prefetch new offers for perhaps a discounted second booking or another relevant scenario. Logic could be added to the home screen and search results screen to prefetch new locations if a booking has taken place during the session.
 
-For this example, we'll just clear prefetched locations for the session when a booking takes place. This is done by calling the Target.clearPrefetchCache() function. Set the function inside the targetLoadRequest() function as shown below:
+For this example, we'll just clear prefetched locations for the session when a booking takes place. This is done by calling the `Target.clearPrefetchCache()` function. Set the function inside the `targetLoadRequest()` function as shown below:
 
 ```java
 Target.clearPrefetchCache()

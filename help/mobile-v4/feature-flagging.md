@@ -21,7 +21,7 @@ In this lesson, we'll create a "feature flag" offer which can be used as a trigg
 At the end of this lesson, you will be able to:
 
 * Add a new location to the batch prefetch request
-* Create a Target activity with an offer that will be used as a feature flag
+* Create a [!DNL Target] activity with an offer that will be used as a feature flag
 * Load and validate the feature flag offer in your app
 
 ## Add a New Location to the Prefetch Request to the Home Activity
@@ -40,7 +40,7 @@ Here is the code:
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Now add the location to the prefetch request and load a new function called processFeatureFlags():
+Now add the location to the prefetch request and load a new function called `processFeatureFlags()`:
 
 ![Feature Flag Code](assets/feature_flag_code.jpg)
 
@@ -103,7 +103,7 @@ Once the code is added, run the Emulator on the Home Activity and watch Logcat f
 
 ## Create a Feature Flag JSON Offer
 
-We'll now create a simple JSON offer that will act as a flag or trigger for a specific audience - the audience that would receive the feature roll-out in their app. In the Target interface, create a new offer:
+We'll now create a simple JSON offer that will act as a flag or trigger for a specific audience - the audience that would receive the feature roll-out in their app. In the [!DNL Target] interface, create a new offer:
 
 ![Create Feature Flag JSON Offer](assets/feature_flag_json_offer.jpg)
 
@@ -121,40 +121,40 @@ Now let's create an A/B Test activity with that offer. For detailed steps on cre
 
     ![Feature Flag Activity Config](assets/feature_flag_activity.jpg)
 
-1. Click "Add Experience" to add experience B
+1. Click **[!UICONTROL Add Experience]** to add experience B.
 1. Leave the "wetravel_feature_flag_recs" location
-1. Leave "Default Content" for the content
-1. Click "Next" to advance to the "Targeting" screen
+1. Leave **[!UICONTROL Default Content]** for the content
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
 
     ![Feature Flag Activity Config](assets/feature_flag_activity_2.jpg)
 
-1. On the Targeting screen, verify that the Traffic Allocation method is set to the default setting (Manual) and that each experience has the default 50% allocation. Select "Next" to advance to "Goals & Settings"
+1. On the [!UICONTROL Targeting] screen, verify that the [!UICONTROL Traffic Allocation] method is set to the default setting (Manual) and that each experience has the default 50% allocation. Select **[!UICONTROL Next]** to advance to **[!UICONTROL Goals & Settings]**.
 
     ![Feature Flag Activity Config](assets/feature_flag_activity_3.jpg)
 
-1. Set the Primary Goal to Conversion
-1. Set the action to "Viewed an Mbox". We'll use the "wetravel_context_dest" location (since this location is on the Confirmation screen, we can use it to see if the new feature leads to more conversions)
-1. Select "Save & Close"
+1. Set the **[!UICONTROL Primary Goal]** to **[!UICONTROL Conversion]**.
+1. Set the action to **[!UICONTROL Viewed an Mbox]**. We'll use the "wetravel_context_dest" location (since this location is on the Confirmation screen, we can use it to see if the new feature leads to more conversions).
+1. Click **[!UICONTROL Save & Close]**.
 
     ![Feature Flag Activity Config](assets/feature_flag_activity_4.jpg)
 
-Activate the activity
+Activate the activity.
 
 ## Validate the Feature Flag Activity
 
-Now use the emulator to watch for the request. Since we set the targeting to 50% of users, there's a 50% you'll see the feature flag response contain the "{enable:1}" value.
+Now use the emulator to watch for the request. Since we set the targeting to 50% of users, there's a 50% you'll see the feature flag response contain the `{enable:1}` value.
 
 ![Feature Flag Validation](assets/feature_flag_validation.jpg)
 
-If you don't see the "{enable:1}" value, that means you weren't targeted for the experience. As a temporary test, to force the offer to show, you could:
+If you don't see the `{enable:1}` value, that means you weren't targeted for the experience. As a temporary test, to force the offer to show, you could:
 
-1. Deactivate the activity
-1. Change the traffic allocation to 100% on the new feature experience
-1. Save and reactivate
-1. Wipe the data on your emulator and then restart the app
-1. The offer should now return the "{enable:1}" value.
+1. Deactivate the activity.
+1. Change the traffic allocation to 100% on the new feature experience.
+1. Save and reactivate.
+1. Wipe the data on your emulator and then restart the app.
+1. The offer should now return the `{enable:1}` value.
 
-In a live scenario, the "{enable:1}" response can be used to enable more custom logic in your app to display the specific feature set you want to show your target audience.
+In a live scenario, the `{enable:1}` response can be used to enable more custom logic in your app to display the specific feature set you want to show your target audience.
 
 ## Conclusion
 

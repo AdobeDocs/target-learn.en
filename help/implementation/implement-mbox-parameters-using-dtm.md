@@ -9,6 +9,6 @@ doc-type: implement
 activity-type: technical-video
 ---
 
-# Implement Mbox Parameters for Target using DTM
+# Implement Mbox Parameters for Adobe Target using DTM
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
