@@ -37,7 +37,7 @@ This tutorial is intended for developers new to Target APIs or Recommendations A
 
 ## Pre-requisites
 
-Using the Target admin APIs requires [Adobe I/O authentication setup](https://docs.adobe.com/content/help/en/target-learn/apis/configure-io-target-integration.md). Make sure you have this configured prior to beginning this tutorial.
+Using the Target admin APIs requires [Adobe authentication setup](https://docs.adobe.com/content/help/en/target-learn/apis/configure-io-target-integration.md). Make sure you have this configured prior to beginning this tutorial.
 
 ## Resources
 

@@ -27,4 +27,4 @@ Note the distinction between **admin APIs** (including the [!DNL Recommendations
 
 To use Adobe Target Admin APIs, you first need to configure authentication using Adobe I/O.
 
-[Next "Configure Adobe.IO Authentication" >](configure-io-target-integration.md)
+[Next "Configure Authentication" >](configure-io-target-integration.md)

@@ -97,7 +97,7 @@ The following resources provide examples of various non-HTML focused implementat
 
 Most of the time, recommendations are configured in the Adobe Target UI, then used or accessed via the [!DNL Target] APIs, for reasons such as the ones mentioned in the sections above. This UI-API coordination is common. However, sometimes users may want to perform all actions via APIs—both setup, as well as the use of results. Although much less common, users can absolutely configure, execute, *and* leverage the results of recommendations entirely using the APIs.
 
-We learned in an [earlier section](3manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](http://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
+We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](http://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
 
 |Resource|Details|
 | --- | --- |
@@ -123,7 +123,7 @@ We learned in an [earlier section](3manage-catalog.md) how to manage Adobe Targe
 ## Summary and Review
 
 Congratulations! By finishing this tutorial, you have learned how to:
-* [Configure an Adobe.IO Target integration](configure-io-target-integration.md)
-* [Manage your catalog](3manage-catalog.md)
-* [Manage custom criteria](4manage-custom-criteria.md)
-* [Use the Delivery API with recommendations](5fetch-recs-server-side-delivery-api.md)
+* [Configure an Adobe authentication](configure-io-target-integration.md)
+* [Manage your catalog](manage-catalog.md)
+* [Manage custom criteria](manage-custom-criteria.md)
+* [Use the Delivery API with recommendations](fetch-recs-server-side-delivery-api.md)

@@ -1,5 +1,5 @@
 ---
-title: Configure Adobe I/O Authentication
+title: Configure Authentication
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
 kt: 
@@ -12,25 +12,25 @@ solution: Adobe Target
 author: Judy Kim
 ---
 
-# Configure Adobe I/O Authentication
+# Configure Authentication
 
-The Adobe Target Admin APIs, including [!DNL Recommendations] Admin APIs, are secured by authentication to ensure only authorized users use them to access Adobe Target. Use the [Adobe I/O console](https://console.adobe.io/) to manage this authentication for all Adobe Experience Cloud solutions, including [!DNL Target].
+The Adobe Target Admin APIs, including [!DNL Recommendations] Admin APIs, are secured by authentication to ensure only authorized users use them to access Adobe Target. Use the [Adobe Developer Console](https://console.adobe.io/) to manage this authentication for all Adobe Experience Cloud solutions, including [!DNL Target].
 
 This lesson walks through the preliminary steps required to generate authentication tokens that will be needed to successfully interact with Adobe Target APIs. In the sections that follow, you will:
 
-1. Create an Adobe I/O integration.
-2. Export Integration Details and Generate a Bearer Access Token.
+1. Create a project (previously called integration) in Adobe Developer Console.
+2. Export Project Details and Generate a Bearer Access Token.
 3. Test the bearer access token.
 
-## Create an Adobe I/O Target integration
+## Create an Adobe I/O Target project
 
-In this section, you will access the Adobe I/O Console and create an integration for [!DNL Adobe Target]. For more information on integrations, reference the [documentation](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/integrations.md).
+In this section, you will access the Adobe Developer Console and create an project for [!DNL Adobe Target]. For more information on projects, reference the [documentation](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/projects.md).
 
 1. Generate your private key and public certificate, per [the documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWTCertificate.md). <!--as described in **Step 1** of [How to set up Adobe IO: Authentication - Step by Step](https://helpx.adobe.com/marketing-cloud-core/kb/adobe-io-authentication-step-by-step.html). After completing Step 1, return to this tutorial and resume with Step 2, below.--> The outcome of this step should be the creation of a `private.key` file and a `certificate_pub.crt` file. Return to this tutorial once you have generated these two files.
 
 2. In the [Adobe Admin Console](https://adminconsole.adobe.com/), ensure your Adobe user account has been granted both [Product Admin](https://helpx.adobe.com/enterprise/using/admin-roles.html) and [Developer](https://helpx.adobe.com/enterprise/using/manage-developers.html) level access to [!DNL Target].
 
-3. In the [Adobe I/O console](https://console.adobe.io/), click [!UICONTROL Create Integration].
+3. In the [Adobe Developer Console](https://console.adobe.io/), click [!UICONTROL Create Integration].
 
    ![Admin Console Welcome screen](assets/configure-io-target-create-1-welcome.png)
 
@@ -72,7 +72,7 @@ There are many ways to specify the details of your integration in Postman, but i
 >
 > A summary of these steps is shown below.
 
-1. Still in the [Adobe I/O console](https://console.adobe.io/), navigate to your new integration's **[!UICONTROL Overview]** page. Note you may view your **Public key(s)**, **API Key (Client ID)**, and other information here.
+1. Still in the [Adobe Developer Console](https://console.adobe.io/), navigate to your new integration's **[!UICONTROL Overview]** page. Note you may view your **Public key(s)**, **API Key (Client ID)**, and other information here.
 
    ![JWT1](assets/configure-io-target-jwt1.png)
 
@@ -133,4 +133,4 @@ In this exercise, you will use your new bearer access token by sending an API re
 8. Send your request, after ensuring you have selected the correct environment. You should receive a response containing your list of activities.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Congratulations! Now that you have verified your Adobe I/O authentication, you may use it to interact with Adobe Target APIs (as well as other Adobe APIs). For example, you can [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) to create or manage recommendations.
+Congratulations! Now that you have verified your Adobe authentication, you may use it to interact with Adobe Target APIs (as well as other Adobe APIs). For example, you can [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) to create or manage recommendations.

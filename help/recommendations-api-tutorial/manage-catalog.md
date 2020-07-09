@@ -204,4 +204,4 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 Congrats! You can now use the [!DNL Recommendations] APIs to create, update, delete, and obtain details on the entities in your catalog. In the next section, you will learn how to manage custom criteria.
 
-[Next "Manage Custom Criteria" >](4manage-custom-criteria.md)
+[Next "Manage Custom Criteria" >](manage-custom-criteria.md)
