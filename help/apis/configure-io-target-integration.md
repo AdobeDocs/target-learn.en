@@ -1,8 +1,8 @@
 ---
-title: Use Recommendations APIs
+title: Configure Adobe I/O Authentication
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
-kt: KT-3815
+kt: 
 audience: developer
 doc-type: tutorial
 activity: use
@@ -133,6 +133,4 @@ In this exercise, you will use your new bearer access token by sending an API re
 8. Send your request, after ensuring you have selected the correct environment. You should receive a response containing your list of activities.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Congratulations! Now that you have verified your Adobe I/O authentication, let's continue to use it, this time with the [!DNL Recommendations] API.
-
-[Next "Managing Your Catalog with APIs" >](3manage-catalog.md)
+Congratulations! Now that you have verified your Adobe I/O authentication, you may use it to interact with Adobe Target APIs (as well as other Adobe APIs). For example, you can [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) to create or manage recommendations.

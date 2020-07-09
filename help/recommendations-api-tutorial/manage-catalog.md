@@ -1,8 +1,8 @@
 ---
-title: Use Recommendations APIs
+title: Manage your Recommendations catalog using APIs
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
-kt: KT-3815
+kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
@@ -20,7 +20,7 @@ You can use the [Recommendations APIs](https://developers.adobetarget.com/api/re
 
 >[!TIP]
 >
->Send the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request whenever you need to refresh your access token for authentication, since it expires after 24 hours. See the [previous tutorial](2configure-io-target-integration.md) for instructions.
+>Send the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request whenever you need to refresh your access token for authentication, since it expires after 24 hours. See the [previous tutorial](configure-io-target-integration.md) for instructions.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 

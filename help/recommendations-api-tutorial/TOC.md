@@ -1,16 +1,15 @@
 ---
 user-guide-title: Use Recommendations APIs
-user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/1overview.html
+user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
 solution: Target
 ---
 
 # Use Adobe Target Recommendations APIs{#recommendations-api-tutorial}
 
-+ [Overview](1overview.md)
-+ [Configure Adobe&#46;IO Authentication](2configure-io-target-integration.md)
-+ [Manage Your Catalog with APIs](3manage-catalog.md)
-+ [Manage Custom Criteria](4manage-custom-criteria.md)
-+ [Use the Delivery API with Recommendations](5fetch-recs-server-side-delivery-api.md)
++ [Recs API Overview](recs-api-overview.md)
++ [Manage Your Catalog with APIs](manage-catalog.md)
++ [Manage Custom Criteria](manage-custom-criteria.md)
++ [Use the Delivery API with Recommendations](fetch-recs-server-side-delivery-api.md)
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

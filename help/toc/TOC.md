@@ -55,7 +55,10 @@ solution: Target
   + [Create Criteria](../recommendations/create-criteria.md)
   + [Create Custom Designs](../recommendations/create-custom-designs.md)
   + [Create Collections and Exclusions](../recommendations/create-collections-and-exclusions.md)
-  + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/1overview.html)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
   + [Troubleshoot with Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
++ APIs{#apis}
+  + [Understand Target APIs](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md)
+  + [Configure Adobe API Authentication](https://docs.adobe.com/content/help/en/target-learn/apis/configure-io-target-integration.md)
+  + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)

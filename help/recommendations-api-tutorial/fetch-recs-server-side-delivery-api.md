@@ -1,8 +1,8 @@
 ---
-title: Use Recommendations APIs
+title: Fetching Recommendations with the Delivery API
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
-kt: KT-3815
+kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
@@ -123,7 +123,7 @@ We learned in an [earlier section](3manage-catalog.md) how to manage Adobe Targe
 ## Summary and Review
 
 Congratulations! By finishing this tutorial, you have learned how to:
-* [Configure an Adobe.IO Target integration](2configure-io-target-integration.md)
+* [Configure an Adobe.IO Target integration](configure-io-target-integration.md)
 * [Manage your catalog](3manage-catalog.md)
 * [Manage custom criteria](4manage-custom-criteria.md)
 * [Use the Delivery API with recommendations](5fetch-recs-server-side-delivery-api.md)
