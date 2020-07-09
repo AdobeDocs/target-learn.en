@@ -123,7 +123,6 @@ We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target
 ## Summary and Review
 
 Congratulations! By finishing this tutorial, you have learned how to:
-* [Configure an Adobe authentication](configure-io-target-integration.md)
 * [Manage your catalog](manage-catalog.md)
 * [Manage custom criteria](manage-custom-criteria.md)
 * [Use the Delivery API with recommendations](fetch-recs-server-side-delivery-api.md)
