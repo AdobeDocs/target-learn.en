@@ -40,7 +40,9 @@ Even though we've only added `Config.collectLifecycleData()` to the HomeActivity
 
 Adobe Target Properties are defined in the [!DNL Target] interface and are used to establish boundaries for personalizing apps and websites. The at_property parameter identifies the specific property where your offers and activities are accessed and maintained. We'll add a property to the prefetch and live location requests.
 
->[!NOTE] You may or may not see the Properties options in the [!DNL Target] interface, depending on your license. If you don't have these options, or if you don't use Properties in your company, just skip ahead to the next section of this lesson.
+>[!NOTE]
+>
+>You may or may not see the Properties options in the [!DNL Target] interface, depending on your license. If you don't have these options, or if you don't use Properties in your company, just skip ahead to the next section of this lesson.
 
 You can retrieve your at_property value in the [!DNL Target] interface under [!UICONTROL Setup] > [!UICONTROL Properties].  Hover over the property, select the code snippet icon and copy the `at_property` value:
 
@@ -135,9 +137,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Run the emulator and open Logcat. Filter for one of the parameters to verify that the request contains the needed parameters:
 ![Validate the Custom Parameters in the Live Location Request](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Order Confirmation Requests and Parameters: Although not used in this demo project, order details are usually captured in a real implementation so [!DNL Target] can use order details as metrics/dimensions. Please refer to the documentation for instructions on how to [implement the order confirmation request and parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>Order Confirmation Requests and Parameters: Although not used in this demo project, order details are usually captured in a real implementation so [!DNL Target] can use order details as metrics/dimensions. Please refer to the documentation for instructions on how to [implement the order confirmation request and parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Analytics for Target (A4T): Adobe Analytics can be configured as the reporting source for [!DNL Target]. This allows all metrics/dimensions collected by the Target SDK to be viewed in Adobe Analytics. See the [A4T Overview](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) for more details.
+>[!NOTE]
+>
+>Analytics for Target (A4T): Adobe Analytics can be configured as the reporting source for [!DNL Target]. This allows all metrics/dimensions collected by the Target SDK to be viewed in Adobe Analytics. See the [A4T Overview](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) for more details.
 
 Nice work! Now that parameters are in place, we're ready to use those parameters to create audiences and offers in Adobe Target.
 

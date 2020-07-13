@@ -28,7 +28,9 @@ At the end of this lesson, you will be able to:
 
 In the demo app from our previous lessons, we'll add a new location called "wetravel_feature_flag_recs" to the prefetch request in the Home Activity and load it to the screen with a new Java method.
 
->[!NOTE] One of the benefits of using a prefetch request is that adding a new request does not add any additional network overhead or cause additional load work since the request is packaged within the prefetch request
+>[!NOTE]
+>
+>One of the benefits of using a prefetch request is that adding a new request does not add any additional network overhead or cause additional load work since the request is packaged within the prefetch request
 
 First, verify that the wetravel_feature_flag_recs constant is added in the Constant.java file:
 
