@@ -71,13 +71,17 @@ Follow the same steps listed above to create an audience for returning users.
 
     ![Create a Returning User Audience](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] All Lifecycle metrics and dimensions collected in the [!DNL Target] mobile SDK are prepended with "a" (e.g., a.Launches) and are available in the "Custom" option of the drop-down menu and can be used to build audiences.
+>[!NOTE]
+>
+>All Lifecycle metrics and dimensions collected in the [!DNL Target] mobile SDK are prepended with "a" (e.g., a.Launches) and are available in the "Custom" option of the drop-down menu and can be used to build audiences.
 
 ### Create an Audience for Users Booking a Trip to San Diego
 
 Next we will create a few audiences for some of the destinations offered by the We.Travel app. In the last lesson we passed the destination as a location parameter in the wetravel_context_dest location request. That parameter is available in the "Custom" option of the drop-down menu.
 
->[!NOTE] If a parameter you are expecting to see in the Custom dropdown does not appear in the [!DNL Target] interface, double-check that it is indeed being passed in the request. If you have verified that is in the request, but has not lazy-loaded into the [!DNL Target] interface, you can just type the parameter name and hit enter to continue defining your audience
+>[!NOTE]
+>
+>If a parameter you are expecting to see in the Custom dropdown does not appear in the [!DNL Target] interface, double-check that it is indeed being passed in the request. If you have verified that is in the request, but has not lazy-loaded into the [!DNL Target] interface, you can just type the parameter name and hit enter to continue defining your audience
 
 1. Name the audience _Destination: San Diego_.
 1. Use a custom rule with this definition: _locationDest contains San Diego_.
