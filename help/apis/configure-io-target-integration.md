@@ -48,11 +48,11 @@ In this section, you will access the Adobe Developer Console and create an proje
 
 6. Select either **[!UICONTROL Option 1: Generate a key pair]**, or **[!UICONTROL Option 2: Upload your public key]**. For this tutorial, we choose Option 1. Click **[!UICONTROL Generate keypair]**.
    ![configure-io-target-createproject6](assets/configure-io-target-createproject6.png)
+
 7. Note the results! As instructed, make sure to save the automatically downloaded configuration file, which contains your private key. You will need this private key, later. Click **[!UICONTROL Next]**.
    ![configure-io-target-createproject7](assets/configure-io-target-createproject7.png)
-<!-- 9.  Type a **name** and **description** for your project, add your **public key**, created earlier, and -->
-8. Select the [product profile(s)](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) corresponding to the properties in which you are using [!DNL Recommendations]. (If you are not using properties, select the Default Workspace option.) Click **[!UICONTROL Save configured API]**.
 
+8. Select the [product profile(s)](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) corresponding to the properties in which you are using [!DNL Recommendations]. (If you are not using properties, select the Default Workspace option.) Click **[!UICONTROL Save configured API]**.
    ![configure-io-target-createproject8](assets/configure-io-target-createproject8.png)
 
 9. Click **[!UICONTROL Create Integration]**. You should receive a message indicating your API was successfully configured.
@@ -82,31 +82,32 @@ There are many ways to specify the details of your integration in Postman, but i
 
 1. Still in the [Adobe Developer Console](https://console.adobe.io/), navigate to view your new project's **[!UICONTROL Service Account (JWT)]** credentials.
    ![JWT1](assets/configure-io-target-jwt1.png)
-2. Note you may view your **Public key(s)**, **Client ID**, and other information here.
+1. Note you may view your **Public key(s)**, **Client ID**, and other information here.
    ![JWT2](assets/configure-io-target-jwt2.png)
-3. Click to navigate to information about the **[!UICONTROL Adobe Target]** API.
+1. Click to navigate to information about the **[!UICONTROL Adobe Target]** API.
    ![JWT3](assets/configure-io-target-jwt3.png)
-4. Click **[!UICONTROL Download for Postman]** > **[!UICONTROL Service Account (JWT)]**  to create a JSON file capturing your authentication information for a Postman environment.
+1. Click **[!UICONTROL Download for Postman]** > **[!UICONTROL Service Account (JWT)]**  to create a JSON file capturing your authentication information for a Postman environment.
    ![JWT4](assets/configure-io-target-jwt4.png)
-5. In Postman, click to import the JSON file (environment).
+1. In Postman, click to import the JSON file (environment).
    ![JWT5](assets/configure-io-target-jwt5.png)
-6. Choose your file.
+1. Choose your file.
    ![JWT6](assets/configure-io-target-jwt6.png)
-7. In the Postman **Manage Environments** modal, click the name of the newly imported environment to inspect it. (Your environment name may be different from the one shown here. Edit the name as desired. It does not necessarily need to match the name of the Adobe project.)
+1. In the Postman **Manage Environments** modal, click the name of the newly imported environment to inspect it. (Your environment name may be different from the one shown here. Edit the name as desired. It does not necessarily need to match the name of the Adobe project.)
    ![JWT7](assets/configure-io-target-jwt7.png)
-8. Note `CLIENT_SECRET` and `API_KEY` (along with other variables) have their values pre-populated, taken from your integration as defined in the Adobe Developer Console. (The Postman `CLIENT_SECRET` variable should match the `CLIENT SECRET` Adobe credential as displayed in the Developer Console, and `API_KEY` in Postman should likewise match `CLIENT ID` in the Developer Console.) By contrast, note `PRIVATE_KEY`, `JWT_TOKEN`, and `ACCESS_TOKEN` are blank.
+1. Note `CLIENT_SECRET` and `API_KEY` (along with other variables) have their values pre-populated, taken from your integration as defined in the Adobe Developer Console. (The Postman `CLIENT_SECRET` variable should match the `CLIENT SECRET` Adobe credential as displayed in the Developer Console, and `API_KEY` in Postman should likewise match `CLIENT ID` in the Developer Console.) By contrast, note `PRIVATE_KEY`, `JWT_TOKEN`, and `ACCESS_TOKEN` are blank.
    ![JWT8](assets/configure-io-target-jwt8.png)
-9.  Copy and paste your private key value, generated earlier in the tutorial, into the **INITIAL VALUE** and **CURRENT VALUE** fields.
+1.  Copy and paste your private key value, generated earlier in the tutorial, into the **INITIAL VALUE** and **CURRENT VALUE** fields.
    ![JWT9](assets/configure-io-target-jwt9.png)
-10. Generate your access token using the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request in the Adobe I/O Access Token Generation Postman collection. (To do this, save the raw JSON for the [Adobe I/O Access Token Generation Postman collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims), then import it into Postman.) Click **Send** to generate the token.
+1. Generate your access token using the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request in the Adobe I/O Access Token Generation Postman collection. (To do this, save the raw JSON for the [Adobe I/O Access Token Generation Postman collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims), then import it into Postman.) Click **Send** to generate the token.
    ![JWT10](assets/configure-io-target-jwt10.png)
 
    >[!NOTE]
    >
    >This bearer access token will be valid for 24 hours. Send the request again whenever you need to generate a new token.
-11. Open the Manage Environments modal again, and select your environment.
+   
+1. Open the Manage Environments modal again, and select your environment.
    ![JWT11](assets/configure-io-target-jwt11.png)
-12. Note the `ACCESS_TOKEN` and `JWT_TOKEN` values are now populated.
+1. Note the `ACCESS_TOKEN` and `JWT_TOKEN` values are now populated.
    ![JWT12](assets/configure-io-target-jwt12.png)
 
 >[!NOTE]
@@ -130,7 +131,7 @@ In this exercise, you will use your new bearer access token by sending an API re
 5. Type to replace `{{tenant}}` with `{{TENANT_ID}}`. Note `{{TENANT_ID}}` is not yet recognized.
    ![testtoken4](assets/configure-io-target-testtoken4a.png)
 6. Open the Manage Environments modal, and select your environment.
-   ![JWT3g](assets/configure-io-target-jwt3g.png)
+   ![JWT11](assets/configure-io-target-jwt11.png)
 7. Type to add a new `{{TENANT_ID}}` environment variable. Copy and paste your Tenant ID value into the **INITIAL VALUE** and **CURRENT VALUE** fields for your new `TENANT_ID` environment variable.
    ![testtoken5](assets/configure-io-target-testtoken5.png)
       >[!NOTE]
@@ -138,7 +139,7 @@ In this exercise, you will use your new bearer access token by sending an API re
    >The Tenant ID is different from your [!DNL Target] `clientcode`. The Tenant ID exists in the URL when you are logged in to [!DNL Target]. To obtain your Tenant ID, log in to the [!DNL Adobe Experience Cloud], open [!DNL Target], and click the [!DNL Target] card. Use the Tenant ID value as noted in the URL subdomain.
    >
    >For example, if your URL when logged in to Adobe Target is
-   >https://mycompany.experiencecloud.adobe.com/...
+   ><https://mycompany.experiencecloud.adobe.com/...>
    >then your Tenant ID is "mycompany."
 
 8. Send your request, after ensuring you have selected the correct environment. You should receive a response containing your list of activities.
