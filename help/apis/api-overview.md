@@ -6,7 +6,7 @@ kt:
 audience: developer
 doc-type: tutorial
 activity: use
-feature: recommendations;adobe recommendations;premium;api;apis
+feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
