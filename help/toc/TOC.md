@@ -58,3 +58,7 @@ solution: Target
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
   + [Troubleshoot with Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
++ APIs{#apis}
+  + [Understand Target APIs](../apis/api-overview.md)
+  + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
+  + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
