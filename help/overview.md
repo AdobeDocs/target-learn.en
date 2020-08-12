@@ -10,17 +10,22 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 ## What's New
 
+* **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+    <br>
+    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*
+
+* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
+    <br>
+    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     <br>
-    *Use product recommendations in A/B Test and Experience Targeting Activities.*
+    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*
 
-* **[Implement Target's Visual Experience Composer in Android™ Apps (Tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**
-    <br>
-    *Implement Target's marketer-friendly Visual Experience Composer (VEC) in native Android Apps.*
-
+<!--
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
-    *Recommend products to your customers at scale with this Premium feature.*
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Staff Picks
 
