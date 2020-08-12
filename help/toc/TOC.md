@@ -9,8 +9,8 @@ solution: Target
 
 + [Overview](../overview.md)
 + Administration{#administration}
-  + [Implementation Strategy and System Governance](../activities/understanding-the-types-of-activities.md)
-  + [Set up Account Preferences](../dev101/1.1-implementation-strategy-sys-governance.md)
+  + [Implementation Strategy and System Governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+  + [Set up Account Preferences](../administration/set-up-account-preferences.md)
   + [Understand Enterprise User Permissions](../administration/understanding-enterprise-user-permissions.md)
   + [Configure Enterprise User Permissions](../dev101/1.2-configure-ent-user-permissions.md)
   + [Set up Workspaces](../administration/set-up-workspaces.md)
@@ -36,11 +36,11 @@ solution: Target
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
   + [Integrate Target with Adobe I/O](../dev101/3.7-target-io.md)
   + [Integrate Target with Scene7](../dev101/3.8-target-scene7.md)
+  + [Integrate Target with Adobe Experience Manager](../dev101/3.5-target-aem.md)
+  + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
   + [Data In: Use Data Providers to integrate third-party data](../integrations/use-data-providers-to-integrate-third-party-data.md)
   + [Data In: Implement Data Providers to integrate third-party data](../integrations/implement-data-providers-to-integrate-third-party-data.md)
   + [Data Out: Use Response Tokens and at.js Custom Events](../integrations/use-response-tokens-and-atjs-custom-events.md)
-  + [Integrate Target with Adobe Experience Manager](../dev101/3.5-target-aem.md)
-  + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Activities{#activities}
   + [Understand the Types of Activities](../activities/understanding-the-types-of-activities.md)
   + [Use the Artificial Intelligence and Automation Capabilities to Meet the Challenges of Personalization](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
