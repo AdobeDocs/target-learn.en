@@ -34,6 +34,7 @@ solution: Target
   + [Integrate Target with Audience Manager](../dev101/3.3-target-dmp.md)
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
+  + [Integrate Target with Adobe I/O](../dev101/3.7-target-io.md)
   + [Integrate Target with Scene7](../dev101/3.8-target-scene7.md)
   + [Data In: Use Data Providers to integrate third-party data](../integrations/use-data-providers-to-integrate-third-party-data.md)
   + [Data In: Implement Data Providers to integrate third-party data](../integrations/implement-data-providers-to-integrate-third-party-data.md)
@@ -74,6 +75,8 @@ solution: Target
   + [Troubleshoot Mbox Errors](../dev101/4.1-troubleshoot-mbox-errors.md)
   + [Troubleshoot Activity Errors](../dev101/4.2-troubleshoot-activity-errors.md)
   + [Troubleshoot A4T Integration Errors](../dev101/4.3-troubleshoot-integration-errors.md)
++ Mobile{#mobile}
+  + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
 + APIs{#apis}
   + [Understand Target APIs](../apis/api-overview.md)
   + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
