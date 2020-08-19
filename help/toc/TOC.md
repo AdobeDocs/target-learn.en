@@ -78,6 +78,5 @@ solution: Target
 + Mobile{#mobile}
   + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
 + APIs{#apis}
-  + [Understand Target APIs](../apis/api-overview.md)
   + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
   + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
