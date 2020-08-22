@@ -108,7 +108,9 @@ There are many ways to specify the details of your project in Postman, but in th
 7. Note `CLIENT_SECRET` and `API_KEY` (along with other variables) have their values pre-populated, taken from your integration as defined in the Adobe Developer Console. (The Postman `CLIENT_SECRET` variable should match the `CLIENT SECRET` Adobe credential as displayed in the Developer Console, and `API_KEY` in Postman should likewise match `CLIENT ID` in the Developer Console.) By contrast, note `PRIVATE_KEY`, `JWT_TOKEN`, and `ACCESS_TOKEN` are blank. Let's start by providing the `PRIVATE_KEY` value.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Surprise!**
    >
    >Pop quiz! Can you remember where your private key is?
    >That's right, it's in the `config` file downloaded earlier from the Adobe Developer Console!
