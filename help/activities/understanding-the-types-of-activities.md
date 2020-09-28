@@ -1,6 +1,6 @@
 ---
 title: Understand the Types of Activities in Adobe Target
-description: null
+description: Learn about the different types of activities included in Adobe Target and how they can help achieve your goals.
 audience: marketer
 difficulty: 1
 author: Daniel Wright

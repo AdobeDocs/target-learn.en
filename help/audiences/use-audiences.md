@@ -1,7 +1,7 @@
 ---
 title: Use Audiences in Adobe Target
 seo-title: Use Audiences in Adobe Target
-description: null
+description: Learn how Audiences are used for optimization.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
