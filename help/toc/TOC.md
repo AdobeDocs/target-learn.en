@@ -29,6 +29,7 @@ solution: Target
   + [Design a Target Implementation](../dev101/2.5-design-target-implementation.md)
   + [Next Steps to Design a Target Implementation](../dev101/2.6-next-steps-design-target-implementation.md)
   + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+  + [Understand Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
 + Integrations{#integrations}
   + [Integrate Target with Analytics](../dev101/3.2-target-analytics.md)
   + [Use Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
