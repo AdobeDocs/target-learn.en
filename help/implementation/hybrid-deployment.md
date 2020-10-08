@@ -1,6 +1,6 @@
 ---
 title: Adobe Target Hybrid Deployment
-description: 
+description: Adobe Target offers a unique hybrid deployment model for personalization—blending client-side and server-side implementations.
 topics: implementation
 feature: implementation
 audience: developer, architect
