@@ -6,7 +6,7 @@ feature: implementation
 audience: developer, architect
 activity: understand
 doc-type: feature video
-team: Technical Marketing
+team: Evangelism
 kt: 6165
 thumbnail: 
 ---

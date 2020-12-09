@@ -1,0 +1,43 @@
+---
+title: On-Device Decisioning Overview
+description: Adobe Target on-device decisioning enables near-zero latency content delivery.
+topics: implementation
+feature: implementation
+audience: architect
+activity: understand
+doc-type: feature video
+team: Evangelism
+kt: 6691
+thumbnail: 
+---
+
+# On-Device Decisioning Overview
+
+## Description
+
+Adobe Target on-device decisioning enables near-zero latency content delivery. This 7-minute video:
+
+* Describes on-device decisioning, including how it compares to other methods of Target implementation
+* Demonstrates how to enable on-device decisioning in Target
+* Examines a sample form-based composer activity that has been configured with JSON content
+* Shows sample Node.JS SDK code containing key configuration required for on-device decisioning
+* Demonstrates results in a browser
+
+## Objectives
+
+By the end of this video, you will be able to:
+
+* Describe on-device decisioning and its benefits
+* Enable on-device decisioning in Target
+* Create a form-based composer activity intended for use with on-device decisioning
+* Learn more about the SDK configuration required for on-device decisioning by visiting the [Adobe Target SDK documentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Understand what end users will experience for content delivered using on-device decisioning
+
+
+## Intended Audience
+
+* Architects
+
+>[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
+
+For more information, visit the [Adobe Target SDK documentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).

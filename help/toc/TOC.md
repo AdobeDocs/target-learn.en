@@ -4,6 +4,7 @@ user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
+type: tutorial
 ---
 
 # Adobe Target Tutorials {#tutorials}
@@ -30,6 +31,7 @@ solution: Target
   + [Next Steps to Design a Target Implementation](../dev101/2.6-next-steps-design-target-implementation.md)
   + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
   + [Understand Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
+  + [On-Device Decisioning Overview](../implementation/on-device-decisioning-overview.md)
 + Integrations{#integrations}
   + [Integrate Target with Analytics](../dev101/3.2-target-analytics.md)
   + [Use Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
