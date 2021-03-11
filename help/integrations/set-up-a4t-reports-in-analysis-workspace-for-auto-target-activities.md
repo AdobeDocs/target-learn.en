@@ -31,7 +31,7 @@ To create an A4T for [!DNL Auto-Target] report, either start with the typical An
 1. **[!UICONTROL Normalizing Metric]**: Select Visits.
 1. **[!UICONTROL Success Metrics]**: Although you may select any metric(s) on which to report, you should generally view reports on the same metric that was chosen for optimization during activity creation in Adobe Target.
 
-![Figure1.png](assets/figure1.png)
+![Figure1.png](assets/Figure1.png)
 *Figure 1: Analytics for Target  panel setup for [!DNL Auto-Target] activities.*
 
 >[!NOTE]
@@ -46,7 +46,7 @@ To perform this comparison, use the **[!UICONTROL Control vs Targeted (Analytics
 
 Note that this replacement invalidates the default Lift and Confidence calculations on the A4T panel. To avoid confusion, you can remove these metrics from the default panel, leaving the following report:
 
-![Figure2.png](assets/figure2.png)
+![Figure2.png](assets/Figure2.png)
 *Figure 2: The recommended baseline report for [!DNL Auto-Target] activities. This report has been configured to compare Targeted traffic (served by the ensemble ML model) against your Control traffic*
 
 >[!NOTE]
@@ -57,12 +57,12 @@ Note that this replacement invalidates the default Lift and Confidence calculati
 
 To gain further insight into how the ensemble ML model is performing, you may examine Experience-level breakdowns of the **[!UICONTROL Control vs Targeted]** dimension. In Workspace, drag the **[!UICONTROL Target Experiences]** dimension onto your report, then break down each of the Control and Targeted dimensions separately. 
 
-![Figure3.png](assets/figure3.png)
+![Figure3.png](assets/Figure3.png)
 *Figure 3: Breaking down the Targeted dimension by Target Experiences*
 
 An example of the resulting report is shown here.
 
-![Figure4.png](assets/figure4.png)
+![Figure4.png](assets/Figure4.png)
 *Figure 4: A standard [!DNL Auto-Target] report with Experience-level breakdowns. Note your goal metric may be different, and your Control strategy may have a single experience.*
 
 >[!TIP]
@@ -105,7 +105,7 @@ If you would prefer to report on visits where the user actually interacted with 
 1. Select the gear icon, and select **[!UICONTROL Attribution model > Instance]** as shown in the figure below.
 1. Click **[!UICONTROL Save]**.
 
-![Figure5.png](assets/figure5.png)
+![Figure5.png](assets/Figure5.png)
 *Figure 5: Use a segment such as the one shown here to filter the Visits metric in your A4T for [!DNL Auto-Target] report*
 
 Once the segment has been created, we can use it to filter the Visits metric, so that it only includes visits where the user interacted with the Target activity.  
@@ -117,7 +117,7 @@ Once the segment has been created, we can use it to filter the Visits metric, so
 
 The final panel will appear as follows.
 
-![Figure6.png](assets/figure6.png)
+![Figure6.png](assets/Figure6.png)
 *Figure 6: Reporting panel with the "Hit with specific Auto-Target Activity" segment applied to the [!UICONTROL Visits] metric. This ensures only visits where a user actually interacted with the Target activity in question are included in the report.*
 
 ## Advanced: Visit-scope attribution for goal metrics
@@ -164,7 +164,7 @@ Do this by creating a Calculated Metric using the following steps:
 
 The complete calculated metric definition is shown here.
 
-![Figure7.png](assets/figure7.png)
+![Figure7.png](assets/Figure7.png)
 *Figure 7: The visit- and attribution-corrected model conversion rate metric definition. (Note this metric is dependent on your goal metric and activity. In other words, this metric definition is not re-usable across activities.)*
 
 >[!IMPORTANT]
@@ -175,5 +175,5 @@ The complete calculated metric definition is shown here.
 
 Combining all of the above steps into a single panel, the figure below shows a complete view of the recommended report for [!DNL Auto-Target] A4T activities. This report is the same as that used by Target's machine learning models to optimize your goal metric, and it incorporates all the nuances and recommendations discussed in this article. This report is also closest to the counting methodologies used in traditional Target-reporting driven [!DNL Auto-Target] activities. 
 
-![Figure8.png](assets/figure8.png)
+![Figure8.png](assets/Figure8.png)
 *Figure 8: The final A4T [!DNL Auto-Target] report in Adobe Analytics Workspace, which combines all the adjustments to metric definitions described in the previous sections of this document.*
