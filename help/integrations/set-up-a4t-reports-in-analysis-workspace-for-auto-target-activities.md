@@ -7,7 +7,7 @@ doc-type: tutorial
 activity: use, setup
 feature: Analytics for Target (A4T), Auto-Target
 topic: Analytics for Target (A4T), Auto-Target
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 ---
 
@@ -34,7 +34,7 @@ To create an A4T for [!DNL Auto-Target] report, either start with the typical An
 ![Figure1.png](assets/figure1.png)
 *Figure 1: Analytics for Target  panel setup for [!DNL Auto-Target] activities.*
 
->[!SUMMARY]
+>[!NOTE]
 >
 >To set up your Analytics for Target panel for Auto-Target activities, choose any control experience, choose Visits as the normalizing metric, and choose the same goal metric that was chosen for optimization during Target activity creation.
 
