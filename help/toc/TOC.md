@@ -35,6 +35,7 @@ type: tutorial
 + Integrations{#integrations}
   + [Integrate Target with Analytics](../dev101/3.2-target-analytics.md)
   + [Use Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+  + [Set up A4T Reports in Analysis Workspace for Auto-Target Activities](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
   + [Integrate Target with Audience Manager](../dev101/3.3-target-dmp.md)
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
