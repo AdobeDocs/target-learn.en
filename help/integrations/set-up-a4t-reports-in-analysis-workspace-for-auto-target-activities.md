@@ -27,7 +27,7 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 
 To create an A4T for [!DNL Auto-Target] report, either start with the **[!UICONTROL Analytics for Target]** panel in Workspace, as shown below, or begin with a freeform table. Then make the following selections:
 
-1. **[!UICONTROL Control Experience]**: You may choose any experience; however, we will override this choice later. Note that for [!DNL Auto-Target] activities, the control experience is really a control strategy, which is either to a) Randomly serve among all experiences, or b) Serve a single experience (this choice is made at activity creation time in Adobe Target). Even if you opted for choice (b)—your [!DNL Auto-Target] activity designated a specific experience as the Control—you should still follow the approach outlined in this tutorial for analyzing A4T for [!DNL Auto-Target] activities.
+1. **[!UICONTROL Control Experience]**: You may choose any experience; however, you will override this choice later. Note that for [!DNL Auto-Target] activities, the control experience is really a control strategy, which is either to a) Randomly serve among all experiences, or b) Serve a single experience (this choice is made at activity creation time in Adobe Target). Even if you opted for choice (b)—your [!DNL Auto-Target] activity designated a specific experience as the Control—you should still follow the approach outlined in this tutorial for analyzing A4T for [!DNL Auto-Target] activities.
 2. **[!UICONTROL Normalizing Metric]**: Select Visits.
 3. **[!UICONTROL Success Metrics]**: Although you may select any metric(s) on which to report, you should generally view reports on the same metric that was chosen for optimization during activity creation in Adobe Target.
 
@@ -38,7 +38,7 @@ To create an A4T for [!DNL Auto-Target] report, either start with the **[!UICONT
 >
 >To set up your Analytics for Target panel for Auto-Target activities, choose any control experience, choose Visits as the normalizing metric, and choose the same goal metric that was chosen for optimization during Target activity creation.
 
-## Use the Control vs. Targeted dimension for comparing Adobe Target’s ensemble ML model to your control
+## Use the Control vs. Targeted dimension to compare Adobe Target’s ensemble ML model to your control
 
 The default A4T panel is designed for classic (manual) A/B tests or Auto-Allocate activities where the goal is to compare the performance of individual experiences against the Control experience. In [!DNL Auto-Target] activities, however, the first order comparison should be between the Control *strategy* and the Targeted *strategy* (in other words, determining the lift of the overall performance of the [!DNL Auto-Target] ensemble ML model over the Control strategy). 
 
