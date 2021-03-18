@@ -1,11 +1,14 @@
 ---
-title: Troubleshoot Adobe Target with the Experience Cloud Debugger
+title: How to Troubleshoot Adobe Target with the Experience Cloud Debugger
 description: The Adobe Experience Cloud Debugger makes it fast and easy to understand your Target implementation. You can quickly view your library configuration, examine requests to make sure your custom parameters are being passed correctly, turn on console logging, and disable all Target requests. Authenticate into the Experience Cloud and you can use the powerful Mbox Trace tool to inspect your activity and audience qualifications as well as your visitor profile.
-audience: marketer
-difficulty: 3
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
+doc-type: feature video
+kt:
+thumbnail:
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 ---
 
 # Troubleshoot with the Experience Cloud Debugger

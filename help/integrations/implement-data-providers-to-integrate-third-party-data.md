@@ -1,12 +1,14 @@
 ---
-title: Implement Data Providers to integrate third-party data into Adobe Target
-seo-title: Implement Data Providers to integrate third-party data into Adobe Target
-description: Implementation details and examples of how to use Adobe Target's Data Providers feature to retrieve data from third-party data providers and pass it in the Target request.
-audience: developer
-difficulty: 5
+title: How to Implement Data Providers to Integrate Third-party Data
+description: This tutorial provides implementation details and examples of how to use Adobe Target's Data Providers feature to retrieve data from third-party data providers and pass it in the Target request.
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
+doc-type: technical video
+kt:
+thumbnail:
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 ---
 
 # Implement [!UICONTROL Data Providers] to integrate third-party data into Adobe Target

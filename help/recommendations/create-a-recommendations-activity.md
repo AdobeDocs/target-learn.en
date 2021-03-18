@@ -1,14 +1,26 @@
 ---
-title: Create a Recommendations Activity
-seo-title: Create a Recommendations Activity in Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: How to Create a Recommendations Activity
+description: Learn how to create an Adobe Target Recommendations activity
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
+doc-type: feature video
+thumbnail:
+kt:
 ---
 
-# Create a Recommendations Activity
+# Create an Adobe Target Recommendations Activity
+
+## Description
+
+In this video, you learn how to:
+
+* Create a Recommendations activity
+
+## Intended Audience
+
+* Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 

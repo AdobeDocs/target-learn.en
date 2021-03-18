@@ -1,14 +1,13 @@
 ---
-title: Fetching Recommendations with the Delivery API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
-kt: 3815
-audience: developer
+title: How to Fetch Recommendations with the Delivery API
+description: This part of the tutorial guides developers through the steps required to fetch recommendations content using the Adobe Target Delivery API.
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail:
 author: Judy Kim
 ---
 

@@ -3,8 +3,8 @@ title: How to Set Up A4T Reports in Analysis Workspace for Auto-Target Activitie
 description: Once you have your Analytics for Target (A4T) integration in place and you are running Auto-Target activities, how can you ensure you are interpreting results correctly? Follow these steps to configure A4T reports in Analysis Workspace to get expected results when running Auto-Target activities.
 role: Business Practitioner
 level: Intermediate
-topic: Personalization
-feature: Analytics for Target (A4T), Auto-Target
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail:
 kt:

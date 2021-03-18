@@ -1,11 +1,14 @@
 ---
-title: Troubleshoot Adobe Target with Target Traces
+title: How to Troubleshoot with Target Traces
 description: The Adobe Experience Cloud Debugger makes it fast and easy to understand your Target implementation. Learn how to authenticate into the Experience Cloud and use the powerful Target Traces tool to inspect your activity and audience qualifications as well as your visitor profile.
-audience: marketer
-difficulty: 3
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
+doc-type: feature video
+kt:
+thumbnail:
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 ---
 
 # Troubleshoot with Target Traces

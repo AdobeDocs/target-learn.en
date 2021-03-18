@@ -1,14 +1,26 @@
 ---
-title: Create a Feed in Recommendations
-seo-title: Create a Feed in Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: How to Create a Feed in Recommendations
+description: Learn how to create a data feed in Adobe Target Recommendations
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
+doc-type: feature video
+thumbnail:
+kt:
 ---
 
-# Create a Feed in Recommendations
+# Create a Feed in Adobe Target Recommendations
+
+## Description
+
+In this video, you learn how to:
+
+* Create a data feed in Adobe Target Recommendations
+
+## Intended Audience
+
+* Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 

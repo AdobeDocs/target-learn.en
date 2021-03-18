@@ -1,14 +1,13 @@
 ---
-title: Configure Authentication for Adobe Target APIs
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations includes a dedicated set of APIs that allow you to manage your catalog of recommendable products and/or content; manage your recommendations algorithms and campaigns; and deliver recommendations in JSON, HTML, or XML objects to be displayed in web, mobile, email, IOT, and other channels.
-kt: 
-audience: developer
+title: How to Configure Authentication for Adobe Target APIs
+description: This tutorial guides developers through the steps required to generate authentication tokens needed to successfully interact with Adobe Target APIs. Follow these steps to use the Adobe Developer Console to generate and test the bearer access token, which is needed to use the Target APIs.
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt:
+thumbnail:
 author: Judy Kim
 ---
 

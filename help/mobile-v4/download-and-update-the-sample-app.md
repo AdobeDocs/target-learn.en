@@ -1,13 +1,13 @@
 ---
 title: Download and Update the We.Travel Sample App
-seo-title: Download the sample app and verify the mobile services SDK
 description: The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v4. You just need to update it so it points to your own Experience Cloud Org and solution accounts.   
-seo-description: The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v4. You just need to update it so it points to your own Experience Cloud Org and solution accounts.
-feature: mobile
-kt: 3040
-audience: developer
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail:
 ---
 
 # Download and Update the We.Travel Sample App

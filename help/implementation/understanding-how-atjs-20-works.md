@@ -1,12 +1,14 @@
 ---
-title: Understanding How Adobe Target's at.js 2.0 Works
-seo-title: Understanding How Adobe Target's at.js 2.0 Works
+title: How Does at.js 2.0 Work?
 description: at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.
-audience: developer
-difficulty: 3
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
+doc-type: technical video
+kt:
+thumbnail: 
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 ---
 
 # Understanding How Adobe Target's at.js 2.0 Works

@@ -1,11 +1,14 @@
 ---
-title: Using the Personalization Insights Reports in Adobe Target
+title: How to Use the Personalization Insights Reports
 description: Automated Personalization and Auto-Target activities use advanced machine learning to serve the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. The Personalization Insights reports provide information on how these models make their decisions.
-audience: analyst
-difficulty: 3
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
+doc-type: feature video
+kt:
+thumbnail:
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 badge: premium
 ---
 
