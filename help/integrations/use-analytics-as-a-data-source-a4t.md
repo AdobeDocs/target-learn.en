@@ -18,7 +18,7 @@ kt:
 * How does A4T work?
 * What are the pre-requisites to using A4T?
 
-# Intended Audience
+## Intended Audience
 
 * Business Practitioner
 
