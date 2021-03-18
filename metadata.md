@@ -1,7 +1,7 @@
 ---
 cloud: marketing-cloud
 product: target
-solution: Adobe Target Tutorials
+solution: Target
 solution-title: Target
 solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Getting Started
@@ -11,6 +11,7 @@ tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/target-learn.en
 index: yes
 mini-toc-levels: 2
+type: Tutorial
 ---
 
 # Metadata for internal use

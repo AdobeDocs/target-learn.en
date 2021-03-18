@@ -1,6 +1,6 @@
 ---
 title: What Are the Different Activity Types?
-description: The type of activity you want to use in Adobe Target depends on your objectives. It is important to select the right type of activity to achieve intended outcomes. Watch this video to learn the basics of A/B activities, Multivariate Tests (MVTs), Experience Targeting (XT) activities, Recommendations, and Automated Personalization (AP) activities.
+description: Learn about the different types of activities included in Adobe Target and how they can help achieve your goals. Watch this video to learn the basics of A/B activities, Multivariate Tests (MVTs), Experience Targeting (XT) activities, Recommendations, and Automated Personalization (AP) activities.
 role: Business Practitioner
 level: Beginner
 topic: Personalization
