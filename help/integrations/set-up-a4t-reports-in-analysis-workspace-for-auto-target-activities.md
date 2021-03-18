@@ -1,17 +1,16 @@
 ---
 title: How to Set Up A4T Reports in Analysis Workspace for Auto-Target Activities
-description: How to configure A4T reports in Analysis Workspace to get expected results when running Auto-Target activities
-kt:
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Once you have your Analytics for Target (A4T) integration in place and you are running Auto-Target activities, how can you ensure you are interpreting results correctly? Follow these steps to configure A4T reports in Analysis Workspace to get expected results when running Auto-Target activities.
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Analytics for Target (A4T), Auto-Target
-topic: Analytics for Target (A4T), Auto-Target
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail:
+kt:
 ---
 
-# How to set up A4T reports in Analysis Workspace for [!DNL Auto-Target] activities
+# Setting up A4T reports in Analysis Workspace for [!DNL Auto-Target] activities
 
 The Analytics for Target (A4T) integration for [!DNL Auto-Target] activities uses Adobe Target’s ensemble machine learning (ML) algorithms to choose the best experience for each visitor based on their profile, behavior, and context, all while using an Adobe Analytics goal metric.
 

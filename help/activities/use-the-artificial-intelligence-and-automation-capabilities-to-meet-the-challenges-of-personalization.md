@@ -1,16 +1,17 @@
 ---
-title: Use the Artificial Intelligence and Automation Capabilities of Adobe Target to Meet the Challenges of Personalization 
+title: How to Use Artificial Intelligence and Automation to Meet the Challenges of Personalization 
 description: This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
-seo-description: This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: value-video
 badge: premium
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Auto-Allocate, Auto-Target, Automated Personalization
+doc-type: value video
+thumbnail:
+kt:
 ---
 
-# Use the Artificial Intelligence and Automation Capabilities to Meet the Challenges of Personalization
+# Use Artificial Intelligence and Automation to Meet the Challenges of Personalization
 
 This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
 
