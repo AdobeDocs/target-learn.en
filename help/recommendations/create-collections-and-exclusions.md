@@ -1,15 +1,27 @@
 ---
-title: Create Collections and Exclusions
-seo-title: Create Collections and Exclusions in Adobe Target Recommendations
-description: 
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: How to Create Collections and Exclusions in Recommendations
+description: Learn what a Recommendations collection is and how to use it. Learn what a Recommendations exclusion is and how to use it.
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
+doc-type: feature video
+thumbnail:
+kt:
 ---
 
 # Create Collections and Exclusions in Recommendations
+
+## Description
+
+In this video, you learn how to:
+
+* Create collections
+* Create exclusions
+
+## Intended Audience
+
+* Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 

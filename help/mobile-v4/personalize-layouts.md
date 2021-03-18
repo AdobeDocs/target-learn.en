@@ -1,13 +1,14 @@
 ---
 title: Personalize Layouts
-seo-title: Personalize Layouts
-description: In this final lesson, we'll build two personalization activities in Target for our Audiences. We'll load and display the activities in the app and validate that content is displaying at the right time in the right locations.  
-seo-description: In this final lesson, we'll build two personalization activities in Target for our Audiences. We'll load and display the activities in the app and validate that content is displaying at the right time in the right locations.
-feature: mobile
-kt: 3040
-audience: developer
+description: In this final lesson, we build two personalization activities in Target for our Audiences. Learn how to load and display the activities in the app and validate that content is displaying at the right time in the right locations.  
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail:
+author: Daniel Wright
 ---
 
 # Personalize Layouts

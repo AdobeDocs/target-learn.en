@@ -1,11 +1,13 @@
 ---
 title: Add Parameters to the Requests
 description: In this lesson we will add Adobe lifecycle metrics and custom parameters to the Target requests added in the previous lesson. These metrics and parameters will be used for creating personalized audiences later in the tutorial.
-feature: mobile
-kt: 3040
-audience: developer
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail:
 ---
 
 # Add Parameters to the Requests

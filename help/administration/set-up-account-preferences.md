@@ -1,13 +1,25 @@
 ---
-title: Set up Account Preferences in Adobe Target
-description: null
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: How to Set up Account Preferences
+description: This video describes Adobe Target account preferences. Watch this video for examples of how different settings impact Adobe Target.
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
+doc-type: feature video
+thumbnail:
+kt:
 ---
 
-# Set up Account Preferences
+# Set up Account Preferences in Adobe Target
+
+## Description
+
+In this video, you learn how to:
+
+* Describe the different account settings in Adobe Target
+
+## Intended Audience
+
+* Administrator
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)

@@ -1,17 +1,19 @@
 ---
-title: Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)
-seo-title: Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)
-description: The newest version of at.js provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
-audience: developer
-difficulty: 3
+title: How to Implement at.js 2.0 in a Single Page Application (SPA)
+description: Adobe Target's at.js 2.0 provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. Follow these steps to implement at.js 2.0 in a Single Page Application (SPA).
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
+doc-type: technical video
+kt:
+thumbnail:
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 ---
 
 # Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)
 
-The newest version of `at.js` provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading `at.js` to have harmonious interactions with single page applications (SPAs).
+Adobe Target's `at.js` 2.0 provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on upgrading `at.js` to have harmonious interactions with single page applications (SPAs).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 

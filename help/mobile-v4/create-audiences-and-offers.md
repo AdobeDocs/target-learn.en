@@ -1,13 +1,13 @@
 ---
 title: Create Audiences and Offers in Adobe Target
-seo-title: Create Audiences and Offers in Adobe Target
-description: In this lesson, we'll build audiences and offers in Adobe Target for the three locations we implemented in the previous lessons. These will be used to display personalized experiences in the next lesson.   
-seo-description: In this lesson, we'll build audiences and offers in Adobe Target for the three locations we implemented in the previous lessons. These will be used to display personalized experiences in the next lesson.
-feature: mobile
-kt: 3040
-audience: developer
+description: In this lesson, we build audiences and offers in Adobe Target for the three locations we implemented in the previous lessons. These will be used to display personalized experiences in the next lesson.   
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail:
 ---
 
 # Create Audiences and Offers in Adobe Target

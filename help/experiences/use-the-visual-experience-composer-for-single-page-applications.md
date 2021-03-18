@@ -1,19 +1,19 @@
 ---
-title: Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target
-seo-title: Using the Visual Experience Composer for Single Page Applications (SPA VEC) in Adobe Target
-description: The SPA VEC enables marketers to create tests and personalize content in SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Tests and Experience Targeting (XT) activities in apps built with popular frameworks, such as React and Angular.
-audience: marketer
-difficulty: 1
+title: How to Use the Visual Experience Composer for Single Page Applications (SPA VEC)
+description: This video introduces marketers to the Adobe Target Visual Experience Composer for Single Page Applications (SPA VEC). Watch this video to learn how to create activities using the SPA VEC.
+role: Business Practitioner
+level: Beginner
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail:
+kt:
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 ---
 
 # Using the [!UICONTROL Visual Experience Composer] for Single Page Applications (SPA VEC) in Adobe Target
 
-The SPA VEC enables marketers to create tests and personalize content in SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Tests and Experience Targeting (XT) activities in apps built with popular frameworks, such as React and Angular.
-
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+The SPA VEC enables marketers to create tests and personalize content in SPAs in a do-it-yourself fashion without continuous development dependencies. The VEC can be used to create A/B Tests and Experience Targeting (XT) activities in apps built with popular frameworks, such as React and Angular. Watch the following video to learn how to create activities using the SPA VEC.
 
 ## Overview
 
@@ -24,6 +24,13 @@ The SPA VEC enables marketers to create tests and personalize content in SPAs in
 * VEC actions can be applied to a single view or to the page load event
 * Different modifications can be added to different views without having to use the [!UICONTROL Additional Pages] option  
 * `at.js 2.0+` and the `adobe.target.triggerView()` function must be implemented in the app before you can use the SPA VEC
+
+## Intended Audience
+
+* Business Practitioner
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+
 
 ## Additional Resources
 
