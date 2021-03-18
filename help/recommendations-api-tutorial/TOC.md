@@ -1,7 +1,6 @@
 ---
 user-guide-title: Use Recommendations APIs
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-solution: Target
 ---
 
 # Use Adobe Target Recommendations APIs{#recommendations-api-tutorial}

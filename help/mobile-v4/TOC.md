@@ -1,7 +1,6 @@
 ---
 user-guide-title: Adobe Target with Adobe Mobile Services SDK v4 for Android
 user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.html
-audience: end-user
 ---
 
 # Adobe Target with Adobe Mobile Services SDK v4 for Android {#mobile-sdk-v4-android}

@@ -1,13 +1,28 @@
 ---
-title: Use Metrics in Adobe Target Activities
-description: null
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: How to Use Metrics in Activities
+description: How do you measure whether an Adobe Target activity is successful? In this video, learn the different types of goal metrics and how to use them to measure the performance of your activity.
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
+doc-type: feature video
+thumbnail:
+kt:
 ---
 
-# Use Metrics Activities
+# Use Metrics in Activities
+
+## Description
+
+In this video, you learn how to:
+
+* Describe what a "Goal" metric is
+* Describe the differences between Conversion, Revenue, and Engagement metrics
+* Build Conversion, Revenue, and Engagement metrics
+* Build a click-tracking metric
+
+## Intended Audience
+
+* Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380/?quality=12)
