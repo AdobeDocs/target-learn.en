@@ -27,5 +27,5 @@ In the second video, you learn how to:
 * Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
->
+
 >[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
