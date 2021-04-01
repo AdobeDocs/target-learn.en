@@ -1,5 +1,5 @@
 ---
-cloud: marketing-cloud
+cloud: Experience Cloud
 product: target
 solution: Target
 solution-title: Target
