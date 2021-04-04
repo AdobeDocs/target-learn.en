@@ -8,8 +8,9 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail:
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+exl-id: 53073dcd-6fc4-4468-b5d0-ab642c39b8c9
 ---
-
 # Adobe Target with Adobe Mobile Services SDK v4 for Android - Overview
 
 _Adobe Target with Adobe Mobile Services SDK v4 for Android_ is the perfect starting point for Android developers who are already using Adobe Mobile Services SDK v4 and want to start personalizing app experiences with Adobe Target.

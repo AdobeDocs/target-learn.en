@@ -9,8 +9,8 @@ doc-type: technical video
 kt:
 thumbnail:
 author: Daniel Wright
+exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
 ---
-
 # Implement [!UICONTROL Data Providers] to integrate third-party data into Adobe Target
 
 Implementation details and examples of how to use Adobe Target's [!UICONTROL Data Providers] feature to retrieve data from third-party data providers and pass it in the Target request.

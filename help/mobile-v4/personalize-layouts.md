@@ -9,8 +9,8 @@ doc-type: tutorial
 kt: 3040
 thumbnail:
 author: Daniel Wright
+exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
 ---
-
 # Personalize Layouts
 
 Now it's time to bring everything together and create the personalized experiences. An _Activity_ is the [!DNL Target] mechanism that links the locations, audiences, and offers together, so that when the request is made from the app, [!DNL Target] responds with the personalized content. We'll build two personalization activities in [!DNL Target] and validate that personalized content is displays to the right user at the right time and in the right location.

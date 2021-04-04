@@ -8,8 +8,8 @@ feature: Recommendations
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
 ---
-
 # Create Collections and Exclusions in Recommendations
 
 ## Description

@@ -8,8 +8,8 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail:
 kt:
+exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 ---
-
 # Setting up A4T reports in Analysis Workspace for [!DNL Auto-Target] activities
 
 The Analytics for Target (A4T) integration for [!DNL Auto-Target] activities uses Adobe Target’s ensemble machine learning (ML) algorithms to choose the best experience for each visitor based on their profile, behavior, and context, all while using an Adobe Analytics goal metric.

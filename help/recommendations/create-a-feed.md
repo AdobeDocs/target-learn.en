@@ -8,8 +8,8 @@ feature: Recommendations
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
 ---
-
 # Create a Feed in Adobe Target Recommendations
 
 ## Description

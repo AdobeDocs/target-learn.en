@@ -8,9 +8,9 @@ feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691
-thumbnail: 
+thumbnail:
+exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 ---
-
 # On-Device Decisioning Overview
 
 ## Description

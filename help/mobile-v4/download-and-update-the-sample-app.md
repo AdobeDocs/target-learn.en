@@ -8,8 +8,8 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail:
+exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
 ---
-
 # Download and Update the We.Travel Sample App
 
 The We.Travel sample app is pre-implemented with the Adobe Mobile Services SDK v4. You just need to update it, so that it points to your own Experience Cloud Org and solution accounts.

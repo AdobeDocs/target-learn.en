@@ -8,8 +8,8 @@ feature: Recommendations
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
 ---
-
 # Understanding Feeds in Recommendations
 
 ## Description

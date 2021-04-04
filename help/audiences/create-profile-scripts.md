@@ -10,8 +10,8 @@ thumbnail:
 kt:
 badge: premium
 author: Daniel Wright
+exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
 ---
-
 # Create Profile Scripts in Adobe Target
 
 ## Description

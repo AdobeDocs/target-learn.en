@@ -8,8 +8,8 @@ feature: Administration & Configuration
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 9f147770-4b78-4982-ad52-c219bb451cc1
 ---
-
 # Set up Workspaces in Adobe Target
 
 ## Description

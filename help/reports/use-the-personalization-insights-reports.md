@@ -10,8 +10,8 @@ kt:
 thumbnail:
 author: Daniel Wright
 badge: premium
+exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
 ---
-
 # Use the Personalization Insights Reports
 
 Automated Personalization and Auto-Target activities use advanced machine learning to serve the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. The Personalization Insights reports provide information on how these models make their decisions.

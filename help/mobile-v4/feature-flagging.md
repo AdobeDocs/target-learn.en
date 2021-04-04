@@ -8,8 +8,8 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail:
+exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 ---
-
 # Feature Flagging
 
 Mobile app product owners need the flexibility to roll out new features in their app without having to invest in multiple app releases. They may also want to roll out features gradually to a percentage of the user base, to test effectiveness. Adobe Target can be used to experiment with UX features like color, copy, buttons, text & images and provide those features to specific audiences.

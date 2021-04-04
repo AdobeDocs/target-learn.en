@@ -1,9 +1,8 @@
 ---
 title: Learn How to Use Adobe Target
 description: Learn how to use Adobe Target with this collection of tutorials and videos covering all its components. Use the power of Adobe Target effectively.
-
+exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 ---
-
 # Learn to use Adobe Target
 
 Adobe Target is the Adobe Experience Cloud solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. Use these videos and tutorials to learn the many components of Adobe Target.

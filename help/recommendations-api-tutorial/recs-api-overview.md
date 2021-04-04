@@ -9,8 +9,8 @@ doc-type: tutorial
 kt: 3815
 thumbnail:
 author: Judy Kim
+exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
 ---
-
 # Adobe Recommendations API Overview
 
 APIs relevant for [!DNL Recommendations] include [admin APIs](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) that allow you to:

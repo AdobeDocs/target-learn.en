@@ -8,8 +8,8 @@ feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
 ---
-
 # Use Adobe Analytics as a Data Source for Adobe Target (A4T)
 
 ## Description

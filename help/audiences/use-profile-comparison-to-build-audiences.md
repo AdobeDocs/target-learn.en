@@ -9,8 +9,8 @@ doc-type: feature video
 thumbnail:
 kt:
 author: Daniel Wright
+exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
 ---
-
 # Use Profile Comparison to build Audiences in Adobe Target
 
 The [!UICONTROL Profile Comparison] feature in Adobe Target allows you to compare two numeric profile values against each other when building an audience. This is extremely helpful if you are, for example, passing custom-built propensity scores into [!DNL Target] and want to personalize content based on the product with the highest propensity score.

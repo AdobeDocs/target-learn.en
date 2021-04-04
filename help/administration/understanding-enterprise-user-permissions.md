@@ -9,8 +9,8 @@ doc-type: feature video
 thumbnail:
 kt:
 badge: premium
+exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
 ---
-
 # Understanding Enterprise User Permissions in Adobe Target
 
 ## Description

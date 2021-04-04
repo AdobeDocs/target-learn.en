@@ -9,8 +9,8 @@ doc-type: technical video
 kt:
 thumbnail: 
 author: Daniel Wright
+exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 ---
-
 # Understanding How Adobe Target's at.js 2.0 Works
 
 `at.js` 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.

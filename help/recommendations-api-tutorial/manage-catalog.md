@@ -9,8 +9,8 @@ doc-type: tutorial
 kt: 3815
 thumbnail:
 author: Judy Kim
+exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
 ---
-
 # Manage Your [!DNL Recommendations] Catalog using APIs
 
 At this point, you have learned how to generate an access token, using the JWT authentication flow, to use the Adobe Target Admin APIs with Adobe I/O.

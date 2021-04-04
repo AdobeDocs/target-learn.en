@@ -8,8 +8,8 @@ feature: Activities
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
 ---
-
 # Use Metrics in Activities
 
 ## Description
