@@ -4,7 +4,6 @@ description: Learn how to use Adobe Target with this collection of tutorials and
 role: Leader, Architect, Developer, Administrator, Business Practitioner
 level: Beginner, Intermediate, Experienced
 topic: Personalization
-doc-type: feature video
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 ---
 
