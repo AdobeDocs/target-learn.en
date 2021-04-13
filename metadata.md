@@ -1,5 +1,5 @@
 ---
-cloud: marketing-cloud
+cloud: Experience Cloud
 product: target
 solution: Target
 solution-title: Target
@@ -11,6 +11,7 @@ tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/target-learn.en
 index: yes
 mini-toc-levels: 2
+feature-set: Target
 type: Tutorial
 ---
 

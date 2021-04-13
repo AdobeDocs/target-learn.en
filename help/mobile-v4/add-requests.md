@@ -8,8 +8,8 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail:
+exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
 ---
-
 # Add Adobe Target Requests
 
 The Adobe Mobile Services SDK (v4) provides Adobe Target methods and functionality that enable you to personalize your app with different experiences for different users. Typically, one or more requests are made from the app to the Adobe Target to retrieve the personalized content and measure the impact of that content.

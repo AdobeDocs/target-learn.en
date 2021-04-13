@@ -8,8 +8,8 @@ feature: Administration & Configuration
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 42ba0e3e-f6db-49d5-a1e9-89181805a123
 ---
-
 # Set up Account Preferences in Adobe Target
 
 ## Description

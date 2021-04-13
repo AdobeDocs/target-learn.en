@@ -8,8 +8,8 @@ feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail:
 kt: 3451
+exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
 ---
-
 # Use Recommendations Offers in A/B Test and Experience Targeting Activities
 
 Recommendations offers can be used with A/B Test and Experience Targeting Activities. This functionality opens up rich capabilities, enabling you to:

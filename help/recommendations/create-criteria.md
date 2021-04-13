@@ -8,8 +8,8 @@ feature: Recommendations
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
 ---
-
 # Create Criteria in Recommendations
 
 ## Description

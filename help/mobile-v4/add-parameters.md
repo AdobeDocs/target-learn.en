@@ -8,8 +8,8 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail:
+exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
 ---
-
 # Add Parameters to the Requests
 
 In this lesson we will add Adobe lifecycle metrics and custom parameters to the [!DNL Target] requests added in the previous lesson. These metrics and parameters will be used for creating personalized audiences later in the tutorial.

@@ -8,8 +8,8 @@ feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recomm
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
 ---
-
 # Understand Adobe Target Activity Types
 
 ## Description

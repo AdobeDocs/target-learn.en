@@ -9,8 +9,8 @@ doc-type: feature video
 kt:
 thumbnail:
 author: Daniel Wright
+exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
 ---
-
 # Use Data Providers to integrate third-party data into Adobe Target
 
 [!UICONTROL Data Providers] is a capability that allows you to easily pass data from third parties to Target.  A third party could be a weather service, a DMP, or even your own web service. You can then use this data to build audiences, target content, and enrich the visitor profile.

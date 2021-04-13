@@ -8,8 +8,8 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail:
 kt:
+exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
 ---
-
 # Create Experience Targeting Activities
 
 Experience Targeting is a first step into the world of personalization and often begins with A/B testing. A marketer runs an A/B test, and through the use of reporting audiences discovers that different experiences resonate with different audiences. Experience Targeting (or XT) allows the marketer to easily leverage that discovery and switch to long-term targeting of content to those different user segments.

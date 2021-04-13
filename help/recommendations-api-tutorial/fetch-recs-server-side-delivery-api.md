@@ -9,8 +9,8 @@ doc-type: tutorial
 kt: 3815
 thumbnail:
 author: Judy Kim
+exl-id: 553d1208-647f-479d-acc7-d7760469d642
 ---
-
 # Fetching [!DNL Recommendations] with the Delivery API
 
 The Adobe Target and Adobe Target [!DNL Recommendations] APIs can be used to deliver responses to web pages, but can also be used in non-HTML based experiences including apps, screens, consoles, emails, kiosks and other display devices. In other words, when [!DNL Target] libraries and JavaScript cannot be used, the **[!DNL Target] Delivery API** still allows us to access the full range of [!DNL Target] functionality to deliver personalized experiences.
