@@ -1,7 +1,7 @@
 ---
 title: How to Use the Form-Based Experience Composer
 description: This video shows Adobe Target users how and when to use the form-based experience composer.
-role: Business Practitioner
+role: User
 level: Beginner
 topic: Personalization
 feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)

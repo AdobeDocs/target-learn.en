@@ -1,7 +1,7 @@
 ---
 title: How to Create Custom Designs in Recommendations
 description: Learn how to create custom Designs in Adobe Target Recommendations.
-role: Business Practitioner
+role: User
 level: Intermediate
 topic: Personalization
 feature: Recommendations

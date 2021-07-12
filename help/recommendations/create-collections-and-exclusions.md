@@ -1,7 +1,7 @@
 ---
 title: How to Create Collections and Exclusions in Recommendations
 description: Learn what a Recommendations collection is and how to use it. Learn what a Recommendations exclusion is and how to use it.
-role: Business Practitioner
+role: User
 level: Intermediate
 topic: Personalization
 feature: Recommendations

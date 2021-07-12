@@ -1,7 +1,7 @@
 ---
 title: How to Set up Account Preferences
 description: This video describes Adobe Target account preferences. Watch this video for examples of how different settings impact Adobe Target.
-role: Administrator
+role: Admin
 level: Beginner
 topic: Administration
 feature: Administration & Configuration

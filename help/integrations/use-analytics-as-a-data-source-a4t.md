@@ -1,7 +1,7 @@
 ---
 title: How to Use Analytics as a Data Source for Target (A4T)
 description: This video introduces marketers to Analytics for Target (A4T).
-role: Business Practitioner
+role: User
 level: Beginner
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Integrations

@@ -1,7 +1,7 @@
 ---
 title: How to Use Metrics in Activities
 description: How do you measure whether an Adobe Target activity is successful? In this video, learn the different types of goal metrics and how to use them to measure the performance of your activity.
-role: Business Practitioner
+role: User
 level: Intermediate
 topic: Personalization
 feature: Activities

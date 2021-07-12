@@ -1,7 +1,7 @@
 ---
 title: How to Create a Recommendations Activity
 description: Learn how to create an Adobe Target Recommendations activity
-role: Business Practitioner
+role: User
 level: Intermediate
 topic: Personalization
 feature: Recommendations

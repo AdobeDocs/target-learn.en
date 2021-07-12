@@ -1,7 +1,7 @@
 ---
 title: How to Create a Feed in Recommendations
 description: Learn how to create a data feed in Adobe Target Recommendations
-role: Business Practitioner
+role: User
 level: Intermediate
 topic: Personalization
 feature: Recommendations

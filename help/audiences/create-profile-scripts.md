@@ -1,7 +1,7 @@
 ---
 title: How to Create Profile Scripts
 description: This video introduces Adobe Target users to profile scripts. Watch this video if you are experienced with Adobe Target and want to learn the basics of using profile scripts to perform more specialized targeting or audience creation.
-role: Business Practitioner, Developer
+role: User, Developer
 level: Experienced
 topic: Personalization
 feature: Audiences, Administration & Configuration

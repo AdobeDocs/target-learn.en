@@ -1,7 +1,7 @@
 ---
 title: How to Set up Properties
 description: This video shows administrators how to create properties in Adobe Target.
-role: Administrator
+role: Admin
 level: Beginner
 topic: Administration
 feature: Administration & Configuration

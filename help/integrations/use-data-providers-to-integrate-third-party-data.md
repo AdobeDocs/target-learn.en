@@ -1,7 +1,7 @@
 ---
 title: How to Use Data Providers to Integrate Third-party Data
 description: This tutorial introduces users to Data Providers. Learn how to use the Data Providers capability to easily pass data from third parties to Adobe Target.
-role: Business Practitioner, Developer
+role: User, Developer
 level: Experienced
 topic: Personalization, Integrations
 feature: Implementation, Integrations, APIs/SDKs

@@ -1,7 +1,7 @@
 ---
 title: Learn How to Use Adobe Target
 description: Learn how to use Adobe Target with this collection of tutorials and videos covering all its components. Use the power of Adobe Target effectively.
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d

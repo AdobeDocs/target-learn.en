@@ -1,7 +1,7 @@
 ---
 title: How to Create Experience Targeting Activities
 description: Experience Targeting (XT) activities enable marketers to target specific content to a specific audience. Learn the benefits of XT activities and how to create and use them.
-role: Business Practitioner
+role: User
 level: Beginner
 topic: Personalization
 feature: Experience Targeting, Activities, Visual Experience Composer (VEC)

@@ -1,7 +1,7 @@
 ---
 title: How to Configure Authentication for Adobe Target APIs
 description: This tutorial guides developers through the steps required to generate authentication tokens needed to successfully interact with Adobe Target APIs. Follow these steps to use the Adobe Developer Console to generate and test the bearer access token, which is needed to use the Target APIs.
-role: Developer, Administrator, Architect
+role: Developer, Admin, Architect
 level: Intermediate
 topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
