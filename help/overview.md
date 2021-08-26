@@ -35,11 +35,11 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 <table>
 <tr>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+    <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
       <img alt="Implement Target with Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
-      <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
     <strong>Implement Target with Adobe Experience Platform Launch</strong>
     </a>
     </div>

@@ -47,7 +47,7 @@ Below is some of key Target terminology that we will use in the remainder of thi
 
 The first request we will implement in We.Travel is a batch prefetch request with two [!DNL Target] locations on the Home Screen. In a later lesson, we'll configure offers for these locations that display messages to help guide new users through the booking process.
 
-A prefetch request fetches [!DNL Target] content as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) for more details on prefetch methods.
+A prefetch request fetches [!DNL Target] content as minimally as possible by caching the Adobe Target server response (offer). A batch prefetch request retrieves and caches multiple offers, each associated with a different location. All prefetched locations are cached on the device for future use in the user session. By prefetching multiple locations on the Home Screen, we can retrieve offers to use later as the visitor navigates through the app. Refer to the [prefetch documentation](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) for more details on prefetch methods.
 
 ### Add the Batch Prefetch Request
 
