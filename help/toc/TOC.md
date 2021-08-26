@@ -17,7 +17,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 + Implementation{#implementation}
   + [Introduction to Target Implementation](../dev101/2.1-intro-to-target-implementation.md)
   + [Integrate Target with Launch](../dev101/3.1-target-launch.md)
-  + [Implement in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
+  + [Implement in Websites with Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
   + [Benefits of using Locations](../dev101/2.2-benefits-of-locations.md)
   + [Introduction to Target Requests](../dev101/2.3-intro-to-target-requests.md)
   + [Introduction to Target Parameters](../dev101/2.4-intro-to-target-params.md)
@@ -25,7 +25,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Implement at.js 2.0 in a Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
   + [Design a Target Implementation](../dev101/2.5-design-target-implementation.md)
   + [Next Steps to Design a Target Implementation](../dev101/2.6-next-steps-design-target-implementation.md)
-  + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+  + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
   + [Understand Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
   + [On-Device Decisioning Overview](../implementation/on-device-decisioning-overview.md)
 + Integrations{#integrations}
@@ -80,4 +80,4 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
 + APIs{#apis}
   + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
-  + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
+  + [Use Recommendations APIs](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

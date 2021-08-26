@@ -84,7 +84,6 @@ The following resources provide examples of various non-HTML focused implementat
 
 |Resource|Details|
 | --- | --- |
-|[Consuming RESTful APIs in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html)|How to create and deploy an Adobe Experience Manager OSGi bundle that consumes data from a third-party RESTful web service.|
 |[Adobe Target Everywhere - Implement Server Side or in the IoT](https://expleague.azureedge.net/labs/L733/index.html)|Adobe Summit 2019 Lab that provides hands-on experience for a React application that leverages Adobe Target server-side APIs.|
 |[Adobe Target in a Mobile App Without the Adobe SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753)|This guide shows you how to set up Adobe Target in your mobile app without installing the Adobe SDK. This solution uses the Tealium SDK webview and the Remote Commands module to send and receive requests to the Adobe Visitor API (Experience Cloud) and the Adobe Target API.|
 |[How Adobe Target Works in Mobile Apps](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html)|How [!DNL Target] works with the Mobile SDK|

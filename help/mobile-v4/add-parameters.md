@@ -84,7 +84,7 @@ public void targetPrefetchContent() {
 
 ### Note About Parameters
 
-For future projects, you may want to implement additional parameters. The `createTargetPrefetchObject()` method allows three types of parameters: `locationParams`, `orderParams`, and `productParams`. See the documentation for [more details on adding these parameters to the prefetch request](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+For future projects, you may want to implement additional parameters. The `createTargetPrefetchObject()` method allows three types of parameters: `locationParams`, `orderParams`, and `productParams`. See the documentation for [more details on adding these parameters to the prefetch request](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Also note that different location parameters can be added to each location in the prefetch request. For example, you could create another Map called param2, put a new parameter in it, then set param2 in one location and param1 with the other location. Here's an example:
 
@@ -141,11 +141,11 @@ Run the emulator and open Logcat. Filter for one of the parameters to verify tha
 
 >[!NOTE]
 >
->Order Confirmation Requests and Parameters: Although not used in this demo project, order details are usually captured in a real implementation so [!DNL Target] can use order details as metrics/dimensions. Please refer to the documentation for instructions on how to [implement the order confirmation request and parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>Order Confirmation Requests and Parameters: Although not used in this demo project, order details are usually captured in a real implementation so [!DNL Target] can use order details as metrics/dimensions. Please refer to the documentation for instructions on how to [implement the order confirmation request and parameters](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics can be configured as the reporting source for [!DNL Target]. This allows all metrics/dimensions collected by the Target SDK to be viewed in Adobe Analytics. See the [A4T Overview](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) for more details.
+>Analytics for Target (A4T): Adobe Analytics can be configured as the reporting source for [!DNL Target]. This allows all metrics/dimensions collected by the Target SDK to be viewed in Adobe Analytics. See the [A4T Overview](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) for more details.
 
 Nice work! Now that parameters are in place, we're ready to use those parameters to create audiences and offers in Adobe Target.
 
