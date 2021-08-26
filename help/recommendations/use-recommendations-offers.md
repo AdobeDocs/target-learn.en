@@ -23,5 +23,5 @@ Recommendations offers can be used with A/B Test and Experience Targeting Activi
 
 ## Additional Resources
 
-* [Recommendations as an offer documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendations as an offer documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Create a Recommendations Activity video](create-a-recommendations-activity.md)

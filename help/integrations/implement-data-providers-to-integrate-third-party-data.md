@@ -55,4 +55,4 @@ A working example with the code used in the video can be found here: [https://ta
 
 * [Use Data Providers with Adobe Target](use-data-providers-to-integrate-third-party-data.md)  
 
-* [Data Providers Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Data Providers Documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

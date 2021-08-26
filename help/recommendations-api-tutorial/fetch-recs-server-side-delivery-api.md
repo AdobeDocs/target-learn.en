@@ -40,9 +40,9 @@ To use the Delivery API to deliver [!DNL Target] experiences—including recomme
 
 ## Create a Recommendation using the Form-based Experience Composer
 
-To create recommendations that can be used with the Delivery API, use the [Form-based Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html). 
+To create recommendations that can be used with the Delivery API, use the [Form-based Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en). 
 
-1. First, create and save a JSON-based design to use in your recommendation. For sample JSON, plus background information regarding how JSON responses can be returned when configuring a form-based activity, see the documentation on [Creating Recommendation Designs](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html). In this example, the design is named *Simple JSON.*
+1. First, create and save a JSON-based design to use in your recommendation. For sample JSON, plus background information regarding how JSON responses can be returned when configuring a form-based activity, see the documentation on [Creating Recommendation Designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). In this example, the design is named *Simple JSON.*
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
 2. In [!DNL Target], navigate to **[!UICONTROL Activities] > [!UICONTROL Create Activity] > [!UICONTROL Recommendations]**, then select **[!UICONTROL Form]**.
@@ -52,7 +52,7 @@ To create recommendations that can be used with the Delivery API, use the [Form-
 3. Select a Property, and click **[!UICONTROL Next]**.
 4. Define the location where you would like users to receive the recommendation's response. The example below uses a location named *api_charter*. Select your JSON-based design, created earlier, named *Simple JSON.*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Save and activate the recommendation. It will generate results. [Once the results are ready](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html), you can use the Delivery API to retrieve them.
+5. Save and activate the recommendation. It will generate results. [Once the results are ready](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en), you can use the Delivery API to retrieve them.
 
 ## Use the Delivery API
 
@@ -86,38 +86,38 @@ The following resources provide examples of various non-HTML focused implementat
 | --- | --- |
 |[Adobe Target Everywhere - Implement Server Side or in the IoT](https://expleague.azureedge.net/labs/L733/index.html)|Adobe Summit 2019 Lab that provides hands-on experience for a React application that leverages Adobe Target server-side APIs.|
 |[Adobe Target in a Mobile App Without the Adobe SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753)|This guide shows you how to set up Adobe Target in your mobile app without installing the Adobe SDK. This solution uses the Tealium SDK webview and the Remote Commands module to send and receive requests to the Adobe Visitor API (Experience Cloud) and the Adobe Target API.|
-|[How Adobe Target Works in Mobile Apps](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html)|How [!DNL Target] works with the Mobile SDK|
+|[How Adobe Target Works in Mobile Apps](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en)|How [!DNL Target] works with the Mobile SDK|
 |[Configuring the [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target)|Steps for configuring the [!DNL Target] extension in Experience Platform Launch, adding the [!DNL Target] Extension to your app, and implementing [!DNL Target] APIs to request activities, prefetch offers, and Enter visual preview mode.|
 |[Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk)|Open-sourced [!DNL Target] Node.js SDK v1.0|
-|[Server Side overview](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html)|Information about Adobe Target Server Side delivery APIs, Server Side Batch Delivery APIs, Node.js SDK, and Adobe Target [!DNL Recommendations] APIs.|
+|[Server Side overview](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en)|Information about Adobe Target Server Side delivery APIs, Server Side Batch Delivery APIs, Node.js SDK, and Adobe Target [!DNL Recommendations] APIs.|
 |[Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f )|Blog that describes how to leverage content recommendations in email via Adobe Target and Adobe I/O Runtime in Adobe Campaign.|
 
 ## Managing [!DNL Recommendations] Setup with APIs
 
 Most of the time, recommendations are configured in the Adobe Target UI, then used or accessed via the [!DNL Target] APIs, for reasons such as the ones mentioned in the sections above. This UI-API coordination is common. However, sometimes users may want to perform all actions via APIs—both setup, as well as the use of results. Although much less common, users can absolutely configure, execute, *and* leverage the results of recommendations entirely using the APIs.
 
-We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](http://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
+We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](https://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
 
 |Resource|Details|
 | --- | --- |
-|[Collections](http://developers.adobetarget.com/api/recommendations/#tag/Collections)|List, create, get, edit, and delete collections.|
-|[Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Criteria)|List and get criteria.|
-|[Designs](http://developers.adobetarget.com/api/recommendations/#tag/Designs)|List, create, get, edit, delete, and validate designs.|
-|[Entities](http://developers.adobetarget.com/api/recommendations/#tag/Entities)|Save, delete, and get entities.|
-|[Promotions](http://developers.adobetarget.com/api/recommendations/#tag/Promotions)|List, create, get, edit, and delete promotions.|
-|[Category Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria)|List, create, get, edit, and delete category criteria.|
-|[Custom Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria)|List, create, get, edit, and delete custom criteria.|
-|[Item Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria)|List, create, get, edit, and delete item criteria.|
-|[Popularity Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria)|List, create, get, edit, and delete popularity criteria.|
-|[Profile Attribute Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria)|List, create, get, edit, and delete profile attribute criteria.|
-|[Recent Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria)|List, create, get, edit, and delete recent criteria.|
-|[Sequence Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria)|List, create, get, edit, and delete sequence criteria.|
+|[Collections](https://developers.adobetarget.com/api/recommendations/#tag/Collections)|List, create, get, edit, and delete collections.|
+|[Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Criteria)|List and get criteria.|
+|[Designs](https://developers.adobetarget.com/api/recommendations/#tag/Designs)|List, create, get, edit, delete, and validate designs.|
+|[Entities](https://developers.adobetarget.com/api/recommendations/#tag/Entities)|Save, delete, and get entities.|
+|[Promotions](https://developers.adobetarget.com/api/recommendations/#tag/Promotions)|List, create, get, edit, and delete promotions.|
+|[Category Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria)|List, create, get, edit, and delete category criteria.|
+|[Custom Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria)|List, create, get, edit, and delete custom criteria.|
+|[Item Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria)|List, create, get, edit, and delete item criteria.|
+|[Popularity Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria)|List, create, get, edit, and delete popularity criteria.|
+|[Profile Attribute Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria)|List, create, get, edit, and delete profile attribute criteria.|
+|[Recent Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria)|List, create, get, edit, and delete recent criteria.|
+|[Sequence Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria)|List, create, get, edit, and delete sequence criteria.|
 
 ## Reference documentation
 
 * [Adobe Target API documentation](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target Delivery API](https://developers.adobetarget.com/api/delivery-api/)
-* [Integrate [!DNL Recommendations] with email](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [Integrate [!DNL Recommendations] with email](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Summary and Review
 

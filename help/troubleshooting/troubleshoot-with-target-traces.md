@@ -20,6 +20,6 @@ exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
 ## Additional Resources
 
 * [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Troubleshooting Target Help Documentation](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Troubleshooting Target Help Documentation](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
 * [Troubleshoot Target with the Experience Cloud Debugger video](troubleshoot-with-the-experience-cloud-debugger.md)
-* [How to use the Experience Cloud Debugger video](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [How to use the Experience Cloud Debugger video](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

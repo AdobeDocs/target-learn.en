@@ -31,4 +31,4 @@ In this video, you learn how to:
 * [Create a Recommendations Activity](create-a-recommendations-activity.md)
 * [Understanding Feeds](understanding-feeds.md)
 * [Create a Feed](create-a-feed.md)
-* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

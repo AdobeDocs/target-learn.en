@@ -81,7 +81,7 @@ There are many ways to specify the details of your project in Postman, but in th
 
 >[!NOTE]
 >
->For video instructions applicable for any Experience Cloud solution, including [!DNL Target], see [Use Postman with Experience Platform APIs](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). The following sections are relevant to the [!DNL Target] APIs:
+>For video instructions applicable for any Experience Cloud solution, including [!DNL Target], see [Use Postman with Experience Platform APIs](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en). The following sections are relevant to the [!DNL Target] APIs:
 >
 > 1. Export Adobe I/O Integration Details to Postman
 > 2. Generate an Access Token with Postman

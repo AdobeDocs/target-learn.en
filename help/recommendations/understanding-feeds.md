@@ -31,4 +31,4 @@ In this video, you learn how to:
 * [Create Custom Designs](create-custom-designs.md)
 * [Create Collections and Exclusions](create-collections-and-exclusions.md)
 * [Create a Recommendations Activity](create-a-recommendations-activity.md)
-* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
