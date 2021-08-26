@@ -20,4 +20,4 @@ Automated Personalization and Auto-Target activities use advanced machine learni
 
 ## Additional Information
 
-* [Personalization Insights in the Help documentation](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)
+* [Personalization Insights in the Help documentation](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

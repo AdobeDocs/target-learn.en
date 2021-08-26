@@ -31,4 +31,4 @@ In this video, you learn how to:
 * [Create Criteria](create-criteria.md)
 * [Create Custom Designs](create-custom-designs.md)
 * [Create Collections and Exclusions](create-collections-and-exclusions.md)
-* [Recommendations Documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations Documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

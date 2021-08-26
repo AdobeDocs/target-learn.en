@@ -29,6 +29,6 @@ Response Tokens and `at.js` Custom Events allow you to share profile information
 ## Additional Resources
 
 * [Use the Experience Cloud Debugger with Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Response Token Documentation](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
-* [At.js Custom Event Documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
+* [Response Token Documentation](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [at.js Custom Event Documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)
 * [Using Data Providers in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

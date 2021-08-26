@@ -13,7 +13,7 @@ exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
 ---
 # Manage Custom Criteria
 
-Sometimes the algorithms provided by [!DNL Recommendations] are not able to surface particular items you would like to promote. In such a situation, custom criteria provide a way for you to deliver a specific set of recommended items for a given key item or category. You define the mapping between the key item or category and the recommended items, and import that mapping as a custom criteria. This process is described in the [custom criteria documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). As noted in that documentation, you are able to create, edit, and delete custom criteria through the [!DNL Target] user interface (UI). However, [!DNL Target] also provides a set of Custom Criteria APIs that allow for more detailed management of your custom criteria.
+Sometimes the algorithms provided by [!DNL Recommendations] are not able to surface particular items you would like to promote. In such a situation, custom criteria provide a way for you to deliver a specific set of recommended items for a given key item or category. You define the mapping between the key item or category and the recommended items, and import that mapping as a custom criteria. This process is described in the [custom criteria documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). As noted in that documentation, you are able to create, edit, and delete custom criteria through the [!DNL Target] user interface (UI). However, [!DNL Target] also provides a set of Custom Criteria APIs that allow for more detailed management of your custom criteria.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ To create custom criteria using the [Create Custom Criteria API](https://develop
 
 >[!WARNING]
 >
->Custom criteria created using the Create Custom Criteria API, as described in this exercise, will appear in the UI, where they will persist. You will not be able to edit or delete them from the UI. You may edit or delete them **via API**, but either way, they will continue to appear in the [!DNL Target] UI. To maintain the option of editing or deleting from the UI, create the custom criteria using the UI per [the documentation](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), as opposed to using the Create Custom Criteria API.
+>Custom criteria created using the Create Custom Criteria API, as described in this exercise, will appear in the UI, where they will persist. You will not be able to edit or delete them from the UI. You may edit or delete them **via API**, but either way, they will continue to appear in the [!DNL Target] UI. To maintain the option of editing or deleting from the UI, create the custom criteria using the UI per [the documentation](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), as opposed to using the Create Custom Criteria API.
 
 Only proceed with this tutorial after you have read the warning above and are comfortable creating new custom criteria that cannot subsequently be deleted from the UI.
 

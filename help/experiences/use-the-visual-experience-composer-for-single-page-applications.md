@@ -36,4 +36,4 @@ The SPA VEC enables marketers to create tests and personalize content in SPAs in
 
 * [Implementing at.js 2.0 in a Single Page Application](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)](../implementation/understanding-how-atjs-20-works.md)
-* [Single Page App (SPA) Visual Experience Composer Documentation](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [Single Page App (SPA) Visual Experience Composer Documentation](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

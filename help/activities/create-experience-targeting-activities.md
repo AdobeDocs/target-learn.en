@@ -29,10 +29,10 @@ In this video, you learn how to:
 ## Additional Resources
 
 * [Download the Playbook for Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Experience Targeting documentation](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Experience Targeting documentation](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Other features used in this video
 
-* [Audiences for Reporting documentation](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Creating Audiences documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Building Experiences with the Visual Experience Composer documentation](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Audiences for Reporting documentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creating Audiences documentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Building Experiences with the Visual Experience Composer documentation](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
