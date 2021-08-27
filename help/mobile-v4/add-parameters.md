@@ -25,7 +25,7 @@ At the end of this lesson, you will be able to:
 
 ## Add the Lifecycle Parameters
 
-Let's enable the [Adobe mobile lifecycle metrics](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). This will add parameters to location requests containing rich information about the user's device and engagement with the app. We'll build audiences in the next lesson using data that the lifecycle request provides.
+Let's enable the [Adobe mobile lifecycle metrics](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). This will add parameters to location requests containing rich information about the user's device and engagement with the app. We'll build audiences in the next lesson using data that the lifecycle request provides.
 
 To enable lifecycle metrics, open the HomeActivity controller again and add `Config.collectLifecycleData(this);` to the onResume() function:
 

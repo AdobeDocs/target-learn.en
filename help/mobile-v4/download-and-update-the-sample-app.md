@@ -37,7 +37,7 @@ The Adobe Mobile Services SDK has been preinstalled within the We.Travel app [ac
 
 First, create a new App in the Mobile Services user interface:
 
-1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com).
+1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com/).
 1. Go to the [!UICONTROL Manage Apps], then click **[!UICONTROL Add]** to add a new app to use with this tutorial (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Choose an an Analytics report suite with non-production data, give the app a name, select the **[!UICONTROL Standard]** type and click **[!UICONTROL Save]**.
 1. Once the app has been added, add your [!DNL Target] Client Code on the next screen in the [!UICONTROL SDK Target Options] section (you can find your client code in the [!DNL Target] interface under **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, next to the Download `at.js` button).

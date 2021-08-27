@@ -18,7 +18,7 @@ A demo Android app is provided for you to complete the lessons. After completing
 
 After completing this tutorial you will be able to:
 
-* Validate the [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) setup
+* Validate the [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en) setup
 * Implement the following types of [!DNL Target] requests:
   * Prefetch of [!DNL Target] content
   * Batch multiple [!DNL Target] locations (mboxes) in a single requests
@@ -37,7 +37,7 @@ In these lessons, it is assumed that you:
 
 * Have an Adobe Id and approver-level access to the Adobe Target interface (see verification steps below)
 * Know your Adobe Target Client Code so you can make requests to your own account. The Client Code is shown in the Adobe Target interface on the   Setup > Implementation > Edit at.js settings screen
-* Have access to and are familiar with the [Mobile Services user interface](https://mobilemarketing.adobe.com)
+* Have access to and are familiar with the [Mobile Services user interface](https://mobilemarketing.adobe.com/)
 * Have an IDE for Android mobile app development. This tutorial features [Android Studio](https://developer.android.com/studio/install) in various steps and screenshots
 
 If you do not have the required access to the Experience Cloud Solutions, reach out to your Experience Cloud Administrator.
