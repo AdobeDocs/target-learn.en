@@ -6,7 +6,6 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
-thumbnail:
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
 ---

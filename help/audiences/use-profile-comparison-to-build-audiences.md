@@ -6,7 +6,6 @@ level: Experienced
 topic: Personalization
 feature: Audiences
 doc-type: feature video
-thumbnail:
 kt:
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b

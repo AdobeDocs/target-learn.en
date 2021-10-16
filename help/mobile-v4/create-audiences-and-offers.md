@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
 ---
 # Create Audiences and Offers in Adobe Target

@@ -6,7 +6,6 @@ level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail:
 kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 ---

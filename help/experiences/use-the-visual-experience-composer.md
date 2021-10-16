@@ -7,7 +7,6 @@ level: Beginner
 topic: Personalization
 feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 ---

@@ -7,7 +7,6 @@ topic: Personalization
 feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt:
-thumbnail:
 author: Daniel Wright
 badge: premium
 exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29

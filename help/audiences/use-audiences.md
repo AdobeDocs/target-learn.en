@@ -7,7 +7,6 @@ level: Beginner
 topic: Personalization
 feature: Audiences, Reports
 doc-type: feature video
-thumbnail:
 kt:
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d

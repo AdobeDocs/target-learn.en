@@ -6,7 +6,6 @@ level: Experienced
 topic: Personalization
 feature: Audiences, Administration & Configuration
 doc-type: feature video
-thumbnail:
 kt:
 badge: premium
 author: Daniel Wright

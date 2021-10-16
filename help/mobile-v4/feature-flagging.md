@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 ---
 # Feature Flagging

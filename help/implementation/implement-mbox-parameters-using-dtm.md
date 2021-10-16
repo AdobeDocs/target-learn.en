@@ -7,7 +7,6 @@ topic: Personalization, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt:
-thumbnail:
 ---
 
 # Implement Mbox Parameters for Adobe Target using Dynamic Tag Management (DTM)

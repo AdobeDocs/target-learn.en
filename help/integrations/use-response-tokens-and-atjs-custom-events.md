@@ -7,7 +7,6 @@ topic: Personalization, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt:
-thumbnail:
 author: Daniel Wright
 exl-id: d6ce5367-a453-4e6c-8545-9fa676977f04
 ---

@@ -6,7 +6,6 @@ level: Intermediate
 topic: Personalization
 feature: Activities, Audiences
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
 ---
