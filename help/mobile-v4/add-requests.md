@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
 ---
 # Add Adobe Target Requests

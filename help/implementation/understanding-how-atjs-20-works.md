@@ -7,7 +7,6 @@ topic: SPA, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt:
-thumbnail: 
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 ---

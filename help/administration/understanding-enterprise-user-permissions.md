@@ -6,7 +6,6 @@ level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video
-thumbnail:
 kt:
 badge: premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124

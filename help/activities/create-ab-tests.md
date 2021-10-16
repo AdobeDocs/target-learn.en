@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
 ---

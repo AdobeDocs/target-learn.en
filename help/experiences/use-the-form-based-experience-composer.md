@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 author: Daniel Wright
 exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be

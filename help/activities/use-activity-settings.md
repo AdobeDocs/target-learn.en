@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: Activities
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
 ---

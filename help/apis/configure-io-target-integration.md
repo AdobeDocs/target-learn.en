@@ -7,7 +7,6 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt:
-thumbnail:
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
 ---

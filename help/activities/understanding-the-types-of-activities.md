@@ -7,7 +7,6 @@ level: Beginner
 topic: Personalization
 feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
 ---

@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 1389e511-9d7a-400e-9261-8a7655beab37
 ---

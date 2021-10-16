@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
 ---
