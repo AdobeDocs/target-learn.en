@@ -35,7 +35,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Integrate Target with Audience Manager](../dev101/3.3-target-dmp.md)
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
-  + [Integrate Target with Adobe I/O](../dev101/3.7-target-io.md)
+  + [Integrate Target with Adobe Developer Console](../dev101/3.7-target-io.md)
   + [Integrate Target with Scene7](../dev101/3.8-target-scene7.md)
   + [Integrate Target with Adobe Experience Manager](../dev101/3.5-target-aem.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
