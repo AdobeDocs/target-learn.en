@@ -7,7 +7,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 
 + [Adobe Target Tutorials Overview](../overview.md)
 + Administration{#administration}
-  + [Strategy & thought leadership]{#strategy}
+  + Strategy & thought leadership{#strategy}
     + [Quick start for personalization testing and road-map creation](../strategy/create-personalization-roadmap-testing-plan.md)
     + [Implementation strategy and system governance](../dev101/1.1-implementation-strategy-sys-governance.md)
     + [Best practices for optimization with Adobe Target](../strategy/target-best-practices-for-optimization.md)
