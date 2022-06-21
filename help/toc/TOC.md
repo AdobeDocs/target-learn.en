@@ -7,7 +7,11 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 
 + [Adobe Target Tutorials Overview](../overview.md)
 + Administration{#administration}
-  + [Implementation Strategy and System Governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+  + [Strategy & thought leadership]{#strategy}
+    + [Quick start for personalization testing and road-map creation](../strategy/create-personalization-roadmap-testing-plan.md)
+    + [Implementation strategy and system governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+    + [Best practices for optimization with Adobe Target](../strategy/target-best-practices-for-optimization.md)
+    + [Optimize your Adobe Target implementation](../strategy/optimize-your-target-implementation.md)
   + [Set up Account Preferences](../administration/set-up-account-preferences.md)
   + [Understand Enterprise User Permissions](../administration/understanding-enterprise-user-permissions.md)
   + [Configure Enterprise User Permissions](../dev101/1.2-configure-ent-user-permissions.md)
