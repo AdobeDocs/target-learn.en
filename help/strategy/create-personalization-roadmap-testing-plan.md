@@ -1,7 +1,8 @@
 ---
 title: QuickStart for personalization testing and roadmap creation
-description: Learn a framework you can use to begin validating personalization activities and create a personalization roadmap to execute through Adobe Target and Adobe Analytics.  
+description: Learn a framework you can use to begin validating personalization activities and create a personalization roadmap to execute through Adobe Target and Adobe Analytics.
 solution: Target,Analytics
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
 ---
 # QuickStart for personalization testing and roadmap creation
 

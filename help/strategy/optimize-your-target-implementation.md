@@ -1,7 +1,8 @@
 ---
 title: Optimize your Adobe Target implementation
-description: Get an overview of Adobe Target implementation and structure. Learn how to understand and audit your organization's set up. Learn the common troubleshooting techniques and tips on creating a knowledge repository for your team. 
+description: Get an overview of Adobe Target implementation and structure. Learn how to understand and audit your organization's set up. Learn the common troubleshooting techniques and tips on creating a knowledge repository for your team.
 solution: Target
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
 ---
 # Optimize your Adobe Target implementation
 
