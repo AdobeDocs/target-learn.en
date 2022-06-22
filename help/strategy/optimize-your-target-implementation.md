@@ -157,3 +157,5 @@ Typical documents in a Knowledge Repository include:
 * **Program dashboard** - a document used to track program performance, cadence, and revenue benefits over time.
 
 For more information, review our [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) with Senior Consultant, Wilder Freed.
+
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
