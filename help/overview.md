@@ -16,8 +16,8 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
     *For business practitioners: Are you using A4T for Auto-Target? Follow these steps to configure A4T reports in Analysis Workspace to make sure you get expected results when running Auto-Target activities.*
 * **[On-Device Decisioning Overview](implementation/on-device-decisioning-overview.md)**
     *For architects: Get started with on-device decisioning to deliver near-zero latency experiences to your consumers!*
-* **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
-    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*
+<!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
 <!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
     *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
