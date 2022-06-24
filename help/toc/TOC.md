@@ -57,6 +57,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Use Metrics in Activities](../activities/use-metrics-in-activities.md)
 + Audiences{#audiences}
   + [Use Audiences](../audiences/use-audiences.md)
+  + [Create Audiences](../audiences/create-audiences.md)
   + [Create Profile Scripts](../audiences/create-profile-scripts.md)
   + [Use Profile Comparison to build Audiences](../audiences/use-profile-comparison-to-build-audiences.md)
 + Experiences{#experiences}
