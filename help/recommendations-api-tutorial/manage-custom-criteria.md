@@ -112,4 +112,4 @@ Using the criteria ID noted earlier, delete your custom criteria, using the [Del
 
 Congratulations! You are now able to create, list, edit, delete, and get details on custom criteria, using the [!DNL Recommendations] API. In the next section, you will use the [!DNL Target] Delivery API to retrieve recommendations.
 
-[Next "Fetch Recommendations with the Server-side Delivery API" >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[Next "Fetch Recommendations with the Server-side Delivery API" >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target="_blank"}

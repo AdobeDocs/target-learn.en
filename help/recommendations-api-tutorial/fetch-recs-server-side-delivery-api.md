@@ -20,7 +20,7 @@ The Adobe Target and Adobe Target [!DNL Recommendations] APIs can be used to del
 
 To retrieve recommendations, send an Adobe Target Delivery API POST call with the appropriate contextual information, which may include a user ID (for use with profile-specific recommendations such as the user's recently viewed items), relevant mbox name, mbox parameters, profile parameters, or other attributes. The response will include recommended entity.ids (and may include other entity data) in JSON or HTML format, which can then be displayed in the device.
 
-The [Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} for Adobe Target exposes all existing features that a standard [!DNL Target] request provides.
+The [Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target="_blank"} for Adobe Target exposes all existing features that a standard [!DNL Target] request provides.
 
 >[!NOTE]
 >The Delivery API:
@@ -55,7 +55,7 @@ To create recommendations that can be used with the Delivery API, use the [Form-
 
 ## Use the Delivery API
 
-The syntax for the [Delivery API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=_blank} is:
+The syntax for the [Delivery API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target="_blank"} is:
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
@@ -95,7 +95,7 @@ The following resources provide examples of various non-HTML focused implementat
 
 Most of the time, recommendations are configured in the Adobe Target UI, then used or accessed via the [!DNL Target] APIs, for reasons such as the ones mentioned in the sections above. This UI-API coordination is common. However, sometimes users may want to perform all actions via APIs—both setup, as well as the use of results. Although much less common, users can absolutely configure, execute, *and* leverage the results of recommendations entirely using the APIs.
 
-We learned in an [earlier section](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank} how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](https://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
+We learned in an [earlier section](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target="_blank"} how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, Adobe I/O allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all [!DNL Recommendations] APIs may be found [here](https://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
 
 |Resource|Details|
 | --- | --- |
@@ -114,13 +114,13 @@ We learned in an [earlier section](https://developer.adobe.com/target/before-adm
 
 ## Reference documentation
 
-* [Adobe Target Admin API documentation](https://developer.adobe.com/target/administer/admin-api/){target=_blank}
-* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}
+* [Adobe Target Admin API documentation](https://developer.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target="_blank"}
 * [Integrate [!DNL Recommendations] with email](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## Summary and Review
 
 Congratulations! By finishing this tutorial, you have learned how to:
-* [Manage your catalog using the Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
-* [Manage custom criteria using the Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
-* [Use the Delivery API with Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+* [Manage your catalog using the Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target="_blank"}
+* [Manage custom criteria using the Recommendations API](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target="_blank"}
+* [Use the Delivery API with Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target="_blank"}
