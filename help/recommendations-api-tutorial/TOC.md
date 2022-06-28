@@ -5,10 +5,10 @@ user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-
 
 # Use Adobe Target Recommendations APIs{#recommendations-api-tutorial}
 
-+ [Recs API Overview](recs-api-overview.md)
-+ [Manage Your Catalog with APIs](manage-catalog.md)
-+ [Manage Custom Criteria](manage-custom-criteria.md)
-+ [Use the Delivery API with Recommendations](fetch-recs-server-side-delivery-api.md)
++ [Recs API Overview](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [Manage Your Catalog with APIs](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
++ [Manage Custom Criteria](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
++ [Use the Delivery API with Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

@@ -82,6 +82,3 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Troubleshoot A4T Integration Errors](../dev101/4.3-troubleshoot-integration-errors.md)
 + Mobile{#mobile}
   + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
-+ APIs{#apis}
-  + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
-  + [Use Recommendations APIs](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

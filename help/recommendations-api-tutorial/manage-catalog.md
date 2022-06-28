@@ -18,7 +18,7 @@ You can use the [Recommendations APIs](https://developers.adobetarget.com/api/re
 
 >[!TIP]
 >
->Send the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request whenever you need to refresh your access token for authentication, since it expires after 24 hours. See [Configure Adobe API Authentication](../apis/configure-io-target-integration.md) for instructions.
+>Send the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request whenever you need to refresh your access token for authentication, since it expires after 24 hours. See [Configure Adobe API Authentication](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} for instructions.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -202,4 +202,4 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 Congrats! You can now use the [!DNL Recommendations] APIs to create, update, delete, and obtain details on the entities in your catalog. In the next section, you will learn how to manage custom criteria.
 
-[Next "Manage Custom Criteria" >](manage-custom-criteria.md)
+[Next "Manage Custom Criteria" >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
