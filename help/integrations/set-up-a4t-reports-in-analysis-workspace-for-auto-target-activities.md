@@ -118,7 +118,7 @@ The final panel will appear as follows.
 ![Figure6.png](assets/Figure6.png)
 *Figure 6: Reporting panel with the "Hit with specific Auto-Target Activity" segment applied to the [!UICONTROL Visits] metric. This ensures only visits where a user actually interacted with the Target activity in question are included in the report.*
 
-## Align the attribution between ML model training and goal metric generation
+## Ensure the goal metric and attribution are aligned with your optimization criterion
 
 The A4T integration allows [!DNL Auto-Target]’s ML model to be *trained* using the same conversion event data that Adobe Analytics uses to *generate performance reports*. However, there are certain assumptions which must be employed in interpreting this data when training the ML models, which differ from the default assumptions made during the reporting phase in Adobe Analytics.
 
@@ -126,10 +126,17 @@ Specifically, Adobe Target’s ML models use a visit-scoped attribution model. T
 
 Thus, the difference between the attribution used by Target’s models (during training) versus the default attribution used in querying data (during report generation) may lead to discrepancies. It may even appear that the ML models are performing poorly, when in fact the issue lies with attribution.
 
+
 >[!TIP]
 >
->If the ML models are optimizing for a metric that is attributed differently from that of the metrics you are viewing in a report, the models may not perform as expected! To avoid this, ensure the goal metrics on your report use the same attribution used by Target's ML models.
+>If the ML models are optimizing for a metric that is attributed differently from that of the metrics you are viewing in a report, the models may not perform as expected! To avoid this, ensure the goal metrics on your report use the same metric definition and attribution used by Target's ML models.
 
+The exact metric definition, and attribution settings depend on the [optimization criterion](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) you specified during activity creation. 
+
+
+### Target defined conversions, or Analytics metrics with *Maximize Metric Value Per Visit*
+
+When the metric is a Target conversion, or an Analytics metrics with **Maximize Metric Value Per Visit**, the goal metric definition allows for multiple conversion events to occur in the same visit. 
 To view goal metrics that have the same attribution methodology used by Adobe Target's ML models, follow these steps:
 
   1. Hover over the goal metric’s gear icon:
@@ -144,9 +151,34 @@ To view goal metrics that have the same attribution methodology used by Adobe Ta
  
 These steps ensure your report will attribute the goal metric to the display of the experience, if the goal metric event happened *any time* (“participation”) in the same visit that an experience was shown. 
 
+### Analytics Metrics with *Unique Visit Conversion Rates*
+
+**Define the visit with positive metric segment**
+
+In the scenario where you selected *Maximize the Unique Visit Conversion Rate* as the optimization criteroin, then the correct definition of the conversion rate is the fraction of visits in which the metric value is positive. This can be achieved by creating a segment filtering down to visits with a positive value of the metric, and then filtering the visits metric.
+
+
+1. As before, select the **[!UICONTROL Components > Create Segment]** option in the Workspace toolbar.
+2. Enter a **[!UICONTROL Title]** for your segment. In the example shown below, the segment is named [!DNL "Visits with an order"].
+3. Drag the base metric you used in your optimization goal into the segment . In the example shown below, we use the **orders** metric, so that the conversion rate measures the fraction of visits where an order is recorded. 
+4. At the top left of the segment definition container, select **[!UICONTROL Include]** **Visit**. 
+5. Use the **[!UICONTROL is greater than]** operator, and set the value to be 0 (i.e., this segment includes visits where the orders metric is positive)
+6. Click **[!UICONTROL Save]**.
+
+![Figure7.png](assets/Figure7.png)
+*Figure 7: The segment definition filtering to visits with a positive order. Depending on your activity's optimization metric, you will have to replace orders with an appropriate metric*
+
+**Apply this to the visits in activity filtered metric**
+
+This segment can now be used to filter to visits with a positive number of orders, and where there was a hit for the [!DNL Auto-Target]activity. The procedure of filtering a metric is similar to before, and after applying the new segment to the already-filtered visit metric, the report panel should look like Figure 8
+
+![Figure8.png](assets/Figure8.png)
+*Figure 8: The report panel with the correct unique-visit conversion metric - i.e. the number of visits where a hit from the activity was recorded, and where the conversion metric (orders in this example) was non-zero.*
+
+
 ## Final Step: Create a conversion rate that captures the magic above
 
-With the modifications to the Visit and goal metrics in preceding sections, the final modification you should make to your default A4T for [!DNL Auto-Target] reporting panel is to create conversion rates that are the correct ratio—that of a goal metric with the right attribution, to an appropriately filtered “Visits” metric. 
+With the modifications to the Visit and goal metrics in preceding sections, the final modification you should make to your default A4T for [!DNL Auto-Target] reporting panel is to create conversion rates that are the correct ratio—that of the corrected goal metric, to an appropriately filtered “Visits” metric. 
 
 Do this by creating a Calculated Metric using the following steps:
 
@@ -160,10 +192,14 @@ Do this by creating a Calculated Metric using the following steps:
 1. Drag the **[!UICONTROL Visits]** metric into the segment container.
 1. Click **[!UICONTROL Save]**.
 
+>[!TIP]
+>
+> You can also create this metric using the [quick calculated metric functionality](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en). 
+
 The complete calculated metric definition is shown here.
 
-![Figure7.png](assets/Figure7.png)
-*Figure 7: The visit- and attribution-corrected model conversion rate metric definition. (Note this metric is dependent on your goal metric and activity. In other words, this metric definition is not re-usable across activities.)*
+![Figure9.png](assets/Figure9.png)
+*Figure 9: The visit- and attribution-corrected model conversion rate metric definition. (Note this metric is dependent on your goal metric and activity. In other words, this metric definition is not re-usable across activities.)*
 
 >[!IMPORTANT]
 >
@@ -173,5 +209,5 @@ The complete calculated metric definition is shown here.
 
 Combining all of the steps above into a single panel, the figure below shows a complete view of the recommended report for [!DNL Auto-Target] A4T activities. This report is the same as that used by Target's machine learning models to optimize your goal metric, and it incorporates all the nuances and recommendations discussed in this tutorial. This report is also closest to the counting methodologies used in traditional Target-reporting driven [!DNL Auto-Target] activities. 
 
-![Figure8.png](assets/Figure8.png)
-*Figure 8: The final A4T [!DNL Auto-Target] report in Adobe Analytics Workspace, which combines all the adjustments to metric definitions described in the previous sections of this document.*
+![Figure10.png](assets/Figure10.png)
+*Figure 10: The final A4T [!DNL Auto-Target] report in Adobe Analytics Workspace, which combines all the adjustments to metric definitions described in the previous sections of this document.*
