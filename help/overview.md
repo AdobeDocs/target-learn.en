@@ -10,6 +10,8 @@ exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 
 Adobe Target is the Adobe Experience Cloud solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. Use these videos and tutorials to learn the many components of Adobe Target.
 
+<div id="whats-new-section">
+
 ## What's New
 
 * **[Setting up A4T reports in Analysis Workspace for Auto-Target activities](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
@@ -30,6 +32,18 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
+
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+   
 ## Staff Picks
 
 <table>
@@ -75,3 +89,4 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
   </td>
 </tr>
 </table>
+</div>
