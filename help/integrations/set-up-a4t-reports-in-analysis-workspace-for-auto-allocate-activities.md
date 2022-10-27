@@ -42,9 +42,9 @@ To create an A4T for [!DNL Auto-Allocate] report start with the **[!UICONTROL An
 
 ## Target Conversion Metrics or Analytics metrics with "Maximize Metric Value Per Visitor" optimization criteria
 
-The default A4T panel handles [!DNL Auto-Allocate] activities where the goal metric is either a Target Conversion, or an Analytics metric with optimization criterion "Maximize Metric Value Per Visitor". 
+The default A4T panel handles [!DNL Auto-Allocate] activities where the goal metric is either a Target Conversion, or an Analytics metric with optimization criterion "Maximize Metric Value Per Visitor." 
 
-One example of this panel is shown for the Revenue metric, where "Maximize Metric Value Per Visitor" was selected as the optimization criteria at activity creation time. As previously mentioned, !DNL Auto-Allocate] uses more conservative confidence calculations compared to the ones used by the **[!UICONTROL Analytics for Target]** panel. It is therefore recommended that you remove the confidence metric, as well as the related lower and upper lift metrics.  
+One example of this panel is shown for the Revenue metric, where "Maximize Metric Value Per Visitor" was selected as the optimization criteria at activity creation time. As previously mentioned, [!DNL Auto-Allocate] uses more conservative confidence calculations compared to the ones used by the **[!UICONTROL Analytics for Target]** panel. It is therefore recommended that you remove the confidence metric, as well as the related lower and upper lift metrics.  
 
 ![Figure2.png](assets/AAFigure2.png)
 *Figure 2: The recommended report for [!DNL Auto-Allocate] activities with an Analytics metric Maximize Metric Value Per Visitor optimization criteria. For these types of metrics, as well as Target defined conversion metrics, the default  **[!UICONTROL Analytics for Target]** panel in workspace can be used.* 
@@ -78,8 +78,9 @@ Once the appropriate segment has been created, the default  **[!UICONTROL Analyt
 *Figure 4: The final Auto-Allocate panel showing the conversion rates for a binarized revenue conversion metric*
 
 
-
 ## Conclusion
-The above steps have demonstrated how to correctly configure workspace to display Auto-Allocate reporting data. To summarize
-- When the metric is a Target defined conversion metric, or an Adobe Analytics Metric with optimization criterion *Maximize Metric Value Per Visitor*, the default workspace panel configured with visitors as a normalizing metric should be used.
-- When the metric is an Adobe Analytics metric with optimization criterion "Maximize Unique Visitor Conversion Rate", you must use a conversion rate that is defined as the fraction of visitors for whom the metric is positive. This is done by creating a corresponding segment, that filters the unique visitor metric. 
+
+The steps above have demonstrated how to correctly configure [!DNL Workspace] to display Auto-Allocate reporting data. To summarize:
+
+* When the metric is a Target defined conversion metric, or an Adobe Analytics Metric with optimization criterion *Maximize Metric Value Per Visitor*, the default workspace panel configured with visitors as a normalizing metric should be used.
+* When the metric is an Adobe Analytics metric with optimization criterion "Maximize Unique Visitor Conversion Rate", you must use a conversion rate that is defined as the fraction of visitors for whom the metric is positive. This is done by creating a corresponding segment, that filters the unique visitor metric. 
