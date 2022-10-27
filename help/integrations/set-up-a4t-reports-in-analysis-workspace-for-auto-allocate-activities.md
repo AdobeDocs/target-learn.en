@@ -7,7 +7,7 @@ topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt:
-exl-id: <WHAT GOES HERE?>
+exl-id:
 ---
 # Setting up A4T reports in Analysis Workspace for [!DNL Auto-Allocate] activities
 
