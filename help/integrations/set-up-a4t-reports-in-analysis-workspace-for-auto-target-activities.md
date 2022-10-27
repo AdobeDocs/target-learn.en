@@ -80,6 +80,7 @@ Let us compare visitor-level and visit-level reports:
 |A|1|1|-|0%|0%|
 |B|2|3|1|50%|33.3%|
 |Totals|2|4|1|50%|25%|
+
 *Table 1: Example comparing visitor-normalized and visit-normalized reports for a scenario in which decisions are sticky to a visit (and not visitor, as with regular A/B testing). Visitor-normalized metrics are confusing in this scenario.*
 
 As shown in the table, there is a clear incongruence of visitor-level numbers. Despite the fact there are two total unique visitors, this is not a sum of individual unique visitors to each experience. While the visitor-level conversion rate is not necessarily wrong, when one compares individual experiences, visit-level conversion rates arguably make much more sense. Formally, the unit of analysis (“visits”) is the same as the unit of decision stickiness, which means that experience-level breakdowns of metrics may be added and compared. 
