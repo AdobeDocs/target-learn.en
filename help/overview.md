@@ -12,7 +12,7 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 <div id="whats-new-section">
 
-## What's New
+## What's new
 
 * **[Setting up A4T reports in Analysis Workspace for Auto-Target activities](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
     *For business practitioners: Are you using A4T for Auto-Target? Follow these steps to configure A4T reports in Analysis Workspace to make sure you get expected results when running Auto-Target activities.*
@@ -44,7 +44,7 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 <div id="staff-picks-section">
    
-## Staff Picks
+## Staff picks
 
 <table>
 <tr>
