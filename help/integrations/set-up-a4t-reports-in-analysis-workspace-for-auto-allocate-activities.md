@@ -6,7 +6,8 @@ level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-kt:
+kt: null
+exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 ---
 # Setting up A4T reports in Analysis Workspace for [!DNL Auto-Allocate] activities
 
@@ -82,4 +83,4 @@ Once the appropriate segment has been created, the default  **[!UICONTROL Analyt
 The steps above have demonstrated how to correctly configure [!DNL Workspace] to display Auto-Allocate reporting data. To summarize:
 
 * When the metric is a Target defined conversion metric, or an Adobe Analytics Metric with optimization criterion *Maximize Metric Value Per Visitor*, the default workspace panel configured with visitors as a normalizing metric should be used.
-* When the metric is an Adobe Analytics metric with optimization criterion "Maximize Unique Visitor Conversion Rate", you must use a conversion rate that is defined as the fraction of visitors for whom the metric is positive. This is done by creating a corresponding segment, that filters the unique visitor metric. 
+* When the metric is an Adobe Analytics metric with optimization criterion "Maximize Unique Visitor Conversion Rate", you must use a conversion rate that is defined as the fraction of visitors for whom the metric is positive. This is done by creating a corresponding segment, that filters the unique visitor metric.
