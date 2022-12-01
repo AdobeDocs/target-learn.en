@@ -7,7 +7,6 @@ topic: Personalization, Integrations
 feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt:
-thumbnail:
 author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
 ---

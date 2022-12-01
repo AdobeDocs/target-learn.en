@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
 ---

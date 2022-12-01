@@ -7,7 +7,6 @@ topic: Personalization, Performance
 feature: Troubleshooting
 doc-type: feature video
 kt:
-thumbnail:
 author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
 ---

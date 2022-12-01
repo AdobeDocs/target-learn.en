@@ -6,7 +6,6 @@ level: Beginner
 topic: SPA, Personalization
 feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail:
 kt:
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067

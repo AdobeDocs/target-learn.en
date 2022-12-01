@@ -6,7 +6,6 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-thumbnail:
 kt:
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
 ---

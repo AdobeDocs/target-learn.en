@@ -7,7 +7,11 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 
 + [Adobe Target Tutorials Overview](../overview.md)
 + Administration{#administration}
-  + [Implementation Strategy and System Governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+  + Strategy & thought leadership{#strategy}
+    + [Quick start for personalization testing and road-map creation](../strategy/create-personalization-roadmap-testing-plan.md)
+    + [Implementation strategy and system governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+    + [Best practices for optimization with Adobe Target](../strategy/target-best-practices-for-optimization.md)
+    + [Optimize your Adobe Target implementation](../strategy/optimize-your-target-implementation.md)
   + [Set up Account Preferences](../administration/set-up-account-preferences.md)
   + [Understand Enterprise User Permissions](../administration/understanding-enterprise-user-permissions.md)
   + [Configure Enterprise User Permissions](../dev101/1.2-configure-ent-user-permissions.md)
@@ -31,11 +35,12 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 + Integrations{#integrations}
   + [Integrate Target with Analytics](../dev101/3.2-target-analytics.md)
   + [Use Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+  + [Set up A4T Reports in Analysis Workspace for Auto-Allocate Activities](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
   + [Set up A4T Reports in Analysis Workspace for Auto-Target Activities](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
   + [Integrate Target with Audience Manager](../dev101/3.3-target-dmp.md)
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
-  + [Integrate Target with Adobe I/O](../dev101/3.7-target-io.md)
+  + [Integrate Target with Adobe Developer Console](../dev101/3.7-target-io.md)
   + [Integrate Target with Scene7](../dev101/3.8-target-scene7.md)
   + [Integrate Target with Adobe Experience Manager](../dev101/3.5-target-aem.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
@@ -53,6 +58,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Use Metrics in Activities](../activities/use-metrics-in-activities.md)
 + Audiences{#audiences}
   + [Use Audiences](../audiences/use-audiences.md)
+  + [Create Audiences](../audiences/create-audiences.md)
   + [Create Profile Scripts](../audiences/create-profile-scripts.md)
   + [Use Profile Comparison to build Audiences](../audiences/use-profile-comparison-to-build-audiences.md)
 + Experiences{#experiences}
@@ -78,6 +84,3 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Troubleshoot A4T Integration Errors](../dev101/4.3-troubleshoot-integration-errors.md)
 + Mobile{#mobile}
   + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
-+ APIs{#apis}
-  + [Configure Adobe API Authentication](../apis/configure-io-target-integration.md)
-  + [Use Recommendations APIs](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

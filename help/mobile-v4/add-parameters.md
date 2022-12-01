@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
 ---
 # Add Parameters to the Requests

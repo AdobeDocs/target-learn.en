@@ -7,7 +7,6 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail:
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
 ---
 # Download and Update the We.Travel Sample App

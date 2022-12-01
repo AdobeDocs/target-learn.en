@@ -6,7 +6,6 @@ level: Beginner
 topic: Personalization
 feature: Auto-Allocate, Auto-Target, Automated Personalization
 doc-type: value video
-thumbnail:
 kt:
 badge: premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
