@@ -32,6 +32,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Use Opt-In to Control Experience Cloud Solutions Based on User Consent](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
   + [Understand Adobe Target Hybrid Deployment](../implementation/hybrid-deployment.md)
   + [On-Device Decisioning Overview](../implementation/on-device-decisioning-overview.md)
+  + [Implementation Patterns for Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integrations{#integrations}
   + [Integrate Target with Analytics](../dev101/3.2-target-analytics.md)
   + [Use Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
