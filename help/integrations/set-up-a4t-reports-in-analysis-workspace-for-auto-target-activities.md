@@ -40,7 +40,7 @@ To create an A4T for [!UICONTROL Auto-Target] report, either start with the **[!
 2. **[!UICONTROL Normalizing Metric]**: Select [!UICONTROL Visits].
 3. **[!UICONTROL Success Metrics]**: Although you can select any metrics on which to report, you should generally view reports on the same metric that was chosen for optimization during activity creation in [!DNL Target].
 
-   ![[!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.](/integrations/assets/Figure1.png)
+   ![[!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.](integrations/assets/Figure1.png)
 
    *Figure 1: [!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.*
 
