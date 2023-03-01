@@ -172,8 +172,8 @@ These steps ensure that your report attribute the goal metric to the display of 
 
 With the modifications to the [!UICONTROL Visit] and goal metrics in preceding sections, the final modification you should make to your default A4T for [!UICONTROL Auto-Target] reporting panel is to create conversion rates that are the correct ratio (that of a goal metric with the right attribution), to an appropriately filtered [!UICONTROL Visits] metric. 
 
-Do this by creating a [!UICONTROL Calculated Metric using the following steps:
-]
+Do this by creating a [!UICONTROL Calculated Metric] using the following steps:
+
 1. Select the **[!UICONTROL Components > Create Metric]** option in the [!DNL Analysis Workspace] toolbar. 
 1. Specify a **[!UICONTROL Title]** for your metric. For example, "Visit-corrected Conversion Rate for Activity XXX."
 1. Select **[!UICONTROL Format]** = Percent and **[!UICONTROL Decimal Places]** = 2.
