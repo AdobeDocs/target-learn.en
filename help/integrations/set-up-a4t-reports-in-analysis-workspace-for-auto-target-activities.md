@@ -128,6 +128,7 @@ Once the segment has been created, use it to filter the [!UICONTROL Visits] metr
 The final panel will appear as follows.
 
 ![Figure6.png](assets/Figure6.png)
+
 *Figure 6: Reporting panel with the "Hit with specific Auto-Target Activity" segment applied to the [!UICONTROL Visits] metric. This ensures only visits where a user actually interacted with the [!DNL Target] activity in question are included in the report.*
 
 ## Ensure the goal metric and attribution are aligned with your optimization criterion
