@@ -40,7 +40,7 @@ To create an A4T for [!UICONTROL Auto-Target] report, either start with the **[!
 2. **[!UICONTROL Normalizing Metric]**: Select [!UICONTROL Visits].
 3. **[!UICONTROL Success Metrics]**: Although you can select any metrics on which to report, you should generally view reports on the same metric that was chosen for optimization during activity creation in [!DNL Target].
 
-   ![[!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.](integrations/assets/Figure1.png)
+   ![[!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.](assets/Figure1.png)
 
    *Figure 1: [!UICONTROL Analytics for Target] panel setup for [!UICONTROL Auto-Target] activities.*
 
@@ -198,6 +198,6 @@ The complete calculated metric definition is shown here.
 
 Combining all of the steps above into a single panel, the figure below shows a complete view of the recommended report for [!UICONTROL Auto-Target] A4T activities. This report is the same as that used by the [!DNL Target] ML models to optimize your goal metric. The report incorporates all the nuances and recommendations discussed in this tutorial. This report is also closest to the counting methodologies used in traditional [!DNL Target]-reporting driven [!UICONTROL Auto-Target] activities.
 
-![Final A4T report in [!DNL Analysis Workspace]](integrations/assets/Figure8.png "A4T report in Analysis Workspace"){width="600" zoomable="yes"}
+![Final A4T report in [!DNL Analysis Workspace]](assets/Figure8.png "A4T report in Analysis Workspace"){width="600" zoomable="yes"}
 
 *Figure 8: The final A4T [!UICONTROL Auto-Target] report in [!DNL Adobe Analytics] [!DNL Workspace], which combines all the adjustments to metric definitions described in the previous sections of this tutorial.*
