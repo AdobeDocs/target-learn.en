@@ -12,7 +12,7 @@ thumbnail:
 kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 ---
-# Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] activities
+# Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] activities 
 
 >[!NOTE]
 >
