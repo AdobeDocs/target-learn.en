@@ -2,7 +2,6 @@
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Target] activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -13,10 +12,6 @@ kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 ---
 # Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] activities 
-
->[!NOTE]
->
->This functionality is currently in Beta and will be available to all [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} customers in an upcoming release.
 
 >[!IMPORTANT]
 >
