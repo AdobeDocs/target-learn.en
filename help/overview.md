@@ -18,7 +18,7 @@ exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
     
   For business practitioners: The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] allows you to see your reporting data in [!DNL Adobe Analytics], and you can even optimize for custom events or metrics defined in [!DNL Analytics].
 
-* **[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Setting up A4T reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activities](/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
   For business practitioners: Are you using A4T for [!UICONTROL Auto-Target]? Follow these steps to configure A4T reports in [!DNL Analysis Workspace] to make sure you get expected results when running [!UICONTROL Auto-Target] activities.
 
