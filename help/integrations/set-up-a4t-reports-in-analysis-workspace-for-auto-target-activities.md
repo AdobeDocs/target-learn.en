@@ -1,7 +1,9 @@
 ---
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Target] activities?
+
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -45,7 +47,7 @@ To create an A4T for [!UICONTROL Auto-Target] report, either start with the **[!
 
 ## Use the [!UICONTROL Control vs.Targeted] dimension to compare the [!DNL Target] ensemble ML model to your control
 
-The default A4T panel is designed for classic (manual) [!UICONTROL A/B Test] or [!UICONTROL Auto-Allocate] activities where the goal is to compare the performance of individual experiences against the control experience. In [!UICONTROL Auto-Target] activities, however, the first order comparison should be between the control *strategy* and the targeted *strategy*. In other words, determining the lift of the overall performance of the [!UICONTROL Auto-Target] ensemble ML model over the control strategy). 
+The default A4T panel is designed for classic (manual) [!UICONTROL A/B Test] or [!UICONTROL Auto-Allocate] activities where the goal is to compare the performance of individual experiences against the control experience. In [!UICONTROL Auto-Target] activities, however, the first order comparison should be between the control *strategy* and the targeted *strategy*. In other words, determining the lift of the overall performance of the [!UICONTROL Auto-Target] ensemble ML model over the control strategy. 
 
 To perform this comparison, use the **[!UICONTROL Control vs Targeted (Analytics for Target)]** dimension. Drag and drop to replace the **[!UICONTROL Target Experiences]** dimension in the default A4T report.
 
