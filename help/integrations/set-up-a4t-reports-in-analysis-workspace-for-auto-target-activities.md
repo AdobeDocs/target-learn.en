@@ -2,7 +2,7 @@
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Target] activities?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -13,10 +13,6 @@ kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 ---
 # Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] activities 
-
->[!NOTE]
->
->This functionality is currently in Beta and will be available to all [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} customers in an upcoming release.
 
 >[!IMPORTANT]
 >
@@ -50,7 +46,7 @@ To create an A4T for [!UICONTROL Auto-Target] report, either start with the **[!
 
 ## Use the [!UICONTROL Control vs.Targeted] dimension to compare the [!DNL Target] ensemble ML model to your control
 
-The default A4T panel is designed for classic (manual) [!UICONTROL A/B Test] or [!UICONTROL Auto-Allocate] activities where the goal is to compare the performance of individual experiences against the control experience. In [!UICONTROL Auto-Target] activities, however, the first order comparison should be between the control *strategy* and the targeted *strategy*. In other words, determining the lift of the overall performance of the [!UICONTROL Auto-Target] ensemble ML model over the control strategy). 
+The default A4T panel is designed for classic (manual) [!UICONTROL A/B Test] or [!UICONTROL Auto-Allocate] activities where the goal is to compare the performance of individual experiences against the control experience. In [!UICONTROL Auto-Target] activities, however, the first order comparison should be between the control *strategy* and the targeted *strategy*. In other words, determining the lift of the overall performance of the [!UICONTROL Auto-Target] ensemble ML model over the control strategy. 
 
 To perform this comparison, use the **[!UICONTROL Control vs Targeted (Analytics for Target)]** dimension. Drag and drop to replace the **[!UICONTROL Target Experiences]** dimension in the default A4T report.
 

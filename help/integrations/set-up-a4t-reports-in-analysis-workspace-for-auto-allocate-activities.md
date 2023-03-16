@@ -1,8 +1,8 @@
 ---
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Allocate] activities.
-badgeBeta: label="Beta" type="Informative"
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
@@ -11,10 +11,6 @@ kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 ---
 # Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activities
-
->[!NOTE]
->
->This functionality is currently in Beta and will be available to all [!UICONTROL Target] customers in an upcoming release.
 
 An [!DNL Auto-Allocate] activity identifies a winner among two or more experiences and automatically reallocates more traffic to the winner while the test continues to run and learn. The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] allows you to see your reporting data in [!DNL Adobe Analytics], and you can even optimize for custom events or metrics defined in [!DNL Analytics]. 
 
@@ -27,7 +23,7 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
   * The "maximize unique visitor conversion rate" optimization criterion has a conversion rate whose numerator is a count of the unique visitors with a positive value of the metric. 
   * The "maximize metric value per visitor* has a conversion rate whose numerator is the regular metric value in [!DNL Adobe Analytics]. This is provided by default in the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace].
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel. 
-* The [!UICONTROL Confidence] numbers seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), and so should be removed. 
+* The [!UICONTROL Confidence] numbers seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), and so should be disregarded. Instead, please reference these values in [!DNL Target] reporting. 
 
 ## Create the A4T for [!DNL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
