@@ -18,7 +18,7 @@ exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 >
 >For [!UICONTROL Auto-Target] activities, you must check the reporting in [!DNL Analytics Workspace] and manually create an A4T panel.
 
-The [!UICONTROL Analytics for Target] (A4T) integration for [!DNL Auto-Target] activities uses the [!DNL Adobe Target] ensemble machine learning (ML) algorithms to choose the best experience for each visitor based on their profile, behavior, and context, all while using an [!DNL Adobe Analytics] goal metric.
+The [!UICONTROL Analytics for Target] (A4T) integration for [!DNL Auto-Target] activities uses the [!DNL Adobe Target] ensemble machine learning (ML) algorithms to choose the best experience for each visitor based on their profile, behavior, and context, all while using an [!DNL Adobe Analytics] goal metric. 
 
 Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DNL Analysis Workspace], a few modifications to the default **[!UICONTROL Analytics for Target]** panel are required to correctly interpret [!DNL Auto-Target] activities, due to differences between experimentation activities (manual [!UICONTROL A/B Test] and [!UICONTROL Auto-Allocate]) and personalization activities ([!UICONTROL [!UICONTROL Auto-Target]]).
 
@@ -132,7 +132,7 @@ The final panel appears as follows:
 
 *Figure 6: Reporting panel with the "Hit with specific Auto-Target Activity" segment applied to the [!UICONTROL Visits] metric. This segment ensures that only visits in which a user actually interacted with the [!DNL Target] activity in question are included in the report.*
 
-## Align the attribution between ML model training and goal metric generation
+## Ensure the goal metric and attribution are aligned with your optimization criterion
 
 The A4T integration allows the [!UICONTROL Auto-Target] ML model to be *trained* using the same conversion event data that [!DNL Adobe Analytics] uses to *generate performance reports*. However, there are certain assumptions that must be employed in interpreting this data when training the ML models, which differ from the default assumptions made during the reporting phase in [!DNL Adobe Analytics].
 
@@ -142,7 +142,13 @@ Thus, the difference between the attribution used by the [!DNL Target] models (d
 
 >[!TIP]
 >
->If the ML models are optimizing for a metric that is attributed differently from that of the metrics you are viewing in a report, the models might not perform as expected. To avoid this situation, ensure that the goal metrics on your report use the same attribution used by the [!DNL Target] ML models.
+>If the ML models are optimizing for a metric that is attributed differently from that of the metrics you are viewing in a report, the models might not perform as expected. To avoid this, ensure that the goal metrics on your report use the same metric definition and attribution used by the [!DNL Target] ML models.
+
+The exact metric definition, and attribution settings depend on the [optimization criterion](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) you specified during activity creation.
+
+### Target defined conversions, or [!DNL Analytics] metrics with *Maximize Metric Value Per Visit*
+
+When the metric is a [!DNL Target] conversion, or an [!DNL Analytics] metrics with **Maximize Metric Value Per Visit**, the goal metric definition allows for multiple conversion events to occur in the same visit. 
 
 To view goal metrics that have the same attribution methodology used by the [!DNL Target] ML models, follow these steps:
 
@@ -162,11 +168,45 @@ To view goal metrics that have the same attribution methodology used by the [!DN
 
   1. Click **[!UICONTROL Apply]**.
  
-These steps ensure that your report attribute the goal metric to the display of the experience, if the goal metric event happened *any time* ("participation") in the same visit that an experience was shown. 
+These steps ensure that your report attribute the goal metric to the display of the experience, if the goal metric event happened *any time* ("participation") in the same visit that an experience was shown.
+
+### [!DNL Analytics] metrics with *Unique Visit Conversion Rates*
+
+**Define the visit with positive metric segment**
+
+In the scenario where you selected *Maximize the Unique Visit Conversion Rate* as the optimization criteroin, the correct definition of the conversion rate is the fraction of visits in which the metric value is positive. This can be achieved by creating a segment filtering down to visits with a positive value of the metric, and then filtering the visits metric.
+
+1. As before, select the **[!UICONTROL Components > Create Segment]** option in the [!DNL Analysis Workspace] toolbar.
+2. Specify a **[!UICONTROL Title]** for your segment. 
+
+   In the example shown below, the segment is named [!DNL "Visits with an order"].
+
+3. Drag the base metric you used in your optimization goal into the segment. 
+
+   In the example shown below, we use the **orders** metric, so that the conversion rate measures the fraction of visits where an order is recorded.
+
+4. At the top left of the segment definition container, select **[!UICONTROL Include]** **Visit**. 
+5. Use the **[!UICONTROL is greater than]** operator, and set the value to be 0.
+
+   Setting the value to 0 means that this segment includes visits where the orders metric is positive.
+
+6. Click **[!UICONTROL Save]**.
+
+![Figure7.png](assets/Figure7.png)
+
+*Figure 7: The segment definition filtering to visits with a positive order. Depending on your activity's optimization metric, you must replace orders with an appropriate metric*
+
+**Apply this to the visits in activity filtered metric**
+
+This segment can now be used to filter to visits with a positive number of orders, and where there was a hit for the [!DNL Auto-Target] activity. The procedure of filtering a metric is similar to before, and after applying the new segment to the already filtered visit metric, the report panel should look like Figure 8
+
+![Figure8.png](assets/Figure8.png)
+
+*Figure 8: The report panel with the correct unique-visit conversion metric: the number of visits where a hit from the activity was recorded, and where the conversion metric (orders in this example) was non-zero.*
 
 ## Final Step: Create a conversion rate that captures the magic above
 
-With the modifications to the [!UICONTROL Visit] and goal metrics in preceding sections, the final modification you should make to your default A4T for [!UICONTROL Auto-Target] reporting panel is to create conversion rates that are the correct ratio (that of a goal metric with the right attribution), to an appropriately filtered [!UICONTROL Visits] metric. 
+With the modifications to the [!UICONTROL Visit] and goal metrics in the preceding sections, the final modification you should make to your default A4T for [!DNL Auto-Target] reporting panel is to create conversion rates that are the correct ratio--that of the corrected goal metric, to an appropriately filtered "Visits" metric.  
 
 Do this by creating a [!UICONTROL Calculated Metric] using the following steps:
 
@@ -180,9 +220,13 @@ Do this by creating a [!UICONTROL Calculated Metric] using the following steps:
 1. Drag the **[!UICONTROL Visits]** metric into the segment container.
 1. Click **[!UICONTROL Save]**.
 
+>[!TIP]
+>
+> You can also create this metric using the [quick calculated metric functionality](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html). 
+
 The complete calculated metric definition is shown here.
 
-![Figure7.png](assets/Figure7.png)
+![Figure9.png](assets/Figure9.png)
 
 *Figure 7: The visit-corrected and attribution-corrected model conversion rate metric definition. (Note this metric is dependent on your goal metric and activity. In other words, this metric definition is not re-usable across activities.)*
 
@@ -196,6 +240,6 @@ Combining all of the steps above into a single panel, the figure below shows a c
 
 Click to expand image.
 
-![Final A4T report in [!DNL Analysis Workspace]](assets/Figure8.png "A4T report in Analysis Workspace"){width="600" zoomable="yes"}
+![Final A4T report in [!DNL Analysis Workspace]](assets/Figure10.png "A4T report in Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figure 8: The final A4T [!UICONTROL Auto-Target] report in [!DNL Adobe Analytics] [!DNL Workspace], which combines all the adjustments to metric definitions described in the previous sections of this tutorial.*
+*Figure 10: The final A4T [!UICONTROL Auto-Target] report in [!DNL Adobe Analytics] [!DNL Workspace], which combines all the adjustments to metric definitions described in the previous sections of this tutorial.*
