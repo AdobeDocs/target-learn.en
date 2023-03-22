@@ -21,7 +21,7 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 * [!UICONTROL Visitors] should always be used as the normalizing metric in [!DNL Auto-Allocate] activities.
 * When the metric is an [!DNL Adobe Analytics] metric, the appropriate numerator for the conversion rate depends on the type of optimization criteria chosen during activity setup.
   * The "maximize unique visitor conversion rate" optimization criterion has a conversion rate whose numerator is a count of the unique visitors with a positive value of the metric. 
-  * The "maximize metric value per visitor* has a conversion rate whose numerator is the regular metric value in [!DNL Adobe Analytics]. This is provided by default in the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace].
+  * The "maximize metric value per visitor" has a conversion rate whose numerator is the regular metric value in [!DNL Adobe Analytics]. This is provided by default in the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace].
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
 * For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 28, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
 
