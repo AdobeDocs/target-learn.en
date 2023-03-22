@@ -2,7 +2,7 @@
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Allocate] activities.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
@@ -14,7 +14,7 @@ exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 
 An [!DNL Auto-Allocate] activity identifies a winner among two or more experiences and automatically reallocates more traffic to the winner while the test continues to run and learn. The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] allows you to see your reporting data in [!DNL Adobe Analytics], and you can even optimize for custom events or metrics defined in [!DNL Analytics]. 
 
-Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DNL Analysis Workspace], a few modifications to the default **[!UICONTROL Analytics for Target]** panel are required to correctly interpret [!DNL Auto-Allocate] activities, due to the nuances in [optimization criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported). 
+Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DNL Analysis Workspace], a few modifications to the default **[!UICONTROL Analytics for Target]** panel are required to correctly interpret [!DNL Auto-Allocate] activities, due to the nuances in [optimization criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}. 
 
 This tutorial walks through the recommended modifications for analyzing [!DNL Auto-Allocate] activities in [!DNL Analysis Workspace]. The key concepts are: 
 
@@ -25,7 +25,7 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
 * For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 28, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
 
-  For all [!UICONTROL Auto-Allocate] activities created after March 28, 2023, the [!UICONTROL Confidence] numbers seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629) if these activities have *both* of the following conditions:
+  For all [!UICONTROL Auto-Allocate] activities created after March 28, 2023, the [!UICONTROL Confidence] numbers seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} if these activities have *both* of the following conditions:
   
   * [!DNL Analytics] as the reporting source (A4T)
   * [!DNL Analytics] optimization metrics
@@ -85,7 +85,7 @@ After the appropriate segment has been created, the default  **[!UICONTROL Analy
 
    *Figure 4: Filtering [!UICONTROL Unique Visitors] by the newly created segment*
 
-3. A conversion rate can be [quickly calculated](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) by highlighting both the first and second columns, right-clicking, selecting **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**. 
+3. A conversion rate can be [quickly calculated](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) by highlighting both the first and second columns, right-clicking, selecting **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**. 
 
    The default conversion rate should be removed and replaced with this new calculated metric, as shown in the image below. You might need to edit the newly created calculated metric to display as a **[!UICONTROL Format]** > **[!UICONTROL Percent]** up to two decimal places as shown.
 
