@@ -25,12 +25,12 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
 * For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 28, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
 
-  For all [!UICONTROL Auto-Allocate] activities created after March 28, 2023, the [!UICONTROL Confidence] numbers seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} if these activities have *both* of the following conditions:
+  For all [!UICONTROL Auto-Allocate] activities created after March 28, 2023, the confidence interval values seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} if these activities have *both* of the following conditions:
   
   * [!DNL Analytics] as the reporting source (A4T)
   * [!DNL Analytics] optimization metrics
 
-  If *both* of these conditions exist, the [!UICONTROL Confidence] value should be removed from the A4T panel. Instead, reference these values in [!DNL Target] reporting. 
+  If *both* of these conditions exist, the confidence metrics should be removed from the A4T panel. Instead, reference these values in [!DNL Target] reporting. 
 
 ## Create the A4T for [!DNL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
