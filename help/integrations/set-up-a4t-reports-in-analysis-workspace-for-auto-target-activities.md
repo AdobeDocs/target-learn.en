@@ -1,8 +1,8 @@
 ---
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
 description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Target] activities?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -25,7 +25,7 @@ Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DN
 This tutorial walks through the recommended modifications for analyzing [!UICONTROL Auto-Target] activities in [!DNL Analysis Workspace], which are based on the following key concepts:
 
 * The **[!UICONTROL Control vs Targeted]** dimension can be used to distinguish between [!UICONTROL Control] experiences versus those served by the [!UICONTROL Auto-Target] ensemble ML algorithm.
-* Visits should be used as the normalizing metric when viewing experience-level breakdowns of performance. In addition, [Adobe Analytics' default counting methodology might include visits where the user does not actually see activity content](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), but this default behavior can be modified by using an appropriately scoped segment (details below).
+* Visits should be used as the normalizing metric when viewing experience-level breakdowns of performance. In addition, [Adobe Analytics' default counting methodology might include visits where the user does not actually see activity content](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, but this default behavior can be modified by using an appropriately scoped segment (details below).
 * Visit-lookback scoped attribution, also known as the "visit lookback window" on the prescribed attribution model, is used by the [!DNL Adobe Target] ML models during their training phases, and the same (non-default) attribution model should be used when breaking down the goal metric.  
 
 ## Create the A4T for [!UICONTROL Auto-Target] panel in [!DNL Analysis Workspace]
@@ -58,7 +58,7 @@ Note this replacement invalidates the default [!UICONTROL Lift and Confidence] c
 
 >[!NOTE]
 >
->Currently, [!UICONTROL Lift and Confidence] numbers are not available for [!UICONTROL Control vs Targeted] dimensions for A4T reports for [!UICONTROL Auto-Target]. Until support is added, [!UICONTROL Lift and Confidence] can be computed manually by downloading the [confidence calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Currently, [!UICONTROL Lift and Confidence] numbers are not available for [!UICONTROL Control vs Targeted] dimensions for A4T reports for [!UICONTROL Auto-Target]. Until support is added, [!UICONTROL Lift and Confidence] can be computed manually by downloading the [confidence calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Add experience-level breakdowns of metrics
 
@@ -144,7 +144,7 @@ Thus, the difference between the attribution used by the [!DNL Target] models (d
 >
 >If the ML models are optimizing for a metric that is attributed differently from that of the metrics you are viewing in a report, the models might not perform as expected. To avoid this, ensure that the goal metrics on your report use the same metric definition and attribution used by the [!DNL Target] ML models.
 
-The exact metric definition, and attribution settings depend on the [optimization criterion](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) you specified during activity creation.
+The exact metric definition, and attribution settings depend on the [optimization criterion](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} you specified during activity creation.
 
 ### Target defined conversions, or [!DNL Analytics] metrics with *Maximize Metric Value Per Visit*
 
