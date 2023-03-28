@@ -23,9 +23,9 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
   * The "maximize unique visitor conversion rate" optimization criterion has a conversion rate whose numerator is a count of the unique visitors with a positive value of the metric. 
   * The "maximize metric value per visitor" has a conversion rate whose numerator is the regular metric value in [!DNL Adobe Analytics]. This is provided by default in the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace].
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
-* For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 28, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
+* For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 30, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
 
-  For all [!UICONTROL Auto-Allocate] activities created after March 28, 2023, the confidence interval values seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} if these activities have *both* of the following conditions:
+  For all [!UICONTROL Auto-Allocate] activities created after March 30, 2023, the confidence interval values seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} if these activities have *both* of the following conditions:
   
   * [!DNL Analytics] as the reporting source (A4T)
   * [!DNL Analytics] optimization metrics
