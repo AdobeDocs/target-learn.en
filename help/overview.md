@@ -62,7 +62,7 @@ The [!DNL Adobe Target] staff recommends the following resources:
 
 Learn how to implement the Adobe Target extension with a page load request and custom parameters.
 
-For more information, see [Add Adobe Target](ttps://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in the *Implement in Websites with Tags Tutorial guide*.
+For more information, see [Add Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in the *Implement in Websites with Tags Tutorial guide*.
 
 ### Implement at.js 2.0 in a Single Page Application (SPA)
 
