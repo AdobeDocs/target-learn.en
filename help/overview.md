@@ -34,6 +34,10 @@ For business practitioners: Are you using A4T for [!UICONTROL Auto-Target]? Foll
 
 For architects: Get started with [!UICONTROL on-device decisioning] to deliver near-zero latency experiences to your consumers. See [On-device decisioning overview](implementation/on-device-decisioning-overview.md).
 
+### Migrate [!DNL Target] from at.js 2.*x* to [!DNL Adobe Experience Platform Web SDK]
+
+Learn how to migrate a [!DNL Target] at.js implementation to [!DNL Adobe Experience Platform Web SDK]. See [Migrate [!DNL Target] from at.js 2.x to [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} in the *Adobe Experience Platform Tutorials guide*.
+
 ## Most-popular videos
 
 The following videos are accessed most by Target customers:
@@ -60,20 +64,14 @@ The [!DNL Adobe Target] staff recommends the following resources:
 
 ### Implement Target with Adobe Experience Platform Tags
 
-Learn how to implement the Adobe Target extension with a page load request and custom parameters.
-
-For more information, see [Add Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in the *Implement in Websites with Tags Tutorial guide*.
+Learn how to implement the Adobe Target extension with a page load request and custom parameters. For more information, see [Add Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in the *Implement in Websites with Tags Tutorial guide*.
 
 ### Implement at.js 2.0 in a Single Page Application (SPA)
 
-Learn how to implement at.js 2.0 (and later) in SPAs.
-
-For more information, see [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Learn how to implement at.js 2.0 (and later) in SPAs. For more information, see [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Troubleshoot Target with the Experience Cloud Debugger
 
-Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.
-
-For more information, see [Troubleshoot [!DNL Target] with the [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool. For more information, see [Troubleshoot [!DNL Target] with the [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
