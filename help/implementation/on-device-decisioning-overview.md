@@ -38,4 +38,4 @@ By the end of this video, you will be able to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-For more information, visit the [Adobe Target SDK documentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
+For more information, see [On-device decisioning overview](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} in the *Adobe Target Developer guide*.
