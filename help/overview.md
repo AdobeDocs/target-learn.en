@@ -68,12 +68,12 @@ For more information, see [Add Adobe Target](https://experienceleague.adobe.com/
 
 Learn how to implement at.js 2.0 (and later) in SPAs.
 
-For more information, see [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](/implementation/implement-atjs-20-in-a-single-page-application.md).
+For more information, see [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Troubleshoot Target with the Experience Cloud Debugger
 
 Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.
 
-For more information, see [Troubleshoot [!DNL Target] with the [!DNL Experience Cloud Debugger]](/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+For more information, see [Troubleshoot [!DNL Target] with the [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
