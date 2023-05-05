@@ -108,11 +108,11 @@ The following resources are new:
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)</strong>
+    <strong>Implement at.js 2.0 in a SPA</strong>
     </a>
     </div>
     <p>
-    <em> Learn how to implement at.js 2.0 (and later) in SPAs.</em>
+    <em> Learn how to implement Adobe Target's at.js 2.0 (and later) in Single Page Applications (SPA).</em>
     <p>
   </td>
   <td>
@@ -125,7 +125,7 @@ The following resources are new:
     </a>
     </div>
     <p>
-    <em>Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.</em>
+    <em>Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation.</em>
     <p>
   </td>
 </tr>
