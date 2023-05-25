@@ -42,6 +42,12 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
   + [Integrate Target with Adobe Developer Console](../dev101/3.7-target-io.md)
+  + [Integrate Target with Real-Time CDP]{#rtcdp}
+    + [Next-hit personalization with Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
+    + [Configure the Adobe Target destination](../integrations/rtcdp/configure-the-target-destination.md)
+    + [Activate segments and profile attributes](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+    + [Use Real-Time CDP segments in Target](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
+    + [Use Real-Time CDP profile attributes in Target](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
   + [Integrate Target with Scene7](../dev101/3.8-target-scene7.md)
   + [Integrate Target with Adobe Experience Manager](../dev101/3.5-target-aem.md)
   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
