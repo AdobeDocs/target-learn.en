@@ -158,4 +158,4 @@ Typical documents in a Knowledge Repository include:
 
 For more information, review our [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) with Senior Consultant, Wilder Freed.
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

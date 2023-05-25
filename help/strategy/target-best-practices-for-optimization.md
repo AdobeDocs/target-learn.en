@@ -111,4 +111,4 @@ Given the above understanding, Adobe recommends that you Optimize before you Per
 
 For more information, please listen to [webinar on understanding and optimizing your Adobe Target implementation](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), with Business Consultant, Katie Cozby.
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
