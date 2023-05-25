@@ -42,7 +42,7 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
   + [Integrate Target with Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
   + [Integrate Target with Campaign](../dev101/3.6-target-campaign.md)
   + [Integrate Target with Adobe Developer Console](../dev101/3.7-target-io.md)
-  + [Integrate Target with Real-Time CDP]{#rtcdp}
+  + Integrate Target with Real-Time CDP{#rtcdp}
     + [Next-hit personalization with Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
     + [Configure the Adobe Target destination](../integrations/rtcdp/configure-the-target-destination.md)
     + [Activate segments and profile attributes](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
