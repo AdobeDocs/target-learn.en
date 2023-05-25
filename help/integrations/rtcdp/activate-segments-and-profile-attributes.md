@@ -1,7 +1,8 @@
 ---
 title: How do I activate segments and profile attributes from Adobe Real-time CDP to Adobe Target?
 description: Learn how to activate segments and profile attributes from Adobe Real-Time Customer Data Platform to Adobe Target to display real-time personalized content in your websites, mobile apps, and other digital properties.
-feature: Destinations
+feature-set: Experience Platform, Target
+feature: Destinations, Profiles, Integrations
 role: User
 level: Intermediate
 doc-type: Feature Video
