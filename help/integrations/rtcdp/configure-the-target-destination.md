@@ -8,6 +8,7 @@ level: Intermediate
 doc-type: Feature Video
 last-substantial-update: 2023-05-03
 jira: KT-13122
+exl-id: fff99687-fefe-48ff-94d5-de44bf64579e
 ---
 # Configure the Adobe Target destination in Real-Time Customer Data Platform
 

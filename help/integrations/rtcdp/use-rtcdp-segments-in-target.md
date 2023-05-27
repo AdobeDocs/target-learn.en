@@ -9,8 +9,8 @@ level: Intermediate
 doc-type: Feature Video
 last-substantial-update: 2023-05-05
 jira: KT-13141
+exl-id: 0910490e-7ec9-4615-965c-ab443c617b47
 ---
-
 # Use Real-Time CDP segments in Target
 
 Learn how to use Real-Time Customer Data Platform segments in Adobe Target to deliver personalized experiences on your website and mobile apps. For more information, see [the documentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
