@@ -31,7 +31,7 @@ exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
-      <img alt="Migrate Target from at.js to Platform Web SDK" src="./assets/thumb_websdk.png" />
+      <img alt="Migrate Target from at.js to Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
@@ -44,7 +44,7 @@ exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
-      <img alt="Implement Target with Adobe Experience Platform Tags" src="./assets/add-adobe-target.png"/>
+      <img alt="Implement Target with Adobe Experience Platform Tags" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
