@@ -54,4 +54,3 @@ exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 
 * [Implement at.js 2.0 in a Single Page Application](implement-atjs-20-in-a-single-page-application.md)
 * [Use Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [How at.js Works Documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=en)

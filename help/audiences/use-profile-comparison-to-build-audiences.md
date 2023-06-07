@@ -30,6 +30,5 @@ In this video, you learn how to:
 ## Additional Resources
 
 * [Creating a Profile Attribute Comparison Audience](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Methods to get Data into Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
 * [Building Audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Create Experience Targeting Activities Video](../activities/create-experience-targeting-activities.md)

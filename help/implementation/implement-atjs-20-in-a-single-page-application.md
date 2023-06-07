@@ -69,4 +69,3 @@ window.onhashchange = function() {
 
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)](understanding-how-atjs-20-works.md)  
 * [Use Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [Upgrade from at.js 1.x to at.js 2.0 documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)
