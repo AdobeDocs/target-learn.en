@@ -30,4 +30,3 @@ exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
 ## Supporting Materials
 
 * [Implement Data Providers in at.js and Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Data Providers Documentation](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
