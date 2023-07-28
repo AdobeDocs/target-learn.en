@@ -19,11 +19,13 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 
 * [!UICONTROL Visitors] should always be used as the normalizing metric in [!DNL Auto-Allocate] activities.
 * When the metric is an [!DNL Adobe Analytics] metric, calculation of conversion rate varies, depending on the type of optimization criteria defined during activity setup.
-  * The "maximize unique visitor conversion rate" conversion rate numerator is a count of unique visitors *with a positive value of the metric*. 
-  * This method does not require an additional segment in order to match the conversion rate displayed in the [!DNL Target] UI.
-* The "maximize metric value per visitor" conversion rate numerator is the regular metric value in [!DNL Adobe Analytics]. This metric is provided by default in the [!DNL Analytics for Target] panel in [!DNL Analysis Workspace].
-  * What this means: maximizes the number of visitors who convert ("count once per visitor").
-  * This method requires creation of an additional segment in reporting to match the conversion rate displayed in the [!DNL Target] UI.
+  * The "maximize metric value per visitor" conversion rate: numerator is the regular metric value in [!DNL Adobe Analytics] (this is provided by default in the [!UICONTROL Analytics for Target] panel in [!DNL Analysis Workspace]). 
+    * What this means: maximizes number of conversions per visitor ("count each per visitor").
+    * This method does not require an additional segment in order to match conversion rate displayed in the [!DNL Target] UI.
+  * The "maximize unique visitor conversion rate" conversion rate: numerator is a count of the unique visitors with a positive value of the metric.
+    * What this means: maximizes number of visitors who convert ("count once per visitor).
+    * This method *DOES* require creation of an additional segment in reporting to match the conversion rate displayed in the [!DNL Target] UI.
+
 * When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
 * For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 30, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
 
@@ -39,7 +41,7 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 To create an A4T panel for an [!DNL Auto-Allocate] report start with the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace], as shown below. Then make the following selections:
 
 1. **[!UICONTROL Control Experience]**: You can choose any experience.
-1. **[!UICONTROL Normalizing Metric]**: Select Visitors (Visitors is included in the A4T panel by default). [!DNL Auto-Allocate] always normalizes conversion rates by unique visitors.
+1. **[!UICONTROL Normalizing Metric]**: Select Visitors (visitors is included in the A4T panel by default). [!DNL Auto-Allocate] always normalizes conversion rates by unique visitors.
 1. **[!UICONTROL Success Metrics]**: Select the same metric that you used during activity creation. If this was a [!DNL Target] defined conversion metric, select **Activity Conversion**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
 
 ![[!UICONTROL Analytics for Target] panel setup for [!DNL Auto-Allocate] activities.](assets/AAFigure1.png)
@@ -68,9 +70,9 @@ One example of this panel is shown for the [!UICONTROL Revenue] metric, where "M
 
 *Figure 2: The recommended report for [!DNL Auto-Allocate] activities with an [!DNL Analytics] metric "Maximize Metric Value Per Visitor optimization" criteria. For these types of metrics, as well as [!DNL Target] defined conversion metrics, the default  **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] can be used.* 
 
-## [!DNL Analytics] metrics with "Maximize Unique Visitor" optimization criteria
+## [!DNL Analytics] metrics with "Maximize Unique Visitor Conversion Rate" optimization criteria
 
-The optimization criterion "Maximize Unique Visitor with Conversion Rate" refers to the count of visitors for whom the metric value is positive. For example, if the conversion rate is defined as revenue, then the "Maximize Unique Visitor with Conversion Rate" criterion would be optimizing on the count of unique visitors for whom revenue was greater than 0. In other words, this criterion would maximize the count of visitors that generate revenue, rather than the value of revenue itself.
+The optimization criterion "Maximize Unique Visitor Conversion Rate" refers to the count of visitors for whom the metric value is positive. For example, if the conversion rate is defined as revenue, then the "Maximize Unique Visitor Conversion Rate" criterion would be optimizing on the count of unique visitors for whom revenue was greater than 0. In other words, this criterion would maximize the count of visitors that generate revenue, rather than the value of revenue itself.
 
 >[!NOTE]
 >
