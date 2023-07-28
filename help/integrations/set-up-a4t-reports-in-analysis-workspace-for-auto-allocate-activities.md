@@ -19,10 +19,10 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 
 * [!UICONTROL Visitors] should always be used as the normalizing metric in [!DNL Auto-Allocate] activities.
 * When the metric is an [!DNL Adobe Analytics] metric, calculation of conversion rate varies, depending on the type of optimization criteria defined during activity setup.
-  * The "maximize metric value per visitor" conversion rate: numerator is the regular metric value in [!DNL Adobe Analytics] (this is provided by default in the [!UICONTROL Analytics for Target] panel in [!DNL Analysis Workspace]). 
+  * The "maximize metric value per visitor": conversion rate numerator is the regular metric value in [!DNL Adobe Analytics] (this is provided by default in the [!UICONTROL Analytics for Target] panel in A[!DNL nalysis Workspace]). 
     * What this means: maximizes number of conversions per visitor ("count each per visitor").
     * This method does not require an additional segment in order to match conversion rate displayed in the [!DNL Target] UI.
-  * The "maximize unique visitor conversion rate" conversion rate: numerator is a count of the unique visitors with a positive value of the metric.
+  * The "maximize unique visitor conversion rate": conversion rate numerator is a count of the unique visitors with a positive value of the metric.
     * What this means: maximizes number of visitors who convert ("count once per visitor).
     * This method *DOES* require creation of an additional segment in reporting to match the conversion rate displayed in the [!DNL Target] UI.
 
@@ -68,7 +68,7 @@ One example of this panel is shown for the [!UICONTROL Revenue] metric, where "M
 
 ![[!UICONTROL Analytics for Target - AutoAllocate Report] panel](assets/AAFigure2.png)
 
-*Figure 2: The recommended report for [!DNL Auto-Allocate] activities with an [!DNL Analytics] metric "Maximize Metric Value Per Visitor optimization" criteria. For these types of metrics, as well as [!DNL Target] defined conversion metrics, the default  **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] can be used.* 
+*Figure 2: The recommended report for [!DNL Auto-Allocate] activities with an [!DNL Analytics] metric "Maximize Metric Value Per Visitor" optimization criteria. For these types of metrics, as well as [!DNL Target] defined conversion metrics, the default  **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] can be used.* 
 
 ## [!DNL Analytics] metrics with "Maximize Unique Visitor Conversion Rate" optimization criteria
 
