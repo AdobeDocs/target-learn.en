@@ -38,7 +38,6 @@ This tutorial walks through the recommended modifications for analyzing [!DNL Au
 
 To create an A4T panel for an [!DNL Auto-Allocate] report start with the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace], as shown below. Then make the following selections:
 
-1. Add the activity.
 1. **[!UICONTROL Control Experience]**: You can choose any experience.
 1. **[!UICONTROL Normalizing Metric]**: Select Visitors (Visitors is included in the A4T panel by default). [!DNL Auto-Allocate] always normalizes conversion rates by unique visitors.
 1. **[!UICONTROL Success Metrics]**: Select the same metric that you used during activity creation. If this was a [!DNL Target] defined conversion metric, select **Activity Conversion**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
