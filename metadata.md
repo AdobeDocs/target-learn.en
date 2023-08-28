@@ -13,6 +13,7 @@ index: yes
 mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
+auto-video-transcripts: true
 ---
 
 # Metadata for internal use
