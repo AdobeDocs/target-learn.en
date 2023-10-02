@@ -9,7 +9,7 @@ level: Intermediate
 doc-type: Feature Video
 last-substantial-update: 2023-05-19
 jira: KT-13142
-exl-id: 9c8a2e54-42bb-45b5-bb31-a05bebd60b7f
+exl-id: 3266d64a-e7ec-429c-b089-2cada56237a5
 ---
 # Use Real-Time CDP profile attributes in Adobe Target
 
