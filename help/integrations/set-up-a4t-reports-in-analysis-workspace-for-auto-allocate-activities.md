@@ -34,9 +34,9 @@ The following sections specify which configurations are required, depending on w
 
 * The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting as these values. Additionally, activity winners can be identified in [!DNL Target] reporting.
 >
-* To avoid confusion, uncheck the "[!UICONTROL Percent (%)]" presentation of the [!UICONTROL Conversion Rate] metric. ([Screenshot and details below](#hide-percentage).) 
+* To avoid confusion, uncheck the "[!UICONTROL Percent]" presentation of the [!UICONTROL Conversion Rate] metric. ([Screenshot and details below](#hide-percentage).) 
 >
->* If you are building an A4T panel, ensure that the date and time ranges match that of your [!DNL Target] report. ([Details below](#aligning-date-and-time)).
+>* If you are building an A4T panel, ensure that the date and time ranges match that of your [!DNL Target] report. ([Details below](#aligning-date-and-time).)
 
 ### Hiding the percentage from the [!UICONTROL Conversion Rate] column {#hide-percentage}
 
