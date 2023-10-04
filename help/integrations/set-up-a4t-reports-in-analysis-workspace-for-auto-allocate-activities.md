@@ -1,6 +1,6 @@
 ---
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activities
-description: How do I configure A4T reports in [!DNL Analysis Workspace] to get the expected results when running [!UICONTROL Auto-Allocate] activities.
+description: How do I configure [!UICONTROL Analytics for Target] (A4T) reports in [!DNL Analysis Workspace] when running [!UICONTROL Auto-Allocate] activities.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,113 +11,163 @@ exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 ---
 # Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activities
 
-An [!DNL Auto-Allocate] activity identifies a winner among two or more experiences and automatically reallocates your traffic to the winner while the test continues to run and learn. The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] allows you to see your reporting data in [!DNL Adobe Analytics], and you can even optimize for custom events or metrics defined in [!DNL Analytics]. 
+An [!UICONTROL Auto-Allocate] activity in [!DNL Adobe Target] identifies a winner among two or more experiences and automatically reallocates visitor traffic to the winner while the test continues to run and learn. The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] lets you view reporting data in [!DNL Adobe Analytics], and you can optimize for custom events or metrics defined in [!DNL Analytics].
 
-Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DNL Analysis Workspace], a few modifications to the default **[!UICONTROL Analytics for Target]** panel might be required to correctly interpret [!DNL Auto-Allocate] activities, due to the nuances in [optimization metric criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}. 
+Although rich analysis capabilities are available in [!DNL Adobe Analytics] [!DNL Analysis Workspace], a few modifications to the default [!UICONTROL Analytics for Target] panel might be required to correctly interpret [!UICONTROL Auto-Allocate] activities. These modifications are needed due to the nuances in [optimization metric criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-This tutorial walks through the recommended modifications for analyzing [!DNL Auto-Allocate] activities in [!DNL Analysis Workspace]. The key concepts are: 
+Each type of optimization metric requires a different report configuration in A4T, as follows:
 
-* [!UICONTROL Visitors] should always be used as the normalizing metric in [!DNL Auto-Allocate] activities.
-* When the metric is an [!DNL Adobe Analytics] metric, calculation of conversion rate varies, depending on the type of optimization criteria defined during activity setup.
-  * The "maximize metric value per visitor": conversion rate numerator is the regular metric value in [!DNL Adobe Analytics] (this is provided by default in the [!UICONTROL Analytics for Target] panel in A[!DNL nalysis Workspace]). 
-    * What this means: maximizes number of conversions per visitor ("count each per visitor").
-    * This method does not require an additional segment in order to match conversion rate displayed in the [!DNL Target] UI.
-  * The "maximize unique visitor conversion rate": conversion rate numerator is a count of the unique visitors with a positive value of the metric.
-    * What this means: maximizes number of visitors who convert ("count once per visitor).
-    * This method *DOES* require creation of an additional segment in reporting to match the conversion rate displayed in the [!DNL Target] UI.
+* Using an [!DNL Analytics] metric 
 
-* When your optimization metric is a [!DNL Target] defined conversion metric, the default **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] handles configuring your panel.
-* For all [!UICONTROL Auto-Allocate] activities created before the [!DNL Target Standard/Premium] 23.3.1 release (March 30, 2023) [!DNL Analytics Workspace] and [!DNL Target] display the same value for [!UICONTROL Confidence]. 
+  * [!UICONTROL Maximize metric value per visitor]
+  * [!UICONTROL Maximize unique visitor conversion rate] 
 
-  For all [!UICONTROL Auto-Allocate] activities created after March 30, 2023, the confidence interval values seen in [!DNL Analysis Workspace] do not reflect the [more conservative statistics used by [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} in   if these activities have *both* of the following conditions:
-  
-  * [!DNL Analytics] as the reporting source (A4T)
-  * [!DNL Analytics] optimization metrics
+* Using a [!DNL Target]-defined conversion metric
 
-  The confidence metrics should be removed from the A4T panel. Instead, reference these values in [!DNL Target] reporting. 
+This tutorial covers overall A4T guidance, and criteria-specific report configuration steps.
 
-## Create the A4T for [!DNL Auto-Allocate] panel in [!DNL Analysis Workspace]
+## Overall guidance for [!UICONTROL Analytics for Target] (A4T) {#guidance}
 
-To create an A4T panel for an [!DNL Auto-Allocate] report start with the **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace], as shown below. Then make the following selections:
+You can navigate to a pre-built [!UICONTROL Analytics for Target] panel by clicking the link from the report screen in [!UICONTROL Adobe Target] (this is referred to later in this guide as the "[!DNL Target]-triggered report"). Alternatively, you can build the A4T panel in [!DNL Analytics] (details later in this section). 
 
-1. **[!UICONTROL Control Experience]**: You can choose any experience.
-1. **[!UICONTROL Normalizing Metric]**: Select Visitors (visitors is included in the A4T panel by default). [!DNL Auto-Allocate] always normalizes conversion rates by unique visitors.
-1. **[!UICONTROL Success Metrics]**: Select the same metric that you used during activity creation. If this was a [!DNL Target] defined conversion metric, select **Activity Conversion**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
+The following sections specify which configurations are required, depending on which of these methods you choose.
 
-![[!UICONTROL Analytics for Target] panel setup for [!DNL Auto-Allocate] activities.](assets/AAFigure1.png)
-
-*Figure 1: [!UICONTROL Analytics for Target] panel setup for [!DNL Auto-Allocate] activities.*
-
- You can also arrive at a pre-built **[!UICONTROL Analytics for Target]** panel if you click the link from the report screen in [!DNL Adobe Target].
-
-## [!DNL Target] [!UICONTROL Conversion] metrics or [!DNL Analytics] metrics with "Maximize Metric Value Per Visitor" optimization criteria
-
-When the goal metric is either:
-
-* A Target conversion metric
-* Analytics metric with the optimization criterion "Maximize Metric Value per Visitor"
-
-The default A4T panel automatically configures the report.
-
-One example of this panel is shown for the [!UICONTROL Revenue] metric, where "Maximize Metric Value Per Visitor" was selected as the optimization criteria at activity creation time. As previously mentioned, [!DNL Auto-Allocate] uses more conservative confidence calculations compared to the ones used in the **[!UICONTROL Analytics for Target]** panel. Adobe recommends that you remove the confidence metric from the A4T panel, as well as the related lower and upper lift metrics. Instead, reference the confidence values in [!DNL Target] reporting.
-
->[!NOTE]
+* The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting as these values. Additionally, activity winners can be identified in [!DNL Target] reporting.
 >
->Confidence values in A4T reporting are less conservative than [!DNL Target] reporting and might prematurely indicate a winner for an [!UICONTROL Auto-Allocate] activity.
+* To avoid confusion, uncheck the "[!UICONTROL Percent (%)]" presentation of the [!UICONTROL Conversion Rate] metric. ([Screenshot and details below](#hide-percentage).) 
+>
+>* If you are building an A4T panel, ensure that the date and time ranges match that of your [!DNL Target] report. ([Details below](#aligning-date-and-time)).
 
+### Hiding the percentage from the [!UICONTROL Conversion Rate] column {#hide-percentage}
 
-![[!UICONTROL Analytics for Target - AutoAllocate Report] panel](assets/AAFigure2.png)
+1. Click the **gear icon** next to the title of the [!UICONTROL Conversion Rate] column.
 
-*Figure 2: The recommended report for [!DNL Auto-Allocate] activities with an [!DNL Analytics] metric "Maximize Metric Value Per Visitor" optimization criteria. For these types of metrics, as well as [!DNL Target] defined conversion metrics, the default  **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] can be used.* 
+   ![Gear icon in the Conversion Rate column](/help/integrations/assets/coversion-rate-gear-icon.png)
 
-## [!DNL Analytics] metrics with "Maximize Unique Visitor Conversion Rate" optimization criteria
+   The [!UICONTROL Column] settings dialog box displays:
 
-The optimization criterion "Maximize Unique Visitor Conversion Rate" refers to the count of visitors for whom the metric value is positive. For example, if the conversion rate is defined as revenue, then the "Maximize Unique Visitor Conversion Rate" criterion would be optimizing on the count of unique visitors for whom revenue was greater than 0. In other words, this criterion would maximize the count of visitors that generate revenue, rather than the value of revenue itself.
+   ![Column settings dialog box](/help/integrations/assets/column-settings-dialog-box.png)
+
+1. Deselect the **[!UICONTROL Percent]** checkbox.
+
+Your A4T panel should now not include percentages as the [!UICONTROL Conversion Rate], as shown below:
+
+![Conversion Rate column showing no percentages](/help/integrations/assets/no-percentages.png)
+
+### Aligning the date and time in the A4T panel {#aligning-date-and-time}
+
+1. Above each panel, check the date range that the panel references, and ensure that the date range matches that of the [!DNL Target] report. 
+
+   ![Date range in A4T panel](/help/integrations/assets/date-range.png)
+
+1. In [!DNL Analytics], set the time range to 12:00am – 11:59pm.
+
+### Identification of the activity winner
+
+[!UICONTROL Auto-Allocate] activity winners are selected when there is a winning conversion rate with a confidence value exceeding 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Adobe] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+
+## Creating the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
+
+1. To create an A4T panel for an [!UICONTROL Auto-Allocate] activity report, start with the [!UICONTROL Analytics for Target] panel in [!DNL Analysis Workspace], as shown below.
+
+   ![Analytics for Target - Auto-Allocate report](/help/integrations/assets/a4t-auto-allocate-report.png)
+
+1. Make the following selections:
+
+   * **[!UICONTROL Control Experience]**: Choose any experience.
+   * **[!UICONTROL Normalizing Metric]**: Select **[!UICONTROL Visitors]** (included in the A4T panel by default). [!UICONTROL Auto-Allocate] always normalizes conversion rates by unique visitors.
+   * **Success Metrics**: Select the same metric that you used during activity creation. If this was a [!DNL Target]-defined conversion metric, select **[!UICONTROL Activity Conversion]**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
+
+## Analytics metrics with "[!UICONTROL Maximize Metric Value Per Visitor]" optimization criteria
+
+**Definition**: (Overall Metric Value) / (# of Visitors)
+
+To configure the report, make the following changes in the A4T report:
+
+![Maximize metric value for revenue](/help/integrations/assets/maximize-metric-value-revenue.png)
+
+|Changes required|[!DNL Target]-triggered report|A4T Panel report|
+| --- | --- | --- |
+|Maximize metric value for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
+
+## [!DNL Analytics] metrics with "[!UICONTROL Unique Visitor Conversion Rate]" optimization criteria
+
+**Definition**: (# of Unique Visitors with a positive value of the metric) / (Total # of Unique Visitors)
+
+Example: Suppose that your optimization metric is [!UICONTROL Revenue]. There are five unique visitors in the activity, and three of those unique make a purchase. In this example, this value = (3 visitors for whom [!UICONTROL Revenue] is positive) / (5 total unique visitors) = 0.6 = 60%.
 
 >[!NOTE]
 >
 >Conversion rate as referenced here can refer to actions outside of orders, such as clicks, impressions, and so forth. In these cases, the criterion would still be maximizing the count of visitors that click, or view the page, respectively.
 
-The [!DNL Analytics for Target] panel in [!DNL Analysis Workspace] must be modified if this optimization criterion is used with an [!DNL Adobe Analytics] metric.
+To configure the report, make the following changes in the A4T report:
 
-When this optimization criterion is used, the success metric is a count of unique visitors for whom the conversion metric was positive. Therefore, to view this value, a new segment must be created that filters to hits with a positive value for the metric. 
+|Changes required|Target-triggered report|A4T Panel report|
+| --- | --- | --- |
+|Maximize conversions for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Create a segment to filter visitors with a positive metric value who viewed the activity analyzed. (Screenshot and details below.)</li><li>Replace the auto-populated [!UICONTROL Conversion Rate] metric so that is the division between [!UICONTROL Unique visitors] with a positive metric value and unique visitors. (Screenshot and details below).</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
 
-Create this segment as follows:
+### Default A4T Panel report- additional guidance
 
-1. Select the **[!UICONTROL Components]** > **[!UICONTROL Create Segment]** option in the [!DNL Analysis Workspace] toolbar.
-1. Drag the metric used at activity creation time from the left-hand panel to the **[!UICONTROL Definition]** box of the segment.
-1. Select values of the metric that are **greater than** a numeric value of 0. 
-1. From the **[!UICONTROL Include]** drop-down, select **[!UICONTROL Visitors]**.
-1. Give your segment an appropriate name.
+The following sections contain more information about additional guidance as you set up your default A4T Panel report.
 
-An example of the segment creation is shown in the figure below, where the success metric is [!UICONTROL Visitors With Positive Revenue]. 
+#### Creating a segment
 
-![[!UICONTROL Visitors with Positive Revenue] segment in [!DNL Analysis Workspace]](assets/AAFigure3.png)
+1. Click the **"+" sign** next to **[!UICONTROL Segments]** in the left rail.
 
-*Figure 3: Segment creation for [!DNL Adobe Analytics] metrics with optimization criteria equal to "[!UICONTROL Maximize Unique Visitor Conversion Rate]." In this example, the metric is [!UICONTROL Revenue], and the optimization goal is to maximize the number of visitors with positive revenue.*
+   ![Plus sign next to segments in the left rail.](/help/integrations/assets/plus-sign.png)
 
-After the appropriate segment has been created, you can modify the default  **[!UICONTROL Analytics for Target]** panel in [!DNL Analysis Workspace] to view the optimization criterion values. This is achieved by doing the following: 
+1. Title the segment "Visitors with Positive Metric Value."
+1. Under **[!UICONTROL Definition]**, next to **[!UICONTROL Include]**, select **[!UICONTROL Visitor]**.
+1. Under **[!UICONTROL Definition]**, select the optimization metric in your activity.
 
-1. Add a second **Unique Visitors** metric alongside the existing [!UICONTROL Visitors] metric column.
-2. Drag the newly-created segment under the first column to produce a panel that resembles Figure 4. Notice the difference in values of the columns: the number of unique visitors with positive revenue should be a fraction of the total number of unique visitors assigned to each experience (as shown below).
+   In this example, assume Revenue as the optimization metric.
+   
+1. Select the "[!UICONTROL is greater than]" operator, then specify "0".
 
-   ![Figure4.png](assets/AAFigure4.png)
+   These settings filter for all visitors with a positive metric value.
+   
+1. Click **[!UICONTROL Save]**.
+1. Add the newly created segment "Visitors with positive metric value" to the A4T panel.
+1. Drag and drop the [!UICONTROL Unique Visitors] metric in the same column as the [!UICONTROL Visitors with Positive Metric Value]". 
 
-   *Figure 4: Filtering [!UICONTROL Unique Visitors] by the newly created segment*
+   This configuration creates a segment of all unique visitors for whom the metric value is positive. In this example, all unique visitors whose revenue was greater than zero.
 
-3. A conversion rate can be [quickly calculated](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) by highlighting both the first and second columns, right-clicking, selecting **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**. 
+#### Updating the [!UICONTROL Conversion Rate] metric 
 
-   The default conversion rate should be removed and replaced with this new calculated metric, as shown in the image below. You might need to edit the newly created calculated metric to display as a **[!UICONTROL Format]** > **[!UICONTROL Percent]** up to two decimal places as shown.
+1. If you have not already done so, remove the existing [!UICONTROL Conversion Rate] column from the panel.
+1. Add a metric by clicking the "+" sign next to the **[!UICONTROL Metrics]** section in the left rail.
+1. Name the metric "Conversion Rate" and define it as ([!UICONTROL Unique Visitors] with positive metric value) divided by "Unique Visitors," as shown below. 
 
-   ![Figure5.png](assets/AAFigure5.png)
+   Add the newly created segment (steps defined above) of "Visitors with positive metric value," the division operator, and the metric "Unique Visitors" in the numerator, and "Unique Visitors" as the denominator.
 
-   *Figure 5: The final [!UICONTROL Auto-Allocate] panel showing the conversion rates for a binarized revenue conversion metric*
+   ![Conversion rate in A4T panel.](/help/integrations/assets/conversion-rate.png)
 
-## Summary
+1. Click **[!UICONTROL Save]**.
 
-The steps in this tutorial demonstrated how to correctly configure [!DNL Analysis Workspace] to display [!UICONTROL Auto-Allocate] reporting data. 
+1. Drag and drop in your newly created "Conversion Rate" metric into your existing panel. 
+1. Click the gear icon and then uncheck "Percent," as this value can lead to confusion.
 
-To summarize:
+The correct configuration of the report should yield a result that resembles the following image:
 
-* When the metric is a [!DNL Target] defined conversion metric or an [!DNL Adobe Analytics] metric with optimization criterion "Maximize Metric Value Per Visitor," the default workspace panel configured with visitors as a normalizing metric should be used.
-* When the metric is an [!DNL Adobe Analytics] metric with optimization criterion "Maximize Unique Visitor Conversion Rate," you must determine the fraction of visitors with positive metric value over total visitors. This is done by creating a corresponding segment that filters the [!UICONTROL Unique Visitor] on that metric.
+![Unique visit conversion rate in A4T panel report](/help/integrations/assets/unique-visit-conversion-rate.png)
+
+## [!DNL Target]-defined conversion rate
+
+To configure the report, make the following changes in the A4T report:
+
+|Changes required|Target-triggered report|A4T Panel report|
+| --- | --- | --- |
+|[!DNL Analytics] reporting with [!DNL Target] conversion metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
+
+The correct configuration of the report should yield a result that resembles the following image: 
+   
+![Activity conversions](/help/integrations/assets/optimized-table.png)
+
+
+
+   
+
+
+
+
+
