@@ -30,17 +30,17 @@ This tutorial covers overall A4T guidance, and criteria-specific report configur
 
 You can navigate to a pre-built [!UICONTROL Analytics for Target] panel by clicking the link from the report screen in [!UICONTROL Adobe Target] (this is referred to later in this guide as the "[!DNL Target]-triggered report"). Alternatively, you can build the A4T panel in [!DNL Analytics] (details later in this section). 
 
-The following sections specify which configurations are required, depending on which of these methods you choose.
+The following sections specify which configurations are required, depending on which of these methods you choose:
 
-* The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting. Additionally, activity winners can be identified in [!DNL Target] reporting. Details on activity winner identification can be found in the [Identification of Activity Winner](#winner) section below.
+* The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting. Additionally, activity winners can be identified in [!DNL Target] reporting. Details on activity winner identification can be found in the [Identify the Activity Winner](#winner) section below.
 >
->* To avoid confusion, uncheck the "[!UICONTROL Percent]" presentation of the [!UICONTROL Conversion Rate] metric. [Screenshot and details below](#hide-percentage). 
+>* To avoid confusion, uncheck the "[!UICONTROL Percent]" presentation of the [!UICONTROL Conversion Rate] metric. For more information, see [Hide the percentage from the [!UICONTROL Conversion Rate] column](#hide-percentage) below. 
 >
->* If you are building an A4T panel, ensure that the date and time ranges match that of your [!DNL Target] report. [Details below](#aligning-date-and-time).
+>* If you are building an A4T panel, ensure that the date and time ranges match that of your [!DNL Target] report. For more information, see [Align the date and time in the A4T panel](#aligning-date-and-time) below.
 
-### Hiding the percentage from the [!UICONTROL Conversion Rate] column {#hide-percentage}
+### Hide the percentage from the [!UICONTROL Conversion Rate] column {#hide-percentage}
 
-1. Click the **gear icon** next to the title of the [!UICONTROL Conversion Rate] column.
+1. Click the **gear** icon next to the title of the [!UICONTROL Conversion Rate] column.
 
    ![Gear icon in the Conversion Rate column](/help/integrations/assets/coversion-rate-gear-icon.png)
 
@@ -50,23 +50,23 @@ The following sections specify which configurations are required, depending on w
 
 1. Deselect the **[!UICONTROL Percent]** checkbox.
 
-Your A4T panel should now not include percentages as the [!UICONTROL Conversion Rate], as shown below:
+Your A4T panel now does not include percentages as the [!UICONTROL Conversion Rate], as shown below:
 
 ![Conversion Rate column showing no percentages](/help/integrations/assets/no-percentages.png)
 
-### Aligning the date and time in the A4T panel {#aligning-date-and-time}
+### Align the date and time in the A4T panel {#aligning-date-and-time}
 
-1. Above each panel, check the date range that the panel references, and ensure that the date range matches that of the [!DNL Target] report. 
+1. Above each panel, check the date range that the panel references to ensure that the date range matches that of the [!DNL Target] report. 
 
    ![Date range in A4T panel](/help/integrations/assets/date-range.png)
 
 1. In [!DNL Analytics], set the time range to 12:00am – 11:59pm.
 
-### Identification of the activity winner {#winner}
+### Identify the activity winner {#winner}
 
-[!UICONTROL Auto-Allocate] activity winners are selected when there is a winning conversion rate with a confidence value exceeding 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Adobe] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+[!UICONTROL Auto-Allocate] activity winners are selected when there is a winning conversion rate with confidence values exceeding 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Target] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-## Creating the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
+## Create the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
 1. To create an A4T panel for an [!UICONTROL Auto-Allocate] activity report, start with the [!UICONTROL Analytics for Target] panel in [!DNL Analysis Workspace], as shown below.
 
@@ -88,13 +88,13 @@ To configure the report, make the following changes in the A4T report:
 
 |Changes required|[!DNL Target]-triggered report|A4T Panel report|
 | --- | --- | --- |
-|Maximize metric value for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
+|Maximize metric value for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. For more information, see [Overall Guidance](#guidance) above.</li></ul>|
 
 ## [!DNL Analytics] metrics with "[!UICONTROL Unique Visitor Conversion Rate]" optimization criteria
 
 **Definition**: (# of Unique Visitors with a positive value of the metric) / (Total # of Unique Visitors)
 
-Example: Suppose that your optimization metric is [!UICONTROL Revenue]. There are five unique visitors in the activity, and three of those unique make a purchase. In this example, this value = (3 visitors for whom [!UICONTROL Revenue] is positive) / (5 total unique visitors) = 0.6 = 60%.
+Example: Suppose that your optimization metric is [!UICONTROL Revenue]. There are five unique visitors in the activity, and three of those unique visitors make a purchase. In this example, this value = (3 visitors for whom [!UICONTROL Revenue] is positive) / (5 total unique visitors) = 0.6 = 60%.
 
 >[!NOTE]
 >
@@ -104,13 +104,13 @@ To configure the report, make the following changes in the A4T report:
 
 |Changes required|Target-triggered report|A4T Panel report|
 | --- | --- | --- |
-|Maximize conversions for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Create a segment to filter visitors with a positive metric value who viewed the activity analyzed. (Screenshot and details below.)</li><li>Replace the auto-populated [!UICONTROL Conversion Rate] metric so that is the division between [!UICONTROL Unique visitors] with a positive metric value and unique visitors. (Screenshot and details below).</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
+|Maximize conversions for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (For more information, see [Overall Guidance](#guidance) above.</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>All [!UICONTROL Lift] metrics should be removed.</li><li>Create a segment to filter visitors with a positive metric value who viewed the activity analyzed. For more information, see [Create a segment](#segment) below.</li><li>Replace the auto-populated [!UICONTROL Conversion Rate] metric so that is the division between [!UICONTROL Unique visitors] with a positive metric value and unique visitors. For more information, see [Update the Conversion Rate metric](#update-conversion-metric) below.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. For more information, see [Overall Guidance](#guidance) above.</li></ul>|
 
-### Default A4T Panel report- additional guidance
+### Default A4T Panel report - additional guidance
 
-The following sections contain more information about additional guidance as you set up your default A4T Panel report.
+The following sections contain more information about additional guidance as you set up your default A4T panel report.
 
-#### Creating a segment
+#### Create a segment {#segment}
 
 1. Click the **"+" sign** next to **[!UICONTROL Segments]** in the left rail.
 
@@ -120,34 +120,37 @@ The following sections contain more information about additional guidance as you
 1. Under **[!UICONTROL Definition]**, next to **[!UICONTROL Include]**, select **[!UICONTROL Visitor]**.
 1. Under **[!UICONTROL Definition]**, select the optimization metric in your activity.
 
-   In this example, assume Revenue as the optimization metric.
+   In this example, assume [!UICONTROL Revenue] as the optimization metric.
    
 1. Select the "[!UICONTROL is greater than]" operator, then specify "0".
 
    These settings filter for all visitors with a positive metric value.
    
 1. Click **[!UICONTROL Save]**.
-1. Add the newly created segment "Visitors with positive metric value" to the A4T panel.
-1. Drag and drop the [!UICONTROL Unique Visitors] metric in the same column as the [!UICONTROL Visitors with Positive Metric Value]". 
+
+   ![Positive metric value](/help/integrations/assets/positive-metric-value.png)
+
+1. Add the newly created segment named "Visitors with positive metric value" to the A4T panel.
+1. Drag and drop the [!UICONTROL Unique Visitors] metric in the same column as the "Visitors with Positive Metric Value". 
 
    This configuration creates a segment of all unique visitors for whom the metric value is positive. In this example, all unique visitors whose revenue was greater than zero.
 
-#### Updating the [!UICONTROL Conversion Rate] metric 
+#### Update the [!UICONTROL Conversion Rate] metric {#update-conversion-metric}
 
-1. If you have not already done so, remove the existing [!UICONTROL Conversion Rate] column from the panel.
+1. If you have not already done so, remove the existing [!UICONTROL Conversion Rate] column from the panel, as explained above.
 1. Add a metric by clicking the "+" sign next to the **[!UICONTROL Metrics]** section in the left rail.
-1. Name the metric "Conversion Rate" and define it as ([!UICONTROL Unique Visitors] with positive metric value) divided by "Unique Visitors," as shown below. 
+1. Name the metric "Conversion Rate" and define it as "([!UICONTROL Unique Visitors] with positive metric value)" divided by "Unique Visitors," as shown below. 
 
-   Add the newly created segment (steps defined above) of "Visitors with positive metric value," the division operator, and the metric "Unique Visitors" in the numerator, and "Unique Visitors" as the denominator.
+   Add the newly created segment (steps defined above) of "Visitors with positive metric value," the division operator, the "Unique Visitors" metric in the numerator, and "Unique Visitors" as the denominator.
 
    ![Conversion rate in A4T panel.](/help/integrations/assets/conversion-rate.png)
 
 1. Click **[!UICONTROL Save]**.
 
 1. Drag and drop in your newly created "Conversion Rate" metric into your existing panel. 
-1. Click the gear icon and then uncheck "Percent," as this value can lead to confusion.
+1. Click the gear icon, then deselect the **[!UICONTROL Percent]** checkbox, because this value can lead to confusion.
 
-The correct configuration of the report should yield a result that resembles the following image:
+The correct configuration of the report should yield a result that resembles the following illustration:
 
 ![Unique visit conversion rate in A4T panel report](/help/integrations/assets/unique-visit-conversion-rate.png)
 
@@ -157,9 +160,9 @@ To configure the report, make the following changes in the A4T report:
 
 |Changes required|Target-triggered report|A4T Panel report|
 | --- | --- | --- |
-|[!DNL Analytics] reporting with [!DNL Target] conversion metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. (Details in the [Overall Guidance](#guidance) section above.)</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. (Details in the [Overall Guidance](#guidance) section above.)</li></ul>|
+|[!DNL Analytics] reporting with [!DNL Target] conversion metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. For more information, see [Overall Guidance](#guidance) above.</li></ul>|
 
-The correct configuration of the report should yield a result that resembles the following image: 
+The correct configuration of the report should yield a result that resembles the following illustration: 
    
 ![Activity conversions](/help/integrations/assets/optimized-table.png)
 
