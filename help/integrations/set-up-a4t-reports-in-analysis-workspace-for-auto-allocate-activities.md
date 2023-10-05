@@ -32,7 +32,7 @@ You can navigate to a pre-built [!UICONTROL Analytics for Target] panel by click
 
 The following sections specify which configurations are required, depending on which of these methods you choose.
 
-* The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting as these values. Additionally, activity winners can be identified in [!DNL Target] reporting.
+* The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting. Additionally, activity winners can be identified in [!DNL Target] reporting. Details on activity winner identification can be found in the [Identification of Activity Winner](#winner) section below.
 >
 >* To avoid confusion, uncheck the "[!UICONTROL Percent]" presentation of the [!UICONTROL Conversion Rate] metric. [Screenshot and details below](#hide-percentage). 
 >
@@ -62,7 +62,7 @@ Your A4T panel should now not include percentages as the [!UICONTROL Conversion 
 
 1. In [!DNL Analytics], set the time range to 12:00am – 11:59pm.
 
-### Identification of the activity winner
+### Identification of the activity winner {#winner}
 
 [!UICONTROL Auto-Allocate] activity winners are selected when there is a winning conversion rate with a confidence value exceeding 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Adobe] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
