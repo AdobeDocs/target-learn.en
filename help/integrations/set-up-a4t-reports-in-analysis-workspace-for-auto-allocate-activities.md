@@ -1,6 +1,6 @@
 ---
 title: How to Set Up A4T Reports in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activities
-description: How do I configure [!UICONTROL Analytics for Target] (A4T) reports in [!DNL Analysis Workspace] when running [!UICONTROL Auto-Allocate] activities.
+description: How do I configure [!UICONTROL Analytics for Target] (A4T) reports in [!DNL Adobe] [!DNL Analysis Workspace] when running [!UICONTROL Auto-Allocate] activities.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
