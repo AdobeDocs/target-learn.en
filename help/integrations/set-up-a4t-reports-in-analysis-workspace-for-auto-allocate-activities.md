@@ -50,7 +50,7 @@ The following sections specify which configurations are required, depending on w
 
 1. Deselect the **[!UICONTROL Percent]** checkbox.
 
-Your A4T panel now does not include percentages as the [!UICONTROL Conversion Rate], as shown below:
+Your A4T panel now does not include percentages as the Conversion Rate and matches [!DNL Target], as shown below:
 
 ![Conversion Rate column showing no percentages](/help/integrations/assets/no-percentages.png)
 
@@ -64,7 +64,11 @@ Your A4T panel now does not include percentages as the [!UICONTROL Conversion Ra
 
 ### Identify the activity winner {#winner}
 
-[!UICONTROL Auto-Allocate] activity winners are selected when there is a winning conversion rate with confidence values exceeding 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Target] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+[!DNL Auto-Allocate] activity winners are selected when there is a winning conversion rate with confidence values greater than or equal to 95%. These values should be referenced in the [!DNL Target] reports, as confidence calculations reflect the more conservative methods [!DNL Target] recommends for [!UICONTROL Auto-Allocate] activities. For more information, see [Statistical guarantees of Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+
+>[!NOTE]
+>
+>The "No Winner Yet" and "Winner" badges are not available in the A4T panel in [!DNL Analysis Workspace] and also not available in the [!DNL Target] report. For more information, see [Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T support for Auto-Allocate and Auto-Target activities* in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ## Create the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
@@ -76,7 +80,7 @@ Your A4T panel now does not include percentages as the [!UICONTROL Conversion Ra
 
    * **[!UICONTROL Control Experience]**: Choose any experience.
    * **[!UICONTROL Normalizing Metric]**: Select **[!UICONTROL Visitors]** (included in the A4T panel by default). [!UICONTROL Auto-Allocate] always normalizes conversion rates by unique visitors.
-   * **Success Metrics**: Select the same metric that you used during activity creation. If this was a [!DNL Target]-defined conversion metric, select **[!UICONTROL Activity Conversion]**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
+   * **Success Metrics**: Select the same (optimization) metric that you used during activity creation. If this was a [!DNL Target]-defined conversion metric, select **[!UICONTROL Activity Conversion]**. Otherwise, select the [!DNL Adobe Analytics] metric that you used.
 
 ## Analytics metrics with "[!UICONTROL Maximize Metric Value Per Visitor]" optimization criteria
 
@@ -152,7 +156,7 @@ The following sections contain more information about additional guidance as you
 
 The correct configuration of the report should yield a result that resembles the following illustration:
 
-![Unique visit conversion rate in A4T panel report](/help/integrations/assets/unique-visit-conversion-rate.png)
+![Unique visit conversion rate in A4T panel report](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-defined conversion rate
 
