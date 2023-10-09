@@ -46,13 +46,13 @@ The following sections specify which configurations are required, depending on w
 
    The [!UICONTROL Column] settings dialog box displays:
 
-   ![Column settings dialog box](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Column settings dialog box](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Deselect the **[!UICONTROL Percent]** checkbox.
 
-Your A4T panel now does not include percentages as the Conversion Rate and matches [!DNL Target], as shown below:
+   Your A4T panel now does not include percentages as the Conversion Rate and matches [!DNL Target], as shown below:
 
-![Conversion Rate column showing no percentages](/help/integrations/assets/no-percentages.png)
+   ![Conversion Rate column showing no percentages](/help/integrations/assets/no-percentages.png)
 
 ### Align the date and time in the A4T panel {#aligning-date-and-time}
 
@@ -154,9 +154,9 @@ The following sections contain more information about additional guidance as you
 1. Drag and drop in your newly created "Conversion Rate" metric into your existing panel. 
 1. Click the gear icon, then deselect the **[!UICONTROL Percent]** checkbox, because this value can lead to confusion.
 
-The correct configuration of the report should yield a result that resembles the following illustration:
+   The correct configuration of the report should yield a result that resembles the following illustration:
 
-![Unique visit conversion rate in A4T panel report](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Unique visit conversion rate in A4T panel report](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-defined conversion rate
 
