@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 ---
-# Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activities
+# Setting up A4T reports in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activities 
 
 An [!UICONTROL Auto-Allocate] activity in [!DNL Adobe Target] identifies a winner among two or more experiences and automatically reallocates visitor traffic to the winner while the test continues to run and learn. The [!UICONTROL Analytics for Target] (A4T) integration for [!UICONTROL Auto-Allocate] lets you view reporting data in [!DNL Adobe Analytics], and you can optimize for custom events or metrics defined in [!DNL Analytics].
 
