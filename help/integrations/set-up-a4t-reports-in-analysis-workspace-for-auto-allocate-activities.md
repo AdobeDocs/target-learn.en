@@ -68,7 +68,7 @@ The following sections specify which configurations are required, depending on w
 
 >[!NOTE]
 >
->The "No Winner Yet" and "Winner" badges are not available in the A4T panel in [!DNL Analysis Workspace] and also not available in the [!DNL Target] report. For more information, see [Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T support for Auto-Allocate and Auto-Target activities* in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>The "No Winner Yet" and "Winner" badges are not available in the A4T panel in [!DNL Analysis Workspace]. Also, the winner "star" badge displayed in [!DNL Target] reports for [!UICONTROL Auto-Allocate] activities should be ignored. For more information, see [Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T support for Auto-Allocate and Auto-Target activities* in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ## Create the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
