@@ -30,7 +30,7 @@ This tutorial covers overall A4T guidance, and criteria-specific report configur
 
 You can navigate to a pre-built [!UICONTROL Analytics for Target] panel by clicking the link from the report screen in [!UICONTROL Adobe Target] (this is referred to later in this guide as the "[!DNL Target]-triggered report"). Alternatively, you can build the A4T panel in [!DNL Analytics] (details later in this section). 
 
-The following sections specify which configurations are required, depending on which of these methods you choose:
+The following sections specify which configurations are required, depending on which of these methods you choose. However, the following steps serve as overall guidance:
 
 * The confidence metrics should be removed from the A4T panel regardless of the panel creation method (both are detailed below). Instead, reference these values in [!DNL Target] reporting. Additionally, activity winners can be identified in [!DNL Target] reporting. Details on activity winner identification can be found in the [Identify the Activity Winner](#winner) section below.
 >
@@ -70,7 +70,7 @@ The following sections specify which configurations are required, depending on w
 >
 >The "No Winner Yet" and "Winner" badges are not available in the A4T panel in [!DNL Analysis Workspace]. Also, the winner "star" badge displayed in [!DNL Target] reports for [!UICONTROL Auto-Allocate] activities should be ignored. For more information, see [Auto-Allocate](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T support for Auto-Allocate and Auto-Target activities* in the *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-## Create the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
+### Create the A4T for [!UICONTROL Auto-Allocate] panel in [!DNL Analysis Workspace]
 
 1. To create an A4T panel for an [!UICONTROL Auto-Allocate] activity report, start with the [!UICONTROL Analytics for Target] panel in [!DNL Analysis Workspace], as shown below.
 
@@ -88,11 +88,11 @@ The following sections specify which configurations are required, depending on w
 
 To configure the report, make the following changes in the A4T report:
 
-![Maximize metric value for revenue](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 |Changes required|[!DNL Target]-triggered report|A4T Panel report|
 | --- | --- | --- |
 |Maximize metric value for an [!DNL Analytics] metric|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li></ul>|<ul><li>[!UICONTROL Confidence] metrics should be removed.</li><li>[!UICONTROL Lift (Low)] and [!UICONTROL Lift (High)] should be removed.</li><li>Conversion rate metric should be renamed to "Metric / Visitor."</li><li>Uncheck the percentage presentation from the [!UICONTROL Conversion Rate] column to avoid confusion. For more information, see [Overall Guidance](#guidance) above.</li><li>Ensure that the date and time ranges align with the values you see in the [!DNL Target] report. For more information, see [Overall Guidance](#guidance) above.</li></ul>|
+
+![Maximize metric value for revenue](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] metrics with "[!UICONTROL Unique Visitor Conversion Rate]" optimization criteria
 
