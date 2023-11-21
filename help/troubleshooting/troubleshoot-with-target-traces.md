@@ -15,10 +15,3 @@ exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
 ## Mbox Trace
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
-
-## Additional Resources
-
-* [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Troubleshooting Target Help Documentation](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Troubleshoot Target with the Experience Cloud Debugger video](troubleshoot-with-the-experience-cloud-debugger.md)
-* [How to use the Experience Cloud Debugger video](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
