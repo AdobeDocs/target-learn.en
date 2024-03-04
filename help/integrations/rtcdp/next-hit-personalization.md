@@ -8,7 +8,6 @@ feature: Integrations,Segments,Web SDK,Destinations,Datastreams,Audiences,Experi
 level: Intermediate
 jira: KT-9629
 thumbnail: 340091.jpg
-exl-id: 08568a37-1450-4fdc-ba58-37ea026028c7
 ---
 # Next-hit personalization with Real-Time CDP and Adobe Target
 
