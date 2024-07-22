@@ -29,7 +29,7 @@ By the end of this video, you will be able to:
 * Describe on-device decisioning and its benefits
 * Enable on-device decisioning in Target
 * Create a form-based composer activity intended for use with on-device decisioning
-* Learn more about the SDK configuration required for on-device decisioning by visiting the [Adobe Target SDK documentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Learn more about the SDK configuration required for on-device decisioning by visiting the [Adobe Target SDK documentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Understand what end users will experience for content delivered using on-device decisioning
 
 ## Intended Audience
