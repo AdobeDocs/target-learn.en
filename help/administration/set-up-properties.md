@@ -22,4 +22,17 @@ In this video, you learn how to:
 
 * Administrator
 
+## Requirements
+Users must have the following permissions to create properties:
+
+* Product administrator (not to be confused with Product profile administrator)
+* System administrator
+
+## Video: How to create a property within Adobe Target's interface
+
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
+
+>[!NOTE]
+>
+>The [!DNL Target] UI has been updated since recording this video. Until a new video is available, the path to create properties is **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**.
+
