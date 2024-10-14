@@ -22,4 +22,11 @@ In this video, you learn how to:
 
 * Administrator
 
+## Requirements
+
+Users must have the following permissions to create properties:
+
+* Product administrator (not to be confused with Product profile administrator)
+* System administrator
+
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
