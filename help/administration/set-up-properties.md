@@ -35,4 +35,4 @@ Users must have the following permissions to create properties:
 
 >[!NOTE]
 >
->The [!DNL Target] UI has been updated since recording this video. Until a new video is available, the path to create properties is **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**.
+>The [!DNL Target] UI has been updated since this video was recorded. To create properties, navigate to [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. A new video will be available soon.
