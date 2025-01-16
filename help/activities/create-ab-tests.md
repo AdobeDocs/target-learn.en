@@ -9,7 +9,9 @@ doc-type: feature video
 kt:
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
 ---
-# Create A/B Tests
+# Create an A/B test
+
+Learn the key workflow for creating A/B activities in [!DNL Adobe Target]. Create a basic A/B activity using the Visual Experience Composer (VEC).
 
 ## Description
 
