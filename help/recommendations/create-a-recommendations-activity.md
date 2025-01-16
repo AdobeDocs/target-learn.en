@@ -1,6 +1,6 @@
 ---
 title: How to Create a Recommendations Activity
-description: Learn how to create an Adobe Target Recommendations activity
+description: Learn how to create an Adobe Target Recommendations activity.
 role: User
 level: Intermediate
 topic: Personalization
@@ -9,7 +9,9 @@ doc-type: feature video
 kt:
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
 ---
-# Create an Adobe Target Recommendations Activity
+# Create an Adobe Target Recommendations activity
+
+Learn how to create an Adobe Target Recommendations activity.
 
 ## Description
 
