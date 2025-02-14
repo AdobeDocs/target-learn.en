@@ -12,13 +12,13 @@ exl-id: eb00bb01-4d03-4153-b866-e6e3e8d979ae
 ---
 # Troubleshoot integration errors
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Explain A4T integration issues
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

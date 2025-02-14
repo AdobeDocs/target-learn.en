@@ -22,7 +22,7 @@ By the end of this video, you will:
 * Understand the benefits of a hybrid deployment
 * Observe the reduction in server calls made possible by a hybrid deployment
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

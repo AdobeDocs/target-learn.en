@@ -12,7 +12,7 @@ exl-id: 146c91b7-f235-4daf-9129-bb7cb884b538
 ---
 # Troubleshoot activity errors
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -21,7 +21,7 @@ In this video, you learn how to:
 * Debug Target experiences and activity content loading issues
 * Troubleshoot conflicts, hosts, and properties
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

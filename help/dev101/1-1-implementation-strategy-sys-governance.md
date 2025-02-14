@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 ---
 # Implementation Strategy and System Governance
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -22,7 +22,7 @@ In this video, you learn how to:
 * Identify and apply governance best practices
 * List Target implementation requirements
 
-## Intended Audience
+## Intended audience
 
 * Administrators
 * Developers

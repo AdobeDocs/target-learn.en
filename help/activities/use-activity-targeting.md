@@ -1,6 +1,6 @@
 ---
 title: How to Use Activity Targeting
-description: Adobe Target provides different levers for controlling the experiences shown to different audiences when an activity goes live. Learn how to control who sees what by using audiences and traffic allocation.
+description: Learn about the different levers for controlling the experiences shown to different audiences when an activity goes live.
 role: User
 level: Intermediate
 topic: Personalization
@@ -11,7 +11,9 @@ exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
 ---
 # Use Activity Targeting
 
-## Description
+Adobe Target provides different levers for controlling the experiences shown to different audiences when an activity goes live. Learn how to control who sees what by using audiences and traffic allocation.
+
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +22,7 @@ In this video, you learn how to:
 * Select your traffic allocation method
 * Allocate traffic between different experiences
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

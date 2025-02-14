@@ -24,7 +24,7 @@ The SPA VEC enables marketers to create tests and personalize content in SPAs in
 * Different modifications can be added to different views without having to use the [!UICONTROL Additional Pages] option  
 * `at.js 2.0+` and the `adobe.target.triggerView()` function must be implemented in the app before you can use the SPA VEC
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

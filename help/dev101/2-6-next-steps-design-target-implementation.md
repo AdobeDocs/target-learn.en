@@ -12,7 +12,7 @@ exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
 ---
 # Next steps to designing a Target implementation
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +20,7 @@ In this video, you learn how to:
 * Explain the relevance of profile scripts to the user model
 * Differentiate the usage and application of a request parameter and a profile parameter
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

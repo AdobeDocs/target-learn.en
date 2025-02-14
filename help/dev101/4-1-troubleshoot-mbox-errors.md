@@ -12,7 +12,7 @@ exl-id: cf95e97c-3b91-43a5-97b1-b7e57133358e
 ---
 # Troubleshoot mbox errors
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +20,7 @@ In this video, you learn how to:
 * Troubleshoot body pre-hiding snippet issue
 * Inspect and understand the trace output
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

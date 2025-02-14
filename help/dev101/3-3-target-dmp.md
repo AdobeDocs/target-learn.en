@@ -12,13 +12,13 @@ exl-id: 2d4eb4c9-912d-48c7-a048-5269aa68adb5
 ---
 # Integrate Target with Audience Manager
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Integrate Adobe Target with Adobe Audience Manager
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

@@ -12,13 +12,13 @@ exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 ---
 # Set up Properties in [!DNL Adobe Target]
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Create properties in [!DNL Adobe Target]
 
-## Intended Audience
+## Intended audience
 
 * Admin[!UICONTROL ]istrator
 

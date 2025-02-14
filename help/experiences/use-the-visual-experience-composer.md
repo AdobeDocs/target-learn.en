@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 ---
 # Use the [!UICONTROL Visual Experience Composer] in Adobe Target
 
-## Description
+## What you will learn
 
 In the first video, you learn how to:
 
@@ -23,7 +23,7 @@ In the second video, you learn how to:
 
 * Use additional capabilities of the VEC, including how to create redirect experiences and multi-page activities, as well as how to use mobile viewports.
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

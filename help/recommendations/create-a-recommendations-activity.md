@@ -13,13 +13,13 @@ exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
 
 Learn how to create an Adobe Target Recommendations activity.
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Create a Recommendations activity
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

@@ -12,13 +12,13 @@ exl-id: a953e9f9-103f-4c0d-b2f1-3534632cd59e
 ---
 # Integrate Target with Campaign
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Integrate Adobe Target and Adobe Campaign
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

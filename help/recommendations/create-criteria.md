@@ -11,13 +11,13 @@ exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
 ---
 # Create Criteria in Recommendations
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Create criteria
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

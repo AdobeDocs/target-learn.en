@@ -14,14 +14,14 @@ exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 ---
 # Integrate Target with Analytics
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Explain how Analytics and Target requests bind up using SDID
 * Describe implementation requirements for Adobe Analytics with Adobe Target (A4T)
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

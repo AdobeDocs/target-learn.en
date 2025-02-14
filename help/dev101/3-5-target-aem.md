@@ -12,7 +12,7 @@ exl-id: e7792ff4-7289-485e-af46-c89431a7a122
 ---
 # Integrate Target with Adobe Experience Manager (AEM)
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +20,7 @@ In this video, you learn how to:
 * Apply the process to import experience fragments from AEM
 * List Target and AEM integration requirements
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

@@ -11,13 +11,13 @@ exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
 ---
 # Create Custom Designs in Recommendations
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Create custom designs in Adobe Target Recommendations
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

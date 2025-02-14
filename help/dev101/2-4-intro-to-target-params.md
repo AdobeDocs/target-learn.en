@@ -12,7 +12,7 @@ exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
 ---
 # Introduction to Target parameters
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +20,7 @@ In this video, you learn how to:
 * Configure and trigger requests using JavaScript and tag management systems
 * List the implementation requirements for mobile, email targeting, and APIs
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

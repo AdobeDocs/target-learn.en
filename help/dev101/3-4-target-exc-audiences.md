@@ -12,7 +12,7 @@ exl-id: 00e50e90-29cf-4dc5-8bfc-e938f1d596a4
 ---
 # Integrate Target with Experience Cloud Audiences
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -21,7 +21,7 @@ In this video, you learn how to:
 * Explore the Adobe Experience Cloud (AEC) admin panel
 * List the requirements for Experience Cloud ID (ECID)
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

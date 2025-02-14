@@ -1,6 +1,6 @@
 ---
 title: How to Use Activity Settings
-description: Watch this video to learn how to use various activity settings in Adobe Target, including objectives, priority levels, start and end times, and audiences.
+description: Learn how to use various activity settings in Adobe Target, including objectives, priority levels, start and end times, and audiences.
 role: User
 level: Beginner
 topic: Personalization
@@ -9,9 +9,11 @@ doc-type: feature video
 kt:
 exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
 ---
-# Use Activity Settings
+# Use activity settings
 
-## Description
+Learn how to use various activity settings in Adobe Target, including objectives, priority levels, start and end times, and audiences.
+
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +22,7 @@ In this video, you learn how to:
 * Schedule start and end times
 * Add audiences
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

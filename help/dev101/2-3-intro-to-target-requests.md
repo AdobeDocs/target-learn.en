@@ -12,7 +12,7 @@ exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
 ---
 # Introduction to Target requests
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -21,7 +21,7 @@ In this video, you learn how to:
 * Differentiate between synchronous versus asynchronous deployment
 * Explain flicker management
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

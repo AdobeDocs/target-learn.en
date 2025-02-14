@@ -12,14 +12,14 @@ exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
 ---
 # Benefits of using locations
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Describe the benefits of using locations in Target implementations
 * Select the best implementation type for a given scenario
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

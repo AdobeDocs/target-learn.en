@@ -14,7 +14,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 ---
 # Introduction to Adobe Target implementation
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -22,7 +22,7 @@ In this video, you learn how to:
 * Explain Target implementation technologies
 * Employ Target implementation best practices
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

@@ -12,7 +12,7 @@ exl-id: 8a568f5d-3cc4-4b73-b490-0023043b3f81
 ---
 # Design a Target implementation
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -21,7 +21,7 @@ In this video, you learn how to:
 * Identify relevant information in system architecture/design documents
 * Analyze a reporting strategy for implementation implications
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

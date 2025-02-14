@@ -11,13 +11,13 @@ exl-id: 9f147770-4b78-4982-ad52-c219bb451cc1
 ---
 # Set up Workspaces in Adobe Target
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Create Workspaces in Adobe Target
 
-## Intended Audience
+## Intended audience
 
 * Administrator
 

@@ -13,14 +13,14 @@ exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
 ---
 # Create Profile Scripts in Adobe Target
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Describe profile scripts
 * Create profile scripts
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 * Developer

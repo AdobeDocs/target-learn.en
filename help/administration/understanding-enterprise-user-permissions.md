@@ -12,14 +12,14 @@ exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
 ---
 # Understanding Enterprise User Permissions in Adobe Target
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Describe the three Adobe Target user levels
 * Understand properties and workspaces
 
-## Intended Audience
+## Intended audience
 
 * Administrator
 

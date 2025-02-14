@@ -12,7 +12,7 @@ exl-id: ce159244-c541-4d7a-880d-cff7bf6f9fe9
 ---
 # Configure Enterprise User Permissions
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -20,7 +20,7 @@ In this video, you learn how to:
 * Configure Target permissions
 * Create workspaces and regulate access
 
-## Intended Audience
+## Intended audience
 
 * Administrators
 * Developers

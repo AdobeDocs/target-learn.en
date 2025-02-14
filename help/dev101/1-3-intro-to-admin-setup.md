@@ -12,7 +12,7 @@ exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
 ---
 # Introduction to Administration Setup
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -21,7 +21,7 @@ In this video, you learn how to:
 * Create hosts and environments
 * Explain Target UI implementation configuration settings
 
-## Intended Audience
+## Intended audience
 
 * Administrators
 * Developers

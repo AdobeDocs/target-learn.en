@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 ---
 # Use Audiences in Adobe Target
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
@@ -22,7 +22,7 @@ In this video, you learn how to:
 * Find audiences in the Audience List
 * Use audiences to target activities and filter reports
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 
