@@ -12,8 +12,6 @@ exl-id: db763906-33f6-4a3b-9db8-f90ec515d8ba
 ---
 # Integrate Target with Adobe Developer Console
 
-## What you will learn
-
 In this video, you learn how to:
 
 * Integrate Adobe Target and Adobe Developer Console (formerly called Adobe I/O)

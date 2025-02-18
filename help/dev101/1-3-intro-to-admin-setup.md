@@ -1,6 +1,6 @@
 ---
 title: How to Administer Target
-description: This video shows Adobe Target administrators how to set up account preferences, create properties, and create hosts and environments. Learn how to explain Target UI implementation configuration settings.
+description: Learn how to set up account preferences, create properties, and create hosts and environments. Learn how to explain Target UI implementation configuration settings.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -10,9 +10,7 @@ kt: 5062
 thumbnail: 33751.jpg
 exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
 ---
-# Introduction to Administration Setup
-
-## What you will learn
+# Introduction to administration setup
 
 In this video, you learn how to:
 

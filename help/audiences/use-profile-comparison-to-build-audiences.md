@@ -1,6 +1,6 @@
 ---
 title: How to Use Profile Comparison to Build Audiences
-description: This video shows Adobe Target users how to use the Profile Comparison feature to compare two numeric profile values against each other when building an audience.
+description: Learn how to use Profile Comparison to compare two numeric profile values against each other when building an audience.
 role: User
 level: Experienced
 topic: Personalization
@@ -27,7 +27,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Creating a Profile Attribute Comparison Audience](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
 * [Building Audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)

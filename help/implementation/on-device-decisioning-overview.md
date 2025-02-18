@@ -12,8 +12,6 @@ exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 ---
 # On-Device Decisioning Overview
 
-## What you will learn
-
 Adobe Target on-device decisioning enables near-zero latency content delivery. This 7-minute video:
 
 * Describes on-device decisioning, including how it compares to other methods of Target implementation

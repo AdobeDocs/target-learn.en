@@ -25,7 +25,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Download the Playbook for Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
 * [Experience Targeting documentation](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)

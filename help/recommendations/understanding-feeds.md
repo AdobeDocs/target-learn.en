@@ -23,7 +23,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Create a Feed](create-a-feed.md)
 * [Create Criteria](create-criteria.md)

@@ -1,6 +1,6 @@
 ---
 title: How to Troubleshoot Integration Errors
-description: In this video, developers learn about A4T integration issues.
+description: Learn about A4T integration issues.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -11,8 +11,6 @@ thumbnail: 35155.jpg
 exl-id: eb00bb01-4d03-4153-b866-e6e3e8d979ae
 ---
 # Troubleshoot integration errors
-
-## What you will learn
 
 In this video, you learn how to:
 

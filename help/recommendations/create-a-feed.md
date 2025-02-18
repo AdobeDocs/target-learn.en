@@ -23,7 +23,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Understanding Feeds](understanding-feeds.md)
 * [Create a Recommendations Activity](create-a-recommendations-activity.md)

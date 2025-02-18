@@ -10,9 +10,7 @@ kt: 5389
 thumbnail: 35149.jpg
 exl-id: a953e9f9-103f-4c0d-b2f1-3534632cd59e
 ---
-# Integrate Target with Campaign
-
-## What you will learn
+# Integrate [!DNL Target] with [!DNL Campaign]
 
 In this video, you learn how to:
 

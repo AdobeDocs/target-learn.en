@@ -1,6 +1,6 @@
 ---
 title: How to Set up Properties
-description: This video shows administrators how to create properties in Adobe Target.
+description: Learn how to create properties in Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -11,8 +11,6 @@ badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 ---
 # Set up Properties in [!DNL Adobe Target]
-
-## What you will learn
 
 In this video, you learn how to:
 

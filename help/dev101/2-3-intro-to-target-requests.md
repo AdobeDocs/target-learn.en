@@ -1,6 +1,6 @@
 ---
 title: How do Target requests work?
-description: This video describes the expiration factor for Target cookies and Target profiles. Learn how to determine the number and types of Target requests, differentiate between synchronous versus asynchronous deployment, and explain flicker management.
+description: Learn how to determine the number and types of Adobe Target requests, differentiate between synchronous versus asynchronous deployment, and explain flicker management.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -10,9 +10,7 @@ kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
 ---
-# Introduction to Target requests
-
-## What you will learn
+# Introduction to [!DNL Target] requests
 
 In this video, you learn how to:
 

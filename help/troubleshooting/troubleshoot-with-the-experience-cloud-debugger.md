@@ -16,7 +16,7 @@ The Adobe Experience Cloud Debugger makes it fast and easy to understand your Ta
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Troubleshoot with Target Traces video](troubleshoot-with-target-traces.md)
 * [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)

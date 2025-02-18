@@ -24,7 +24,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Create a Recommendations Activity](create-a-recommendations-activity.md)
 * [Understanding Feeds](understanding-feeds.md)

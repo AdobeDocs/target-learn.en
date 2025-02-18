@@ -13,10 +13,6 @@ exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
 ---
 # Understand Adobe Target activity types
 
-Learn the basics of A/B activities, Multivariate Tests (MVTs), Experience Targeting (XT) activities, Recommendations, and Automated Personalization (AP) activities.
-
-## What you will learn
-
 In this video, you learn how to:
 
 * Describe A/B activities, Multivariate Tests (MVTs), Experience Targeting (XT) activities, Recommendations, and Automated Personalization (AP) activities in Adobe Target

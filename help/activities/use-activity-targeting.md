@@ -9,11 +9,7 @@ doc-type: feature video
 kt:
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
 ---
-# Use Activity Targeting
-
-Adobe Target provides different levers for controlling the experiences shown to different audiences when an activity goes live. Learn how to control who sees what by using audiences and traffic allocation.
-
-## What you will learn
+# Use activity targeting
 
 In this video, you learn how to:
 

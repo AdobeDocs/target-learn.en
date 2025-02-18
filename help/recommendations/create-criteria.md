@@ -23,7 +23,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Create Custom Designs](create-custom-designs.md)
 * [Create Collections and Exclusions](create-collections-and-exclusions.md)

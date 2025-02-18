@@ -12,8 +12,6 @@ exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
 ---
 # Use the Form-Based Experience Composer in Adobe Target
 
-## What you will learn
-
 In this video, you learn how to:
 
 * Create an activity using the form-based composer

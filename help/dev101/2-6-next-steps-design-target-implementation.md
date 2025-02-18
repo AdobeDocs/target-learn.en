@@ -1,6 +1,6 @@
 ---
 title: Beyond the Basics, What Are the Next Steps to Designing a Target Implementation
-description: This video shows Adobe Target developers and architects how to implement Target with tag management libraries, explain the relevance of profile scripts to the user model, and differentiate the usage and application of a request parameter and a profile parameter.
+description: Learn how to implement Target with tag management libraries. Lean the relevance of profile scripts to the user model, and how to differentiate the usage and application of a request parameter and a profile parameter.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -10,9 +10,7 @@ kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
 ---
-# Next steps to designing a Target implementation
-
-## What you will learn
+# Next steps to designing a [!DNL Target] implementation
 
 In this video, you learn how to:
 

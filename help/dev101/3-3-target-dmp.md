@@ -10,9 +10,7 @@ kt: 5391
 thumbnail: 35151.jpg
 exl-id: 2d4eb4c9-912d-48c7-a048-5269aa68adb5
 ---
-# Integrate Target with Audience Manager
-
-## What you will learn
+# Integrate [!DNL Target] with [!DNL Audience Manager]
 
 In this video, you learn how to:
 

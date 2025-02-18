@@ -23,7 +23,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Create Collections and Exclusions](create-collections-and-exclusions.md)
 * [Create a Recommendations Activity](create-a-recommendations-activity.md)

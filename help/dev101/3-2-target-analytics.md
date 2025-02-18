@@ -1,6 +1,6 @@
 ---
 title: How to Integrate Target with Analytics
-description: This video shows developers how Analytics and Target requests bind up using SDID. Watch this video to learn the implementation requirements for Adobe Analytics with Adobe Target (A4T).
+description: Learn the implementation requirements for Adobe Analytics with Adobe Target (A4T).
 landing-page-description: Watch this video to learn the implementation requirements for Adobe Analytics with Adobe Target (A4T).
 short-description: Watch this video to learn the implementation requirements for Adobe Analytics with Adobe Target (A4T).
 role: Developer
@@ -13,8 +13,6 @@ thumbnail: 35146.jpg
 exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 ---
 # Integrate Target with Analytics
-
-## What you will learn
 
 In this video, you learn how to:
 

@@ -25,7 +25,7 @@ In this video, you learn how to:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Use Recommendations Offers in A/B Test and Experience Targeting Activities](use-recommendations-offers.md)
 * [Understanding Feeds](understanding-feeds.md)

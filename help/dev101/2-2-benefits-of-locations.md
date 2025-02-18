@@ -1,6 +1,6 @@
 ---
 title: What Are the Benefits of Using Locations
-description: This video describes the benefits of using locations in Adobe Target implementations. Watch this video to learn how to select the best implementation type for a given scenario.
+description: Learn how to select the best Adobe Target implementation type for a given scenario.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -11,8 +11,6 @@ thumbnail: 35140.jpg
 exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
 ---
 # Benefits of using locations
-
-## What you will learn
 
 In this video, you learn how to:
 

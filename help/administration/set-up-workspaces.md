@@ -1,6 +1,6 @@
 ---
 title: How to Set up Workspaces
-description: This video shows administrators how to create workspaces in Adobe Target.
+description: Learn how to create workspaces in Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -10,8 +10,6 @@ kt:
 exl-id: 9f147770-4b78-4982-ad52-c219bb451cc1
 ---
 # Set up Workspaces in Adobe Target
-
-## What you will learn
 
 In this video, you learn how to:
 
