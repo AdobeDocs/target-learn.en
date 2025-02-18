@@ -1,8 +1,7 @@
 ---
 title: How to Implement Target
-description: This video walks Adobe Target developers and architects through Target implementation. Watch this video to learn the different Target implementation technologies and employ Target implementation best practices.
-landing-page-description: Watch this video to learn the different Target implementation technologies and employ Target implementation best practices.
-short-description: Watch this video to learn the different Target implementation technologies and employ Target implementation best practices.
+description: Learn the different Adobe Target implementation technologies and employ Target implementation best practices.
+landing-page-description: Learn the different Adobe Target implementation technologies and employ Target implementation best practices.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -14,15 +13,13 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 ---
 # Introduction to Adobe Target implementation
 
-## Description
-
 In this video, you learn how to:
 
 * Explain what Target implementation entails
 * Explain Target implementation technologies
 * Employ Target implementation best practices
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

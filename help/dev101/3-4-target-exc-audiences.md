@@ -1,6 +1,6 @@
 ---
 title: How to Integrate Target with Experience Cloud Audiences
-description: This video for Adobe Target developers demonstrates audience creation using Analytics and Audience Manager. Developers watching this video will be able to import audiences from other Adobe products, become familiar with the Adobe Experience Cloud (AEC) admin panel, and list the requirements for the Experience Cloud ID (ECID).
+description: Learn how to import audiences from other Adobe products. Get familiar with Experience Cloud Admin Console and the requirements for the Experience Cloud ID (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,18 +10,16 @@ kt: 5392
 thumbnail: 35152.jpg
 exl-id: 00e50e90-29cf-4dc5-8bfc-e938f1d596a4
 ---
-# Integrate Target with Experience Cloud Audiences
-
-## Description
+# Integrate [!DNL Target] with Experience Cloud Audiences
 
 In this video, you learn how to:
 
 * Describe audience creation and usage with Analytics and Audience Manager
 * Describe how to import audiences from other Adobe products
-* Explore the Adobe Experience Cloud (AEC) admin panel
+* Explore the Experience Cloud Admin Console
 * List the requirements for Experience Cloud ID (ECID)
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

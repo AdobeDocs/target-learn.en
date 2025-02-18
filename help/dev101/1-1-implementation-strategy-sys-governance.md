@@ -1,6 +1,6 @@
 ---
 title: How to Approach Implementation Strategy and System Governance
-description: This video walks administrators and architects through key concepts in administering and implementing Adobe Target. Watch this video to learn how to identify and apply governance best practices and list Target implementation requirements.
+description: Learn how to identify and apply governance best practices and list Target implementation requirements.
 landing-page-description: Watch this video to learn how to identify and apply governance best practices and list Target implementation requirements.
 short-description: Watch this video to learn how to identify and apply governance best practices and list Target implementation requirements.
 role: Admin, Developer, Architect
@@ -12,9 +12,7 @@ kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 ---
-# Implementation Strategy and System Governance
-
-## Description
+# Implementation strategy and system governance
 
 In this video, you learn how to:
 
@@ -22,7 +20,7 @@ In this video, you learn how to:
 * Identify and apply governance best practices
 * List Target implementation requirements
 
-## Intended Audience
+## Intended audience
 
 * Administrators
 * Developers

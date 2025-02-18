@@ -12,13 +12,11 @@ exl-id: 46230e24-b6e8-4f10-8669-2df519d03b87
 ---
 # Integrate Target with tags
 
-## Description
-
 In this video, you learn how to:
 
 * Integrate Adobe Target with tags
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

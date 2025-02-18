@@ -1,6 +1,6 @@
 ---
 title: How to Troubleshoot Activity Errors
-description: This video shows Adobe Target developers how to refine an activity, troubleshoot audience and activity qualification issues, debug Target experiences and activity content loading issues, and troubleshoot conflicts, hosts, and properties.
+description: Learn how to refine an activity, troubleshoot audience and activity qualification issues, debug Target experiences and activity content loading issues, and troubleshoot conflicts, hosts, and properties.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -12,8 +12,6 @@ exl-id: 146c91b7-f235-4daf-9129-bb7cb884b538
 ---
 # Troubleshoot activity errors
 
-## Description
-
 In this video, you learn how to:
 
 * Refine an activity
@@ -21,7 +19,7 @@ In this video, you learn how to:
 * Debug Target experiences and activity content loading issues
 * Troubleshoot conflicts, hosts, and properties
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

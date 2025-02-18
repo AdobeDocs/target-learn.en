@@ -1,6 +1,6 @@
 ---
 title: How to Administer and Implement Parameters
-description: This video shows Adobe Target architects and developers how to differentiate between request parameters and profile parameters, configure and trigger requests using JavaScript and tag management systems, and understand the implementation requirements for mobile, email targeting and APIs.
+description: Learn how to differentiate between request parameters and profile parameters, configure and trigger requests using JavaScript and tag management systems. Understand the implementation requirements for mobile, email targeting, and APIs.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -10,9 +10,7 @@ kt: 5382
 thumbnail: 35142.jpg
 exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
 ---
-# Introduction to Target parameters
-
-## Description
+# Introduction to [!DNL Target] parameters
 
 In this video, you learn how to:
 
@@ -20,7 +18,7 @@ In this video, you learn how to:
 * Configure and trigger requests using JavaScript and tag management systems
 * List the implementation requirements for mobile, email targeting, and APIs
 
-## Intended Audience
+## Intended audience
 
 * Developers
 * Architects

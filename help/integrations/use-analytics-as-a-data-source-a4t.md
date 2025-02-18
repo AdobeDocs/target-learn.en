@@ -11,13 +11,15 @@ exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
 ---
 # Use Adobe Analytics as a Data Source for Adobe Target (A4T)
 
-## Description
+This video introduces marketers to Analytics for Target (A4T).
+
+## What you will learn
 
 * What is A4T and why would I use it?
 * How does A4T work?
 * What are the pre-requisites to using A4T?
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 

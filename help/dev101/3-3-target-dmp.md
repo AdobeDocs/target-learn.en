@@ -10,15 +10,13 @@ kt: 5391
 thumbnail: 35151.jpg
 exl-id: 2d4eb4c9-912d-48c7-a048-5269aa68adb5
 ---
-# Integrate Target with Audience Manager
-
-## Description
+# Integrate [!DNL Target] with [!DNL Audience Manager]
 
 In this video, you learn how to:
 
 * Integrate Adobe Target with Adobe Audience Manager
 
-## Intended Audience
+## Intended audience
 
 * Developers
 

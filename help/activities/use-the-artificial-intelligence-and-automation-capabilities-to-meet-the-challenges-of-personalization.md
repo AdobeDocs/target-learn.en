@@ -1,6 +1,6 @@
 ---
-title: How to Use Artificial Intelligence and Automation to Meet the Challenges of Personalization 
-description: This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
+title: Use Artificial Intelligence and Automation for Personalization 
+description: Learn the importance of personalization, the challenges of effective personalization, and the solution to these challenges (the four AI/Automation offerings in Adobe Target).
 role: User
 level: Beginner
 topic: Personalization
@@ -10,7 +10,7 @@ kt:
 badge: premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
 ---
-# Use Artificial Intelligence and Automation to Meet the Challenges of Personalization
+# Use artificial intelligence and automation for personalization
 
 This video covers the importance of personalization, the challenges of doing personalization well, the solution to these challenges (the four AI/Automation offerings in Adobe Target), and the key building blocks for delivering personalized experiences. It is an edited version of Jamie Brighton's 2018 Adobe Summit presentation.
 

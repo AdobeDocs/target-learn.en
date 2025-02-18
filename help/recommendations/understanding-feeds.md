@@ -11,19 +11,19 @@ exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
 ---
 # Understanding Feeds in Recommendations
 
-## Description
+## What you will learn
 
 In this video, you learn how to:
 
 * Describe what a feed is and understand how they are used
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
-## Additional Resources
+## Additional resources
 
 * [Create a Feed](create-a-feed.md)
 * [Create Criteria](create-criteria.md)

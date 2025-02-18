@@ -9,15 +9,13 @@ doc-type: feature video
 kt:
 exl-id: 42ba0e3e-f6db-49d5-a1e9-89181805a123
 ---
-# Set up Account Preferences in Adobe Target
-
-## Description
+# Set up account preferences in Adobe Target
 
 In this video, you learn how to:
 
 * Describe the different account settings in Adobe Target
 
-## Intended Audience
+## Intended audience
 
 * Administrator
 

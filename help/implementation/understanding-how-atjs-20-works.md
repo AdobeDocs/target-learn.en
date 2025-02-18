@@ -1,6 +1,6 @@
 ---
 title: How Does at.js 2.0 Work?
-description: at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.
+description: Learn how at.js 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -10,7 +10,7 @@ kt:
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 ---
-# Understanding How Adobe Target's at.js 2.0 Works
+# Understand how Adobe Target's at.js 2.0 works
 
 `at.js` 2.0 enhances Adobe Target's support for single page applications (SPA) and integrates with other Experience Cloud solutions. This video and accompanying diagrams explain how everything comes together.
 
@@ -50,7 +50,7 @@ exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 
 1. [!DNL Target] data is sent from the [!DNL Target] backend to the [!UICONTROL Data Collection] Servers. [!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics] reporting storage. [!DNL Analytics] data can then be viewed in both [!DNL Analytics] and [!DNL Target] via A4T reports.
 
-## Additional Resources
+## Additional resources
 
 * [Implement at.js 2.0 in a Single Page Application](implement-atjs-20-in-a-single-page-application.md)
 * [Use Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

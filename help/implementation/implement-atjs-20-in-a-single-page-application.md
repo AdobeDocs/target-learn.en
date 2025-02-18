@@ -10,7 +10,7 @@ kt:
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
 ---
-# Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)
+# Implement Adobe Target's at.js 2.0 in a single page application (SPA)
 
 Adobe Target's `at.js` 2.0 provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on upgrading `at.js` to have harmonious interactions with single page applications (SPAs).
 
@@ -65,7 +65,7 @@ window.onhashchange = function() {
 }
 ```
 
-## Additional Resources
+## Additional resources
 
 * [Understanding How at.js 2.0 Works (Architecture Diagrams)](understanding-how-atjs-20-works.md)  
 * [Use Adobe Target's Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

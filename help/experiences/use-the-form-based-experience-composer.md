@@ -12,15 +12,13 @@ exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
 ---
 # Use the Form-Based Experience Composer in Adobe Target
 
-## Description
-
 In this video, you learn how to:
 
 * Create an activity using the form-based composer
 * Explain when to use the form-based composer as opposed to the Visual Experience Composer (VEC)
 * Use refinements to target a location
 
-## Intended Audience
+## Intended audience
 
 * Business Practitioner
 
