@@ -1,6 +1,8 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
+landing-page-breadcrumb-title: Adobe Target 
+landing-page-name: target
 ---
 
 # Adobe Target Tutorials {#tutorials}
