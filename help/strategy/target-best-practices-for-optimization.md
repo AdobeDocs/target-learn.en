@@ -112,6 +112,6 @@ Personalization also includes the Experience Targeting test activity type, which
 
 Given the above understanding, Adobe recommends that you Optimize before you Personalize, and advance Personalization from broad to granular. To mature Personalization Activities from broad to granular, you will begin using a one-to-many personalization (broad) style (using A/B testing), then move into one-to-one personalization (granular) style (using Automated personalization activities).
 
-For more information, please listen to [webinar on understanding and optimizing your Adobe Target implementation](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), with Business Consultant, Katie Cozby.
+For more information, please listen to [QuickStart for personalization testing and roadmap creation](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Learn more about strategy and thought leadership at the [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Learn more about strategy and thought leadership in the [Perspectives](https://experienceleague.adobe.com/en/perspectives) hub.
