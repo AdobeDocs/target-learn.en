@@ -1,7 +1,7 @@
 ---
 title: How to Administer and Implement Parameters
 description: Learn how to differentiate between request parameters and profile parameters, configure and trigger requests using JavaScript and tag management systems. Understand the implementation requirements for mobile, email targeting, and APIs.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation

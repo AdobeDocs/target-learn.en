@@ -1,7 +1,7 @@
 ---
 title: How to Configure Enterprise User Permissions
 description: Learn how to differentiate admin user level permissions, configure Adobe Target permissions, and create workspaces and regulate access.
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Intermediate
 topic: Personalization, Administration
 feature: Administration & Configuration

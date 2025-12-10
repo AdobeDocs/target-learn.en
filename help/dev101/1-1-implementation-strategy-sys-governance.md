@@ -3,7 +3,7 @@ title: How to Approach Implementation Strategy and System Governance
 description: Learn how to identify and apply governance best practices and list Target implementation requirements.
 landing-page-description: Watch this video to learn how to identify and apply governance best practices and list Target implementation requirements.
 short-description: Watch this video to learn how to identify and apply governance best practices and list Target implementation requirements.
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Intermediate
 topic: Personalization, Administration
 feature: Administration & Configuration, Implementation

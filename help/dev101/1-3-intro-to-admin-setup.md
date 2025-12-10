@@ -1,7 +1,7 @@
 ---
 title: How to Administer Target
 description: Learn how to set up account preferences, create properties, and create hosts and environments. Learn how to explain Target UI implementation configuration settings.
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Intermediate
 topic: Personalization, Administration
 feature: Administration & Configuration, Implementation

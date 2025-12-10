@@ -1,7 +1,7 @@
 ---
 title: Learn How to Use Adobe Target
 description: Learn how to use [!DNL Adobe Target] with this collection of tutorials and videos covering all its components.
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
 topic: Personalization

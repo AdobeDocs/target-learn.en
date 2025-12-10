@@ -1,7 +1,7 @@
 ---
 title: Beyond the Basics, What Are the Next Steps to Designing a Target Implementation
 description: Learn how to implement Target with tag management libraries. Lean the relevance of profile scripts to the user model, and how to differentiate the usage and application of a request parameter and a profile parameter.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development, Architecture
 feature: Implementation

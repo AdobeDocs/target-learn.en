@@ -1,7 +1,7 @@
 ---
 title: What Is On-Device Decisioning
 description: Adobe Target on-device decisioning enables near-zero latency content delivery. Watch this video to learn about on-device decisioning and how to enable it.
-role: Architect
+role: Developer
 level: Beginner
 topic: Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side

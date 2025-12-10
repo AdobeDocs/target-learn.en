@@ -1,7 +1,7 @@
 ---
 title: How to Design a Target Implementation
 description: Learn how to apply the process to implement a People-based campaign (mbox3rdPartyID), identify relevant information in system architecture/design documents, and analyze a reporting strategy for implementation implications.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development, Architecture
 feature: Implementation, Implement Server-side, Implement Client-side
