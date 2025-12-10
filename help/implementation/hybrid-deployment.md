@@ -1,7 +1,7 @@
 ---
 title: Hybrid Deployment Options
 description: Learn about Adobe Target's unique hybrid deployment model for personalization-blending client-side and server-side implementations.
-role: Developer, Architect
+role: Developer
 level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side

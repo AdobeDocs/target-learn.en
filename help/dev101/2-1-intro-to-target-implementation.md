@@ -2,7 +2,7 @@
 title: How to Implement Target
 description: Learn the different Adobe Target implementation technologies and employ Target implementation best practices.
 landing-page-description: Learn the different Adobe Target implementation technologies and employ Target implementation best practices.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation

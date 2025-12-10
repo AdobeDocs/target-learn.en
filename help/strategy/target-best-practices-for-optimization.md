@@ -2,7 +2,7 @@
 title: Best practices for optimization
 description: Learn Adobe's six essentials of optimization and how to apply them.
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c

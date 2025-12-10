@@ -1,7 +1,7 @@
 ---
 title: Implementation Patterns Overview
 description: Overview of various implementation patterns available for Adobe Target
-role: Developer, Architect
+role: Developer
 level: Intermediate, Experienced
 feature: Implementation
 hidefromtoc: yes

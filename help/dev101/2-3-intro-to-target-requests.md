@@ -1,7 +1,7 @@
 ---
 title: How do Target requests work?
 description: Learn how to determine the number and types of Adobe Target requests, differentiate between synchronous versus asynchronous deployment, and explain flicker management.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation

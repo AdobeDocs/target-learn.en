@@ -1,7 +1,7 @@
 ---
 title: What Are the Benefits of Using Locations
 description: Learn how to select the best Adobe Target implementation type for a given scenario.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation
