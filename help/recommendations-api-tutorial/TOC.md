@@ -10,8 +10,10 @@ user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-
 + [Manage Custom Criteria](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
 + [Use the Delivery API with Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
-<!--+ [Debug API calls](6debug.md)
-+ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->
+<!--
++ [Debug API calls](6debug.md)
++ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)
+-->
 
 <!--
 + Managing your Catalog with APIs{#manage-catalog}
@@ -25,4 +27,5 @@ user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-
   + [Category Pages](use-cases/category-pages.md)
   + [Add to Cart Modals](use-cases/add-to-cart-modals.md)
   + [Cart Page](use-cases/cart-page.md)
-  + [Order Confirmation Page](use-cases/order-confirmation-page.md)-->
+  + [Order Confirmation Page](use-cases/order-confirmation-page.md)
+-->
