@@ -4,7 +4,7 @@ description: Overview of various implementation patterns available for Adobe Tar
 role: Developer
 level: Intermediate, Experienced
 feature: Implementation
-hide: yes
+hide: true
 exl-id: f1be99d6-2882-4a05-8441-65f356109cc7
 ---
 # Implementation patterns overview
