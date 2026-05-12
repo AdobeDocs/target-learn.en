@@ -6,9 +6,22 @@ level: Experienced
 topic: Personalization
 feature: Audiences
 doc-type: feature video
-kt:
+kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
+TQID: https://experienceleague.adobe.com/dIKN4agRm5h-D4mbZKEcX-P-YxotufMgV2kTZp-FDAk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Use Profile Comparison to build Audiences in Adobe Target
 

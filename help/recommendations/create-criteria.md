@@ -6,8 +6,23 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-kt:
+kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
+TQID: https://experienceleague.adobe.com/fncZ4XFUk8vWCzinS1mSsKj99QB99WJkpbl2Oy-IeoM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Create Criteria in Recommendations
 
