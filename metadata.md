@@ -5,6 +5,7 @@ solution: Target
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: "Target"
+usetq: true
 solution-title: Target
 landing-page-name: target
 landing-page-breadcrumb-title: Target
