@@ -26,3 +26,4 @@ topic_v2:
 # Implementation patterns overview
 
 This page contains the overview of all patterns available.
+
