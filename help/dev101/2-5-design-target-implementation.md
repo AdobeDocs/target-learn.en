@@ -9,13 +9,17 @@ doc-type: technical video
 kt: 5383
 thumbnail: 35143.jpg
 exl-id: 8a568f5d-3cc4-4b73-b490-0023043b3f81
-TQID: https://experienceleague.adobe.com/x15IadBOwLb55-V2u-UpSxWwrT9N89lYVik6auRnbrU
+TQID: 'https://experienceleague.adobe.com/x15IadBOwLb55-V2u-UpSxWwrT9N89lYVik6auRnbrU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: a8a69496-b9ae-554a-b68e-e92a87809fc5
+    internal-label: Implement Server-side
+  - id: ced9ee8d-cdfb-50b8-938f-1d0b4f142de1
+    internal-label: Implement Client-side
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js

@@ -9,7 +9,7 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-TQID: https://experienceleague.adobe.com/FpKw9uPE8-qSs7UQdMyvCeoaqlLLNOcwfOzZxfsuYWQ
+TQID: 'https://experienceleague.adobe.com/FpKw9uPE8-qSs7UQdMyvCeoaqlLLNOcwfOzZxfsuYWQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -18,6 +18,10 @@ feature_v2:
     internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: a8a69496-b9ae-554a-b68e-e92a87809fc5
+    internal-label: Implement Server-side
+  - id: ced9ee8d-cdfb-50b8-938f-1d0b4f142de1
+    internal-label: Implement Client-side
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

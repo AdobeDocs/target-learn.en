@@ -6,16 +6,18 @@ level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video
-kt: null
+kt: 
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-TQID: https://experienceleague.adobe.com/wr-2GiZvksc-470CYmUdkq6SNkjW5b01BZDVXPDe4O4
+TQID: 'https://experienceleague.adobe.com/wr-2GiZvksc-470CYmUdkq6SNkjW5b01BZDVXPDe4O4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

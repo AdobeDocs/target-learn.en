@@ -6,10 +6,10 @@ level: Intermediate
 topic: Personalization, Performance
 feature: Troubleshooting
 doc-type: feature video
-kt: null
+kt: 
 author: Daniel Wright
 exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
-TQID: https://experienceleague.adobe.com/VwCXbr-NYcLVFMpX0vuX0923fjN7ux-pXeNLDhFU-7o
+TQID: 'https://experienceleague.adobe.com/VwCXbr-NYcLVFMpX0vuX0923fjN7ux-pXeNLDhFU-7o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

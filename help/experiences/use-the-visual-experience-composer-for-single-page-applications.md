@@ -6,10 +6,10 @@ level: Beginner
 topic: SPA, Personalization
 feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
-kt: null
+kt: 
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-TQID: https://experienceleague.adobe.com/IqOdh-24HM-vALGWkSuR3-5rHH9KPZ8ljwosv7iFS4Y
+TQID: 'https://experienceleague.adobe.com/IqOdh-24HM-vALGWkSuR3-5rHH9KPZ8ljwosv7iFS4Y'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -20,11 +20,17 @@ feature_v2:
     internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

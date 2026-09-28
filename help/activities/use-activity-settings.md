@@ -6,15 +6,17 @@ level: Beginner
 topic: Personalization
 feature: Activities
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
-TQID: https://experienceleague.adobe.com/oZxce2E-C-LkER7mgoIzolyCxTi-sK28MWbMNggQy00
+TQID: 'https://experienceleague.adobe.com/oZxce2E-C-LkER7mgoIzolyCxTi-sK28MWbMNggQy00'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

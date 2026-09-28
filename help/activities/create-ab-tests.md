@@ -6,15 +6,24 @@ level: Beginner
 topic: Personalization
 feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-TQID: https://experienceleague.adobe.com/H4kLcXz5MEXeX8jrWuCs-6IrxukIR4zU0ZlQU1Fe-J4
+TQID: 'https://experienceleague.adobe.com/H4kLcXz5MEXeX8jrWuCs-6IrxukIR4zU0ZlQU1Fe-J4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
