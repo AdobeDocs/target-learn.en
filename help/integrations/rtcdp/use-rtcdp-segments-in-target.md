@@ -10,7 +10,7 @@ doc-type: Feature Video
 last-substantial-update: 2023-05-05T00:00:00.000Z
 jira: KT-13141
 exl-id: 14edf6c1-197b-424d-a0d2-3d8377f165b8
-TQID: https://experienceleague.adobe.com/H-dMeQcWugHxekNw1DAUgTMWBjHzmkTrlCjfJ4XYoPM
+TQID: 'https://experienceleague.adobe.com/H-dMeQcWugHxekNw1DAUgTMWBjHzmkTrlCjfJ4XYoPM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -20,12 +20,25 @@ feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
   - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: Profile
+    internal-label: ''
   - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
-    internal-label: Reporting
+    internal-label: ''
   - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: Integrations
+    internal-label: ''
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: eec185bd-7d60-4193-ba3f-da427569936a
+    internal-label: Destinations
+  - id: 095e8119-1425-57eb-9d8c-9e684f2c9771
+    internal-label: Audiences
+  - id: b1c2d3e4-1001-4001-9001-100000000001
+    internal-label: Customer audiences
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
+subfeature_v2:
+  - id: f0c9f224-75f2-4864-8de6-859ae7856690
+    internal-label: Segment match
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554

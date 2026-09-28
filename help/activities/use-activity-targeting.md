@@ -6,15 +6,17 @@ level: Intermediate
 topic: Personalization
 feature: Activities, Audiences
 doc-type: feature video
-kt: null
+kt: 
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-TQID: https://experienceleague.adobe.com/S1zIpzjzSBEoh5vKkcAc6-qTVxyjAH9Nm-voqbeJEt4
+TQID: 'https://experienceleague.adobe.com/S1zIpzjzSBEoh5vKkcAc6-qTVxyjAH9Nm-voqbeJEt4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

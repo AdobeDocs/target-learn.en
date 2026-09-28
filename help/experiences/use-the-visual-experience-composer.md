@@ -8,15 +8,22 @@ level: Beginner
 topic: Personalization
 feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-TQID: https://experienceleague.adobe.com/wGj3FSuC-3mYQ6W538MgdWCATTGhc-qbAsP6u5tbBTk
+TQID: 'https://experienceleague.adobe.com/wGj3FSuC-3mYQ6W538MgdWCATTGhc-qbAsP6u5tbBTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

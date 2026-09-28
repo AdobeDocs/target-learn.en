@@ -6,15 +6,17 @@ level: Beginner
 topic: Administration
 feature: Administration & Configuration
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 42ba0e3e-f6db-49d5-a1e9-89181805a123
-TQID: https://experienceleague.adobe.com/q-nr1K-JzC5U00w5-7lpRLuNH3N7u3u-csh2ylEE0so
+TQID: 'https://experienceleague.adobe.com/q-nr1K-JzC5U00w5-7lpRLuNH3N7u3u-csh2ylEE0so'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -6,12 +6,18 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-TQID: https://experienceleague.adobe.com/SWpVdqhkQTXuX7W1h48B8stn36hzQrAlCh9NeRW8Wts
+TQID: 'https://experienceleague.adobe.com/SWpVdqhkQTXuX7W1h48B8stn36hzQrAlCh9NeRW8Wts'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

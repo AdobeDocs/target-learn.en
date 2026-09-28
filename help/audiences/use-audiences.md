@@ -8,16 +8,18 @@ level: Beginner
 topic: Personalization
 feature: Audiences, Reports
 doc-type: feature video
-kt: null
+kt: 
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-TQID: https://experienceleague.adobe.com/e9P4M-Bd8k3-p5pcupeybQHYvux-O6w7B9g5Oe-lHTo
+TQID: 'https://experienceleague.adobe.com/e9P4M-Bd8k3-p5pcupeybQHYvux-O6w7B9g5Oe-lHTo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
     internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

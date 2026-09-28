@@ -9,10 +9,16 @@ doc-type: technical video
 kt: 5395
 thumbnail: 35155.jpg
 exl-id: eb00bb01-4d03-4153-b866-e6e3e8d979ae
-TQID: https://experienceleague.adobe.com/kkOP7DBk6caURnFhZEG1di3A0I7nMa1PXXlCGYOUFJE
+TQID: 'https://experienceleague.adobe.com/kkOP7DBk6caURnFhZEG1di3A0I7nMa1PXXlCGYOUFJE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -6,9 +6,9 @@ level: Beginner
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
-kt: null
+kt: 
 exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
-TQID: https://experienceleague.adobe.com/qlj4uIBti9oVavIbvqyrcVUMJu-l4FWkGzwR0011QJo
+TQID: 'https://experienceleague.adobe.com/qlj4uIBti9oVavIbvqyrcVUMJu-l4FWkGzwR0011QJo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
     internal-label: Analytics integration

@@ -6,13 +6,23 @@ level: Beginner
 topic: Personalization
 feature: Auto-Allocate, Auto-Target, Automated Personalization
 doc-type: value video
-kt: null
+kt: 
 badge: premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
-TQID: https://experienceleague.adobe.com/uVfXxd3egOzzOljHrCtLMJqFZEu0bTelkcPrSU9JGDc
+TQID: 'https://experienceleague.adobe.com/uVfXxd3egOzzOljHrCtLMJqFZEu0bTelkcPrSU9JGDc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

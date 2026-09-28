@@ -8,6 +8,25 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Adobe Target with Adobe Mobile Services SDK v4 for Android - Overview
 
