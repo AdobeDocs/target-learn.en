@@ -85,12 +85,15 @@ landing-page-name: target
   + [Create Criteria](../recommendations/create-criteria.md)
   + [Create Custom Designs](../recommendations/create-custom-designs.md)
   + [Create Collections and Exclusions](../recommendations/create-collections-and-exclusions.md)
+  + [Most-viewed by Profile Attribute](../recommendations/most-viewed-by-profile-attribute.md)
 + Troubleshooting{#troubleshooting}
   + [Troubleshoot with the Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
   + [Troubleshoot with Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
   + [Troubleshoot Mbox Errors](../dev101/4-1-troubleshoot-mbox-errors.md)
   + [Troubleshoot Activity Errors](../dev101/4-2-troubleshoot-activity-errors.md)
   + [Troubleshoot A4T Integration Errors](../dev101/4-3-troubleshoot-integration-errors.md)
++ Coworker{#coworker}
+  + [Overview](../coworker/overview.md)
 + Mobile{#mobile}
-  + [Implement Adobe Target with Adobe Mobile Services SDK v4 for Android](../mobile-v4/overview.md)
+  + [Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
 
